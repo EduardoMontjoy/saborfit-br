@@ -1,4 +1,4 @@
-const CACHE_NAME = 'saborfit-br-v1';
+const CACHE_NAME = 'saborfit-br-v2';
 const CORE_ASSETS = [
   './',
   './index.html',
