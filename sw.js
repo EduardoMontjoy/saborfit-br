@@ -1,0 +1,47 @@
+const CACHE_NAME = 'saborfit-br-v1';
+const CORE_ASSETS = [
+  './',
+  './index.html',
+  './brain.js',
+  './dishes_catalog.js',
+  './manifest.json'
+];
+
+self.addEventListener('install', (e) => {
+  e.waitUntil(caches.open(CACHE_NAME).then((c) => c.addAll(CORE_ASSETS)));
+  self.skipWaiting();
+});
+
+self.addEventListener('activate', (e) => {
+  e.waitUntil(
+    caches.keys().then((keys) =>
+      Promise.all(keys.filter((k) => k !== CACHE_NAME).map((k) => caches.delete(k)))
+    )
+  );
+  self.clients.claim();
+});
+
+self.addEventListener('fetch', (e) => {
+  const req = e.request;
+  if (req.url.includes('/images/')) {
+    // Cache-first para las 120 fotos
+    e.respondWith(
+      caches.match(req).then((cached) =>
+        cached || fetch(req).then((res) => {
+          const copy = res.clone();
+          caches.open(CACHE_NAME).then((c) => c.put(req, copy));
+          return res;
+        })
+      )
+    );
+  } else {
+    // Network-first para HTML/JS: actualiza automático cuando hay internet
+    e.respondWith(
+      fetch(req).then((res) => {
+        const copy = res.clone();
+        caches.open(CACHE_NAME).then((c) => c.put(req, copy));
+        return res;
+      }).catch(() => caches.match(req))
+    );
+  }
+});

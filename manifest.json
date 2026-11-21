@@ -1,0 +1,18 @@
+{
+  "name": "SaborFit BR",
+  "short_name": "SaborFit BR",
+  "description": "120 platos de Brasil, México, Perú, Colombia y España con modo Tradicional y Fit 100% offline.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0E1210",
+  "theme_color": "#2ECC71",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "images/br_1.jpg",
+      "sizes": "500x500",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}
