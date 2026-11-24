@@ -36,7 +36,7 @@ const I18N = {
     close: "Cerrar",
     loggedToast: "¡Comida registrada en tus macros!",
     brainReason: "Cerebro Fit:",
-    cats: { ALL: "Todos", PROTEIN: "Proteínas", CARB_BR: "Carbos BR", DAIRY: "Lácteos", VEGGIE: "Vegetales", PANTRY: "Condimentos" },
+    cats: { ALL: "Todos", PROTEIN: "Proteínas", CARB_BR: "Carbohidratos", DAIRY: "Lácteos", VEGGIE: "Vegetales", PANTRY: "Condimentos" },
     countries: { ALL: "🌍 Todos", BRAZILIAN: "🇧🇷 Brasil", MEXICAN: "🇲🇽 Mexicana", PERUVIAN: "🇵🇪 Peruana", COLOMBIAN: "🇨🇴 Colombiana", SPANISH: "🇪🇸 Española" }
   },
   pt: {
@@ -74,7 +74,7 @@ const I18N = {
     close: "Fechar",
     loggedToast: "Refeição registrada nos seus macros!",
     brainReason: "Cérebro Fit:",
-    cats: { ALL: "Todos", PROTEIN: "Proteínas", CARB_BR: "Carbos BR", DAIRY: "Laticínios", VEGGIE: "Vegetais", PANTRY: "Temperos" },
+    cats: { ALL: "Todos", PROTEIN: "Proteínas", CARB_BR: "Carboidratos", DAIRY: "Laticínios", VEGGIE: "Vegetais", PANTRY: "Temperos" },
     countries: { ALL: "🌍 Todos", BRAZILIAN: "🇧🇷 Brasil", MEXICAN: "🇲🇽 Mexicana", PERUVIAN: "🇵🇪 Peruana", COLOMBIAN: "🇨🇴 Colombiana", SPANISH: "🇪🇸 Espanhola" }
   },
   en: {
@@ -112,7 +112,7 @@ const I18N = {
     close: "Close",
     loggedToast: "Meal logged to your daily macros!",
     brainReason: "Fit Brain:",
-    cats: { ALL: "All", PROTEIN: "Proteins", CARB_BR: "BR Carbs", DAIRY: "Dairy", VEGGIE: "Veggies", PANTRY: "Seasoning" },
+    cats: { ALL: "All", PROTEIN: "Proteins", CARB_BR: "Carbs", DAIRY: "Dairy", VEGGIE: "Veggies", PANTRY: "Seasoning" },
     countries: { ALL: "🌍 All", BRAZILIAN: "🇧🇷 Brazil", MEXICAN: "🇲🇽 Mexican", PERUVIAN: "🇵🇪 Peruvian", COLOMBIAN: "🇨🇴 Colombian", SPANISH: "🇪🇸 Spanish" }
   }
 };
@@ -128,7 +128,7 @@ const PANTRY_DB = [
   { id: 'costelinha', name: { es: 'Costilla de Cerdo', pt: 'Costelinha Suína', en: 'Pork Ribs' }, cat: 'PROTEIN', kcal: 290, p: 22.0, c: 0.0, f: 22.0, inStock: false },
   { id: 'linguica', name: { es: 'Chorizo / Lingüiça Paio/Calabresa', pt: 'Linguiça Calabresa / Paio', en: 'Smoked Sausage (Linguiça)' }, cat: 'PROTEIN', kcal: 310, p: 17.0, c: 2.0, f: 26.0, inStock: false },
   { id: 'ovo', name: { es: 'Huevo de Gallina', pt: 'Ovo de Galinha', en: 'Chicken Egg' }, cat: 'PROTEIN', kcal: 143, p: 13.0, c: 1.6, f: 8.9, inStock: true },
-  { id: 'tilapia', name: { es: 'Filete de Tilapia / Pescado Blanco', pt: 'Filé de Tilápia / Peixe Branco', en: 'Tilapia / White Fish' }, cat: 'PROTEIN', kcal: 96, p: 20.1, c: 0.0, f: 1.7, inStock: true },
+  { id: 'tilapia', name: { es: 'Pescado Blanco (Corvina / Merluza / Tilapia)', pt: 'Peixe Branco (Tilápia / Pescada / Merluza)', en: 'White Fish (Sea Bass / Hake / Tilapia)' }, cat: 'PROTEIN', kcal: 96, p: 20.1, c: 0.0, f: 1.7, inStock: true },
   { id: 'camarao', name: { es: 'Camarón Limpio', pt: 'Camarão Limpo', en: 'Peeled Shrimp' }, cat: 'PROTEIN', kcal: 85, p: 18.0, c: 0.5, f: 1.0, inStock: false },
   { id: 'bacalhau', name: { es: 'Bacalao Desalado', pt: 'Bacalhau Dessalgado', en: 'Desalted Cod' }, cat: 'PROTEIN', kcal: 136, p: 29.0, c: 0.0, f: 1.5, inStock: false },
   { id: 'atum', name: { es: 'Atún en Agua', pt: 'Atum em Água', en: 'Tuna in Water' }, cat: 'PROTEIN', kcal: 116, p: 25.5, c: 0.0, f: 0.8, inStock: false },
@@ -145,8 +145,8 @@ const PANTRY_DB = [
   { id: 'mandioca', name: { es: 'Yuca / Mandioca (Aipim)', pt: 'Mandioca / Aipim', en: 'Cassava (Mandioca)' }, cat: 'CARB_BR', kcal: 125, p: 0.6, c: 30.1, f: 0.3, inStock: true },
   { id: 'farinha_mandioca', name: { es: 'Harina de Yuca (Farofa)', pt: 'Farinha de Mandioca', en: 'Cassava Flour (Farofa)' }, cat: 'CARB_BR', kcal: 361, p: 1.6, c: 87.9, f: 0.3, inStock: true },
   { id: 'tapioca', name: { es: 'Goma de Tapioca / Polvilho', pt: 'Goma de Tapioca / Polvilho', en: 'Tapioca Starch' }, cat: 'CARB_BR', kcal: 240, p: 0.0, c: 60.0, f: 0.0, inStock: true },
-  { id: 'rap10', name: { es: 'Tortilla / Rap10', pt: 'Tortilha / Rap10', en: 'Wrap / Tortilla (Rap10)' }, cat: 'CARB_BR', kcal: 290, p: 7.5, c: 50.0, f: 6.5, inStock: false },
-  { id: 'cuscuz', name: { es: 'Flocão de Maíz (Cuscuz / Arepa)', pt: 'Flocão de Milho (Cuscuz)', en: 'Cornmeal (Flocão)' }, cat: 'CARB_BR', kcal: 113, p: 2.2, c: 25.3, f: 0.7, inStock: true },
+  { id: 'rap10', name: { es: 'Tortilla de Trigo (Harina) / Rap10', pt: 'Tortilha de Trigo / Rap10', en: 'Flour Tortilla / Wrap' }, cat: 'CARB_BR', kcal: 290, p: 7.5, c: 50.0, f: 6.5, inStock: false },
+  { id: 'cuscuz', name: { es: 'Cuscuz de Flocão de Milho', pt: 'Cuscuz de Flocão de Milho', en: 'Brazilian Corn Couscous (Flocão)' }, cat: 'CARB_BR', kcal: 113, p: 2.2, c: 25.3, f: 0.7, inStock: true },
   { id: 'milho', name: { es: 'Maíz / Choclo', pt: 'Milho Verde / Canjica', en: 'Corn / Hominy' }, cat: 'CARB_BR', kcal: 96, p: 3.4, c: 21.0, f: 1.2, inStock: false },
   { id: 'macarrao', name: { es: 'Pasta / Espagueti', pt: 'Macarrão / Espaguete', en: 'Pasta / Spaghetti' }, cat: 'CARB_BR', kcal: 158, p: 5.8, c: 30.9, f: 0.9, inStock: true },
   { id: 'pao', name: { es: 'Pan Francés / Baguette', pt: 'Pão Francês / Baguete', en: 'Crusty Bread' }, cat: 'CARB_BR', kcal: 270, p: 8.5, c: 54.0, f: 2.0, inStock: true },
@@ -184,7 +184,40 @@ const PANTRY_DB = [
   { id: 'limao', name: { es: 'Limón (Tahití)', pt: 'Limão Tahiti', en: 'Lime' }, cat: 'PANTRY', kcal: 30, p: 0.7, c: 10.5, f: 0.2, inStock: true },
   { id: 'cheiro_verde', name: { es: 'Cilantro / Perejil y Cebollín', pt: 'Cheiro-Verde / Coentro', en: 'Cilantro / Parsley & Scallion' }, cat: 'PANTRY', kcal: 30, p: 2.5, c: 5.0, f: 0.4, inStock: true },
   { id: 'azeitona', name: { es: 'Aceitunas', pt: 'Azeitonas', en: 'Olives' }, cat: 'PANTRY', kcal: 115, p: 0.8, c: 6.3, f: 10.7, inStock: false },
-  { id: 'amendoim', name: { es: 'Maní Tostado (Amendoim)', pt: 'Amendoim Torrado', en: 'Roasted Peanuts' }, cat: 'PANTRY', kcal: 567, p: 25.8, c: 16.1, f: 49.2, inStock: false }
+  { id: 'amendoim', name: { es: 'Maní Tostado (Amendoim)', pt: 'Amendoim Torrado', en: 'Roasted Peanuts' }, cat: 'PANTRY', kcal: 567, p: 25.8, c: 16.1, f: 49.2, inStock: false },
+  // Insumos auténticos (México, Perú, Colombia, España)
+  { id: 'picanha', name: { es: 'Picanha / Punta de Anca', pt: 'Picanha', en: 'Picanha (Top Sirloin Cap)' }, cat: 'PROTEIN', kcal: 255, p: 21, c: 0, f: 19, inStock: false },
+  { id: 'falda_res', name: { es: 'Falda / Costilla de Res (Arrachera)', pt: 'Fraldinha / Costela Bovina', en: 'Flank / Beef Short Rib' }, cat: 'PROTEIN', kcal: 220, p: 19, c: 0, f: 16, inStock: false },
+  { id: 'corazon_res', name: { es: 'Corazón de Res', pt: 'Coração Bovino', en: 'Beef Heart' }, cat: 'PROTEIN', kcal: 112, p: 17.7, c: 0.1, f: 3.9, inStock: false },
+  { id: 'panceta', name: { es: 'Panceta / Tocino / Chicharrón', pt: 'Bacon / Toucinho / Torresmo', en: 'Pork Belly / Bacon' }, cat: 'PROTEIN', kcal: 518, p: 9.3, c: 0, f: 53, inStock: false },
+  { id: 'jamon', name: { es: 'Jamón (Serrano / Cocido)', pt: 'Presunto (Cru / Cozido)', en: 'Ham (Serrano / Cooked)' }, cat: 'PROTEIN', kcal: 241, p: 31, c: 0.5, f: 13, inStock: false },
+  { id: 'salchicha', name: { es: 'Salchicha (Hot Dog)', pt: 'Salsicha', en: 'Hot Dog Sausage' }, cat: 'PROTEIN', kcal: 290, p: 11, c: 4, f: 26, inStock: false },
+  { id: 'calamar', name: { es: 'Calamar', pt: 'Lula', en: 'Squid' }, cat: 'PROTEIN', kcal: 92, p: 15.6, c: 3.1, f: 1.4, inStock: false },
+  { id: 'mariscos', name: { es: 'Mariscos (Mejillones / Almejas)', pt: 'Frutos do Mar (Mexilhão / Vôngole)', en: 'Shellfish (Mussels / Clams)' }, cat: 'PROTEIN', kcal: 86, p: 12, c: 3.7, f: 2.2, inStock: false },
+  { id: 'tortilla_maiz', name: { es: 'Tortilla de Maíz', pt: 'Tortilha de Milho', en: 'Corn Tortilla' }, cat: 'CARB_BR', kcal: 218, p: 5.7, c: 44.6, f: 2.9, inStock: false },
+  { id: 'harina_pan', name: { es: 'Harina de Maíz Precocida (Arepa / P.A.N.)', pt: 'Farinha de Milho Pré-cozida (Arepa)', en: 'Precooked Corn Flour (Arepa)' }, cat: 'CARB_BR', kcal: 365, p: 7, c: 78, f: 1.6, inStock: false },
+  { id: 'masa_harina', name: { es: 'Masa Harina de Maíz Nixtamalizado', pt: 'Farinha de Milho Nixtamalizado (Masa)', en: 'Masa Harina (Nixtamal Corn)' }, cat: 'CARB_BR', kcal: 365, p: 9.4, c: 76, f: 3.8, inStock: false },
+  { id: 'fuba', name: { es: 'Harina de Maíz Fina (Fubá / Polenta)', pt: 'Fubá', en: 'Fine Cornmeal (Polenta)' }, cat: 'CARB_BR', kcal: 370, p: 7.2, c: 79, f: 1.9, inStock: false },
+  { id: 'quinua', name: { es: 'Quinua (cocida)', pt: 'Quinoa (cozida)', en: 'Quinoa (cooked)' }, cat: 'CARB_BR', kcal: 120, p: 4.4, c: 21.3, f: 1.9, inStock: false },
+  { id: 'mote', name: { es: 'Maíz Mote / Pozolero (cocido)', pt: 'Canjica / Milho Branco (cozido)', en: 'Hominy (cooked)' }, cat: 'CARB_BR', kcal: 72, p: 1.5, c: 14.3, f: 0.9, inStock: false },
+  { id: 'alubia', name: { es: 'Alubias / Frijol Blanco (cocido)', pt: 'Feijão Branco (cozido)', en: 'White Beans (cooked)' }, cat: 'CARB_BR', kcal: 139, p: 9.7, c: 25, f: 0.4, inStock: false },
+  { id: 'feijao_fradinho', name: { es: 'Frijol Carita (cocido)', pt: 'Feijão Fradinho / de Corda (cozido)', en: 'Black-eyed Peas (cooked)' }, cat: 'CARB_BR', kcal: 116, p: 7.7, c: 20.8, f: 0.5, inStock: false },
+  { id: 'pan_rallado', name: { es: 'Pan Rallado', pt: 'Farinha de Rosca', en: 'Breadcrumbs' }, cat: 'CARB_BR', kcal: 395, p: 13, c: 72, f: 5.3, inStock: false },
+  { id: 'espinaca', name: { es: 'Espinaca', pt: 'Espinafre', en: 'Spinach' }, cat: 'VEGGIE', kcal: 23, p: 2.9, c: 3.6, f: 0.4, inStock: false },
+  { id: 'albahaca', name: { es: 'Albahaca', pt: 'Manjericão', en: 'Basil' }, cat: 'VEGGIE', kcal: 23, p: 3.2, c: 2.7, f: 0.6, inStock: false },
+  { id: 'arveja', name: { es: 'Arvejas / Guisantes', pt: 'Ervilha', en: 'Green Peas' }, cat: 'VEGGIE', kcal: 81, p: 5.4, c: 14.5, f: 0.4, inStock: false },
+  { id: 'aji_amarillo', name: { es: 'Ají Amarillo (pasta)', pt: 'Pimenta Ají Amarillo (pasta)', en: 'Ají Amarillo Paste' }, cat: 'VEGGIE', kcal: 40, p: 1, c: 8, f: 0.5, inStock: false },
+  { id: 'aji_panca', name: { es: 'Ají Panca (pasta)', pt: 'Pimenta Ají Panca (pasta)', en: 'Ají Panca Paste' }, cat: 'VEGGIE', kcal: 60, p: 2, c: 11, f: 1.2, inStock: false },
+  { id: 'chile', name: { es: 'Chile / Ají Fresco (Jalapeño, Serrano, Limo)', pt: 'Pimenta Fresca (Jalapeño / Dedo-de-moça)', en: 'Fresh Chili (Jalapeño / Serrano)' }, cat: 'VEGGIE', kcal: 29, p: 0.9, c: 6.5, f: 0.4, inStock: false },
+  { id: 'chile_seco', name: { es: 'Chile Seco (Guajillo, Ancho, Chipotle)', pt: 'Pimenta Seca (Guajillo / Chipotle)', en: 'Dried Chili (Guajillo / Ancho / Chipotle)' }, cat: 'VEGGIE', kcal: 300, p: 11, c: 52, f: 6, inStock: false },
+  { id: 'queso_fresco', name: { es: 'Queso Fresco (Andino / Costeño / Mexicano)', pt: 'Queijo Fresco', en: 'Fresh Cheese (Queso Fresco)' }, cat: 'DAIRY', kcal: 280, p: 17, c: 3, f: 22, inStock: false },
+  { id: 'achiote', name: { es: 'Achiote (pasta / semillas)', pt: 'Urucum (Colorau)', en: 'Annatto (Achiote)' }, cat: 'PANTRY', kcal: 300, p: 5, c: 50, f: 10, inStock: false },
+  { id: 'pimenton', name: { es: 'Pimentón / Paprika', pt: 'Páprica', en: 'Paprika (Pimentón)' }, cat: 'PANTRY', kcal: 282, p: 14, c: 54, f: 13, inStock: false },
+  { id: 'azafran', name: { es: 'Azafrán / Cúrcuma', pt: 'Açafrão / Cúrcuma', en: 'Saffron / Turmeric' }, cat: 'PANTRY', kcal: 310, p: 11, c: 65, f: 6, inStock: false },
+  { id: 'nuez', name: { es: 'Nueces / Pecanas', pt: 'Nozes / Pecãs', en: 'Walnuts / Pecans' }, cat: 'PANTRY', kcal: 690, p: 9.2, c: 13.9, f: 72, inStock: false },
+  { id: 'vinagre', name: { es: 'Vinagre', pt: 'Vinagre', en: 'Vinegar' }, cat: 'PANTRY', kcal: 18, p: 0, c: 0.1, f: 0, inStock: false },
+  { id: 'maionesa', name: { es: 'Mayonesa', pt: 'Maionese', en: 'Mayonnaise' }, cat: 'PANTRY', kcal: 680, p: 1, c: 1, f: 75, inStock: false },
+  { id: 'arequipe', name: { es: 'Arequipe / Manjar Blanco / Dulce de Leche', pt: 'Doce de Leite', en: 'Dulce de Leche (Arequipe)' }, cat: 'SWEET', kcal: 315, p: 6.8, c: 55, f: 7.4, inStock: false },
 ];
 
 const RECIPES_DB = [

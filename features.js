@@ -814,30 +814,39 @@ const SF = (() => {
   // (pollo↔muslo, carne↔cerdo, pescados, arroces, legumbres, tubérculos, quesos...).
   const FAMILIES = [
     ['frango', 'coxa_frango'],
-    ['patinho', 'carne_seca', 'lombo', 'costelinha', 'linguica'],
-    ['tilapia', 'bacalhau', 'atum', 'camarao'],
-    ['arroz_branco', 'arroz'],
-    ['feijao_preto', 'feijao', 'lentilha', 'grao_bico'],
+    ['patinho', 'picanha', 'falda_res', 'carne_seca', 'corazon_res'],
+    ['lombo', 'costelinha', 'panceta'],
+    ['linguica', 'salchicha', 'jamon', 'panceta'],
+    ['tilapia', 'bacalhau', 'atum'],
+    ['camarao', 'calamar', 'mariscos'],
+    ['arroz_branco', 'arroz', 'quinua'],
+    ['feijao_preto', 'feijao', 'feijao_fradinho', 'alubia', 'lentilha', 'grao_bico'],
     ['batata', 'batata_doce', 'mandioca', 'banana_terra', 'abobora'],
-    ['rap10', 'pao', 'tapioca'],
-    ['farinha_mandioca', 'cuscuz'],
-    ['couve', 'brocolis', 'quiabo', 'abobrinha', 'pepino', 'pimentao', 'cenoura'],
-    ['minas', 'coalho', 'ricota', 'queijo_creme', 'requeijao'],
+    ['tortilla_maiz', 'rap10', 'pao', 'tapioca'],
+    ['harina_pan', 'masa_harina', 'cuscuz', 'fuba', 'farinha_mandioca'],
+    ['milho', 'mote'],
+    ['pan_rallado', 'farinha_trigo', 'aveia'],
+    ['espinaca', 'couve', 'brocolis', 'quiabo', 'abobrinha', 'pepino', 'cenoura', 'arveja'],
+    ['aji_amarillo', 'aji_panca', 'chile', 'chile_seco', 'pimentao'],
+    ['queso_fresco', 'minas', 'coalho', 'ricota', 'queijo_creme', 'requeijao'],
     ['creme_leite', 'requeijao', 'iogurte', 'leite_evaporado'],
-    ['leite', 'leite_desnatado', 'leite_coco'],
+    ['leite', 'leite_desnatado', 'leite_coco', 'leite_evaporado'],
     ['azeite', 'dende', 'manteiga'],
+    ['maionesa', 'iogurte', 'requeijao'],
+    ['leite_condensado', 'arequipe'],
     ['acucar', 'adocante', 'mel', 'panela'],
     ['cacau', 'chocolate_amargo'],
     ['farinha_trigo', 'aveia', 'maicena'],
-    ['banana', 'maca', 'morango', 'abacaxi', 'laranja', 'maracuja', 'lulo'],
-    ['amendoim', 'amendoa'],
+    ['banana', 'maca', 'morango', 'abacaxi', 'laranja', 'maracuja', 'lulo', 'mora', 'tamarindo'],
+    ['bocadillo', 'mel', 'panela'],
+    ['amendoim', 'amendoa', 'nuez'],
     ['cachaca', 'pisco', 'tequila'],
     ['agua_gas', 'gaseosa']
   ];
   const FAM_OF = {};
   FAMILIES.forEach((f, n) => f.forEach((id) => { (FAM_OF[id] = FAM_OF[id] || []).push(n); }));
   // Condimentos y toques: si faltan, el plato sigue saliendo (no se "reemplazan").
-  const OPTIONAL = new Set(['alho', 'cebola', 'limao', 'cheiro_verde', 'azeitona', 'shoyu', 'canela', 'coco_ralado', 'passas', 'linhaca']);
+  const OPTIONAL = new Set(['alho', 'cebola', 'limao', 'cheiro_verde', 'azeitona', 'shoyu', 'canela', 'coco_ralado', 'passas', 'linhaca', 'achiote', 'pimenton', 'azafran', 'vinagre', 'albahaca']);
   const famAlts = (id) => [...new Set((FAM_OF[id] || []).flatMap((n) => FAMILIES[n]))].filter((q) => q !== id);
   const dist = (a, b) => Math.abs(a.p - b.p) + Math.abs(a.c - b.c) / 2 + Math.abs(a.kcal - b.kcal) / 20;
 

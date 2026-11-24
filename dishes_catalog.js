@@ -17,57 +17,71 @@ const CATALOG_DISHES = [
       "en": "Use black beans, pork loin, smoked sausage, collard greens, rice, farofa, and orange."
     },
     "macrosTrad": {
-      "kcal": 725,
-      "p": 52,
-      "c": 61,
-      "f": 30
+      "kcal": 914,
+      "p": 51,
+      "c": 83,
+      "f": 42
     },
     "macrosFit": {
-      "kcal": 554,
-      "p": 51,
-      "c": 51,
-      "f": 16
+      "kcal": 688,
+      "p": 42,
+      "c": 68,
+      "f": 28
     },
     "ingredients": [
       {
         "id": "feijao_preto",
         "grams": 140,
-        "fitGrams": 120,
+        "fitGrams": 110,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "lombo",
-        "grams": 100,
-        "fitGrams": 140,
+        "id": "carne_seca",
+        "grams": 50,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
       {
         "id": "linguica",
-        "grams": 70,
-        "fitGrams": 0,
-        "sub": "Lombo defumado / Peito de peru",
+        "grams": 50,
+        "fitGrams": 30,
+        "sub": null,
         "fitId": null
       },
       {
-        "id": "alho",
-        "grams": 10,
+        "id": "costelinha",
+        "grams": 50,
+        "fitGrams": 30,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "panceta",
+        "grams": 20,
         "fitGrams": 10,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
-        "grams": 50,
-        "fitGrams": 50,
+        "grams": 40,
+        "fitGrams": 45,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "alho",
+        "grams": 8,
+        "fitGrams": 9,
         "sub": null,
         "fitId": null
       },
       {
         "id": "couve",
         "grams": 60,
-        "fitGrams": 90,
+        "fitGrams": 70,
         "sub": null,
         "fitId": null
       },
@@ -75,8 +89,22 @@ const CATALOG_DISHES = [
         "id": "arroz_branco",
         "grams": 110,
         "fitGrams": 90,
-        "sub": "Arroz Integral",
+        "sub": null,
         "fitId": "arroz"
+      },
+      {
+        "id": "farinha_mandioca",
+        "grams": 20,
+        "fitGrams": 15,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "laranja",
+        "grams": 50,
+        "fitGrams": 50,
+        "sub": null,
+        "fitId": null
       }
     ],
     "steps": {
@@ -90,7 +118,7 @@ const CATALOG_DISHES = [
           "s": 1500
         },
         {
-          "t": "Mientras tanto, corta el lomo de cerdo en cubos de 3 cm y la lingüiça en rodajas. Dóralos en sartén aparte a fuego medio-alto 6 min hasta que suelten su grasa y tomen color.",
+          "t": "Mientras tanto, desala la carne seca hirviéndola 10 min y córtala en cubos; corta la costilla de cerdo en trozos, la lingüiça en rodajas y la panceta en cubitos. Dóralos en sartén aparte a fuego medio-alto hasta que suelten su grasa y tomen color.",
           "s": 360
         },
         {
@@ -116,7 +144,7 @@ const CATALOG_DISHES = [
           "s": 1500
         },
         {
-          "t": "Corte o lombo em cubos de 3 cm e a linguiça em rodelas. Doure em frigideira quente por 6 min.",
+          "t": "Enquanto isso, dessalgue a carne seca fervendo 10 min e corte em cubos; corte a costelinha em pedaços, a linguiça em rodelas e o bacon em cubinhos. Doure tudo em frigideira à parte em fogo médio-alto até soltar a gordura e pegar cor.",
           "s": 360
         },
         {
@@ -142,7 +170,7 @@ const CATALOG_DISHES = [
           "s": 1500
         },
         {
-          "t": "Cube pork loin and slice sausage; sear in a hot skillet for 6 min until browned.",
+          "t": "Meanwhile, desalt the dried beef by boiling it 10 min and cube it; cut the pork ribs into pieces, the sausage into rounds and the bacon into small cubes. Brown them in a separate pan over medium-high heat until they render their fat and take color.",
           "s": 360
         },
         {
@@ -184,51 +212,51 @@ const CATALOG_DISHES = [
       "f": 33
     },
     "macrosFit": {
-      "kcal": 475,
-      "p": 45,
-      "c": 42,
-      "f": 15
+      "kcal": 524,
+      "p": 47,
+      "c": 44,
+      "f": 20
     },
     "ingredients": [
       {
         "id": "tilapia",
         "grams": 180,
-        "fitGrams": 190,
+        "fitGrams": 200,
         "sub": null,
         "fitId": null
       },
       {
         "id": "leite_coco",
         "grams": 80,
-        "fitGrams": 60,
-        "sub": "Leite de coco light",
+        "fitGrams": 40,
+        "sub": null,
         "fitId": null
       },
       {
         "id": "dende",
         "grams": 15,
-        "fitGrams": 0,
-        "sub": "Azeite de oliva",
+        "fitGrams": 7.5,
+        "sub": null,
         "fitId": null
       },
       {
         "id": "tomate",
         "grams": 100,
-        "fitGrams": 100,
+        "fitGrams": 115,
         "sub": null,
         "fitId": null
       },
       {
         "id": "pimentao",
         "grams": 80,
-        "fitGrams": 80,
+        "fitGrams": 90,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
         "grams": 70,
-        "fitGrams": 70,
+        "fitGrams": 80,
         "sub": null,
         "fitId": null
       },
@@ -250,7 +278,7 @@ const CATALOG_DISHES = [
         "id": "arroz_branco",
         "grams": 110,
         "fitGrams": 90,
-        "sub": "Arroz Integral",
+        "sub": null,
         "fitId": "arroz"
       }
     ],
@@ -353,50 +381,50 @@ const CATALOG_DISHES = [
       "en": "Use Brazilian polvilho (tapioca starch) and cured Minas cheese or mozzarella."
     },
     "macrosTrad": {
-      "kcal": 629,
-      "p": 20,
+      "kcal": 615,
+      "p": 19,
       "c": 60,
-      "f": 34
+      "f": 33
     },
     "macrosFit": {
-      "kcal": 448,
-      "p": 15,
-      "c": 54,
-      "f": 19
+      "kcal": 383,
+      "p": 14,
+      "c": 46,
+      "f": 16
     },
     "ingredients": [
       {
         "id": "tapioca",
         "grams": 90,
-        "fitGrams": 80,
-        "sub": "Polvilho azedo/doce",
+        "fitGrams": 70,
+        "sub": null,
         "fitId": null
       },
       {
         "id": "minas",
         "grams": 60,
-        "fitGrams": 45,
-        "sub": "Queijo minas light",
+        "fitGrams": 40,
+        "sub": null,
         "fitId": "ricota"
       },
       {
         "id": "ovo",
-        "grams": 60,
-        "fitGrams": 60,
+        "grams": 50,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
       {
         "id": "leite",
         "grams": 60,
-        "fitGrams": 60,
-        "sub": "Leite desnatado",
-        "fitId": null
+        "fitGrams": 40,
+        "sub": null,
+        "fitId": "leite_desnatado"
       },
       {
         "id": "azeite",
         "grams": 15,
-        "fitGrams": 8,
+        "fitGrams": 7.5,
         "sub": null,
         "fitId": null
       }
@@ -500,16 +528,16 @@ const CATALOG_DISHES = [
       "en": "Made with Brazilian boxed creme de leite, ketchup, mustard, rice, and potato sticks."
     },
     "macrosTrad": {
-      "kcal": 618,
-      "p": 57,
-      "c": 42,
+      "kcal": 641,
+      "p": 58,
+      "c": 47,
       "f": 23
     },
     "macrosFit": {
-      "kcal": 523,
-      "p": 66,
-      "c": 35,
-      "f": 12
+      "kcal": 467,
+      "p": 62,
+      "c": 39,
+      "f": 6
     },
     "ingredients": [
       {
@@ -522,35 +550,35 @@ const CATALOG_DISHES = [
       {
         "id": "creme_leite",
         "grams": 60,
-        "fitGrams": 0,
-        "sub": "Requeijão light / Iogurte",
-        "fitId": "requeijao"
-      },
-      {
-        "id": "requeijao",
-        "grams": 0,
-        "fitGrams": 50,
+        "fitGrams": 40,
         "sub": null,
-        "fitId": null
+        "fitId": "iogurte"
       },
       {
         "id": "tomate",
-        "grams": 80,
-        "fitGrams": 90,
+        "grams": 50,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
         "grams": 40,
-        "fitGrams": 40,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
       {
         "id": "alho",
-        "grams": 10,
-        "fitGrams": 10,
+        "grams": 8,
+        "fitGrams": 9,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "batata",
+        "grams": 40,
+        "fitGrams": 30,
         "sub": null,
         "fitId": null
       },
@@ -558,7 +586,7 @@ const CATALOG_DISHES = [
         "id": "arroz_branco",
         "grams": 110,
         "fitGrams": 90,
-        "sub": "Arroz Integral",
+        "sub": null,
         "fitId": "arroz"
       }
     ],
@@ -661,22 +689,22 @@ const CATALOG_DISHES = [
       "en": "Cowpeas/beans cooked with rice, seared queijo coalho, and cured beef."
     },
     "macrosTrad": {
-      "kcal": 696,
-      "p": 56,
-      "c": 54,
-      "f": 27
+      "kcal": 816,
+      "p": 61,
+      "c": 62,
+      "f": 35
     },
     "macrosFit": {
-      "kcal": 651,
-      "p": 58,
-      "c": 47,
-      "f": 25
+      "kcal": 625,
+      "p": 54,
+      "c": 51,
+      "f": 22
     },
     "ingredients": [
       {
-        "id": "feijao",
+        "id": "feijao_fradinho",
         "grams": 110,
-        "fitGrams": 110,
+        "fitGrams": 90,
         "sub": null,
         "fitId": null
       },
@@ -684,34 +712,41 @@ const CATALOG_DISHES = [
         "id": "arroz_branco",
         "grams": 110,
         "fitGrams": 90,
-        "sub": "Arroz Integral",
+        "sub": null,
         "fitId": "arroz"
       },
       {
         "id": "carne_seca",
         "grams": 100,
-        "fitGrams": 120,
-        "sub": "Patinho desfiado",
+        "fitGrams": 110,
+        "sub": null,
         "fitId": null
       },
       {
         "id": "coalho",
         "grams": 60,
         "fitGrams": 40,
-        "sub": "Queijo minas",
+        "sub": null,
+        "fitId": "ricota"
+      },
+      {
+        "id": "panceta",
+        "grams": 15,
+        "fitGrams": 9,
+        "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
         "grams": 50,
-        "fitGrams": 50,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
       {
         "id": "alho",
-        "grams": 10,
-        "fitGrams": 10,
+        "grams": 8,
+        "fitGrams": 9,
         "sub": null,
         "fitId": null
       },
@@ -822,57 +857,36 @@ const CATALOG_DISHES = [
       "en": "Creamy cassava mash over seasoned Brazilian beef."
     },
     "macrosTrad": {
-      "kcal": 752,
+      "kcal": 803,
       "p": 58,
-      "c": 67,
-      "f": 27
+      "c": 66,
+      "f": 34
     },
     "macrosFit": {
-      "kcal": 711,
-      "p": 61,
-      "c": 61,
-      "f": 24
+      "kcal": 696,
+      "p": 58,
+      "c": 55,
+      "f": 26
     },
     "ingredients": [
       {
         "id": "mandioca",
         "grams": 180,
-        "fitGrams": 160,
+        "fitGrams": 145,
         "sub": null,
         "fitId": null
       },
       {
         "id": "carne_seca",
         "grams": 130,
-        "fitGrams": 150,
-        "sub": "Patinho moído",
+        "fitGrams": 145,
+        "sub": null,
         "fitId": null
       },
       {
         "id": "requeijao",
         "grams": 40,
-        "fitGrams": 35,
-        "sub": null,
-        "fitId": null
-      },
-      {
-        "id": "tomate",
-        "grams": 70,
-        "fitGrams": 80,
-        "sub": null,
-        "fitId": null
-      },
-      {
-        "id": "cebola",
-        "grams": 50,
-        "fitGrams": 50,
-        "sub": null,
-        "fitId": null
-      },
-      {
-        "id": "alho",
-        "grams": 10,
-        "fitGrams": 10,
+        "fitGrams": 30,
         "sub": null,
         "fitId": null
       },
@@ -882,6 +896,34 @@ const CATALOG_DISHES = [
         "fitGrams": 25,
         "sub": null,
         "fitId": "ricota"
+      },
+      {
+        "id": "tomate",
+        "grams": 50,
+        "fitGrams": 55,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "cebola",
+        "grams": 50,
+        "fitGrams": 55,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "alho",
+        "grams": 8,
+        "fitGrams": 9,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "manteiga",
+        "grams": 8,
+        "fitGrams": 4,
+        "sub": null,
+        "fitId": null
       }
     ],
     "steps": {
@@ -995,42 +1037,42 @@ const CATALOG_DISHES = [
       "en": "Golden color comes from Brazilian açafrão-da-terra (turmeric)."
     },
     "macrosTrad": {
-      "kcal": 580,
-      "p": 47,
-      "c": 47,
+      "kcal": 618,
+      "p": 48,
+      "c": 55,
       "f": 23
     },
     "macrosFit": {
-      "kcal": 550,
-      "p": 46,
-      "c": 39,
-      "f": 23
+      "kcal": 504,
+      "p": 66,
+      "c": 45,
+      "f": 6
     },
     "ingredients": [
       {
         "id": "coxa_frango",
         "grams": 170,
-        "fitGrams": 170,
-        "sub": "Peito de frango",
-        "fitId": null
+        "fitGrams": 185,
+        "sub": null,
+        "fitId": "frango"
       },
       {
         "id": "arroz_branco",
         "grams": 120,
-        "fitGrams": 100,
-        "sub": "Arroz Integral",
+        "fitGrams": 95,
+        "sub": null,
         "fitId": "arroz"
       },
       {
         "id": "pimentao",
-        "grams": 50,
-        "fitGrams": 60,
+        "grams": 40,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
       {
         "id": "tomate",
-        "grams": 70,
+        "grams": 60,
         "fitGrams": 70,
         "sub": null,
         "fitId": null
@@ -1038,7 +1080,7 @@ const CATALOG_DISHES = [
       {
         "id": "cebola",
         "grams": 50,
-        "fitGrams": 50,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
@@ -1046,6 +1088,20 @@ const CATALOG_DISHES = [
         "id": "alho",
         "grams": 10,
         "fitGrams": 10,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "milho",
+        "grams": 40,
+        "fitGrams": 30,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "azafran",
+        "grams": 1,
+        "fitGrams": 1,
         "sub": null,
         "fitId": null
       },
@@ -1168,57 +1224,71 @@ const CATALOG_DISHES = [
       "en": "Bean mash thickened with cassava flour, pork chop, egg, and greens."
     },
     "macrosTrad": {
-      "kcal": 896,
-      "p": 65,
-      "c": 107,
-      "f": 23
+      "kcal": 1112,
+      "p": 70,
+      "c": 108,
+      "f": 44
     },
     "macrosFit": {
-      "kcal": 804,
-      "p": 64,
-      "c": 84,
-      "f": 23
+      "kcal": 953,
+      "p": 68,
+      "c": 88,
+      "f": 36
     },
     "ingredients": [
       {
         "id": "lombo",
-        "grams": 160,
-        "fitGrams": 160,
+        "grams": 140,
+        "fitGrams": 155,
         "sub": null,
         "fitId": null
       },
       {
         "id": "feijao",
         "grams": 130,
-        "fitGrams": 120,
+        "fitGrams": 105,
         "sub": null,
         "fitId": null
       },
       {
         "id": "farinha_mandioca",
         "grams": 35,
-        "fitGrams": 25,
+        "fitGrams": 30,
         "sub": null,
         "fitId": null
       },
       {
         "id": "ovo",
         "grams": 60,
-        "fitGrams": 60,
+        "fitGrams": 65,
         "sub": null,
         "fitId": null
       },
       {
         "id": "couve",
         "grams": 60,
-        "fitGrams": 90,
+        "fitGrams": 70,
         "sub": null,
         "fitId": null
       },
       {
         "id": "banana_terra",
         "grams": 80,
-        "fitGrams": 60,
+        "fitGrams": 65,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "linguica",
+        "grams": 50,
+        "fitGrams": 30,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "panceta",
+        "grams": 20,
+        "fitGrams": 10,
         "sub": null,
         "fitId": null
       },
@@ -1226,7 +1296,7 @@ const CATALOG_DISHES = [
         "id": "arroz_branco",
         "grams": 100,
         "fitGrams": 80,
-        "sub": "Arroz Integral",
+        "sub": null,
         "fitId": "arroz"
       }
     ],
@@ -1331,9 +1401,9 @@ const CATALOG_DISHES = [
     "fav": false,
     "img": "images/br_9.jpg",
     "title": {
-      "es": "Bobó de Camarón / Tilapia",
-      "pt": "Bobó de Camarão ou Peixe",
-      "en": "Brazilian Cassava Coconut Seafood"
+      "es": "Bobó de Camarón",
+      "pt": "Bobó de Camarão",
+      "en": "Shrimp Bobó"
     },
     "brTip": {
       "es": "Crema dorada de mandioca con leite de coco y azeite de dendê (usa tilápia si quieres versión económica).",
@@ -1347,58 +1417,58 @@ const CATALOG_DISHES = [
       "f": 25
     },
     "macrosFit": {
-      "kcal": 554,
-      "p": 36,
-      "c": 75,
-      "f": 12
+      "kcal": 567,
+      "p": 37,
+      "c": 73,
+      "f": 15
     },
     "ingredients": [
       {
         "id": "camarao",
         "grams": 160,
-        "fitGrams": 170,
-        "sub": "Tilápia em cubos",
+        "fitGrams": 175,
+        "sub": null,
         "fitId": null
       },
       {
         "id": "mandioca",
         "grams": 160,
-        "fitGrams": 140,
+        "fitGrams": 130,
         "sub": null,
         "fitId": null
       },
       {
         "id": "leite_coco",
         "grams": 70,
-        "fitGrams": 50,
-        "sub": "Leite de coco light",
+        "fitGrams": 35,
+        "sub": null,
         "fitId": null
       },
       {
         "id": "dende",
         "grams": 10,
-        "fitGrams": 0,
-        "sub": "Azeite de oliva",
+        "fitGrams": 5,
+        "sub": null,
         "fitId": null
       },
       {
         "id": "tomate",
         "grams": 80,
-        "fitGrams": 80,
+        "fitGrams": 90,
         "sub": null,
         "fitId": null
       },
       {
         "id": "pimentao",
         "grams": 50,
-        "fitGrams": 50,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
         "grams": 50,
-        "fitGrams": 50,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
@@ -1406,7 +1476,7 @@ const CATALOG_DISHES = [
         "id": "arroz_branco",
         "grams": 100,
         "fitGrams": 80,
-        "sub": "Arroz Integral",
+        "sub": null,
         "fitId": "arroz"
       }
     ],
@@ -1502,7 +1572,7 @@ const CATALOG_DISHES = [
         }
       ]
     },
-    "videoQuery": "como hacer Bobó de Camarón / Tilapia receta paso a paso"
+    "videoQuery": "como hacer Bobó de Camarón receta paso a paso"
   },
   {
     "id": "br_10",
@@ -1521,64 +1591,64 @@ const CATALOG_DISHES = [
       "en": "Drained carioca beans tossed with toasted cassava flour, collards, egg, and pork."
     },
     "macrosTrad": {
-      "kcal": 797,
-      "p": 51,
+      "kcal": 775,
+      "p": 33,
       "c": 71,
-      "f": 34
+      "f": 41
     },
     "macrosFit": {
-      "kcal": 647,
-      "p": 58,
-      "c": 57,
-      "f": 21
+      "kcal": 583,
+      "p": 26,
+      "c": 58,
+      "f": 28
     },
     "ingredients": [
       {
         "id": "feijao",
         "grams": 140,
-        "fitGrams": 140,
+        "fitGrams": 110,
         "sub": null,
         "fitId": null
       },
       {
         "id": "linguica",
-        "grams": 80,
-        "fitGrams": 0,
-        "sub": "Lombo ou patinho em cubos",
+        "grams": 70,
+        "fitGrams": 40,
+        "sub": null,
         "fitId": null
       },
       {
-        "id": "lombo",
-        "grams": 70,
-        "fitGrams": 140,
+        "id": "panceta",
+        "grams": 30,
+        "fitGrams": 20,
         "sub": null,
         "fitId": null
       },
       {
         "id": "farinha_mandioca",
         "grams": 45,
-        "fitGrams": 30,
+        "fitGrams": 35,
         "sub": null,
         "fitId": null
       },
       {
         "id": "ovo",
         "grams": 60,
-        "fitGrams": 60,
+        "fitGrams": 65,
         "sub": null,
         "fitId": null
       },
       {
         "id": "couve",
         "grams": 60,
-        "fitGrams": 80,
+        "fitGrams": 70,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
         "grams": 50,
-        "fitGrams": 50,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
@@ -1597,11 +1667,11 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Corta el lomo de cerdo en cubos de 1,5 cm y la lingüiça en rodajas. Pica la cebolla y el ajo; corta la couve en tiras finísimas.",
+          "t": "Corta la panceta (bacon) en cubitos y la lingüiça en rodajas. Pica la cebolla y el ajo; corta la couve en tiras finísimas.",
           "s": null
         },
         {
-          "t": "Dora el cerdo y la lingüiça en una sartén grande sin aceite (sueltan su grasa) hasta que estén dorados.",
+          "t": "Dora la panceta y la lingüiça en una sartén grande sin aceite (sueltan su grasa) hasta que estén crocantes.",
           "s": 300
         },
         {
@@ -1627,11 +1697,11 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Corte o lombo em cubos de 1,5 cm e a linguiça em rodelas. Pique a cebola e o alho; corte a couve em tiras finíssimas.",
+          "t": "Corte o bacon em cubinhos e a linguiça em rodelas. Pique a cebola e o alho; corte a couve em tiras bem finas.",
           "s": null
         },
         {
-          "t": "Doure o lombo e a linguiça numa frigideira grande sem óleo (eles soltam gordura) até dourarem.",
+          "t": "Doure o bacon e a linguiça numa frigideira grande sem óleo (eles soltam gordura) até ficarem crocantes.",
           "s": 300
         },
         {
@@ -1657,11 +1727,11 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Cut the pork loin into 1.5 cm cubes and slice the sausage. Chop the onion and garlic; slice the collard greens very thin.",
+          "t": "Cut the bacon into small cubes and the sausage into rounds. Chop the onion and garlic; slice the collard greens very thin.",
           "s": null
         },
         {
-          "t": "Brown the pork and sausage in a large dry pan (they release their own fat) until golden.",
+          "t": "Brown the bacon and sausage in a large pan without oil (they release their fat) until crisp.",
           "s": 300
         },
         {
@@ -1707,18 +1777,18 @@ const CATALOG_DISHES = [
       "f": 24
     },
     "macrosFit": {
-      "kcal": 573,
-      "p": 49,
-      "c": 42,
-      "f": 24
+      "kcal": 509,
+      "p": 69,
+      "c": 43,
+      "f": 6
     },
     "ingredients": [
       {
         "id": "coxa_frango",
         "grams": 175,
-        "fitGrams": 175,
-        "sub": "Peito de frango",
-        "fitId": null
+        "fitGrams": 195,
+        "sub": null,
+        "fitId": "frango"
       },
       {
         "id": "quiabo",
@@ -1730,7 +1800,7 @@ const CATALOG_DISHES = [
       {
         "id": "cebola",
         "grams": 50,
-        "fitGrams": 50,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
@@ -1752,7 +1822,7 @@ const CATALOG_DISHES = [
         "id": "arroz_branco",
         "grams": 110,
         "fitGrams": 90,
-        "sub": "Arroz Integral",
+        "sub": null,
         "fitId": "arroz"
       }
     ],
@@ -1867,50 +1937,57 @@ const CATALOG_DISHES = [
       "en": "Made with hydrated Brazilian cornmeal (flocão) steamed until fluffy."
     },
     "macrosTrad": {
-      "kcal": 517,
+      "kcal": 527,
       "p": 28,
       "c": 32,
-      "f": 31
+      "f": 32
     },
     "macrosFit": {
-      "kcal": 450,
-      "p": 26,
-      "c": 30,
-      "f": 25
+      "kcal": 380,
+      "p": 23,
+      "c": 28,
+      "f": 19
     },
     "ingredients": [
       {
         "id": "cuscuz",
         "grams": 110,
-        "fitGrams": 100,
+        "fitGrams": 90,
         "sub": null,
         "fitId": null
       },
       {
         "id": "ovo",
         "grams": 120,
-        "fitGrams": 120,
+        "fitGrams": 130,
         "sub": null,
         "fitId": null
       },
       {
         "id": "coalho",
         "grams": 45,
-        "fitGrams": 35,
-        "sub": "Queijo minas",
-        "fitId": null
+        "fitGrams": 30,
+        "sub": null,
+        "fitId": "ricota"
       },
       {
         "id": "tomate",
         "grams": 50,
-        "fitGrams": 60,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
       {
         "id": "azeite",
-        "grams": 8,
-        "fitGrams": 5,
+        "grams": 5,
+        "fitGrams": 2.5,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "manteiga",
+        "grams": 5,
+        "fitGrams": 2.5,
         "sub": null,
         "fitId": null
       }
@@ -2026,57 +2103,50 @@ const CATALOG_DISHES = [
       "en": "Velvety potato soup with shredded collard greens and smoked sausage."
     },
     "macrosTrad": {
-      "kcal": 503,
+      "kcal": 497,
       "p": 19,
-      "c": 45,
+      "c": 43,
       "f": 29
     },
     "macrosFit": {
-      "kcal": 414,
-      "p": 46,
-      "c": 39,
-      "f": 9
+      "kcal": 337,
+      "p": 14,
+      "c": 38,
+      "f": 16
     },
     "ingredients": [
       {
         "id": "batata",
         "grams": 180,
-        "fitGrams": 150,
-        "sub": "Batata-doce / Chuchu",
+        "fitGrams": 145,
+        "sub": null,
         "fitId": null
       },
       {
         "id": "linguica",
         "grams": 70,
-        "fitGrams": 0,
-        "sub": "Frango desfiado / Peito de peru",
-        "fitId": null
-      },
-      {
-        "id": "frango",
-        "grams": 0,
-        "fitGrams": 120,
+        "fitGrams": 40,
         "sub": null,
         "fitId": null
       },
       {
         "id": "couve",
         "grams": 80,
-        "fitGrams": 100,
+        "fitGrams": 90,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
         "grams": 50,
-        "fitGrams": 50,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
       {
         "id": "alho",
-        "grams": 15,
-        "fitGrams": 15,
+        "grams": 10,
+        "fitGrams": 10,
         "sub": null,
         "fitId": null
       },
@@ -2205,24 +2275,24 @@ const CATALOG_DISHES = [
       "f": 15
     },
     "macrosFit": {
-      "kcal": 552,
-      "p": 57,
-      "c": 39,
-      "f": 18
+      "kcal": 535,
+      "p": 55,
+      "c": 38,
+      "f": 17
     },
     "ingredients": [
       {
         "id": "carne_seca",
         "grams": 130,
-        "fitGrams": 150,
-        "sub": "Patinho em cubos",
+        "fitGrams": 145,
+        "sub": null,
         "fitId": null
       },
       {
         "id": "arroz_branco",
         "grams": 120,
-        "fitGrams": 100,
-        "sub": "Arroz Integral",
+        "fitGrams": 95,
+        "sub": null,
         "fitId": "arroz"
       },
       {
@@ -2235,14 +2305,14 @@ const CATALOG_DISHES = [
       {
         "id": "pimentao",
         "grams": 40,
-        "fitGrams": 50,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
         "grams": 50,
-        "fitGrams": 50,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
@@ -2372,43 +2442,43 @@ const CATALOG_DISHES = [
       "en": "Cassava partially melts into the beef broth creating a rich stew."
     },
     "macrosTrad": {
-      "kcal": 634,
-      "p": 65,
+      "kcal": 636,
+      "p": 36,
       "c": 62,
-      "f": 13
+      "f": 28
     },
     "macrosFit": {
-      "kcal": 609,
-      "p": 65,
-      "c": 56,
-      "f": 13
+      "kcal": 451,
+      "p": 23,
+      "c": 54,
+      "f": 17
     },
     "ingredients": [
       {
-        "id": "patinho",
+        "id": "falda_res",
         "grams": 170,
-        "fitGrams": 170,
+        "fitGrams": 100,
         "sub": null,
         "fitId": null
       },
       {
         "id": "mandioca",
         "grams": 160,
-        "fitGrams": 140,
+        "fitGrams": 130,
         "sub": null,
         "fitId": null
       },
       {
         "id": "tomate",
         "grams": 90,
-        "fitGrams": 90,
+        "fitGrams": 105,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
         "grams": 60,
-        "fitGrams": 60,
+        "fitGrams": 70,
         "sub": null,
         "fitId": null
       },
@@ -2528,9 +2598,9 @@ const CATALOG_DISHES = [
     "fav": false,
     "img": "images/br_16.jpg",
     "title": {
-      "es": "Vatapá Baiano de Camarón/Pollo",
-      "pt": "Vatapá Baiano",
-      "en": "Bahian Peanut-Coconut Vatapá"
+      "es": "Vatapá Baiano de Camarón",
+      "pt": "Vatapá Baiano de Camarão",
+      "en": "Bahian Shrimp Vatapá"
     },
     "brTip": {
       "es": "Crema bahiana de pan remojado (o avena), leite de coco, amendoim torrado, camarón/pollo y dendê.",
@@ -2538,35 +2608,28 @@ const CATALOG_DISHES = [
       "en": "Creamy bread-coconut-peanut sauce with shrimp or chicken."
     },
     "macrosTrad": {
-      "kcal": 774,
+      "kcal": 787,
       "p": 39,
-      "c": 67,
+      "c": 70,
       "f": 40
     },
     "macrosFit": {
-      "kcal": 628,
-      "p": 42,
-      "c": 61,
-      "f": 25
+      "kcal": 572,
+      "p": 38,
+      "c": 55,
+      "f": 23
     },
     "ingredients": [
       {
         "id": "camarao",
         "grams": 130,
-        "fitGrams": 150,
-        "sub": "Peito de frango desfiado",
+        "fitGrams": 145,
+        "sub": null,
         "fitId": null
       },
       {
         "id": "pao",
         "grams": 60,
-        "fitGrams": 0,
-        "sub": "Aveia em flocos",
-        "fitId": null
-      },
-      {
-        "id": "aveia",
-        "grams": 0,
         "fitGrams": 50,
         "sub": null,
         "fitId": null
@@ -2574,7 +2637,7 @@ const CATALOG_DISHES = [
       {
         "id": "leite_coco",
         "grams": 80,
-        "fitGrams": 60,
+        "fitGrams": 40,
         "sub": null,
         "fitId": null
       },
@@ -2588,22 +2651,29 @@ const CATALOG_DISHES = [
       {
         "id": "dende",
         "grams": 10,
-        "fitGrams": 0,
-        "sub": "Azeite",
+        "fitGrams": 5,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "cebola",
+        "grams": 40,
+        "fitGrams": 45,
+        "sub": null,
         "fitId": null
       },
       {
         "id": "tomate",
-        "grams": 60,
-        "fitGrams": 60,
+        "grams": 40,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
       {
         "id": "arroz_branco",
         "grams": 90,
-        "fitGrams": 80,
-        "sub": "Arroz Integral",
+        "fitGrams": 70,
+        "sub": null,
         "fitId": "arroz"
       }
     ],
@@ -2699,7 +2769,7 @@ const CATALOG_DISHES = [
         }
       ]
     },
-    "videoQuery": "como hacer Vatapá Baiano de Camarón/Pollo receta paso a paso"
+    "videoQuery": "como hacer Vatapá Baiano de Camarón receta paso a paso"
   },
   {
     "id": "br_17",
@@ -2718,29 +2788,29 @@ const CATALOG_DISHES = [
       "en": "Classic Brazilian lunch plate: seared steak crowned with a sunny-side-up egg."
     },
     "macrosTrad": {
-      "kcal": 772,
-      "p": 77,
-      "c": 47,
+      "kcal": 826,
+      "p": 78,
+      "c": 59,
       "f": 29
     },
     "macrosFit": {
-      "kcal": 708,
-      "p": 78,
-      "c": 40,
-      "f": 24
+      "kcal": 766,
+      "p": 82,
+      "c": 47,
+      "f": 26
     },
     "ingredients": [
       {
         "id": "patinho",
         "grams": 170,
-        "fitGrams": 175,
+        "fitGrams": 185,
         "sub": null,
         "fitId": null
       },
       {
         "id": "ovo",
         "grams": 60,
-        "fitGrams": 60,
+        "fitGrams": 65,
         "sub": null,
         "fitId": null
       },
@@ -2748,20 +2818,27 @@ const CATALOG_DISHES = [
         "id": "arroz_branco",
         "grams": 100,
         "fitGrams": 80,
-        "sub": "Arroz Integral",
+        "sub": null,
         "fitId": "arroz"
       },
       {
         "id": "feijao",
         "grams": 100,
-        "fitGrams": 100,
+        "fitGrams": 80,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "batata",
+        "grams": 80,
+        "fitGrams": 65,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
-        "grams": 50,
-        "fitGrams": 50,
+        "grams": 30,
+        "fitGrams": 35,
         "sub": null,
         "fitId": null
       },
@@ -2884,50 +2961,57 @@ const CATALOG_DISHES = [
       "en": "Crispy bite-sized chicken tossed with fried garlic, lime, and parsley."
     },
     "macrosTrad": {
-      "kcal": 559,
+      "kcal": 689,
       "p": 46,
-      "c": 41,
-      "f": 24
+      "c": 40,
+      "f": 39
     },
     "macrosFit": {
-      "kcal": 547,
-      "p": 46,
-      "c": 38,
-      "f": 24
+      "kcal": 534,
+      "p": 67,
+      "c": 36,
+      "f": 13
     },
     "ingredients": [
       {
         "id": "coxa_frango",
         "grams": 180,
-        "fitGrams": 180,
-        "sub": "Peito de frango em cubos",
-        "fitId": null
+        "fitGrams": 200,
+        "sub": null,
+        "fitId": "frango"
       },
       {
         "id": "alho",
+        "grams": 20,
+        "fitGrams": 25,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "limao",
         "grams": 20,
         "fitGrams": 20,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "limao",
-        "grams": 25,
-        "fitGrams": 25,
+        "id": "azeite",
+        "grams": 15,
+        "fitGrams": 7.5,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cheiro_verde",
-        "grams": 15,
-        "fitGrams": 15,
+        "grams": 10,
+        "fitGrams": 10,
         "sub": null,
         "fitId": null
       },
       {
         "id": "mandioca",
         "grams": 110,
-        "fitGrams": 100,
+        "fitGrams": 90,
         "sub": null,
         "fitId": null
       }
@@ -3043,28 +3127,28 @@ const CATALOG_DISHES = [
       "en": "Tender diced beef in glossy gravy served with egg, rice, and farofa."
     },
     "macrosTrad": {
-      "kcal": 710,
+      "kcal": 714,
       "p": 72,
-      "c": 60,
+      "c": 61,
       "f": 18
     },
     "macrosFit": {
-      "kcal": 671,
-      "p": 75,
-      "c": 45,
-      "f": 19
+      "kcal": 710,
+      "p": 78,
+      "c": 50,
+      "f": 20
     },
     "ingredients": [
       {
         "id": "patinho",
         "grams": 165,
-        "fitGrams": 175,
+        "fitGrams": 180,
         "sub": null,
         "fitId": null
       },
       {
         "id": "tomate",
-        "grams": 80,
+        "grams": 70,
         "fitGrams": 80,
         "sub": null,
         "fitId": null
@@ -3072,35 +3156,42 @@ const CATALOG_DISHES = [
       {
         "id": "cebola",
         "grams": 50,
-        "fitGrams": 50,
+        "fitGrams": 55,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "alho",
+        "grams": 8,
+        "fitGrams": 9,
         "sub": null,
         "fitId": null
       },
       {
         "id": "shoyu",
-        "grams": 15,
-        "fitGrams": 15,
+        "grams": 10,
+        "fitGrams": 10,
         "sub": null,
         "fitId": null
       },
       {
         "id": "ovo",
         "grams": 60,
-        "fitGrams": 60,
+        "fitGrams": 65,
         "sub": null,
         "fitId": null
       },
       {
         "id": "arroz_branco",
         "grams": 100,
-        "fitGrams": 85,
-        "sub": "Arroz Integral",
+        "fitGrams": 80,
+        "sub": null,
         "fitId": "arroz"
       },
       {
         "id": "farinha_mandioca",
         "grams": 25,
-        "fitGrams": 15,
+        "fitGrams": 20,
         "sub": null,
         "fitId": null
       }
@@ -3216,57 +3307,57 @@ const CATALOG_DISHES = [
       "en": "Comforting Brazilian chicken, rice, carrot, and potato soup."
     },
     "macrosTrad": {
-      "kcal": 460,
-      "p": 54,
-      "c": 49,
+      "kcal": 428,
+      "p": 53,
+      "c": 42,
       "f": 4
     },
     "macrosFit": {
-      "kcal": 446,
-      "p": 57,
-      "c": 42,
+      "kcal": 431,
+      "p": 58,
+      "c": 37,
       "f": 5
     },
     "ingredients": [
       {
         "id": "frango",
         "grams": 150,
-        "fitGrams": 160,
+        "fitGrams": 165,
         "sub": null,
         "fitId": null
       },
       {
         "id": "arroz_branco",
-        "grams": 80,
-        "fitGrams": 70,
-        "sub": "Arroz Integral",
+        "grams": 60,
+        "fitGrams": 50,
+        "sub": null,
         "fitId": "arroz"
       },
       {
         "id": "cenoura",
-        "grams": 70,
-        "fitGrams": 80,
+        "grams": 60,
+        "fitGrams": 70,
         "sub": null,
         "fitId": null
       },
       {
         "id": "batata",
         "grams": 80,
-        "fitGrams": 60,
+        "fitGrams": 65,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
         "grams": 40,
-        "fitGrams": 40,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
       {
         "id": "alho",
-        "grams": 10,
-        "fitGrams": 10,
+        "grams": 8,
+        "fitGrams": 9,
         "sub": null,
         "fitId": null
       },
@@ -3379,9 +3470,9 @@ const CATALOG_DISHES = [
     "fav": false,
     "img": "images/br_21.jpg",
     "title": {
-      "es": "Filé à Parmegiana Brasileño",
+      "es": "Filé à Parmegiana",
       "pt": "Filé à Parmegiana",
-      "en": "Brazilian Chicken/Beef Parmigiana"
+      "en": "Beef Parmigiana (Filé à Parmegiana)"
     },
     "brTip": {
       "es": "Filete empanizado cubierto con salsa de tomate casera y queijo derretido, servido con arroz y papas.",
@@ -3389,29 +3480,50 @@ const CATALOG_DISHES = [
       "en": "Breaded cutlet baked under tomato sauce and melted cheese."
     },
     "macrosTrad": {
-      "kcal": 749,
-      "p": 77,
-      "c": 58,
-      "f": 21
+      "kcal": 945,
+      "p": 86,
+      "c": 82,
+      "f": 28
     },
     "macrosFit": {
-      "kcal": 643,
-      "p": 74,
-      "c": 51,
-      "f": 15
+      "kcal": 840,
+      "p": 86,
+      "c": 68,
+      "f": 23
     },
     "ingredients": [
       {
-        "id": "frango",
+        "id": "patinho",
         "grams": 170,
-        "fitGrams": 175,
+        "fitGrams": 185,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "pan_rallado",
+        "grams": 30,
+        "fitGrams": 25,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "farinha_trigo",
+        "grams": 10,
+        "fitGrams": 10,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "ovo",
+        "grams": 40,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
       {
         "id": "tomate",
         "grams": 120,
-        "fitGrams": 120,
+        "fitGrams": 140,
         "sub": null,
         "fitId": null
       },
@@ -3419,43 +3531,36 @@ const CATALOG_DISHES = [
         "id": "minas",
         "grams": 50,
         "fitGrams": 35,
-        "sub": "Muçarela / Queijo minas",
-        "fitId": "ricota"
-      },
-      {
-        "id": "ovo",
-        "grams": 40,
-        "fitGrams": 40,
         "sub": null,
-        "fitId": null
-      },
-      {
-        "id": "aveia",
-        "grams": 35,
-        "fitGrams": 35,
-        "sub": "Farinha de rosca",
-        "fitId": null
+        "fitId": "ricota"
       },
       {
         "id": "arroz_branco",
         "grams": 100,
         "fitGrams": 80,
-        "sub": "Arroz Integral",
+        "sub": null,
         "fitId": "arroz"
+      },
+      {
+        "id": "batata",
+        "grams": 100,
+        "fitGrams": 80,
+        "sub": null,
+        "fitId": null
       }
     ],
     "steps": {
       "es": [
         {
-          "t": "Corta la pechuga en filetes planos de 1 cm (ábrela en mariposa si es gruesa) y golpéala suave para emparejar el grosor. Sazona con ajo, sal y pimienta.",
+          "t": "Corta la carne en bifes de 1 cm y golpéalos suave para emparejar el grosor. Sazona con ajo, sal y pimienta.",
           "s": null
         },
         {
-          "t": "Prepara 3 platos: harina, huevo batido con una pizca de sal, y avena molida o pan rallado.",
+          "t": "Prepara 3 platos: harina, huevo batido con una pizca de sal, y pan rallado.",
           "s": null
         },
         {
-          "t": "Pasa cada filete por harina, luego por huevo y por último por la avena o pan rallado, presionando bien para que se adhiera.",
+          "t": "Pasa cada bife por harina, luego por huevo y por último por el pan rallado, presionando bien para que se adhiera.",
           "s": null
         },
         {
@@ -3477,15 +3582,15 @@ const CATALOG_DISHES = [
       ],
       "pt": [
         {
-          "t": "Corte o peito em filés finos de 1 cm (abra em borboleta se for grosso) e bata de leve para igualar a espessura. Tempere com alho, sal e pimenta.",
+          "t": "Corte a carne em bifes de 1 cm e bata levemente para igualar a espessura. Tempere com alho, sal e pimenta.",
           "s": null
         },
         {
-          "t": "Prepare 3 pratos: farinha, ovo batido com uma pitada de sal, e aveia ou farinha de rosca.",
+          "t": "Prepare 3 pratos: farinha de trigo, ovo batido com uma pitada de sal e farinha de rosca.",
           "s": null
         },
         {
-          "t": "Passe cada filé na farinha, depois no ovo e por último na aveia ou farinha de rosca, apertando bem para grudar.",
+          "t": "Passe cada bife na farinha, depois no ovo e por último na farinha de rosca, pressionando bem para grudar.",
           "s": null
         },
         {
@@ -3507,15 +3612,15 @@ const CATALOG_DISHES = [
       ],
       "en": [
         {
-          "t": "Cut the breast into flat 1 cm cutlets (butterfly it if thick) and pound gently to even the thickness. Season with garlic, salt and pepper.",
+          "t": "Cut the beef into 1 cm steaks and pound lightly to an even thickness. Season with garlic, salt and pepper.",
           "s": null
         },
         {
-          "t": "Set up 3 plates: flour, egg beaten with a pinch of salt, and ground oats or breadcrumbs.",
+          "t": "Set up 3 plates: flour, egg beaten with a pinch of salt, and breadcrumbs.",
           "s": null
         },
         {
-          "t": "Dredge each cutlet in flour, then egg and finally the oats or breadcrumbs, pressing well so it sticks.",
+          "t": "Dredge each steak in flour, then egg and finally breadcrumbs, pressing well so it sticks.",
           "s": null
         },
         {
@@ -3536,7 +3641,7 @@ const CATALOG_DISHES = [
         }
       ]
     },
-    "videoQuery": "como hacer Filé à Parmegiana Brasileño receta paso a paso"
+    "videoQuery": "como hacer Filé à Parmegiana receta paso a paso"
   },
   {
     "id": "br_22",
@@ -3555,57 +3660,71 @@ const CATALOG_DISHES = [
       "en": "Chilled chicken salad with grated carrot, corn, creamy dressing, and potato sticks."
     },
     "macrosTrad": {
-      "kcal": 436,
-      "p": 60,
-      "c": 25,
-      "f": 10
+      "kcal": 585,
+      "p": 54,
+      "c": 31,
+      "f": 27
     },
     "macrosFit": {
-      "kcal": 417,
-      "p": 62,
-      "c": 24,
-      "f": 8
+      "kcal": 401,
+      "p": 58,
+      "c": 30,
+      "f": 5
     },
     "ingredients": [
       {
         "id": "frango",
-        "grams": 160,
-        "fitGrams": 170,
+        "grams": 150,
+        "fitGrams": 165,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cenoura",
-        "grams": 80,
-        "fitGrams": 90,
+        "grams": 60,
+        "fitGrams": 70,
         "sub": null,
         "fitId": null
       },
       {
         "id": "milho",
-        "grams": 60,
-        "fitGrams": 50,
+        "grams": 50,
+        "fitGrams": 40,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "requeijao",
-        "grams": 40,
-        "fitGrams": 20,
-        "sub": "Iogurte natural + mostarda",
-        "fitId": null
-      },
-      {
-        "id": "iogurte",
+        "id": "arveja",
         "grams": 30,
-        "fitGrams": 50,
+        "fitGrams": 35,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "cebola",
+        "id": "maionesa",
+        "grams": 30,
+        "fitGrams": 15,
+        "sub": null,
+        "fitId": "iogurte"
+      },
+      {
+        "id": "maca",
         "grams": 30,
         "fitGrams": 30,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "batata",
+        "grams": 40,
+        "fitGrams": 30,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "cheiro_verde",
+        "grams": 10,
+        "fitGrams": 10,
         "sub": null,
         "fitId": null
       }
@@ -3629,7 +3748,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Mezcla el requeijão (o mayonesa light) con el yogur natural, sal, pimienta y unas gotas de limón para el aderezo.",
+          "t": "Mezcla la mayonesa con sal, pimienta y unas gotas de limón para el aderezo.",
           "s": null
         },
         {
@@ -3659,7 +3778,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Misture o requeijão (ou maionese light) com o iogurte natural, sal, pimenta e gotas de limão para o molho.",
+          "t": "Misture a maionese com sal, pimenta e gotas de limão para o molho.",
           "s": null
         },
         {
@@ -3689,7 +3808,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Mix the requeijão (or light mayo) with the plain yogurt, salt, pepper and a few drops of lemon for the dressing.",
+          "t": "Mix the mayonnaise with salt, pepper and a few drops of lemon for the dressing.",
           "s": null
         },
         {
@@ -3721,35 +3840,42 @@ const CATALOG_DISHES = [
       "en": "Blended sweet corn & requeijão cream baked over shredded chicken."
     },
     "macrosTrad": {
-      "kcal": 677,
+      "kcal": 704,
       "p": 70,
-      "c": 53,
+      "c": 59,
       "f": 20
     },
     "macrosFit": {
-      "kcal": 590,
+      "kcal": 581,
       "p": 69,
       "c": 45,
-      "f": 15
+      "f": 13
     },
     "ingredients": [
       {
         "id": "frango",
         "grams": 160,
-        "fitGrams": 170,
+        "fitGrams": 175,
         "sub": null,
         "fitId": null
       },
       {
         "id": "milho",
         "grams": 90,
-        "fitGrams": 90,
+        "fitGrams": 70,
         "sub": null,
         "fitId": null
       },
       {
         "id": "requeijao",
         "grams": 50,
+        "fitGrams": 35,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "tomate",
+        "grams": 40,
         "fitGrams": 45,
         "sub": null,
         "fitId": null
@@ -3762,9 +3888,9 @@ const CATALOG_DISHES = [
         "fitId": "ricota"
       },
       {
-        "id": "tomate",
-        "grams": 60,
-        "fitGrams": 60,
+        "id": "batata",
+        "grams": 40,
+        "fitGrams": 30,
         "sub": null,
         "fitId": null
       },
@@ -3772,7 +3898,7 @@ const CATALOG_DISHES = [
         "id": "arroz_branco",
         "grams": 100,
         "fitGrams": 80,
-        "sub": "Arroz Integral",
+        "sub": null,
         "fitId": "arroz"
       }
     ],
@@ -3887,64 +4013,64 @@ const CATALOG_DISHES = [
       "en": "Luso-Brazilian classic of flaked cod, onions, crisp potato, and soft-scrambled eggs."
     },
     "macrosTrad": {
-      "kcal": 718,
+      "kcal": 716,
       "p": 66,
       "c": 35,
       "f": 34
     },
     "macrosFit": {
-      "kcal": 614,
-      "p": 68,
-      "c": 30,
-      "f": 24
+      "kcal": 658,
+      "p": 71,
+      "c": 32,
+      "f": 26
     },
     "ingredients": [
       {
         "id": "bacalhau",
         "grams": 160,
-        "fitGrams": 170,
-        "sub": "Tilápia desfiada",
+        "fitGrams": 175,
+        "sub": null,
         "fitId": null
       },
       {
         "id": "batata",
         "grams": 130,
-        "fitGrams": 100,
+        "fitGrams": 105,
         "sub": null,
         "fitId": null
       },
       {
         "id": "ovo",
         "grams": 120,
-        "fitGrams": 120,
+        "fitGrams": 130,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
         "grams": 90,
-        "fitGrams": 90,
+        "fitGrams": 105,
         "sub": null,
         "fitId": null
       },
       {
         "id": "azeitona",
         "grams": 25,
-        "fitGrams": 20,
+        "fitGrams": 25,
         "sub": null,
         "fitId": null
       },
       {
         "id": "azeite",
         "grams": 18,
-        "fitGrams": 8,
+        "fitGrams": 9,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cheiro_verde",
-        "grams": 15,
-        "fitGrams": 15,
+        "grams": 10,
+        "fitGrams": 10,
         "sub": null,
         "fitId": null
       }
@@ -4050,9 +4176,9 @@ const CATALOG_DISHES = [
     "fav": false,
     "img": "images/br_25.jpg",
     "title": {
-      "es": "Espetinho / Churrasco con Vinagrete y Farofa",
-      "pt": "Espetinho com Vinagrete e Farofa",
-      "en": "Brazilian BBQ Skewers & Vinaigrette"
+      "es": "Picanha a la Parrilla con Vinagrete y Farofa",
+      "pt": "Picanha na Brasa com Vinagrete e Farofa",
+      "en": "Grilled Picanha with Vinaigrette and Farofa"
     },
     "brTip": {
       "es": "Alcatra o patinho sazonado solo con sal gruesa/parrillero, acompañado de vinagrete brasileño.",
@@ -4060,57 +4186,64 @@ const CATALOG_DISHES = [
       "en": "Skewered beef with classic Brazilian tomato-onion vinaigrette and toasted cassava flour."
     },
     "macrosTrad": {
-      "kcal": 671,
-      "p": 67,
-      "c": 41,
-      "f": 26
+      "kcal": 685,
+      "p": 40,
+      "c": 40,
+      "f": 41
     },
     "macrosFit": {
-      "kcal": 594,
-      "p": 69,
-      "c": 28,
-      "f": 22
+      "kcal": 465,
+      "p": 26,
+      "c": 37,
+      "f": 25
     },
     "ingredients": [
       {
-        "id": "patinho",
+        "id": "picanha",
         "grams": 180,
-        "fitGrams": 185,
+        "fitGrams": 110,
         "sub": null,
         "fitId": null
       },
       {
         "id": "tomate",
-        "grams": 90,
-        "fitGrams": 100,
-        "sub": null,
-        "fitId": null
-      },
-      {
-        "id": "pimentao",
-        "grams": 40,
-        "fitGrams": 40,
+        "grams": 80,
+        "fitGrams": 90,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
         "grams": 50,
-        "fitGrams": 50,
+        "fitGrams": 55,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "pimentao",
+        "grams": 30,
+        "fitGrams": 35,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "vinagre",
+        "grams": 10,
+        "fitGrams": 10,
         "sub": null,
         "fitId": null
       },
       {
         "id": "farinha_mandioca",
         "grams": 35,
-        "fitGrams": 20,
+        "fitGrams": 30,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "azeite",
-        "grams": 12,
-        "fitGrams": 8,
+        "id": "manteiga",
+        "grams": 8,
+        "fitGrams": 4,
         "sub": null,
         "fitId": null
       }
@@ -4207,7 +4340,7 @@ const CATALOG_DISHES = [
         }
       ]
     },
-    "videoQuery": "como hacer Espetinho / Churrasco con Vinagrete y Farofa receta paso a paso"
+    "videoQuery": "como hacer Picanha a la Parrilla con Vinagrete y Farofa receta paso a paso"
   },
   {
     "id": "br_26",
@@ -4232,44 +4365,44 @@ const CATALOG_DISHES = [
       "f": 24
     },
     "macrosFit": {
-      "kcal": 366,
+      "kcal": 344,
       "p": 21,
-      "c": 33,
+      "c": 26,
       "f": 17
     },
     "ingredients": [
       {
         "id": "ovo",
         "grams": 120,
-        "fitGrams": 120,
+        "fitGrams": 130,
         "sub": null,
         "fitId": null
       },
       {
         "id": "tapioca",
         "grams": 45,
-        "fitGrams": 45,
+        "fitGrams": 35,
         "sub": null,
         "fitId": null
       },
       {
         "id": "minas",
         "grams": 40,
-        "fitGrams": 35,
-        "sub": "Queijo minas frescal",
+        "fitGrams": 30,
+        "sub": null,
         "fitId": "ricota"
       },
       {
         "id": "tomate",
         "grams": 50,
-        "fitGrams": 60,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
       {
         "id": "azeite",
         "grams": 5,
-        "fitGrams": 3,
+        "fitGrams": 2.5,
         "sub": null,
         "fitId": null
       }
@@ -4391,24 +4524,24 @@ const CATALOG_DISHES = [
       "f": 13
     },
     "macrosFit": {
-      "kcal": 538,
-      "p": 68,
-      "c": 35,
-      "f": 13
+      "kcal": 592,
+      "p": 76,
+      "c": 37,
+      "f": 15
     },
     "ingredients": [
       {
         "id": "patinho",
         "grams": 175,
-        "fitGrams": 175,
+        "fitGrams": 195,
         "sub": null,
         "fitId": null
       },
       {
         "id": "batata",
         "grams": 120,
-        "fitGrams": 90,
-        "sub": "Batata-doce",
+        "fitGrams": 95,
+        "sub": null,
         "fitId": null
       },
       {
@@ -4421,14 +4554,14 @@ const CATALOG_DISHES = [
       {
         "id": "tomate",
         "grams": 80,
-        "fitGrams": 80,
+        "fitGrams": 90,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
         "grams": 60,
-        "fitGrams": 60,
+        "fitGrams": 70,
         "sub": null,
         "fitId": null
       },
@@ -4557,23 +4690,16 @@ const CATALOG_DISHES = [
       "f": 42
     },
     "macrosFit": {
-      "kcal": 538,
-      "p": 51,
-      "c": 41,
-      "f": 18
+      "kcal": 500,
+      "p": 28,
+      "c": 40,
+      "f": 26
     },
     "ingredients": [
       {
         "id": "costelinha",
         "grams": 190,
-        "fitGrams": 0,
-        "sub": "Lombo suíno magro",
-        "fitId": null
-      },
-      {
-        "id": "lombo",
-        "grams": 0,
-        "fitGrams": 175,
+        "fitGrams": 115,
         "sub": null,
         "fitId": null
       },
@@ -4594,14 +4720,14 @@ const CATALOG_DISHES = [
       {
         "id": "mandioca",
         "grams": 120,
-        "fitGrams": 100,
+        "fitGrams": 95,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
         "grams": 50,
-        "fitGrams": 50,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       }
@@ -4717,22 +4843,22 @@ const CATALOG_DISHES = [
       "en": "Pure mashed cassava dough stuffed with savory beef, baked or air-fried."
     },
     "macrosTrad": {
-      "kcal": 568,
+      "kcal": 701,
       "p": 53,
       "c": 58,
-      "f": 13
+      "f": 28
     },
     "macrosFit": {
-      "kcal": 576,
-      "p": 58,
-      "c": 52,
-      "f": 14
+      "kcal": 634,
+      "p": 59,
+      "c": 48,
+      "f": 22
     },
     "ingredients": [
       {
         "id": "mandioca",
         "grams": 170,
-        "fitGrams": 150,
+        "fitGrams": 135,
         "sub": null,
         "fitId": null
       },
@@ -4746,21 +4872,28 @@ const CATALOG_DISHES = [
       {
         "id": "cebola",
         "grams": 40,
-        "fitGrams": 40,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
       {
         "id": "tomate",
         "grams": 50,
-        "fitGrams": 50,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
       {
         "id": "ovo",
         "grams": 30,
-        "fitGrams": 30,
+        "fitGrams": 35,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "azeite",
+        "grams": 15,
+        "fitGrams": 7.5,
         "sub": null,
         "fitId": null
       },
@@ -4883,23 +5016,23 @@ const CATALOG_DISHES = [
       "en": "Baked rice casserole with shredded chicken, veggies, and creamy requeijão."
     },
     "macrosTrad": {
-      "kcal": 642,
-      "p": 64,
-      "c": 52,
+      "kcal": 670,
+      "p": 66,
+      "c": 57,
       "f": 19
     },
     "macrosFit": {
-      "kcal": 555,
-      "p": 64,
-      "c": 43,
-      "f": 13
+      "kcal": 562,
+      "p": 65,
+      "c": 46,
+      "f": 12
     },
     "ingredients": [
       {
         "id": "arroz_branco",
         "grams": 120,
-        "fitGrams": 100,
-        "sub": "Arroz Integral",
+        "fitGrams": 95,
+        "sub": null,
         "fitId": "arroz"
       },
       {
@@ -4911,8 +5044,8 @@ const CATALOG_DISHES = [
       },
       {
         "id": "cenoura",
-        "grams": 60,
-        "fitGrams": 70,
+        "grams": 50,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
@@ -4924,9 +5057,16 @@ const CATALOG_DISHES = [
         "fitId": null
       },
       {
+        "id": "arveja",
+        "grams": 30,
+        "fitGrams": 35,
+        "sub": null,
+        "fitId": null
+      },
+      {
         "id": "requeijao",
         "grams": 45,
-        "fitGrams": 40,
+        "fitGrams": 30,
         "sub": null,
         "fitId": null
       },
@@ -4936,6 +5076,13 @@ const CATALOG_DISHES = [
         "fitGrams": 30,
         "sub": null,
         "fitId": "ricota"
+      },
+      {
+        "id": "tomate",
+        "grams": 40,
+        "fitGrams": 45,
+        "sub": null,
+        "fitId": null
       }
     ],
     "steps": {
@@ -5055,30 +5202,30 @@ const CATALOG_DISHES = [
       "f": 20
     },
     "macrosFit": {
-      "kcal": 544,
-      "p": 58,
-      "c": 29,
-      "f": 22
+      "kcal": 536,
+      "p": 57,
+      "c": 32,
+      "f": 21
     },
     "ingredients": [
       {
         "id": "carne_seca",
         "grams": 130,
-        "fitGrams": 150,
-        "sub": "Patinho desfiado",
+        "fitGrams": 145,
+        "sub": null,
         "fitId": null
       },
       {
         "id": "abobora",
         "grams": 180,
-        "fitGrams": 180,
+        "fitGrams": 205,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
         "grams": 50,
-        "fitGrams": 50,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
@@ -5092,7 +5239,7 @@ const CATALOG_DISHES = [
       {
         "id": "requeijao",
         "grams": 35,
-        "fitGrams": 30,
+        "fitGrams": 25,
         "sub": null,
         "fitId": null
       },
@@ -5215,30 +5362,30 @@ const CATALOG_DISHES = [
       "en": "Brazil's most accessible white fish coated in oat flour or cornmeal."
     },
     "macrosTrad": {
-      "kcal": 442,
-      "p": 44,
-      "c": 54,
-      "f": 7
+      "kcal": 423,
+      "p": 43,
+      "c": 52,
+      "f": 5
     },
     "macrosFit": {
-      "kcal": 449,
+      "kcal": 405,
       "p": 47,
-      "c": 53,
-      "f": 7
+      "c": 44,
+      "f": 5
     },
     "ingredients": [
       {
         "id": "tilapia",
         "grams": 180,
-        "fitGrams": 190,
+        "fitGrams": 200,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "aveia",
-        "grams": 35,
-        "fitGrams": 35,
-        "sub": "Fubá / Farinha de rosca",
+        "id": "pan_rallado",
+        "grams": 30,
+        "fitGrams": 25,
+        "sub": null,
         "fitId": null
       },
       {
@@ -5258,14 +5405,14 @@ const CATALOG_DISHES = [
       {
         "id": "batata_doce",
         "grams": 120,
-        "fitGrams": 110,
+        "fitGrams": 95,
         "sub": null,
         "fitId": null
       },
       {
         "id": "brocolis",
         "grams": 80,
-        "fitGrams": 100,
+        "fitGrams": 90,
         "sub": null,
         "fitId": null
       }
@@ -5281,7 +5428,7 @@ const CATALOG_DISHES = [
           "s": 600
         },
         {
-          "t": "Mezcla la avena molida (o fubá) con orégano y una pizca de sal. Pasa cada filete presionando para que se adhiera por ambos lados.",
+          "t": "Mezcla el pan rallado con orégano y una pizca de sal. Pasa cada filete presionando para que se adhiera por ambos lados.",
           "s": null
         },
         {
@@ -5311,7 +5458,7 @@ const CATALOG_DISHES = [
           "s": 600
         },
         {
-          "t": "Misture a aveia moída (ou fubá) com orégano e uma pitada de sal. Empane cada filé apertando para grudar dos dois lados.",
+          "t": "Misture a farinha de rosca com orégano e uma pitada de sal. Passe cada filé pressionando para grudar dos dois lados.",
           "s": null
         },
         {
@@ -5341,7 +5488,7 @@ const CATALOG_DISHES = [
           "s": 600
         },
         {
-          "t": "Mix the ground oats (or cornmeal) with oregano and a pinch of salt. Press each fillet into it so it coats both sides.",
+          "t": "Mix the breadcrumbs with oregano and a pinch of salt. Press each fillet into it so it coats both sides.",
           "s": null
         },
         {
@@ -5381,36 +5528,29 @@ const CATALOG_DISHES = [
       "en": "São Paulo's iconic hot roast beef, melted cheese, and tomato sandwich."
     },
     "macrosTrad": {
-      "kcal": 711,
+      "kcal": 675,
       "p": 66,
       "c": 42,
-      "f": 30
+      "f": 26
     },
     "macrosFit": {
-      "kcal": 580,
-      "p": 59,
-      "c": 40,
-      "f": 19
+      "kcal": 569,
+      "p": 66,
+      "c": 34,
+      "f": 17
     },
     "ingredients": [
       {
         "id": "patinho",
         "grams": 140,
-        "fitGrams": 150,
+        "fitGrams": 155,
         "sub": null,
         "fitId": null
       },
       {
         "id": "pao",
         "grams": 70,
-        "fitGrams": 0,
-        "sub": "Tapioca / Rap10 integral",
-        "fitId": null
-      },
-      {
-        "id": "tapioca",
-        "grams": 0,
-        "fitGrams": 60,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
@@ -5418,20 +5558,27 @@ const CATALOG_DISHES = [
         "id": "minas",
         "grams": 50,
         "fitGrams": 35,
-        "sub": "Muçarela / Queijo prato",
+        "sub": null,
         "fitId": "ricota"
       },
       {
         "id": "tomate",
-        "grams": 70,
-        "fitGrams": 80,
+        "grams": 50,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "azeite",
-        "grams": 8,
-        "fitGrams": 5,
+        "id": "pepino",
+        "grams": 20,
+        "fitGrams": 25,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "manteiga",
+        "grams": 5,
+        "fitGrams": 2.5,
         "sub": null,
         "fitId": null
       }
@@ -5547,50 +5694,50 @@ const CATALOG_DISHES = [
       "en": "Thin crepes rolled around ground beef and baked in tomato sauce."
     },
     "macrosTrad": {
-      "kcal": 764,
-      "p": 76,
-      "c": 45,
-      "f": 30
+      "kcal": 717,
+      "p": 72,
+      "c": 46,
+      "f": 26
     },
     "macrosFit": {
-      "kcal": 729,
-      "p": 76,
+      "kcal": 667,
+      "p": 74,
       "c": 45,
-      "f": 26
+      "f": 19
     },
     "ingredients": [
       {
         "id": "patinho",
         "grams": 140,
-        "fitGrams": 150,
+        "fitGrams": 155,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "farinha_trigo",
+        "grams": 45,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
       {
         "id": "ovo",
-        "grams": 60,
-        "fitGrams": 60,
-        "sub": null,
-        "fitId": null
-      },
-      {
-        "id": "aveia",
         "grams": 50,
-        "fitGrams": 50,
-        "sub": "Farinha de trigo ou aveia",
+        "fitGrams": 55,
+        "sub": null,
         "fitId": null
       },
       {
         "id": "leite",
         "grams": 100,
-        "fitGrams": 100,
-        "sub": "Leite desnatado",
-        "fitId": null
+        "fitGrams": 70,
+        "sub": null,
+        "fitId": "leite_desnatado"
       },
       {
         "id": "tomate",
         "grams": 120,
-        "fitGrams": 120,
+        "fitGrams": 140,
         "sub": null,
         "fitId": null
       },
@@ -5713,57 +5860,64 @@ const CATALOG_DISHES = [
       "en": "Savory pureed beans thickened with cassava flour, served with pork and egg."
     },
     "macrosTrad": {
-      "kcal": 692,
-      "p": 60,
-      "c": 63,
-      "f": 22
+      "kcal": 790,
+      "p": 62,
+      "c": 61,
+      "f": 32
     },
     "macrosFit": {
-      "kcal": 657,
-      "p": 63,
+      "kcal": 721,
+      "p": 65,
       "c": 49,
-      "f": 23
+      "f": 29
     },
     "ingredients": [
       {
         "id": "feijao",
         "grams": 150,
-        "fitGrams": 140,
+        "fitGrams": 120,
         "sub": null,
         "fitId": null
       },
       {
         "id": "farinha_mandioca",
         "grams": 40,
-        "fitGrams": 25,
+        "fitGrams": 30,
         "sub": null,
         "fitId": null
       },
       {
         "id": "lombo",
         "grams": 150,
-        "fitGrams": 160,
+        "fitGrams": 165,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "panceta",
+        "grams": 20,
+        "fitGrams": 10,
         "sub": null,
         "fitId": null
       },
       {
         "id": "ovo",
         "grams": 60,
-        "fitGrams": 60,
+        "fitGrams": 65,
         "sub": null,
         "fitId": null
       },
       {
         "id": "couve",
         "grams": 60,
-        "fitGrams": 80,
+        "fitGrams": 70,
         "sub": null,
         "fitId": null
       },
       {
         "id": "alho",
-        "grams": 15,
-        "fitGrams": 15,
+        "grams": 10,
+        "fitGrams": 10,
         "sub": null,
         "fitId": null
       }
@@ -5879,57 +6033,71 @@ const CATALOG_DISHES = [
       "en": "Savory molded cornmeal terrine studded with tuna, tomato, corn, and boiled egg."
     },
     "macrosTrad": {
-      "kcal": 460,
-      "p": 49,
-      "c": 44,
+      "kcal": 487,
+      "p": 51,
+      "c": 49,
       "f": 10
     },
     "macrosFit": {
-      "kcal": 445,
-      "p": 51,
-      "c": 39,
-      "f": 10
+      "kcal": 488,
+      "p": 55,
+      "c": 44,
+      "f": 11
     },
     "ingredients": [
       {
         "id": "atum",
         "grams": 140,
-        "fitGrams": 150,
+        "fitGrams": 155,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cuscuz",
         "grams": 100,
-        "fitGrams": 90,
-        "sub": "Farinha de milho amarela",
+        "fitGrams": 80,
+        "sub": null,
         "fitId": null
       },
       {
         "id": "tomate",
         "grams": 100,
-        "fitGrams": 100,
+        "fitGrams": 115,
         "sub": null,
         "fitId": null
       },
       {
         "id": "milho",
-        "grams": 60,
-        "fitGrams": 50,
+        "grams": 50,
+        "fitGrams": 40,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "arveja",
+        "grams": 30,
+        "fitGrams": 35,
         "sub": null,
         "fitId": null
       },
       {
         "id": "ovo",
         "grams": 60,
-        "fitGrams": 60,
+        "fitGrams": 65,
         "sub": null,
         "fitId": null
       },
       {
         "id": "azeitona",
         "grams": 20,
-        "fitGrams": 15,
+        "fitGrams": 20,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "cebola",
+        "grams": 30,
+        "fitGrams": 35,
         "sub": null,
         "fitId": null
       }
@@ -6045,43 +6213,50 @@ const CATALOG_DISHES = [
       "en": "Creamy Brazilian cornmeal topped with rich ground beef tomato sauce."
     },
     "macrosTrad": {
-      "kcal": 579,
-      "p": 66,
-      "c": 34,
+      "kcal": 631,
+      "p": 67,
+      "c": 44,
       "f": 19
     },
     "macrosFit": {
-      "kcal": 527,
-      "p": 66,
-      "c": 30,
+      "kcal": 574,
+      "p": 69,
+      "c": 37,
       "f": 15
     },
     "ingredients": [
       {
         "id": "patinho",
         "grams": 155,
-        "fitGrams": 165,
+        "fitGrams": 170,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "cuscuz",
-        "grams": 85,
-        "fitGrams": 70,
-        "sub": "Fubá mimoso",
+        "id": "fuba",
+        "grams": 40,
+        "fitGrams": 30,
+        "sub": null,
         "fitId": null
       },
       {
         "id": "tomate",
         "grams": 110,
-        "fitGrams": 110,
+        "fitGrams": 125,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
         "grams": 50,
-        "fitGrams": 50,
+        "fitGrams": 55,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "alho",
+        "grams": 10,
+        "fitGrams": 10,
         "sub": null,
         "fitId": null
       },
@@ -6091,13 +6266,6 @@ const CATALOG_DISHES = [
         "fitGrams": 25,
         "sub": null,
         "fitId": "ricota"
-      },
-      {
-        "id": "alho",
-        "grams": 10,
-        "fitGrams": 10,
-        "sub": null,
-        "fitId": null
       }
     ],
     "steps": {
@@ -6217,30 +6385,30 @@ const CATALOG_DISHES = [
       "f": 19
     },
     "macrosFit": {
-      "kcal": 389,
-      "p": 43,
-      "c": 32,
-      "f": 12
+      "kcal": 401,
+      "p": 45,
+      "c": 33,
+      "f": 11
     },
     "ingredients": [
       {
         "id": "tilapia",
         "grams": 180,
-        "fitGrams": 190,
+        "fitGrams": 200,
         "sub": null,
         "fitId": null
       },
       {
         "id": "batata",
         "grams": 130,
-        "fitGrams": 100,
-        "sub": "Batata-doce",
+        "fitGrams": 105,
+        "sub": null,
         "fitId": null
       },
       {
         "id": "tomate",
         "grams": 90,
-        "fitGrams": 100,
+        "fitGrams": 105,
         "sub": null,
         "fitId": null
       },
@@ -6254,14 +6422,14 @@ const CATALOG_DISHES = [
       {
         "id": "cebola",
         "grams": 50,
-        "fitGrams": 50,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
       {
         "id": "azeite",
         "grams": 15,
-        "fitGrams": 8,
+        "fitGrams": 7.5,
         "sub": null,
         "fitId": null
       },
@@ -6384,29 +6552,29 @@ const CATALOG_DISHES = [
       "en": "Toasted cassava flour tossed with scrambled eggs, onion, and caramelized plantain."
     },
     "macrosTrad": {
-      "kcal": 645,
+      "kcal": 625,
       "p": 23,
       "c": 83,
-      "f": 26
+      "f": 24
     },
     "macrosFit": {
-      "kcal": 544,
-      "p": 23,
-      "c": 63,
-      "f": 23
+      "kcal": 545,
+      "p": 24,
+      "c": 69,
+      "f": 20
     },
     "ingredients": [
       {
         "id": "ovo",
         "grams": 150,
-        "fitGrams": 160,
+        "fitGrams": 165,
         "sub": null,
         "fitId": null
       },
       {
         "id": "farinha_mandioca",
         "grams": 50,
-        "fitGrams": 35,
+        "fitGrams": 40,
         "sub": null,
         "fitId": null
       },
@@ -6420,14 +6588,14 @@ const CATALOG_DISHES = [
       {
         "id": "cebola",
         "grams": 60,
-        "fitGrams": 60,
+        "fitGrams": 70,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "azeite",
+        "id": "manteiga",
         "grams": 12,
-        "fitGrams": 8,
+        "fitGrams": 6,
         "sub": null,
         "fitId": null
       },
@@ -6550,57 +6718,57 @@ const CATALOG_DISHES = [
       "en": "Refreshing Brazilian summer salad with firm beans, tuna, and herb vinaigrette."
     },
     "macrosTrad": {
-      "kcal": 418,
-      "p": 44,
-      "c": 30,
+      "kcal": 473,
+      "p": 48,
+      "c": 40,
       "f": 14
     },
     "macrosFit": {
-      "kcal": 396,
-      "p": 47,
-      "c": 30,
-      "f": 10
+      "kcal": 414,
+      "p": 50,
+      "c": 36,
+      "f": 8
     },
     "ingredients": [
       {
-        "id": "atum",
-        "grams": 140,
-        "fitGrams": 150,
+        "id": "feijao_fradinho",
+        "grams": 130,
+        "fitGrams": 105,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "feijao",
-        "grams": 130,
-        "fitGrams": 130,
-        "sub": "Feijão fradinho",
+        "id": "atum",
+        "grams": 140,
+        "fitGrams": 155,
+        "sub": null,
         "fitId": null
       },
       {
         "id": "tomate",
         "grams": 90,
-        "fitGrams": 90,
+        "fitGrams": 105,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
         "grams": 50,
-        "fitGrams": 50,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
       {
         "id": "pimentao",
         "grams": 40,
-        "fitGrams": 50,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
       {
         "id": "azeite",
         "grams": 12,
-        "fitGrams": 8,
+        "fitGrams": 6,
         "sub": null,
         "fitId": null
       },
@@ -6608,6 +6776,13 @@ const CATALOG_DISHES = [
         "id": "limao",
         "grams": 20,
         "fitGrams": 20,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "cheiro_verde",
+        "grams": 10,
+        "fitGrams": 10,
         "sub": null,
         "fitId": null
       }
@@ -6723,62 +6898,89 @@ const CATALOG_DISHES = [
       "en": "In Brazil: tortillas → Rap10 or tapioca; annatto → colorau + smoked paprika."
     },
     "macrosTrad": {
-      "kcal": 559,
-      "p": 49,
-      "c": 45,
-      "f": 20
+      "kcal": 552,
+      "p": 48,
+      "c": 49,
+      "f": 18
     },
     "macrosFit": {
-      "kcal": 533,
-      "p": 47,
-      "c": 49,
-      "f": 16
+      "kcal": 555,
+      "p": 52,
+      "c": 43,
+      "f": 19
     },
     "ingredients": [
       {
         "id": "lombo",
         "grams": 150,
-        "fitGrams": 160,
-        "sub": null,
+        "fitGrams": 165,
+        "sub": {
+          "es": "En Brasil: Pernil ou lombo suíno",
+          "pt": "No Brasil: Pernil ou lombo suíno",
+          "en": "In Brazil: Pernil ou lombo suíno"
+        },
         "fitId": null
       },
       {
-        "id": "rap10",
+        "id": "tortilla_maiz",
         "grams": 70,
-        "fitGrams": 0,
-        "sub": "Goma de tapioca",
+        "fitGrams": 55,
+        "sub": {
+          "es": "En Brasil: Rap10 / tortilha de trigo",
+          "pt": "No Brasil: Rap10 / tortilha de trigo",
+          "en": "In Brazil: Rap10 / tortilha de trigo"
+        },
         "fitId": null
       },
       {
-        "id": "tapioca",
-        "grams": 0,
-        "fitGrams": 65,
+        "id": "abacaxi",
+        "grams": 40,
+        "fitGrams": 40,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "tomate",
-        "grams": 60,
-        "fitGrams": 60,
-        "sub": null,
+        "id": "chile_seco",
+        "grams": 8,
+        "fitGrams": 9,
+        "sub": {
+          "es": "En Brasil: Páprica defumada + pimenta calabresa",
+          "pt": "No Brasil: Páprica defumada + pimenta calabresa",
+          "en": "In Brazil: Páprica defumada + pimenta calabresa"
+        },
+        "fitId": null
+      },
+      {
+        "id": "achiote",
+        "grams": 5,
+        "fitGrams": 5,
+        "sub": {
+          "es": "En Brasil: Colorau (urucum)",
+          "pt": "No Brasil: Colorau (urucum)",
+          "en": "In Brazil: Colorau (urucum)"
+        },
         "fitId": null
       },
       {
         "id": "cebola",
-        "grams": 50,
-        "fitGrams": 50,
-        "sub": null,
-        "fitId": null
-      },
-      {
-        "id": "limao",
-        "grams": 20,
-        "fitGrams": 20,
+        "grams": 40,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cheiro_verde",
+        "grams": 15,
+        "fitGrams": 15,
+        "sub": {
+          "es": "En Brasil: Coentro",
+          "pt": "No Brasil: Coentro",
+          "en": "In Brazil: Coentro"
+        },
+        "fitId": null
+      },
+      {
+        "id": "limao",
         "grams": 15,
         "fitGrams": 15,
         "sub": null,
@@ -6792,7 +6994,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Licúa 2 cdas de pasta de tomate, 2 dientes de ajo, 1 cdta de páprica ahumada, achiote/colorau, orégano, comino, sal y el jugo de naranja o piña hasta tener una pasta roja.",
+          "t": "Hidrata los chiles guajillo en agua caliente y licúalos con el achiote, 2 dientes de ajo, un chorrito de vinagre, orégano, comino, sal y jugo de piña o naranja hasta tener una pasta roja.",
           "s": null
         },
         {
@@ -6808,7 +7010,7 @@ const CATALOG_DISHES = [
           "s": 300
         },
         {
-          "t": "Calienta las tortillas (o los discos de tapioca) en sartén seca por ambos lados.",
+          "t": "Calienta las tortillas de maíz en sartén seca por ambos lados.",
           "s": 60
         },
         {
@@ -6822,7 +7024,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Bata 2 colheres de extrato de tomate, 2 dentes de alho, 1 colher (chá) de páprica defumada, colorau, orégano, cominho, sal e o suco de laranja ou abacaxi até virar uma pasta vermelha.",
+          "t": "Hidrate os chiles guajillo em água quente e bata com o achiote, 2 dentes de alho, um fio de vinagre, orégano, cominho, sal e suco de abacaxi ou laranja até virar uma pasta vermelha.",
           "s": null
         },
         {
@@ -6838,7 +7040,7 @@ const CATALOG_DISHES = [
           "s": 300
         },
         {
-          "t": "Aqueça as tortillas (ou discos de tapioca) em frigideira seca dos dois lados.",
+          "t": "Aqueça as tortilhas de milho em frigideira seca dos dois lados.",
           "s": 60
         },
         {
@@ -6852,7 +7054,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Blend 2 tbsp tomato paste, 2 garlic cloves, 1 tsp smoked paprika, annatto, oregano, cumin, salt and the orange or pineapple juice into a red paste.",
+          "t": "Soak the guajillo chiles in hot water and blend with the achiote, 2 garlic cloves, a splash of vinegar, oregano, cumin, salt and pineapple or orange juice into a red paste.",
           "s": null
         },
         {
@@ -6868,7 +7070,7 @@ const CATALOG_DISHES = [
           "s": 300
         },
         {
-          "t": "Warm the tortillas (or tapioca discs) in a dry pan on both sides.",
+          "t": "Warm the corn tortillas in a dry pan on both sides.",
           "s": 60
         },
         {
@@ -6896,66 +7098,78 @@ const CATALOG_DISHES = [
       "en": "In Brazil: tortilla chips → baked Rap10 triangles; queso fresco → queijo minas."
     },
     "macrosTrad": {
-      "kcal": 628,
-      "p": 62,
-      "c": 48,
-      "f": 20
+      "kcal": 597,
+      "p": 57,
+      "c": 44,
+      "f": 21
     },
     "macrosFit": {
-      "kcal": 523,
+      "kcal": 464,
       "p": 59,
-      "c": 47,
-      "f": 10
+      "c": 39,
+      "f": 8
     },
     "ingredients": [
       {
-        "id": "rap10",
+        "id": "tortilla_maiz",
         "grams": 75,
-        "fitGrams": 0,
-        "sub": "Rap10 integral assado",
-        "fitId": null
-      },
-      {
-        "id": "tapioca",
-        "grams": 0,
         "fitGrams": 60,
-        "sub": null,
+        "sub": {
+          "es": "En Brasil: Rap10 em triângulos assado",
+          "pt": "No Brasil: Rap10 em triângulos assado",
+          "en": "In Brazil: Rap10 em triângulos assado"
+        },
         "fitId": null
       },
       {
         "id": "frango",
         "grams": 140,
-        "fitGrams": 160,
+        "fitGrams": 155,
         "sub": null,
         "fitId": null
       },
       {
         "id": "tomate",
         "grams": 120,
-        "fitGrams": 120,
+        "fitGrams": 140,
         "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "chile",
+        "grams": 15,
+        "fitGrams": 15,
+        "sub": {
+          "es": "En Brasil: Pimenta dedo-de-moça",
+          "pt": "No Brasil: Pimenta dedo-de-moça",
+          "en": "In Brazil: Pimenta dedo-de-moça"
+        },
         "fitId": null
       },
       {
         "id": "cebola",
-        "grams": 40,
-        "fitGrams": 40,
+        "grams": 30,
+        "fitGrams": 35,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "minas",
-        "grams": 40,
-        "fitGrams": 30,
-        "sub": null,
+        "id": "queso_fresco",
+        "grams": 35,
+        "fitGrams": 25,
+        "sub": {
+          "es": "En Brasil: Queijo minas frescal",
+          "pt": "No Brasil: Queijo minas frescal",
+          "en": "In Brazil: Queijo minas frescal"
+        },
         "fitId": "ricota"
       },
       {
-        "id": "requeijao",
+        "id": "creme_leite",
         "grams": 25,
-        "fitGrams": 25,
+        "fitGrams": 20,
         "sub": null,
-        "fitId": null
+        "fitId": "iogurte"
       }
     ],
     "steps": {
@@ -6965,7 +7179,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Corta las tortillas o el Rap10 en triángulos y hornéalos (o airfryer a 180 °C) hasta que estén crocantes como nachos.",
+          "t": "Corta las tortillas de maíz en triángulos y hornéalas (o airfryer a 180 °C) hasta que estén crocantes como totopos.",
           "s": 360
         },
         {
@@ -6985,7 +7199,7 @@ const CATALOG_DISHES = [
           "s": 20
         },
         {
-          "t": "Sirve de inmediato con el pollo desmenuzado, el queso desmoronado, el requeijão (o crema) y aros de cebolla.",
+          "t": "Sirve de inmediato con el pollo desmenuzado, el queso fresco desmoronado, la crema y aros de cebolla.",
           "s": null
         }
       ],
@@ -6995,7 +7209,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Corte as tortillas ou Rap10 em triângulos e asse (ou airfryer a 180 °C) até ficarem crocantes como nachos.",
+          "t": "Corte as tortilhas de milho em triângulos e asse (ou airfryer a 180 °C) até ficarem crocantes como totopos.",
           "s": 360
         },
         {
@@ -7015,7 +7229,7 @@ const CATALOG_DISHES = [
           "s": 20
         },
         {
-          "t": "Sirva na hora com o frango desfiado, o queijo esfarelado, o requeijão (ou creme) e rodelas de cebola.",
+          "t": "Sirva na hora com o frango desfiado, o queijo fresco esfarelado, o creme e anéis de cebola.",
           "s": null
         }
       ],
@@ -7025,7 +7239,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Cut the tortillas or wraps into triangles and bake (or air-fry at 180 °C) until crisp like chips.",
+          "t": "Cut the corn tortillas into triangles and bake (or air-fry at 180 °C) until crisp like chips.",
           "s": 360
         },
         {
@@ -7045,7 +7259,7 @@ const CATALOG_DISHES = [
           "s": 20
         },
         {
-          "t": "Serve at once with the shredded chicken, crumbled cheese, requeijão (or crema) and onion rings.",
+          "t": "Serve right away with the shredded chicken, crumbled queso fresco, crema and onion rings.",
           "s": null
         }
       ]
@@ -7069,16 +7283,16 @@ const CATALOG_DISHES = [
       "en": "Guajillo chili sub → smoked paprika + tomato paste + Brazilian chili."
     },
     "macrosTrad": {
-      "kcal": 661,
-      "p": 66,
-      "c": 49,
-      "f": 21
+      "kcal": 653,
+      "p": 62,
+      "c": 48,
+      "f": 23
     },
     "macrosFit": {
-      "kcal": 547,
-      "p": 61,
-      "c": 51,
-      "f": 10
+      "kcal": 512,
+      "p": 64,
+      "c": 43,
+      "f": 9
     },
     "ingredients": [
       {
@@ -7089,46 +7303,58 @@ const CATALOG_DISHES = [
         "fitId": null
       },
       {
-        "id": "rap10",
+        "id": "tortilla_maiz",
         "grams": 75,
-        "fitGrams": 0,
-        "sub": "Rap10 / Tapioca",
+        "fitGrams": 60,
+        "sub": {
+          "es": "En Brasil: Rap10 / tortilha de trigo",
+          "pt": "No Brasil: Rap10 / tortilha de trigo",
+          "en": "In Brazil: Rap10 / tortilha de trigo"
+        },
         "fitId": null
       },
       {
-        "id": "tapioca",
-        "grams": 0,
-        "fitGrams": 65,
-        "sub": null,
+        "id": "chile_seco",
+        "grams": 10,
+        "fitGrams": 10,
+        "sub": {
+          "es": "En Brasil: Páprica defumada + pimenta calabresa",
+          "pt": "No Brasil: Páprica defumada + pimenta calabresa",
+          "en": "In Brazil: Páprica defumada + pimenta calabresa"
+        },
         "fitId": null
       },
       {
         "id": "tomate",
-        "grams": 130,
-        "fitGrams": 130,
+        "grams": 100,
+        "fitGrams": 115,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
-        "grams": 45,
+        "grams": 40,
         "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "minas",
-        "grams": 45,
+        "id": "queso_fresco",
+        "grams": 40,
         "fitGrams": 30,
-        "sub": null,
+        "sub": {
+          "es": "En Brasil: Queijo minas frescal",
+          "pt": "No Brasil: Queijo minas frescal",
+          "en": "In Brazil: Queijo minas frescal"
+        },
         "fitId": "ricota"
       },
       {
-        "id": "requeijao",
+        "id": "creme_leite",
         "grams": 25,
-        "fitGrams": 25,
+        "fitGrams": 20,
         "sub": null,
-        "fitId": null
+        "fitId": "iogurte"
       }
     ],
     "steps": {
@@ -7142,7 +7368,7 @@ const CATALOG_DISHES = [
           "s": 480
         },
         {
-          "t": "Licúalos con el ajo, un trozo de cebolla, páprica ahumada, comino, una pizca de chile y sal.",
+          "t": "Hidrata los chiles guajillo en agua caliente y licúalos con los tomates, el ajo, un trozo de cebolla, comino y sal; cuela.",
           "s": null
         },
         {
@@ -7158,7 +7384,7 @@ const CATALOG_DISHES = [
           "s": 480
         },
         {
-          "t": "Sirve con requeijão o crema, cebolla en aros y cilantro.",
+          "t": "Sirve con crema, cebolla en aros y cilantro.",
           "s": null
         }
       ],
@@ -7172,7 +7398,7 @@ const CATALOG_DISHES = [
           "s": 480
         },
         {
-          "t": "Bata com o alho, um pedaço de cebola, páprica defumada, cominho, uma pitada de pimenta e sal.",
+          "t": "Hidrate os chiles guajillo em água quente e bata com os tomates, o alho, um pedaço de cebola, cominho e sal; coe.",
           "s": null
         },
         {
@@ -7188,7 +7414,7 @@ const CATALOG_DISHES = [
           "s": 480
         },
         {
-          "t": "Sirva com requeijão ou creme, cebola em rodelas e coentro.",
+          "t": "Sirva com creme, cebola em anéis e coentro.",
           "s": null
         }
       ],
@@ -7202,7 +7428,7 @@ const CATALOG_DISHES = [
           "s": 480
         },
         {
-          "t": "Blend them with the garlic, a piece of onion, smoked paprika, cumin, a pinch of chili and salt.",
+          "t": "Soak the guajillo chiles in hot water and blend with the tomatoes, garlic, a piece of onion, cumin and salt; strain.",
           "s": null
         },
         {
@@ -7218,7 +7444,7 @@ const CATALOG_DISHES = [
           "s": 480
         },
         {
-          "t": "Serve with requeijão or crema, onion rings and cilantro.",
+          "t": "Serve with crema, onion rings and cilantro.",
           "s": null
         }
       ]
@@ -7242,15 +7468,15 @@ const CATALOG_DISHES = [
       "en": "Hominy corn is sold in every Brazilian supermarket as 'milho para canjica branca'!"
     },
     "macrosTrad": {
-      "kcal": 499,
-      "p": 49,
-      "c": 41,
+      "kcal": 476,
+      "p": 47,
+      "c": 33,
       "f": 17
     },
     "macrosFit": {
-      "kcal": 511,
-      "p": 53,
-      "c": 37,
+      "kcal": 501,
+      "p": 51,
+      "c": 31,
       "f": 18
     },
     "ingredients": [
@@ -7258,41 +7484,53 @@ const CATALOG_DISHES = [
         "id": "lombo",
         "grams": 150,
         "fitGrams": 165,
-        "sub": null,
+        "sub": {
+          "es": "En Brasil: Pernil ou lombo suíno",
+          "pt": "No Brasil: Pernil ou lombo suíno",
+          "en": "In Brazil: Pernil ou lombo suíno"
+        },
         "fitId": null
       },
       {
-        "id": "milho",
+        "id": "mote",
         "grams": 130,
-        "fitGrams": 110,
-        "sub": "Canjica branca cozida",
+        "fitGrams": 105,
+        "sub": {
+          "es": "En Brasil: Canjica branca",
+          "pt": "No Brasil: Canjica branca",
+          "en": "In Brazil: Canjica branca"
+        },
         "fitId": null
       },
       {
-        "id": "tomate",
-        "grams": 90,
-        "fitGrams": 90,
-        "sub": null,
+        "id": "chile_seco",
+        "grams": 12,
+        "fitGrams": 15,
+        "sub": {
+          "es": "En Brasil: Páprica defumada + pimenta calabresa",
+          "pt": "No Brasil: Páprica defumada + pimenta calabresa",
+          "en": "In Brazil: Páprica defumada + pimenta calabresa"
+        },
         "fitId": null
       },
       {
         "id": "cebola",
-        "grams": 50,
-        "fitGrams": 50,
+        "grams": 40,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
       {
         "id": "alho",
-        "grams": 15,
-        "fitGrams": 15,
+        "grams": 10,
+        "fitGrams": 10,
         "sub": null,
         "fitId": null
       },
       {
         "id": "limao",
-        "grams": 20,
-        "fitGrams": 20,
+        "grams": 15,
+        "fitGrams": 15,
         "sub": null,
         "fitId": null
       }
@@ -7312,7 +7550,7 @@ const CATALOG_DISHES = [
           "s": 1500
         },
         {
-          "t": "Licúa el tomate con ajo, páprica ahumada y chile suave.",
+          "t": "Hidrata los chiles guajillo en agua caliente y licúalos con ajo y un trozo de cebolla; cuela la salsa.",
           "s": null
         },
         {
@@ -7342,7 +7580,7 @@ const CATALOG_DISHES = [
           "s": 1500
         },
         {
-          "t": "Bata o tomate com alho, páprica defumada e pimenta suave.",
+          "t": "Hidrate os chiles guajillo em água quente e bata com alho e um pedaço de cebola; coe o molho.",
           "s": null
         },
         {
@@ -7372,7 +7610,7 @@ const CATALOG_DISHES = [
           "s": 1500
         },
         {
-          "t": "Blend the tomato with garlic, smoked paprika and mild chili.",
+          "t": "Soak the guajillo chiles in hot water and blend with garlic and a piece of onion; strain the sauce.",
           "s": null
         },
         {
@@ -7403,21 +7641,21 @@ const CATALOG_DISHES = [
       "en": "Mexican Beef Quesadillas"
     },
     "brTip": {
-      "es": "En Brasil usa Rap10 (o tapioca) con muçarela rallada o queijo coalho rallado en lugar de queso Oaxaca.",
-      "pt": "Use Rap10 ou tapioca com muçarela/queijo coalho no lugar do queijo Oaxaca.",
-      "en": "Use Rap10 or tapioca with shredded mozzarella or queijo coalho."
+      "es": "Original con queso Oaxaca o Chihuahua, que se derrite en hilos. En Brasil: muçarela o queijo minas padrão.",
+      "pt": "Original com queijo Oaxaca ou Chihuahua, que derrete em fios. No Brasil: muçarela ou queijo minas padrão.",
+      "en": "Made with Oaxaca or Chihuahua cheese, which melts into strings. In Brazil: mozzarella or minas padrão cheese."
     },
     "macrosTrad": {
-      "kcal": 671,
-      "p": 64,
-      "c": 43,
-      "f": 26
+      "kcal": 617,
+      "p": 63,
+      "c": 38,
+      "f": 23
     },
     "macrosFit": {
-      "kcal": 548,
-      "p": 59,
-      "c": 43,
-      "f": 14
+      "kcal": 531,
+      "p": 63,
+      "c": 32,
+      "f": 16
     },
     "ingredients": [
       {
@@ -7428,37 +7666,49 @@ const CATALOG_DISHES = [
         "fitId": null
       },
       {
-        "id": "rap10",
+        "id": "tortilla_maiz",
         "grams": 70,
-        "fitGrams": 0,
-        "sub": "Rap10 / Tapioca",
-        "fitId": null
-      },
-      {
-        "id": "tapioca",
-        "grams": 0,
-        "fitGrams": 60,
-        "sub": null,
+        "fitGrams": 55,
+        "sub": {
+          "es": "En Brasil: Rap10 / tortilha de trigo",
+          "pt": "No Brasil: Rap10 / tortilha de trigo",
+          "en": "In Brazil: Rap10 / tortilha de trigo"
+        },
         "fitId": null
       },
       {
         "id": "minas",
         "grams": 55,
-        "fitGrams": 35,
-        "sub": "Muçarela / Queijo minas",
+        "fitGrams": 40,
+        "sub": {
+          "es": "En Brasil: Muçarela (queijo Oaxaca)",
+          "pt": "No Brasil: Muçarela (queijo Oaxaca)",
+          "en": "In Brazil: Muçarela (queijo Oaxaca)"
+        },
         "fitId": "ricota"
       },
       {
         "id": "tomate",
-        "grams": 60,
-        "fitGrams": 60,
+        "grams": 50,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
       {
+        "id": "chile",
+        "grams": 10,
+        "fitGrams": 10,
+        "sub": {
+          "es": "En Brasil: Pimenta dedo-de-moça",
+          "pt": "No Brasil: Pimenta dedo-de-moça",
+          "en": "In Brazil: Pimenta dedo-de-moça"
+        },
+        "fitId": null
+      },
+      {
         "id": "cebola",
-        "grams": 40,
-        "fitGrams": 40,
+        "grams": 30,
+        "fitGrams": 35,
         "sub": null,
         "fitId": null
       }
@@ -7574,16 +7824,16 @@ const CATALOG_DISHES = [
       "en": "With colorful Brazilian bell peppers, Rap10, and light requeijão."
     },
     "macrosTrad": {
-      "kcal": 554,
-      "p": 61,
-      "c": 49,
-      "f": 12
+      "kcal": 632,
+      "p": 59,
+      "c": 52,
+      "f": 21
     },
     "macrosFit": {
-      "kcal": 521,
-      "p": 61,
-      "c": 50,
-      "f": 8
+      "kcal": 574,
+      "p": 64,
+      "c": 46,
+      "f": 15
     },
     "ingredients": [
       {
@@ -7596,37 +7846,37 @@ const CATALOG_DISHES = [
       {
         "id": "pimentao",
         "grams": 90,
-        "fitGrams": 100,
+        "fitGrams": 105,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
         "grams": 70,
-        "fitGrams": 70,
+        "fitGrams": 80,
         "sub": null,
         "fitId": null
       },
       {
         "id": "rap10",
         "grams": 70,
-        "fitGrams": 0,
-        "sub": "Goma de tapioca",
-        "fitId": null
-      },
-      {
-        "id": "tapioca",
-        "grams": 0,
-        "fitGrams": 60,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "requeijao",
-        "grams": 25,
-        "fitGrams": 25,
+        "id": "abacate",
+        "grams": 40,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
+      },
+      {
+        "id": "creme_leite",
+        "grams": 20,
+        "fitGrams": 15,
+        "sub": null,
+        "fitId": "iogurte"
       },
       {
         "id": "limao",
@@ -7663,7 +7913,7 @@ const CATALOG_DISHES = [
           "s": 60
         },
         {
-          "t": "Sirve en la sartén caliente con las tortillas, requeijão o crema y limón.",
+          "t": "Sirve en la sartén caliente con las tortillas, crema agria y limón.",
           "s": null
         }
       ],
@@ -7693,7 +7943,7 @@ const CATALOG_DISHES = [
           "s": 60
         },
         {
-          "t": "Sirva na frigideira quente com as tortillas, requeijão ou creme e limão.",
+          "t": "Sirva na frigideira quente com as tortilhas, creme azedo e limão.",
           "s": null
         }
       ],
@@ -7723,7 +7973,7 @@ const CATALOG_DISHES = [
           "s": 60
         },
         {
-          "t": "Serve in the hot pan with the tortillas, requeijão or crema and lime.",
+          "t": "Serve in the hot pan with the tortillas, sour cream and lime.",
           "s": null
         }
       ]
@@ -7742,21 +7992,21 @@ const CATALOG_DISHES = [
       "en": "Smoky Chicken Tinga"
     },
     "brTip": {
-      "es": "Sin chipotle en lata: usa páprica defumada + extrato de tomate + pimenta dedo-de-moça (da el mismo sabor ahumado!).",
-      "pt": "Sem chipotle: páprica defumada + tomate + pimenta dedo-de-moça dá o mesmo sabor defumado!",
-      "en": "No canned chipotle needed: smoked paprika + tomato + Brazilian chili nails the smoky flavor."
+      "es": "Original con chiles chipotle en adobo, que dan el sabor ahumado. En Brasil, si no los encuentras: páprica defumada + extrato de tomate + pimenta dedo-de-moça.",
+      "pt": "Original com chiles chipotle em adobo, que dão o sabor defumado. No Brasil, se não achar: páprica defumada + extrato de tomate + pimenta dedo-de-moça.",
+      "en": "Made with chipotle chiles in adobo for the smoky flavor. In Brazil, if unavailable: smoked paprika + tomato paste + red chili."
     },
     "macrosTrad": {
-      "kcal": 492,
-      "p": 59,
+      "kcal": 572,
+      "p": 62,
       "c": 43,
-      "f": 8
+      "f": 17
     },
     "macrosFit": {
-      "kcal": 485,
-      "p": 64,
-      "c": 36,
-      "f": 9
+      "kcal": 493,
+      "p": 65,
+      "c": 40,
+      "f": 8
     },
     "ingredients": [
       {
@@ -7769,14 +8019,14 @@ const CATALOG_DISHES = [
       {
         "id": "tomate",
         "grams": 130,
-        "fitGrams": 130,
+        "fitGrams": 150,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
         "grams": 70,
-        "fitGrams": 70,
+        "fitGrams": 80,
         "sub": null,
         "fitId": null
       },
@@ -7788,18 +8038,44 @@ const CATALOG_DISHES = [
         "fitId": null
       },
       {
-        "id": "arroz_branco",
-        "grams": 100,
-        "fitGrams": 80,
-        "sub": "Arroz Integral",
-        "fitId": "arroz"
+        "id": "chile_seco",
+        "grams": 10,
+        "fitGrams": 10,
+        "sub": {
+          "es": "En Brasil: Páprica defumada (chipotle)",
+          "pt": "No Brasil: Páprica defumada (chipotle)",
+          "en": "In Brazil: Páprica defumada (chipotle)"
+        },
+        "fitId": null
       },
       {
-        "id": "requeijao",
-        "grams": 25,
-        "fitGrams": 25,
-        "sub": null,
+        "id": "tortilla_maiz",
+        "grams": 50,
+        "fitGrams": 40,
+        "sub": {
+          "es": "En Brasil: Rap10 assado (tostada)",
+          "pt": "No Brasil: Rap10 assado (tostada)",
+          "en": "In Brazil: Rap10 assado (tostada)"
+        },
         "fitId": null
+      },
+      {
+        "id": "creme_leite",
+        "grams": 20,
+        "fitGrams": 15,
+        "sub": null,
+        "fitId": "iogurte"
+      },
+      {
+        "id": "queso_fresco",
+        "grams": 20,
+        "fitGrams": 15,
+        "sub": {
+          "es": "En Brasil: Queijo minas frescal",
+          "pt": "No Brasil: Queijo minas frescal",
+          "en": "In Brazil: Queijo minas frescal"
+        },
+        "fitId": "ricota"
       }
     ],
     "steps": {
@@ -7809,11 +8085,11 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Cocina el arroz si no lo tienes listo.",
-          "s": 1080
+          "t": "Tuesta las tortillas de maíz en el horno o en sartén seca hasta que queden rígidas y crocantes (tostadas).",
+          "s": 300
         },
         {
-          "t": "Licúa los tomates con 1 diente de ajo, 1 cdta generosa de páprica ahumada (o chipotle si tienes), chile al gusto y un chorrito del caldo.",
+          "t": "Licúa los tomates con 1 diente de ajo, los chiles chipotle en adobo y un chorrito del caldo.",
           "s": null
         },
         {
@@ -7829,7 +8105,7 @@ const CATALOG_DISHES = [
           "s": 300
         },
         {
-          "t": "Sirve sobre arroz, en tostadas o tacos, con un poco de requeijão o crema.",
+          "t": "Sirve la tinga sobre las tostadas con crema y queso fresco desmoronado.",
           "s": null
         }
       ],
@@ -7839,11 +8115,11 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Cozinhe o arroz se não tiver pronto.",
-          "s": 1080
+          "t": "Toste as tortilhas de milho no forno ou em frigideira seca até ficarem rígidas e crocantes (tostadas).",
+          "s": 300
         },
         {
-          "t": "Bata os tomates com 1 dente de alho, 1 colher (chá) cheia de páprica defumada (ou chipotle se tiver), pimenta a gosto e um pouco do caldo.",
+          "t": "Bata os tomates com 1 dente de alho, os chiles chipotle em adobo e um pouco do caldo.",
           "s": null
         },
         {
@@ -7859,7 +8135,7 @@ const CATALOG_DISHES = [
           "s": 300
         },
         {
-          "t": "Sirva sobre arroz, em tostadas ou tacos, com um pouco de requeijão ou creme.",
+          "t": "Sirva a tinga sobre as tostadas com creme e queijo fresco esfarelado.",
           "s": null
         }
       ],
@@ -7869,11 +8145,11 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Cook the rice if not ready.",
-          "s": 1080
+          "t": "Toast the corn tortillas in the oven or a dry pan until rigid and crisp (tostadas).",
+          "s": 300
         },
         {
-          "t": "Blend the tomatoes with 1 garlic clove, 1 heaped tsp smoked paprika (or chipotle if you have it), chili to taste and a splash of broth.",
+          "t": "Blend the tomatoes with 1 garlic clove, the chipotle chiles in adobo and a splash of broth.",
           "s": null
         },
         {
@@ -7889,7 +8165,7 @@ const CATALOG_DISHES = [
           "s": 300
         },
         {
-          "t": "Serve over rice, on tostadas or in tacos, with a little requeijão or crema.",
+          "t": "Serve the tinga on the tostadas with crema and crumbled queso fresco.",
           "s": null
         }
       ]
@@ -7908,71 +8184,90 @@ const CATALOG_DISHES = [
       "en": "Huevos Rancheros"
     },
     "brTip": {
-      "es": "Con feijão carioca amassado como frijoles refritos, tortilha/Rap10 y queijo minas.",
-      "pt": "Use feijão carioca amassado com alho, Rap10/tortilha e queijo minas.",
-      "en": "Served with mashed Brazilian carioca beans, tortilla, and Minas cheese."
+      "es": "Frijoles refritos, tortillas de maíz, salsa ranchera y queso fresco. En Brasil: feijão carioca amassado y queijo minas frescal.",
+      "pt": "Feijão refrito, tortilhas de milho, molho ranchero e queijo fresco. No Brasil: feijão carioca amassado e queijo minas frescal.",
+      "en": "Refried beans, corn tortillas, ranchera sauce and queso fresco. In Brazil: mashed carioca beans and minas frescal cheese."
     },
     "macrosTrad": {
-      "kcal": 549,
-      "p": 32,
-      "c": 57,
-      "f": 22
+      "kcal": 553,
+      "p": 30,
+      "c": 51,
+      "f": 27
     },
     "macrosFit": {
-      "kcal": 449,
-      "p": 25,
-      "c": 57,
-      "f": 13
+      "kcal": 458,
+      "p": 28,
+      "c": 45,
+      "f": 19
     },
     "ingredients": [
       {
         "id": "ovo",
         "grams": 120,
-        "fitGrams": 120,
+        "fitGrams": 130,
         "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "tortilla_maiz",
+        "grams": 60,
+        "fitGrams": 50,
+        "sub": {
+          "es": "En Brasil: Rap10 / tortilha de trigo",
+          "pt": "No Brasil: Rap10 / tortilha de trigo",
+          "en": "In Brazil: Rap10 / tortilha de trigo"
+        },
         "fitId": null
       },
       {
         "id": "feijao",
         "grams": 100,
-        "fitGrams": 100,
-        "sub": null,
-        "fitId": null
-      },
-      {
-        "id": "rap10",
-        "grams": 65,
-        "fitGrams": 0,
-        "sub": "Tapioca",
-        "fitId": null
-      },
-      {
-        "id": "tapioca",
-        "grams": 0,
-        "fitGrams": 55,
+        "fitGrams": 80,
         "sub": null,
         "fitId": null
       },
       {
         "id": "tomate",
         "grams": 100,
-        "fitGrams": 100,
+        "fitGrams": 115,
         "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "chile",
+        "grams": 15,
+        "fitGrams": 15,
+        "sub": {
+          "es": "En Brasil: Pimenta dedo-de-moça",
+          "pt": "No Brasil: Pimenta dedo-de-moça",
+          "en": "In Brazil: Pimenta dedo-de-moça"
+        },
         "fitId": null
       },
       {
         "id": "cebola",
-        "grams": 40,
-        "fitGrams": 40,
+        "grams": 30,
+        "fitGrams": 35,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "minas",
-        "grams": 30,
-        "fitGrams": 25,
-        "sub": null,
+        "id": "queso_fresco",
+        "grams": 25,
+        "fitGrams": 20,
+        "sub": {
+          "es": "En Brasil: Queijo minas frescal",
+          "pt": "No Brasil: Queijo minas frescal",
+          "en": "In Brazil: Queijo minas frescal"
+        },
         "fitId": "ricota"
+      },
+      {
+        "id": "azeite",
+        "grams": 8,
+        "fitGrams": 4,
+        "sub": null,
+        "fitId": null
       }
     ],
     "steps": {
@@ -8086,16 +8381,16 @@ const CATALOG_DISHES = [
       "en": "Easy in Brazil with rice, black beans, vinaigrette, and avocado."
     },
     "macrosTrad": {
-      "kcal": 627,
-      "p": 61,
-      "c": 52,
+      "kcal": 667,
+      "p": 62,
+      "c": 60,
       "f": 19
     },
     "macrosFit": {
-      "kcal": 614,
+      "kcal": 653,
       "p": 66,
-      "c": 44,
-      "f": 19
+      "c": 49,
+      "f": 22
     },
     "ingredients": [
       {
@@ -8109,13 +8404,13 @@ const CATALOG_DISHES = [
         "id": "arroz_branco",
         "grams": 110,
         "fitGrams": 90,
-        "sub": "Arroz Integral",
+        "sub": null,
         "fitId": "arroz"
       },
       {
         "id": "feijao_preto",
         "grams": 90,
-        "fitGrams": 90,
+        "fitGrams": 70,
         "sub": null,
         "fitId": null
       },
@@ -8129,14 +8424,28 @@ const CATALOG_DISHES = [
       {
         "id": "abacate",
         "grams": 50,
-        "fitGrams": 40,
+        "fitGrams": 55,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "milho",
+        "grams": 40,
+        "fitGrams": 30,
         "sub": null,
         "fitId": null
       },
       {
         "id": "limao",
-        "grams": 15,
-        "fitGrams": 15,
+        "grams": 10,
+        "fitGrams": 10,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "cheiro_verde",
+        "grams": 10,
+        "fitGrams": 10,
         "sub": null,
         "fitId": null
       }
@@ -8242,9 +8551,9 @@ const CATALOG_DISHES = [
     "fav": false,
     "img": "images/mx_10.jpg",
     "title": {
-      "es": "Aguachile Verde de Pescado/Camarón",
-      "pt": "Aguachile Verde de Peixe/Camarão",
-      "en": "Mexican Green Aguachile"
+      "es": "Aguachile Verde de Camarón",
+      "pt": "Aguachile Verde de Camarão",
+      "en": "Green Shrimp Aguachile"
     },
     "brTip": {
       "es": "Plato frío refrescante: tilápia o camarão crudo/blanqueado marinado al momento en limón, pepino y pimenta verde.",
@@ -8252,23 +8561,23 @@ const CATALOG_DISHES = [
       "en": "Zesty cold seafood dish cured in blended lime, cucumber, cilantro, and chili."
     },
     "macrosTrad": {
-      "kcal": 266,
-      "p": 35,
-      "c": 16,
-      "f": 9
+      "kcal": 252,
+      "p": 31,
+      "c": 18,
+      "f": 8
     },
     "macrosFit": {
-      "kcal": 266,
-      "p": 38,
-      "c": 15,
-      "f": 8
+      "kcal": 278,
+      "p": 34,
+      "c": 19,
+      "f": 9
     },
     "ingredients": [
       {
-        "id": "tilapia",
+        "id": "camarao",
         "grams": 160,
         "fitGrams": 175,
-        "sub": "Camarão ou tilápia fresca",
+        "sub": null,
         "fitId": null
       },
       {
@@ -8286,23 +8595,42 @@ const CATALOG_DISHES = [
         "fitId": null
       },
       {
+        "id": "chile",
+        "grams": 20,
+        "fitGrams": 25,
+        "sub": {
+          "es": "En Brasil: Pimenta dedo-de-moça",
+          "pt": "No Brasil: Pimenta dedo-de-moça",
+          "en": "In Brazil: Pimenta dedo-de-moça"
+        },
+        "fitId": null
+      },
+      {
         "id": "cebola",
-        "grams": 45,
+        "grams": 40,
         "fitGrams": 45,
-        "sub": null,
+        "sub": {
+          "es": "En Brasil: Cebola roxa",
+          "pt": "No Brasil: Cebola roxa",
+          "en": "In Brazil: Cebola roxa"
+        },
         "fitId": null
       },
       {
         "id": "cheiro_verde",
         "grams": 15,
         "fitGrams": 15,
-        "sub": "Coentro fresco",
+        "sub": {
+          "es": "En Brasil: Coentro",
+          "pt": "No Brasil: Coentro",
+          "en": "In Brazil: Coentro"
+        },
         "fitId": null
       },
       {
         "id": "abacate",
         "grams": 40,
-        "fitGrams": 30,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       }
@@ -8310,11 +8638,11 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Usa pescado o camarón muy fresco y bien frío. Si prefieres no comerlo crudo, blanquea el camarón 30 segundos en agua hirviendo y pásalo a agua con hielo.",
+          "t": "Usa camarón muy fresco y bien frío. Si prefieres no comerlo crudo, blanquéalo 30 segundos en agua hirviendo y pásalo a agua con hielo.",
           "s": null
         },
         {
-          "t": "Corta el pescado en láminas delgadas (o abre los camarones en mariposa) y guárdalo en la nevera mientras preparas lo demás.",
+          "t": "Abre los camarones en mariposa y guárdalos en la nevera mientras preparas lo demás.",
           "s": null
         },
         {
@@ -8326,7 +8654,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Acomoda el pescado en un plato frío con el pepino y la cebolla.",
+          "t": "Acomoda los camarones en un plato frío con el pepino y la cebolla.",
           "s": null
         },
         {
@@ -8340,11 +8668,11 @@ const CATALOG_DISHES = [
       ],
       "pt": [
         {
-          "t": "Use peixe ou camarão bem fresco e gelado. Se preferir não comer cru, branqueie o camarão 30 segundos em água fervendo e passe para água com gelo.",
+          "t": "Use camarão bem fresco e gelado. Se preferir não comer cru, branqueie 30 segundos em água fervendo e passe para água com gelo.",
           "s": null
         },
         {
-          "t": "Corte o peixe em lâminas finas (ou abra os camarões em borboleta) e guarde na geladeira enquanto prepara o resto.",
+          "t": "Abra os camarões em borboleta e guarde na geladeira enquanto prepara o resto.",
           "s": null
         },
         {
@@ -8356,7 +8684,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Arrume o peixe num prato gelado com o pepino e a cebola.",
+          "t": "Arrume os camarões num prato frio com o pepino e a cebola.",
           "s": null
         },
         {
@@ -8370,11 +8698,11 @@ const CATALOG_DISHES = [
       ],
       "en": [
         {
-          "t": "Use very fresh, well-chilled fish or shrimp. If you prefer it not raw, blanch the shrimp 30 seconds in boiling water and plunge into ice water.",
+          "t": "Use very fresh, well-chilled shrimp. If you prefer it not raw, blanch 30 seconds in boiling water and move to ice water.",
           "s": null
         },
         {
-          "t": "Slice the fish thinly (or butterfly the shrimp) and keep it in the fridge while you prepare the rest.",
+          "t": "Butterfly the shrimp and keep them in the fridge while you prepare the rest.",
           "s": null
         },
         {
@@ -8386,7 +8714,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Arrange the fish on a cold plate with the cucumber and onion.",
+          "t": "Arrange the shrimp on a cold plate with the cucumber and onion.",
           "s": null
         },
         {
@@ -8399,7 +8727,7 @@ const CATALOG_DISHES = [
         }
       ]
     },
-    "videoQuery": "como hacer Aguachile Verde de Pescado/Camarón receta paso a paso"
+    "videoQuery": "como hacer Aguachile Verde de Camarón receta paso a paso"
   },
   {
     "id": "mx_11",
@@ -8413,69 +8741,88 @@ const CATALOG_DISHES = [
       "en": "Mexican Aztec Tortilla Soup"
     },
     "brTip": {
-      "es": "Caldo especiado de tomate asado servido con pollo, queijo minas, aguacate y tiras crocantes.",
-      "pt": "Caldo de tomate assado servido com frango, queijo minas, abacate e tiras crocantes.",
-      "en": "Roasted tomato broth topped with chicken, Minas cheese, avocado, and crisp strips."
+      "es": "Caldo de tomate asado con chile pasilla, tiras de tortilla crocante, queso fresco, aguacate y crema. En Brasil: queijo minas frescal.",
+      "pt": "Caldo de tomate tostado com chile pasilla, tiras de tortilha crocante, queijo fresco, abacate e creme. No Brasil: queijo minas frescal.",
+      "en": "Roasted tomato broth with pasilla chile, crispy tortilla strips, queso fresco, avocado and crema. In Brazil: minas frescal cheese."
     },
     "macrosTrad": {
-      "kcal": 535,
-      "p": 51,
-      "c": 39,
-      "f": 20
+      "kcal": 539,
+      "p": 44,
+      "c": 40,
+      "f": 23
     },
     "macrosFit": {
-      "kcal": 465,
-      "p": 52,
-      "c": 40,
-      "f": 10
+      "kcal": 441,
+      "p": 45,
+      "c": 38,
+      "f": 13
     },
     "ingredients": [
       {
-        "id": "frango",
-        "grams": 120,
-        "fitGrams": 145,
-        "sub": null,
+        "id": "tortilla_maiz",
+        "grams": 50,
+        "fitGrams": 40,
+        "sub": {
+          "es": "En Brasil: Rap10 / tortilha de trigo",
+          "pt": "No Brasil: Rap10 / tortilha de trigo",
+          "en": "In Brazil: Rap10 / tortilha de trigo"
+        },
         "fitId": null
       },
       {
         "id": "tomate",
         "grams": 150,
-        "fitGrams": 150,
+        "fitGrams": 175,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "rap10",
-        "grams": 50,
-        "fitGrams": 0,
-        "sub": "Rap10 em tiras assado",
+        "id": "chile_seco",
+        "grams": 8,
+        "fitGrams": 9,
+        "sub": {
+          "es": "En Brasil: Páprica defumada + pimenta calabresa",
+          "pt": "No Brasil: Páprica defumada + pimenta calabresa",
+          "en": "In Brazil: Páprica defumada + pimenta calabresa"
+        },
         "fitId": null
       },
       {
-        "id": "tapioca",
-        "grams": 0,
-        "fitGrams": 45,
+        "id": "frango",
+        "grams": 100,
+        "fitGrams": 110,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "minas",
-        "grams": 35,
-        "fitGrams": 25,
-        "sub": null,
+        "id": "queso_fresco",
+        "grams": 30,
+        "fitGrams": 20,
+        "sub": {
+          "es": "En Brasil: Queijo minas frescal",
+          "pt": "No Brasil: Queijo minas frescal",
+          "en": "In Brazil: Queijo minas frescal"
+        },
         "fitId": "ricota"
       },
       {
         "id": "abacate",
         "grams": 40,
-        "fitGrams": 30,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
       {
+        "id": "creme_leite",
+        "grams": 20,
+        "fitGrams": 15,
+        "sub": null,
+        "fitId": "iogurte"
+      },
+      {
         "id": "cebola",
-        "grams": 40,
-        "fitGrams": 40,
+        "grams": 30,
+        "fitGrams": 35,
         "sub": null,
         "fitId": null
       }
@@ -8491,7 +8838,7 @@ const CATALOG_DISHES = [
           "s": 360
         },
         {
-          "t": "Licúalos con 2 tazas del caldo, comino y páprica.",
+          "t": "Licúalos con 2 tazas del caldo y el chile pasilla tostado e hidratado.",
           "s": null
         },
         {
@@ -8521,7 +8868,7 @@ const CATALOG_DISHES = [
           "s": 360
         },
         {
-          "t": "Bata com 2 xícaras do caldo, cominho e páprica.",
+          "t": "Bata com 2 xícaras do caldo e o chile pasilla tostado e hidratado.",
           "s": null
         },
         {
@@ -8551,7 +8898,7 @@ const CATALOG_DISHES = [
           "s": 360
         },
         {
-          "t": "Blend them with 2 cups of the broth, cumin and paprika.",
+          "t": "Blend with 2 cups of the broth and the toasted, soaked pasilla chile.",
           "s": null
         },
         {
@@ -8591,65 +8938,103 @@ const CATALOG_DISHES = [
       "en": "Sour orange sub → orange + lime juice; annatto → Brazilian colorau."
     },
     "macrosTrad": {
-      "kcal": 598,
+      "kcal": 609,
       "p": 54,
-      "c": 45,
+      "c": 53,
       "f": 21
     },
     "macrosFit": {
-      "kcal": 552,
-      "p": 51,
+      "kcal": 610,
+      "p": 57,
       "c": 46,
-      "f": 18
+      "f": 22
     },
     "ingredients": [
       {
         "id": "lombo",
         "grams": 170,
-        "fitGrams": 175,
-        "sub": null,
+        "fitGrams": 185,
+        "sub": {
+          "es": "En Brasil: Pernil suíno",
+          "pt": "No Brasil: Pernil suíno",
+          "en": "In Brazil: Pernil suíno"
+        },
         "fitId": null
       },
       {
-        "id": "cebola",
-        "grams": 70,
-        "fitGrams": 70,
-        "sub": null,
+        "id": "achiote",
+        "grams": 15,
+        "fitGrams": 15,
+        "sub": {
+          "es": "En Brasil: Colorau (urucum)",
+          "pt": "No Brasil: Colorau (urucum)",
+          "en": "In Brazil: Colorau (urucum)"
+        },
+        "fitId": null
+      },
+      {
+        "id": "laranja",
+        "grams": 60,
+        "fitGrams": 60,
+        "sub": {
+          "es": "En Brasil: Laranja + limão (naranja agria)",
+          "pt": "No Brasil: Laranja + limão (naranja agria)",
+          "en": "In Brazil: Laranja + limão (naranja agria)"
+        },
         "fitId": null
       },
       {
         "id": "limao",
-        "grams": 25,
-        "fitGrams": 25,
-        "sub": null,
-        "fitId": null
-      },
-      {
-        "id": "alho",
         "grams": 15,
         "fitGrams": 15,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "rap10",
-        "grams": 65,
-        "fitGrams": 0,
-        "sub": "Tapioca",
+        "id": "cebola",
+        "grams": 50,
+        "fitGrams": 55,
+        "sub": {
+          "es": "En Brasil: Cebola roxa",
+          "pt": "No Brasil: Cebola roxa",
+          "en": "In Brazil: Cebola roxa"
+        },
         "fitId": null
       },
       {
-        "id": "tapioca",
-        "grams": 0,
-        "fitGrams": 55,
+        "id": "alho",
+        "grams": 10,
+        "fitGrams": 10,
         "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "tortilla_maiz",
+        "grams": 65,
+        "fitGrams": 50,
+        "sub": {
+          "es": "En Brasil: Rap10 / tortilha de trigo",
+          "pt": "No Brasil: Rap10 / tortilha de trigo",
+          "en": "In Brazil: Rap10 / tortilha de trigo"
+        },
+        "fitId": null
+      },
+      {
+        "id": "chile",
+        "grams": 5,
+        "fitGrams": 6,
+        "sub": {
+          "es": "En Brasil: Pimenta dedo-de-moça",
+          "pt": "No Brasil: Pimenta dedo-de-moça",
+          "en": "In Brazil: Pimenta dedo-de-moça"
+        },
         "fitId": null
       }
     ],
     "steps": {
       "es": [
         {
-          "t": "Licúa el jugo de 1 naranja y 1 limón, 3 dientes de ajo, 1 cda de achiote o colorau, páprica, orégano, comino y sal hasta tener una pasta naranja-roja.",
+          "t": "Licúa el jugo de naranja agria (o naranja con limón), 3 dientes de ajo, la pasta de achiote, orégano, comino y sal hasta tener una pasta roja.",
           "s": null
         },
         {
@@ -8679,7 +9064,7 @@ const CATALOG_DISHES = [
       ],
       "pt": [
         {
-          "t": "Bata o suco de 1 laranja e 1 limão, 3 dentes de alho, 1 colher de urucum ou colorau, páprica, orégano, cominho e sal até virar uma pasta laranja-avermelhada.",
+          "t": "Bata o suco de laranja-azeda (ou laranja com limão), 3 dentes de alho, a pasta de achiote, orégano, cominho e sal até virar uma pasta vermelha.",
           "s": null
         },
         {
@@ -8709,7 +9094,7 @@ const CATALOG_DISHES = [
       ],
       "en": [
         {
-          "t": "Blend the juice of 1 orange and 1 lime, 3 garlic cloves, 1 tbsp annatto, paprika, oregano, cumin and salt into an orange-red paste.",
+          "t": "Blend sour orange juice (or orange with lime), 3 garlic cloves, the achiote paste, oregano, cumin and salt into a red paste.",
           "s": null
         },
         {
@@ -8757,36 +9142,33 @@ const CATALOG_DISHES = [
       "en": "Brazilian pão francês is the exact match for Mexican bolillo rolls!"
     },
     "macrosTrad": {
-      "kcal": 458,
+      "kcal": 457,
       "p": 22,
       "c": 66,
       "f": 12
     },
     "macrosFit": {
-      "kcal": 305,
-      "p": 11,
-      "c": 59,
-      "f": 4
+      "kcal": 322,
+      "p": 16,
+      "c": 55,
+      "f": 5
     },
     "ingredients": [
       {
         "id": "pao",
         "grams": 80,
-        "fitGrams": 0,
-        "sub": "Pão integral",
-        "fitId": null
-      },
-      {
-        "id": "tapioca",
-        "grams": 0,
-        "fitGrams": 60,
-        "sub": null,
+        "fitGrams": 65,
+        "sub": {
+          "es": "En Brasil: Pão francês (bolillo)",
+          "pt": "No Brasil: Pão francês (bolillo)",
+          "en": "In Brazil: Pão francês (bolillo)"
+        },
         "fitId": null
       },
       {
         "id": "feijao",
         "grams": 110,
-        "fitGrams": 110,
+        "fitGrams": 90,
         "sub": null,
         "fitId": null
       },
@@ -8794,21 +9176,36 @@ const CATALOG_DISHES = [
         "id": "minas",
         "grams": 50,
         "fitGrams": 35,
-        "sub": "Muçarela / Queijo minas",
+        "sub": {
+          "es": "En Brasil: Muçarela",
+          "pt": "No Brasil: Muçarela",
+          "en": "In Brazil: Muçarela"
+        },
         "fitId": "ricota"
       },
       {
         "id": "tomate",
-        "grams": 70,
-        "fitGrams": 80,
+        "grams": 60,
+        "fitGrams": 70,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
-        "grams": 35,
+        "grams": 30,
         "fitGrams": 35,
         "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "chile",
+        "grams": 10,
+        "fitGrams": 10,
+        "sub": {
+          "es": "En Brasil: Pimenta dedo-de-moça",
+          "pt": "No Brasil: Pimenta dedo-de-moça",
+          "en": "In Brazil: Pimenta dedo-de-moça"
+        },
         "fitId": null
       }
     ],
@@ -8923,16 +9320,16 @@ const CATALOG_DISHES = [
       "en": "Velvety sauce made by blending Brazilian beans with sautéed garlic and onion."
     },
     "macrosTrad": {
-      "kcal": 647,
+      "kcal": 668,
       "p": 63,
-      "c": 58,
-      "f": 17
+      "c": 56,
+      "f": 21
     },
     "macrosFit": {
-      "kcal": 549,
-      "p": 60,
-      "c": 59,
-      "f": 7
+      "kcal": 520,
+      "p": 63,
+      "c": 46,
+      "f": 9
     },
     "ingredients": [
       {
@@ -8945,36 +9342,55 @@ const CATALOG_DISHES = [
       {
         "id": "feijao_preto",
         "grams": 130,
-        "fitGrams": 130,
+        "fitGrams": 105,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "rap10",
+        "id": "tortilla_maiz",
         "grams": 70,
-        "fitGrams": 0,
-        "sub": "Tapioca",
+        "fitGrams": 55,
+        "sub": {
+          "es": "En Brasil: Rap10 / tortilha de trigo",
+          "pt": "No Brasil: Rap10 / tortilha de trigo",
+          "en": "In Brazil: Rap10 / tortilha de trigo"
+        },
         "fitId": null
       },
       {
-        "id": "tapioca",
-        "grams": 0,
-        "fitGrams": 60,
-        "sub": null,
-        "fitId": null
-      },
-      {
-        "id": "minas",
+        "id": "queso_fresco",
         "grams": 40,
         "fitGrams": 30,
-        "sub": null,
+        "sub": {
+          "es": "En Brasil: Queijo minas frescal",
+          "pt": "No Brasil: Queijo minas frescal",
+          "en": "In Brazil: Queijo minas frescal"
+        },
         "fitId": "ricota"
       },
       {
-        "id": "cebola",
-        "grams": 40,
-        "fitGrams": 40,
+        "id": "creme_leite",
+        "grams": 20,
+        "fitGrams": 15,
         "sub": null,
+        "fitId": "iogurte"
+      },
+      {
+        "id": "cebola",
+        "grams": 30,
+        "fitGrams": 35,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "chile_seco",
+        "grams": 3,
+        "fitGrams": 3.5,
+        "sub": {
+          "es": "En Brasil: Páprica defumada + pimenta calabresa",
+          "pt": "No Brasil: Páprica defumada + pimenta calabresa",
+          "en": "In Brazil: Páprica defumada + pimenta calabresa"
+        },
         "fitId": null
       }
     ],
@@ -9084,27 +9500,34 @@ const CATALOG_DISHES = [
       "en": "Mexican Beef & Pepper Alambre"
     },
     "brTip": {
-      "es": "Salteado de patinho en cubos con pimentão, cebolla y mucho queso fundido encima para comer en tacos.",
-      "pt": "Cubinhos de carne salteados com pimentão, cebola e queijo derretido por cima.",
-      "en": "Seared beef, bell peppers, and onions blanketed in melted cheese."
+      "es": "Original con res en cubos, tocino, pimiento, cebolla y queso fundido para comer en tacos. En Brasil: alcatra o patinho y muçarela.",
+      "pt": "Original com carne em cubos, bacon, pimentão, cebola e queijo derretido para comer em tacos. No Brasil: alcatra ou patinho e muçarela.",
+      "en": "Diced beef, bacon, peppers, onion and melted cheese eaten in tacos. In Brazil: alcatra or patinho and mozzarella."
     },
     "macrosTrad": {
-      "kcal": 716,
-      "p": 73,
-      "c": 45,
-      "f": 26
+      "kcal": 820,
+      "p": 74,
+      "c": 40,
+      "f": 40
     },
     "macrosFit": {
-      "kcal": 611,
-      "p": 69,
-      "c": 45,
-      "f": 16
+      "kcal": 692,
+      "p": 74,
+      "c": 35,
+      "f": 28
     },
     "ingredients": [
       {
         "id": "patinho",
         "grams": 160,
         "fitGrams": 175,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "panceta",
+        "grams": 30,
+        "fitGrams": 20,
         "sub": null,
         "fitId": null
       },
@@ -9117,7 +9540,7 @@ const CATALOG_DISHES = [
       },
       {
         "id": "cebola",
-        "grams": 70,
+        "grams": 60,
         "fitGrams": 70,
         "sub": null,
         "fitId": null
@@ -9126,21 +9549,22 @@ const CATALOG_DISHES = [
         "id": "minas",
         "grams": 50,
         "fitGrams": 35,
-        "sub": "Muçarela",
+        "sub": {
+          "es": "En Brasil: Muçarela (queijo Oaxaca)",
+          "pt": "No Brasil: Muçarela (queijo Oaxaca)",
+          "en": "In Brazil: Muçarela (queijo Oaxaca)"
+        },
         "fitId": "ricota"
       },
       {
-        "id": "rap10",
+        "id": "tortilla_maiz",
         "grams": 65,
-        "fitGrams": 0,
-        "sub": "Tapioca",
-        "fitId": null
-      },
-      {
-        "id": "tapioca",
-        "grams": 0,
-        "fitGrams": 55,
-        "sub": null,
+        "fitGrams": 50,
+        "sub": {
+          "es": "En Brasil: Rap10 / tortilha de trigo",
+          "pt": "No Brasil: Rap10 / tortilha de trigo",
+          "en": "In Brazil: Rap10 / tortilha de trigo"
+        },
         "fitId": null
       }
     ],
@@ -9155,7 +9579,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Dora la carne en sartén bien caliente con unas gotas de aceite (si quieres el toque tradicional, primero dora 1 tira de tocino picado).",
+          "t": "Dora primero la panceta (tocino) picada y luego la carne en la misma sartén bien caliente.",
           "s": 240
         },
         {
@@ -9185,7 +9609,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Doure a carne em frigideira bem quente com gotas de óleo (para o toque tradicional, doure antes 1 fatia de bacon picada).",
+          "t": "Doure primeiro o bacon picado e depois a carne na mesma frigideira bem quente.",
           "s": 240
         },
         {
@@ -9215,7 +9639,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Brown the beef in a very hot pan with a few drops of oil (for the traditional touch, first crisp 1 strip of chopped bacon).",
+          "t": "First brown the chopped bacon, then the beef in the same very hot pan.",
           "s": 240
         },
         {
@@ -9250,21 +9674,21 @@ const CATALOG_DISHES = [
       "en": "Mexican Tuna Tostadas"
     },
     "brTip": {
-      "es": "Tostadas crocantes hechas con Rap10 o tapioca dorada sin aceite, atún, tomate, limón y aguacate.",
-      "pt": "Base crocante de Rap10 ou tapioca assada com atum, vinagrete, limão e abacate.",
-      "en": "Crisp baked Rap10 bases topped with lime-dressed tuna, tomato, and avocado."
+      "es": "Tostadas de maíz crocantes con atún, tomate, limón y aguacate. En Brasil, si no hay tortillas de maíz: Rap10 tostado en airfryer.",
+      "pt": "Tostadas de milho crocantes com atum, tomate, limão e abacate. No Brasil, sem tortilhas de milho: Rap10 tostado na airfryer.",
+      "en": "Crisp corn tostadas with tuna, tomato, lime and avocado. In Brazil, without corn tortillas: Rap10 toasted in the air fryer."
     },
     "macrosTrad": {
-      "kcal": 433,
-      "p": 40,
-      "c": 43,
-      "f": 12
+      "kcal": 475,
+      "p": 39,
+      "c": 36,
+      "f": 21
     },
     "macrosFit": {
-      "kcal": 394,
-      "p": 39,
-      "c": 45,
-      "f": 7
+      "kcal": 383,
+      "p": 42,
+      "c": 33,
+      "f": 10
     },
     "ingredients": [
       {
@@ -9275,17 +9699,14 @@ const CATALOG_DISHES = [
         "fitId": null
       },
       {
-        "id": "rap10",
-        "grams": 60,
-        "fitGrams": 0,
-        "sub": "Rap10 assado",
-        "fitId": null
-      },
-      {
-        "id": "tapioca",
-        "grams": 0,
-        "fitGrams": 55,
-        "sub": null,
+        "id": "tortilla_maiz",
+        "grams": 50,
+        "fitGrams": 40,
+        "sub": {
+          "es": "En Brasil: Rap10 assado (tostada)",
+          "pt": "No Brasil: Rap10 assado (tostada)",
+          "en": "In Brazil: Rap10 assado (tostada)"
+        },
         "fitId": null
       },
       {
@@ -9298,14 +9719,25 @@ const CATALOG_DISHES = [
       {
         "id": "cebola",
         "grams": 40,
-        "fitGrams": 40,
+        "fitGrams": 45,
         "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "chile",
+        "grams": 15,
+        "fitGrams": 15,
+        "sub": {
+          "es": "En Brasil: Pimenta dedo-de-moça",
+          "pt": "No Brasil: Pimenta dedo-de-moça",
+          "en": "In Brazil: Pimenta dedo-de-moça"
+        },
         "fitId": null
       },
       {
         "id": "abacate",
         "grams": 45,
-        "fitGrams": 35,
+        "fitGrams": 50,
         "sub": null,
         "fitId": null
       },
@@ -9315,6 +9747,13 @@ const CATALOG_DISHES = [
         "fitGrams": 20,
         "sub": null,
         "fitId": null
+      },
+      {
+        "id": "maionesa",
+        "grams": 15,
+        "fitGrams": 7.5,
+        "sub": null,
+        "fitId": "iogurte"
       }
     ],
     "steps": {
@@ -9336,7 +9775,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Mezcla el atún con las verduras, el jugo de 1 limón y sal; si quieres cremosidad, añade 1 cda de requeijão o mayonesa light.",
+          "t": "Mezcla el atún con las verduras, el jugo de 1 limón, sal y la mayonesa.",
           "s": null
         },
         {
@@ -9366,7 +9805,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Misture o atum com os legumes, o suco de 1 limão e sal; se quiser cremosidade, junte 1 colher de requeijão ou maionese light.",
+          "t": "Misture o atum com os legumes, o suco de 1 limão, sal e a maionese.",
           "s": null
         },
         {
@@ -9396,7 +9835,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Mix the tuna with the vegetables, the juice of 1 lime and salt; for creaminess, add 1 tbsp requeijão or light mayo.",
+          "t": "Mix the tuna with the vegetables, juice of 1 lime, salt and the mayonnaise.",
           "s": null
         },
         {
@@ -9428,15 +9867,15 @@ const CATALOG_DISHES = [
       "en": "Fragrant Yucatan chicken broth brightened with fresh lime juice."
     },
     "macrosTrad": {
-      "kcal": 408,
-      "p": 53,
-      "c": 33,
-      "f": 7
+      "kcal": 378,
+      "p": 52,
+      "c": 31,
+      "f": 5
     },
     "macrosFit": {
-      "kcal": 404,
-      "p": 55,
-      "c": 35,
+      "kcal": 386,
+      "p": 57,
+      "c": 28,
       "f": 5
     },
     "ingredients": [
@@ -9451,7 +9890,11 @@ const CATALOG_DISHES = [
         "id": "limao",
         "grams": 35,
         "fitGrams": 35,
-        "sub": null,
+        "sub": {
+          "es": "En Brasil: Limão-taiti (lima yucateca)",
+          "pt": "No Brasil: Limão-taiti (lima yucateca)",
+          "en": "In Brazil: Limão-taiti (lima yucateca)"
+        },
         "fitId": null
       },
       {
@@ -9463,30 +9906,38 @@ const CATALOG_DISHES = [
       },
       {
         "id": "pimentao",
-        "grams": 50,
-        "fitGrams": 60,
+        "grams": 40,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
         "grams": 45,
-        "fitGrams": 45,
+        "fitGrams": 50,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "rap10",
+        "id": "chile",
+        "grams": 5,
+        "fitGrams": 6,
+        "sub": {
+          "es": "En Brasil: Pimenta dedo-de-moça",
+          "pt": "No Brasil: Pimenta dedo-de-moça",
+          "en": "In Brazil: Pimenta dedo-de-moça"
+        },
+        "fitId": null
+      },
+      {
+        "id": "tortilla_maiz",
         "grams": 40,
-        "fitGrams": 0,
-        "sub": "Tiras crocantes",
-        "fitId": null
-      },
-      {
-        "id": "tapioca",
-        "grams": 0,
-        "fitGrams": 35,
-        "sub": null,
+        "fitGrams": 30,
+        "sub": {
+          "es": "En Brasil: Rap10 / tortilha de trigo",
+          "pt": "No Brasil: Rap10 / tortilha de trigo",
+          "en": "In Brazil: Rap10 / tortilha de trigo"
+        },
         "fitId": null
       }
     ],
@@ -9601,36 +10052,36 @@ const CATALOG_DISHES = [
       "en": "Savory ground beef simmered with tiny diced potato, carrot, tomato, and cumin."
     },
     "macrosTrad": {
-      "kcal": 594,
-      "p": 62,
-      "c": 56,
+      "kcal": 619,
+      "p": 64,
+      "c": 61,
       "f": 12
     },
     "macrosFit": {
-      "kcal": 574,
-      "p": 65,
-      "c": 46,
-      "f": 13
+      "kcal": 622,
+      "p": 69,
+      "c": 53,
+      "f": 14
     },
     "ingredients": [
       {
         "id": "patinho",
         "grams": 155,
-        "fitGrams": 165,
+        "fitGrams": 170,
         "sub": null,
         "fitId": null
       },
       {
         "id": "tomate",
         "grams": 120,
-        "fitGrams": 120,
+        "fitGrams": 140,
         "sub": null,
         "fitId": null
       },
       {
         "id": "batata",
         "grams": 80,
-        "fitGrams": 60,
+        "fitGrams": 65,
         "sub": null,
         "fitId": null
       },
@@ -9642,9 +10093,16 @@ const CATALOG_DISHES = [
         "fitId": null
       },
       {
+        "id": "arveja",
+        "grams": 30,
+        "fitGrams": 35,
+        "sub": null,
+        "fitId": null
+      },
+      {
         "id": "cebola",
         "grams": 45,
-        "fitGrams": 45,
+        "fitGrams": 50,
         "sub": null,
         "fitId": null
       },
@@ -9652,7 +10110,7 @@ const CATALOG_DISHES = [
         "id": "arroz_branco",
         "grams": 100,
         "fitGrams": 80,
-        "sub": "Arroz Integral",
+        "sub": null,
         "fitId": "arroz"
       }
     ],
@@ -9757,82 +10215,94 @@ const CATALOG_DISHES = [
     "fav": false,
     "img": "images/mx_19.jpg",
     "title": {
-      "es": "Tacos Gobernador de Camarón/Tilapia",
-      "pt": "Tacos Gobernador de Peixe/Camarão",
-      "en": "Seared Seafood Melt Tacos"
+      "es": "Tacos Gobernador de Camarón",
+      "pt": "Tacos Gobernador de Camarão",
+      "en": "Shrimp Tacos Gobernador"
     },
     "brTip": {
-      "es": "Clásico de Sinaloa: camarón o tilápia picada salteada con tomate, cebolla y queijo fundido dentro de tortilla dorada.",
-      "pt": "Camarão ou tilápia picada refogada com tomate e queijo derretido na tortilha crocante.",
-      "en": "Chopped shrimp or tilapia sautéed with tomato and melted cheese in crisp tortillas."
+      "es": "Clásico de Sinaloa: camarón salteado con tomate, cebolla y queso fundido dentro de una tortilla dorada. En Brasil: camarão cinza y muçarela.",
+      "pt": "Clássico de Sinaloa: camarão salteado com tomate, cebola e queijo derretido dentro de uma tortilha dourada. No Brasil: camarão cinza e muçarela.",
+      "en": "Sinaloa classic: shrimp sautéed with tomato, onion and melted cheese in a golden tortilla. In Brazil: gray shrimp and mozzarella."
     },
     "macrosTrad": {
-      "kcal": 470,
-      "p": 40,
-      "c": 44,
-      "f": 15
+      "kcal": 420,
+      "p": 39,
+      "c": 39,
+      "f": 13
     },
     "macrosFit": {
-      "kcal": 349,
-      "p": 34,
-      "c": 44,
-      "f": 4
+      "kcal": 328,
+      "p": 37,
+      "c": 34,
+      "f": 6
     },
     "ingredients": [
       {
         "id": "camarao",
         "grams": 145,
         "fitGrams": 160,
-        "sub": "Tilápia picada",
-        "fitId": null
-      },
-      {
-        "id": "rap10",
-        "grams": 65,
-        "fitGrams": 0,
-        "sub": "Tapioca",
-        "fitId": null
-      },
-      {
-        "id": "tapioca",
-        "grams": 0,
-        "fitGrams": 55,
         "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "tortilla_maiz",
+        "grams": 65,
+        "fitGrams": 50,
+        "sub": {
+          "es": "En Brasil: Rap10 / tortilha de trigo",
+          "pt": "No Brasil: Rap10 / tortilha de trigo",
+          "en": "In Brazil: Rap10 / tortilha de trigo"
+        },
         "fitId": null
       },
       {
         "id": "minas",
         "grams": 45,
         "fitGrams": 30,
-        "sub": "Muçarela",
+        "sub": {
+          "es": "En Brasil: Muçarela",
+          "pt": "No Brasil: Muçarela",
+          "en": "In Brazil: Muçarela"
+        },
         "fitId": "ricota"
       },
       {
         "id": "tomate",
-        "grams": 70,
+        "grams": 60,
         "fitGrams": 70,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
-        "grams": 45,
+        "grams": 40,
         "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
       {
         "id": "pimentao",
-        "grams": 40,
-        "fitGrams": 40,
+        "grams": 30,
+        "fitGrams": 35,
         "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "chile",
+        "grams": 10,
+        "fitGrams": 10,
+        "sub": {
+          "es": "En Brasil: Pimenta dedo-de-moça",
+          "pt": "No Brasil: Pimenta dedo-de-moça",
+          "en": "In Brazil: Pimenta dedo-de-moça"
+        },
         "fitId": null
       }
     ],
     "steps": {
       "es": [
         {
-          "t": "Pica los camarones limpios (o el filete de tilapia) en trozos pequeños.",
+          "t": "Pica los camarones limpios en trozos pequeños.",
           "s": null
         },
         {
@@ -9862,7 +10332,7 @@ const CATALOG_DISHES = [
       ],
       "pt": [
         {
-          "t": "Pique os camarões limpos (ou o filé de tilápia) em pedaços pequenos.",
+          "t": "Pique os camarões limpos em pedaços pequenos.",
           "s": null
         },
         {
@@ -9892,7 +10362,7 @@ const CATALOG_DISHES = [
       ],
       "en": [
         {
-          "t": "Chop the cleaned shrimp (or tilapia fillet) into small pieces.",
+          "t": "Chop the cleaned shrimp into small pieces.",
           "s": null
         },
         {
@@ -9921,7 +10391,7 @@ const CATALOG_DISHES = [
         }
       ]
     },
-    "videoQuery": "como hacer Tacos Gobernador de Camarón/Tilapia receta paso a paso"
+    "videoQuery": "como hacer Tacos Gobernador de Camarón receta paso a paso"
   },
   {
     "id": "mx_20",
@@ -9935,69 +10405,92 @@ const CATALOG_DISHES = [
       "en": "Mexican Carne Asada Tacos"
     },
     "brTip": {
-      "es": "Usa contrafilé o patinho marinado en limón, naranja, ajo y shoyu; acompaña con aguacate y tortillas.",
-      "pt": "Use contrafilé ou patinho marinado no limão, laranja, alho e shoyu.",
-      "en": "Use sirloin or patinho marinated in lime, orange, garlic, and soy sauce."
+      "es": "Original con arrachera (falda de res) marinada en limón, naranja y ajo. En Brasil: fraldinha.",
+      "pt": "Original com arrachera (fraldinha) marinada em limão, laranja e alho. No Brasil: fraldinha.",
+      "en": "Made with arrachera (skirt steak) marinated in lime, orange and garlic. In Brazil: fraldinha."
     },
     "macrosTrad": {
-      "kcal": 673,
-      "p": 67,
-      "c": 48,
-      "f": 23
+      "kcal": 623,
+      "p": 38,
+      "c": 43,
+      "f": 35
     },
     "macrosFit": {
-      "kcal": 622,
-      "p": 65,
-      "c": 48,
-      "f": 18
+      "kcal": 458,
+      "p": 25,
+      "c": 38,
+      "f": 25
     },
     "ingredients": [
       {
-        "id": "patinho",
+        "id": "falda_res",
         "grams": 165,
-        "fitGrams": 175,
-        "sub": null,
+        "fitGrams": 100,
+        "sub": {
+          "es": "En Brasil: Fraldinha",
+          "pt": "No Brasil: Fraldinha",
+          "en": "In Brazil: Fraldinha"
+        },
         "fitId": null
       },
       {
-        "id": "rap10",
+        "id": "tortilla_maiz",
         "grams": 70,
-        "fitGrams": 0,
-        "sub": "Tapioca",
-        "fitId": null
-      },
-      {
-        "id": "tapioca",
-        "grams": 0,
-        "fitGrams": 60,
-        "sub": null,
+        "fitGrams": 55,
+        "sub": {
+          "es": "En Brasil: Rap10 / tortilha de trigo",
+          "pt": "No Brasil: Rap10 / tortilha de trigo",
+          "en": "In Brazil: Rap10 / tortilha de trigo"
+        },
         "fitId": null
       },
       {
         "id": "tomate",
-        "grams": 60,
-        "fitGrams": 70,
+        "grams": 50,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
       {
+        "id": "chile",
+        "grams": 10,
+        "fitGrams": 10,
+        "sub": {
+          "es": "En Brasil: Pimenta dedo-de-moça",
+          "pt": "No Brasil: Pimenta dedo-de-moça",
+          "en": "In Brazil: Pimenta dedo-de-moça"
+        },
+        "fitId": null
+      },
+      {
         "id": "cebola",
-        "grams": 50,
-        "fitGrams": 50,
+        "grams": 40,
+        "fitGrams": 45,
         "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "cheiro_verde",
+        "grams": 10,
+        "fitGrams": 10,
+        "sub": {
+          "es": "En Brasil: Coentro",
+          "pt": "No Brasil: Coentro",
+          "en": "In Brazil: Coentro"
+        },
         "fitId": null
       },
       {
         "id": "abacate",
         "grams": 45,
-        "fitGrams": 35,
+        "fitGrams": 50,
         "sub": null,
         "fitId": null
       },
       {
         "id": "limao",
-        "grams": 20,
-        "fitGrams": 20,
+        "grams": 15,
+        "fitGrams": 15,
         "sub": null,
         "fitId": null
       }
@@ -10108,19 +10601,19 @@ const CATALOG_DISHES = [
       "en": "Classic Peruvian Ceviche"
     },
     "brTip": {
-      "es": "Pescado blanco fresco (tilápia, robalo o linguado) + limão tahiti + pimenta dedo-de-moça + batata-doce cocida.",
-      "pt": "Peixe branco fresco (tilápia ou robalo) + limão tahiti + dedo-de-moça + batata-doce.",
-      "en": "Fresh white fish cured in lime with Brazilian dedo-de-moça chili and sweet potato."
+      "es": "Original con corvina o lenguado, limón, ají limo y camote. En Brasil: tilápia o robalo, limão tahiti y pimenta dedo-de-moça.",
+      "pt": "Original com corvina ou linguado, limão, ají limo e batata-doce. No Brasil: tilápia ou robalo, limão tahiti e pimenta dedo-de-moça.",
+      "en": "Made with corvina or sole, lime, ají limo and sweet potato. In Brazil: tilapia or snook, Tahiti lime and red chili."
     },
     "macrosTrad": {
-      "kcal": 348,
+      "kcal": 350,
       "p": 40,
       "c": 42,
       "f": 4
     },
     "macrosFit": {
-      "kcal": 340,
-      "p": 41,
+      "kcal": 349,
+      "p": 44,
       "c": 38,
       "f": 4
     },
@@ -10128,8 +10621,12 @@ const CATALOG_DISHES = [
       {
         "id": "tilapia",
         "grams": 180,
-        "fitGrams": 190,
-        "sub": null,
+        "fitGrams": 200,
+        "sub": {
+          "es": "En Brasil: Tilápia ou pescada (corvina)",
+          "pt": "No Brasil: Tilápia ou pescada (corvina)",
+          "en": "In Brazil: Tilápia ou pescada (corvina)"
+        },
         "fitId": null
       },
       {
@@ -10142,14 +10639,29 @@ const CATALOG_DISHES = [
       {
         "id": "cebola",
         "grams": 60,
-        "fitGrams": 60,
-        "sub": "Cebola roxa",
+        "fitGrams": 70,
+        "sub": {
+          "es": "En Brasil: Cebola roxa",
+          "pt": "No Brasil: Cebola roxa",
+          "en": "In Brazil: Cebola roxa"
+        },
+        "fitId": null
+      },
+      {
+        "id": "chile",
+        "grams": 10,
+        "fitGrams": 10,
+        "sub": {
+          "es": "En Brasil: Pimenta dedo-de-moça (ají limo)",
+          "pt": "No Brasil: Pimenta dedo-de-moça (ají limo)",
+          "en": "In Brazil: Pimenta dedo-de-moça (ají limo)"
+        },
         "fitId": null
       },
       {
         "id": "batata_doce",
         "grams": 110,
-        "fitGrams": 100,
+        "fitGrams": 90,
         "sub": null,
         "fitId": null
       },
@@ -10164,7 +10676,11 @@ const CATALOG_DISHES = [
         "id": "cheiro_verde",
         "grams": 15,
         "fitGrams": 15,
-        "sub": "Coentro fresco",
+        "sub": {
+          "es": "En Brasil: Coentro",
+          "pt": "No Brasil: Coentro",
+          "en": "In Brazil: Coentro"
+        },
         "fitId": null
       }
     ],
@@ -10187,7 +10703,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "En un bol frío sala bien el pescado (la sal va antes del limón), añade ajo rallado, ají o chile sin venas y cilantro picado.",
+          "t": "En un bol frío sala bien el pescado (la sal va antes del limón), añade ajo rallado, ají limo picado sin venas y culantro picado.",
           "s": null
         },
         {
@@ -10217,7 +10733,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Numa tigela gelada salgue bem o peixe (o sal vai antes do limão), junte alho ralado, pimenta sem veias e coentro picado.",
+          "t": "Numa tigela fria salgue bem o peixe (o sal vai antes do limão), junte alho ralado, ají limo picado sem veias e coentro picado.",
           "s": null
         },
         {
@@ -10247,7 +10763,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "In a cold bowl salt the fish well (salt goes before the lime), add grated garlic, deseeded chili and chopped cilantro.",
+          "t": "In a cold bowl salt the fish well (salt before lime), add grated garlic, chopped seeded ají limo and chopped cilantro.",
           "s": null
         },
         {
@@ -10279,65 +10795,102 @@ const CATALOG_DISHES = [
       "en": "Peruvian wok-seared beef with tomato, red onion, soy sauce, rice, and fries."
     },
     "macrosTrad": {
-      "kcal": 663,
-      "p": 68,
+      "kcal": 770,
+      "p": 67,
       "c": 65,
-      "f": 13
+      "f": 25
     },
     "macrosFit": {
-      "kcal": 627,
-      "p": 70,
-      "c": 52,
-      "f": 14
+      "kcal": 706,
+      "p": 72,
+      "c": 55,
+      "f": 21
     },
     "ingredients": [
       {
         "id": "patinho",
         "grams": 165,
-        "fitGrams": 175,
-        "sub": null,
+        "fitGrams": 180,
+        "sub": {
+          "es": "En Brasil: Alcatra ou filé mignon (lomo)",
+          "pt": "No Brasil: Alcatra ou filé mignon (lomo)",
+          "en": "In Brazil: Alcatra ou filé mignon (lomo)"
+        },
         "fitId": null
       },
       {
         "id": "batata",
         "grams": 120,
-        "fitGrams": 90,
-        "sub": "Batata na airfryer",
+        "fitGrams": 95,
+        "sub": null,
         "fitId": null
       },
       {
         "id": "arroz_branco",
         "grams": 110,
         "fitGrams": 90,
-        "sub": "Arroz Integral",
+        "sub": null,
         "fitId": "arroz"
       },
       {
         "id": "tomate",
         "grams": 90,
-        "fitGrams": 90,
+        "fitGrams": 105,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
         "grams": 80,
-        "fitGrams": 80,
-        "sub": "Cebola roxa",
+        "fitGrams": 90,
+        "sub": {
+          "es": "En Brasil: Cebola roxa",
+          "pt": "No Brasil: Cebola roxa",
+          "en": "In Brazil: Cebola roxa"
+        },
+        "fitId": null
+      },
+      {
+        "id": "aji_amarillo",
+        "grams": 15,
+        "fitGrams": 15,
+        "sub": {
+          "es": "En Brasil: Pimentão amarelo + pimenta",
+          "pt": "No Brasil: Pimentão amarelo + pimenta",
+          "en": "In Brazil: Pimentão amarelo + pimenta"
+        },
         "fitId": null
       },
       {
         "id": "shoyu",
-        "grams": 25,
-        "fitGrams": 20,
+        "grams": 15,
+        "fitGrams": 15,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "vinagre",
+        "grams": 10,
+        "fitGrams": 10,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "azeite",
+        "grams": 12,
+        "fitGrams": 6,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cheiro_verde",
-        "grams": 15,
-        "fitGrams": 15,
-        "sub": null,
+        "grams": 10,
+        "fitGrams": 10,
+        "sub": {
+          "es": "En Brasil: Coentro",
+          "pt": "No Brasil: Coentro",
+          "en": "In Brazil: Coentro"
+        },
         "fitId": null
       }
     ],
@@ -10360,7 +10913,7 @@ const CATALOG_DISHES = [
           "s": 120
         },
         {
-          "t": "En la sartén ardiente saltea la cebolla, añade el ajo y luego el tomate: deben quedar firmes, no deshechos.",
+          "t": "En la sartén ardiente saltea la cebolla, añade el ajo y el ají amarillo en tiras, y luego el tomate: deben quedar firmes, no deshechos.",
           "s": 60
         },
         {
@@ -10390,7 +10943,7 @@ const CATALOG_DISHES = [
           "s": 120
         },
         {
-          "t": "Na frigideira bem quente salteie a cebola, junte o alho e depois o tomate: devem ficar firmes, não desmanchados.",
+          "t": "Na frigideira bem quente salteie a cebola, junte o alho e o ají amarillo em tiras e depois o tomate: devem ficar firmes, não desmanchados.",
           "s": 60
         },
         {
@@ -10420,7 +10973,7 @@ const CATALOG_DISHES = [
           "s": 120
         },
         {
-          "t": "In the blazing pan stir-fry the onion, add the garlic and then the tomato: they should stay firm, not mushy.",
+          "t": "In the smoking pan sauté the onion, add the garlic and ají amarillo strips, then the tomato: keep them firm, not mushy.",
           "s": 60
         },
         {
@@ -10447,21 +11000,21 @@ const CATALOG_DISHES = [
       "en": "Peruvian Creamy Chicken"
     },
     "brTip": {
-      "es": "En Brasil logra el color y sabor del ají amarillo licuando pimentão amarelo salteado con pimenta dedo-de-moça y cúrcuma.",
-      "pt": "Substitua o ají amarillo batendo pimentão amarelo refogado com dedo-de-moça e cúrcuma.",
-      "en": "Replicate ají amarillo in Brazil using yellow bell pepper, chili, and turmeric."
+      "es": "Original con ají amarillo, pan remojado en leche evaporada, pecanas y parmesano. En Brasil, si no hay ají amarillo: pimentão amarelo salteado con pimenta dedo-de-moça.",
+      "pt": "Original com ají amarillo, pão molhado em leite evaporado, pecãs e parmesão. No Brasil, sem ají amarillo: pimentão amarelo refogado com pimenta dedo-de-moça.",
+      "en": "Made with ají amarillo, bread soaked in evaporated milk, pecans and parmesan. In Brazil, without ají amarillo: sautéed yellow bell pepper with red chili."
     },
     "macrosTrad": {
-      "kcal": 760,
-      "p": 72,
-      "c": 82,
-      "f": 14
+      "kcal": 876,
+      "p": 71,
+      "c": 87,
+      "f": 26
     },
     "macrosFit": {
-      "kcal": 760,
-      "p": 77,
-      "c": 71,
-      "f": 17
+      "kcal": 708,
+      "p": 72,
+      "c": 67,
+      "f": 16
     },
     "ingredients": [
       {
@@ -10472,30 +11025,60 @@ const CATALOG_DISHES = [
         "fitId": null
       },
       {
-        "id": "pimentao",
-        "grams": 80,
-        "fitGrams": 80,
-        "sub": "Pimentão amarelo",
+        "id": "aji_amarillo",
+        "grams": 40,
+        "fitGrams": 45,
+        "sub": {
+          "es": "En Brasil: Pimentão amarelo + pimenta",
+          "pt": "No Brasil: Pimentão amarelo + pimenta",
+          "en": "In Brazil: Pimentão amarelo + pimenta"
+        },
         "fitId": null
       },
       {
         "id": "pao",
-        "grams": 50,
-        "fitGrams": 0,
-        "sub": "Aveia em flocos",
+        "grams": 40,
+        "fitGrams": 30,
+        "sub": {
+          "es": "En Brasil: Pão de forma",
+          "pt": "No Brasil: Pão de forma",
+          "en": "In Brazil: Pão de forma"
+        },
         "fitId": null
       },
       {
-        "id": "aveia",
-        "grams": 0,
-        "fitGrams": 40,
+        "id": "leite_evaporado",
+        "grams": 80,
+        "fitGrams": 80,
+        "sub": {
+          "es": "En Brasil: Leite integral + creme de leite",
+          "pt": "No Brasil: Leite integral + creme de leite",
+          "en": "In Brazil: Leite integral + creme de leite"
+        },
+        "fitId": "leite_desnatado"
+      },
+      {
+        "id": "nuez",
+        "grams": 15,
+        "fitGrams": 7.5,
+        "sub": {
+          "es": "En Brasil: Castanha-do-pará ou amendoim",
+          "pt": "No Brasil: Castanha-do-pará ou amendoim",
+          "en": "In Brazil: Castanha-do-pará ou amendoim"
+        },
+        "fitId": null
+      },
+      {
+        "id": "cebola",
+        "grams": 40,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "leite",
-        "grams": 100,
-        "fitGrams": 100,
+        "id": "alho",
+        "grams": 8,
+        "fitGrams": 9,
         "sub": null,
         "fitId": null
       },
@@ -10510,13 +11093,20 @@ const CATALOG_DISHES = [
         "id": "arroz_branco",
         "grams": 100,
         "fitGrams": 80,
-        "sub": "Arroz Integral",
+        "sub": null,
         "fitId": "arroz"
       },
       {
         "id": "ovo",
-        "grams": 60,
-        "fitGrams": 60,
+        "grams": 30,
+        "fitGrams": 35,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "azeitona",
+        "grams": 10,
+        "fitGrams": 10,
         "sub": null,
         "fitId": null
       }
@@ -10532,23 +11122,23 @@ const CATALOG_DISHES = [
           "s": 1080
         },
         {
-          "t": "Remoja el pan sin corteza (o la avena) en la leche y licúalo hasta formar una pasta suave.",
+          "t": "Remoja el pan sin corteza en la leche evaporada y licúalo hasta formar una pasta suave.",
           "s": null
         },
         {
-          "t": "Saltea el pimentón amarillo picado con ajo, cebolla y una pizca de cúrcuma hasta ablandar; licúalo para obtener la pasta amarilla (tipo ají amarillo).",
-          "s": 300
+          "t": "Licúa la pasta de ají amarillo con las nueces (o pecanas) hasta que quede lisa; es la base amarilla del ají.",
+          "s": null
         },
         {
           "t": "En una olla sofríe cebolla picada fina con unas gotas de aceite y agrega la pasta amarilla.",
           "s": 180
         },
         {
-          "t": "Incorpora el pan/avena licuado y el caldo poco a poco, removiendo, hasta que espese como una crema.",
+          "t": "Incorpora el pan licuado y el caldo poco a poco, removiendo, hasta que espese como una crema.",
           "s": 300
         },
         {
-          "t": "Añade el pollo y queso parmesano o minas rallado; cocina unos minutos más. Sirve sobre las papas, con arroz, huevo duro y aceituna.",
+          "t": "Añade el pollo y queso parmesano rallado; cocina unos minutos más. Sirve sobre las papas, con arroz, huevo duro y aceituna.",
           "s": 180
         }
       ],
@@ -10562,23 +11152,23 @@ const CATALOG_DISHES = [
           "s": 1080
         },
         {
-          "t": "Deixe o pão sem casca (ou a aveia) de molho no leite e bata até virar uma pasta lisa.",
+          "t": "Molhe o pão sem casca no leite evaporado e bata até formar uma pasta lisa.",
           "s": null
         },
         {
-          "t": "Salteie o pimentão amarelo picado com alho, cebola e uma pitada de cúrcuma até amolecer; bata para obter a pasta amarela (tipo ají amarillo).",
-          "s": 300
+          "t": "Bata a pasta de ají amarillo com as nozes (ou pecãs) até ficar lisa; é a base amarela do ají.",
+          "s": null
         },
         {
           "t": "Numa panela refogue cebola picadinha com gotas de óleo e junte a pasta amarela.",
           "s": 180
         },
         {
-          "t": "Acrescente o pão/aveia batido e o caldo aos poucos, mexendo, até engrossar como um creme.",
+          "t": "Junte o pão batido e o caldo aos poucos, mexendo, até engrossar como um creme.",
           "s": 300
         },
         {
-          "t": "Junte o frango e queijo parmesão ou minas ralado; cozinhe mais alguns minutos. Sirva sobre as batatas, com arroz, ovo cozido e azeitona.",
+          "t": "Junte o frango e queijo parmesão ralado; cozinhe mais alguns minutos. Sirva sobre as batatas, com arroz, ovo cozido e azeitona.",
           "s": 180
         }
       ],
@@ -10592,23 +11182,23 @@ const CATALOG_DISHES = [
           "s": 1080
         },
         {
-          "t": "Soak the crustless bread (or oats) in the milk and blend into a smooth paste.",
+          "t": "Soak the crustless bread in the evaporated milk and blend into a smooth paste.",
           "s": null
         },
         {
-          "t": "Sauté the chopped yellow pepper with garlic, onion and a pinch of turmeric until soft; blend into the yellow paste (ají amarillo style).",
-          "s": 300
+          "t": "Blend the ají amarillo paste with the walnuts (or pecans) until smooth; this is the yellow base.",
+          "s": null
         },
         {
           "t": "In a pot sauté finely chopped onion with a few drops of oil and add the yellow paste.",
           "s": 180
         },
         {
-          "t": "Stir in the blended bread/oats and the broth little by little until it thickens like a cream.",
+          "t": "Stir in the blended bread and the broth little by little until it thickens like a cream.",
           "s": 300
         },
         {
-          "t": "Add the chicken and grated parmesan or minas cheese; cook a few minutes more. Serve over the potatoes with rice, boiled egg and an olive.",
+          "t": "Add the chicken and grated parmesan; cook a few minutes more. Serve over the potatoes with rice, hard-boiled egg and olive.",
           "s": 180
         }
       ]
@@ -10632,50 +11222,43 @@ const CATALOG_DISHES = [
       "en": "Day-old rice wok-tossed with ginger, soy sauce, egg ribbons, and scallions."
     },
     "macrosTrad": {
-      "kcal": 547,
+      "kcal": 630,
       "p": 61,
-      "c": 45,
-      "f": 11
+      "c": 44,
+      "f": 21
     },
     "macrosFit": {
-      "kcal": 545,
-      "p": 67,
-      "c": 37,
-      "f": 12
+      "kcal": 580,
+      "p": 66,
+      "c": 34,
+      "f": 18
     },
     "ingredients": [
       {
         "id": "frango",
         "grams": 140,
-        "fitGrams": 160,
+        "fitGrams": 155,
         "sub": null,
         "fitId": null
       },
       {
         "id": "arroz_branco",
         "grams": 140,
-        "fitGrams": 120,
-        "sub": "Arroz Integral",
+        "fitGrams": 110,
+        "sub": null,
         "fitId": "arroz"
       },
       {
         "id": "ovo",
         "grams": 80,
-        "fitGrams": 80,
+        "fitGrams": 90,
         "sub": null,
         "fitId": null
       },
       {
         "id": "shoyu",
-        "grams": 25,
+        "grams": 20,
         "fitGrams": 20,
-        "sub": null,
-        "fitId": null
-      },
-      {
-        "id": "pimentao",
-        "grams": 40,
-        "fitGrams": 50,
         "sub": null,
         "fitId": null
       },
@@ -10683,7 +11266,25 @@ const CATALOG_DISHES = [
         "id": "cheiro_verde",
         "grams": 20,
         "fitGrams": 20,
-        "sub": "Cebolinha",
+        "sub": {
+          "es": "En Brasil: Cebolinha (cebolla china)",
+          "pt": "No Brasil: Cebolinha (cebolla china)",
+          "en": "In Brazil: Cebolinha (cebolla china)"
+        },
+        "fitId": null
+      },
+      {
+        "id": "azeite",
+        "grams": 10,
+        "fitGrams": 5,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "pimentao",
+        "grams": 30,
+        "fitGrams": 35,
+        "sub": null,
         "fitId": null
       }
     ],
@@ -10798,64 +11399,86 @@ const CATALOG_DISHES = [
       "en": "Use pink-skinned Brazilian Asterix potatoes layered with creamy tuna or chicken."
     },
     "macrosTrad": {
-      "kcal": 528,
-      "p": 41,
+      "kcal": 649,
+      "p": 40,
       "c": 40,
-      "f": 24
+      "f": 37
     },
     "macrosFit": {
-      "kcal": 461,
-      "p": 42,
-      "c": 37,
-      "f": 16
+      "kcal": 475,
+      "p": 43,
+      "c": 35,
+      "f": 19
     },
     "ingredients": [
       {
         "id": "batata",
         "grams": 180,
-        "fitGrams": 0,
-        "sub": "Batata-doce",
+        "fitGrams": 145,
+        "sub": {
+          "es": "En Brasil: Batata asterix ou amarela",
+          "pt": "No Brasil: Batata asterix ou amarela",
+          "en": "In Brazil: Batata asterix ou amarela"
+        },
         "fitId": null
       },
       {
-        "id": "batata_doce",
-        "grams": 0,
-        "fitGrams": 160,
+        "id": "aji_amarillo",
+        "grams": 20,
+        "fitGrams": 25,
+        "sub": {
+          "es": "En Brasil: Pimentão amarelo + pimenta",
+          "pt": "No Brasil: Pimentão amarelo + pimenta",
+          "en": "In Brazil: Pimentão amarelo + pimenta"
+        },
+        "fitId": null
+      },
+      {
+        "id": "limao",
+        "grams": 15,
+        "fitGrams": 15,
         "sub": null,
         "fitId": null
       },
       {
         "id": "atum",
-        "grams": 130,
-        "fitGrams": 145,
-        "sub": "Frango desfiado",
+        "grams": 120,
+        "fitGrams": 130,
+        "sub": null,
         "fitId": null
+      },
+      {
+        "id": "maionesa",
+        "grams": 20,
+        "fitGrams": 10,
+        "sub": null,
+        "fitId": "iogurte"
       },
       {
         "id": "abacate",
         "grams": 50,
-        "fitGrams": 40,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "limao",
-        "grams": 25,
-        "fitGrams": 25,
+        "id": "ovo",
+        "grams": 30,
+        "fitGrams": 35,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "requeijao",
-        "grams": 25,
-        "fitGrams": 25,
+        "id": "azeitona",
+        "grams": 10,
+        "fitGrams": 10,
         "sub": null,
         "fitId": null
       },
       {
         "id": "azeite",
-        "grams": 12,
-        "fitGrams": 6,
+        "grams": 10,
+        "fitGrams": 5,
         "sub": null,
         "fitId": null
       }
@@ -10863,7 +11486,7 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Cuece las papas (o el camote) peladas en agua con sal hasta que estén tiernas; escúrrelas muy bien.",
+          "t": "Cuece las papas amarillas peladas en agua con sal hasta que estén tiernas; escúrrelas muy bien.",
           "s": 1080
         },
         {
@@ -10871,11 +11494,11 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Amasa el puré con el jugo de 1 limón, el aceite, pasta de pimentón amarillo o ají y sal hasta lograr una masa suave y moldeable.",
+          "t": "Amasa el puré con el jugo de 1 limón, el aceite, la pasta de ají amarillo y sal hasta lograr una masa suave y moldeable.",
           "s": null
         },
         {
-          "t": "Relleno: mezcla el atún bien escurrido (o pollo desmenuzado) con cebolla picada fina, requeijão o mayonesa light y gotas de limón.",
+          "t": "Relleno: mezcla el atún bien escurrido con cebolla picada fina, la mayonesa y gotas de limón.",
           "s": null
         },
         {
@@ -10893,7 +11516,7 @@ const CATALOG_DISHES = [
       ],
       "pt": [
         {
-          "t": "Cozinhe as batatas (ou batata-doce) descascadas em água com sal até ficarem macias; escorra muito bem.",
+          "t": "Cozinhe as batatas amarelas descascadas em água com sal até ficarem macias; escorra muito bem.",
           "s": 1080
         },
         {
@@ -10901,11 +11524,11 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Sove o purê com o suco de 1 limão, o azeite, pasta de pimentão amarelo ou pimenta e sal até virar uma massa macia e moldável.",
+          "t": "Amasse o purê com o suco de 1 limão, o azeite, a pasta de ají amarillo e sal até obter uma massa lisa e moldável.",
           "s": null
         },
         {
-          "t": "Recheio: misture o atum bem escorrido (ou frango desfiado) com cebola picadinha, requeijão ou maionese light e gotas de limão.",
+          "t": "Recheio: misture o atum bem escorrido com cebola picada fina, a maionese e gotas de limão.",
           "s": null
         },
         {
@@ -10923,7 +11546,7 @@ const CATALOG_DISHES = [
       ],
       "en": [
         {
-          "t": "Boil the peeled potatoes (or sweet potato) in salted water until tender; drain very well.",
+          "t": "Boil the peeled yellow potatoes in salted water until tender; drain very well.",
           "s": 1080
         },
         {
@@ -10931,11 +11554,11 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Knead the mash with the juice of 1 lime, the oil, yellow pepper or chili paste and salt into a soft, moldable dough.",
+          "t": "Knead the mash with the juice of 1 lime, the oil, the ají amarillo paste and salt into a smooth, moldable dough.",
           "s": null
         },
         {
-          "t": "Filling: mix the well-drained tuna (or shredded chicken) with finely chopped onion, requeijão or light mayo and a few drops of lime.",
+          "t": "Filling: mix the well-drained tuna with finely chopped onion, the mayonnaise and a few drops of lime.",
           "s": null
         },
         {
@@ -10966,55 +11589,80 @@ const CATALOG_DISHES = [
       "en": "Peruvian Roast Chicken"
     },
     "brTip": {
-      "es": "El secreto de la marinada: shoyu + vinagre + alho + cominho + orégano + pimenta preta (queda brutal en airfryer).",
-      "pt": "Segredo da marinada: shoyu + vinagre + alho + cominho + orégano (perfeito na airfryer).",
-      "en": "Classic marinade of soy sauce, vinegar, garlic, cumin, and oregano."
+      "es": "Marinada original: ají panca, sillao, vinagre, ajo, comino, romero y cerveza negra. Queda brutal en airfryer.",
+      "pt": "Marinada original: ají panca, shoyu, vinagre, alho, cominho, alecrim e cerveja preta. Fica incrível na airfryer.",
+      "en": "Original marinade: ají panca, soy sauce, vinegar, garlic, cumin, rosemary and dark beer. Great in the air fryer."
     },
     "macrosTrad": {
-      "kcal": 544,
+      "kcal": 631,
       "p": 50,
       "c": 32,
-      "f": 24
+      "f": 34
     },
     "macrosFit": {
-      "kcal": 523,
-      "p": 50,
+      "kcal": 493,
+      "p": 70,
       "c": 27,
-      "f": 24
+      "f": 11
     },
     "ingredients": [
       {
         "id": "coxa_frango",
         "grams": 185,
-        "fitGrams": 185,
-        "sub": "Peito de frango",
-        "fitId": null
-      },
-      {
-        "id": "batata",
-        "grams": 140,
-        "fitGrams": 110,
-        "sub": "Batata-doce",
-        "fitId": null
+        "fitGrams": 205,
+        "sub": null,
+        "fitId": "frango"
       },
       {
         "id": "shoyu",
-        "grams": 20,
-        "fitGrams": 20,
-        "sub": null,
-        "fitId": null
-      },
-      {
-        "id": "alho",
         "grams": 15,
         "fitGrams": 15,
         "sub": null,
         "fitId": null
       },
       {
+        "id": "aji_panca",
+        "grams": 10,
+        "fitGrams": 10,
+        "sub": {
+          "es": "En Brasil: Páprica defumada + pimenta",
+          "pt": "No Brasil: Páprica defumada + pimenta",
+          "en": "In Brazil: Páprica defumada + pimenta"
+        },
+        "fitId": null
+      },
+      {
+        "id": "alho",
+        "grams": 10,
+        "fitGrams": 10,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "batata",
+        "grams": 140,
+        "fitGrams": 110,
+        "sub": null,
+        "fitId": null
+      },
+      {
         "id": "tomate",
-        "grams": 60,
-        "fitGrams": 70,
+        "grams": 40,
+        "fitGrams": 45,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "pepino",
+        "grams": 30,
+        "fitGrams": 35,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "azeite",
+        "grams": 10,
+        "fitGrams": 5,
         "sub": null,
         "fitId": null
       }
@@ -11022,7 +11670,7 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Licúa 2 cdas de sillao, 1 cda de vinagre, 3 dientes de ajo, 1 cdta de comino, 1 cdta de orégano, 1 cdta de páprica, pimienta negra y sal.",
+          "t": "Licúa la pasta de ají panca, 2 cdas de sillao, 1 cda de vinagre, 3 dientes de ajo, 1 cdta de comino, romero, pimienta negra y sal (y un chorrito de cerveza negra si tienes).",
           "s": null
         },
         {
@@ -11052,7 +11700,7 @@ const CATALOG_DISHES = [
       ],
       "pt": [
         {
-          "t": "Bata 2 colheres de shoyu, 1 de vinagre, 3 dentes de alho, 1 colher (chá) de cominho, 1 de orégano, 1 de páprica, pimenta-do-reino e sal.",
+          "t": "Bata a pasta de ají panca, 2 colheres de shoyu, 1 colher de vinagre, 3 dentes de alho, 1 colher de chá de cominho, alecrim, pimenta-do-reino e sal (e um pouco de cerveja preta se tiver).",
           "s": null
         },
         {
@@ -11082,7 +11730,7 @@ const CATALOG_DISHES = [
       ],
       "en": [
         {
-          "t": "Blend 2 tbsp soy sauce, 1 tbsp vinegar, 3 garlic cloves, 1 tsp cumin, 1 tsp oregano, 1 tsp paprika, black pepper and salt.",
+          "t": "Blend the ají panca paste, 2 tbsp soy sauce, 1 tbsp vinegar, 3 garlic cloves, 1 tsp cumin, rosemary, black pepper and salt (and a splash of dark beer if you have it).",
           "s": null
         },
         {
@@ -11125,21 +11773,21 @@ const CATALOG_DISHES = [
       "en": "Peruvian Green Pasta & Steak"
     },
     "brTip": {
-      "es": "Salsa verde de espinaca + manjericão (albahaca) + queijo minas frescal + leche; sin piñones.",
-      "pt": "Molho verde de espinafre + manjericão + queijo minas frescal + leite.",
-      "en": "Spinach, basil, and Minas cheese sauce over pasta with seared steak."
+      "es": "Salsa verde de espinaca, albahaca, queso fresco y leche evaporada. En Brasil: queijo minas frescal y manjericão.",
+      "pt": "Molho verde de espinafre, manjericão, queijo fresco e leite evaporado. No Brasil: queijo minas frescal.",
+      "en": "Green sauce of spinach, basil, queso fresco and evaporated milk. In Brazil: minas frescal cheese."
     },
     "macrosTrad": {
-      "kcal": 782,
-      "p": 73,
-      "c": 42,
-      "f": 34
+      "kcal": 808,
+      "p": 74,
+      "c": 47,
+      "f": 35
     },
     "macrosFit": {
-      "kcal": 659,
-      "p": 73,
-      "c": 35,
-      "f": 24
+      "kcal": 652,
+      "p": 74,
+      "c": 39,
+      "f": 21
     },
     "ingredients": [
       {
@@ -11152,35 +11800,64 @@ const CATALOG_DISHES = [
       {
         "id": "macarrao",
         "grams": 110,
-        "fitGrams": 85,
-        "sub": "Macarrão integral",
-        "fitId": null
-      },
-      {
-        "id": "brocolis",
-        "grams": 90,
-        "fitGrams": 100,
-        "sub": "Espinafre + Manjericão",
-        "fitId": null
-      },
-      {
-        "id": "minas",
-        "grams": 50,
-        "fitGrams": 35,
+        "fitGrams": 90,
         "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "espinaca",
+        "grams": 80,
+        "fitGrams": 90,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "albahaca",
+        "grams": 25,
+        "fitGrams": 30,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "queso_fresco",
+        "grams": 40,
+        "fitGrams": 30,
+        "sub": {
+          "es": "En Brasil: Queijo minas frescal",
+          "pt": "No Brasil: Queijo minas frescal",
+          "en": "In Brazil: Queijo minas frescal"
+        },
         "fitId": "ricota"
       },
       {
-        "id": "leite",
-        "grams": 60,
-        "fitGrams": 60,
+        "id": "leite_evaporado",
+        "grams": 50,
+        "fitGrams": 50,
+        "sub": {
+          "es": "En Brasil: Leite integral + creme de leite",
+          "pt": "No Brasil: Leite integral + creme de leite",
+          "en": "In Brazil: Leite integral + creme de leite"
+        },
+        "fitId": "leite_desnatado"
+      },
+      {
+        "id": "cebola",
+        "grams": 20,
+        "fitGrams": 25,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "alho",
+        "grams": 5,
+        "fitGrams": 6,
         "sub": null,
         "fitId": null
       },
       {
         "id": "azeite",
         "grams": 10,
-        "fitGrams": 6,
+        "fitGrams": 5,
         "sub": null,
         "fitId": null
       }
@@ -11192,11 +11869,11 @@ const CATALOG_DISHES = [
           "s": 480
         },
         {
-          "t": "Blanquea la espinaca o las hojas verdes (y albahaca) en otra olla con agua hirviendo y pásalas a agua con hielo para fijar el verde.",
+          "t": "Blanquea la espinaca y la albahaca en otra olla con agua hirviendo y pásalas a agua con hielo para fijar el verde.",
           "s": 30
         },
         {
-          "t": "Licúa las hojas con el queso fresco, la leche, 1 diente de ajo, sal y el aceite (y nueces o maní si quieres) hasta lograr una crema verde lisa.",
+          "t": "Licúa las hojas con el queso fresco, la leche evaporada, la cebolla y el ajo sofritos, sal y el aceite hasta lograr una crema verde lisa.",
           "s": null
         },
         {
@@ -11222,11 +11899,11 @@ const CATALOG_DISHES = [
           "s": 480
         },
         {
-          "t": "Branqueie o espinafre ou as folhas verdes (e manjericão) em outra panela com água fervendo e passe para água com gelo para fixar o verde.",
+          "t": "Branqueie o espinafre e o manjericão em outra panela com água fervendo e passe para água com gelo para fixar o verde.",
           "s": 30
         },
         {
-          "t": "Bata as folhas com o queijo fresco, o leite, 1 dente de alho, sal e o azeite (e nozes ou amendoim se quiser) até virar um creme verde liso.",
+          "t": "Bata as folhas com o queijo fresco, o leite evaporado, a cebola e o alho refogados, sal e o azeite até virar um creme verde liso.",
           "s": null
         },
         {
@@ -11252,11 +11929,11 @@ const CATALOG_DISHES = [
           "s": 480
         },
         {
-          "t": "Blanch the spinach or greens (and basil) in another pot of boiling water and plunge into ice water to set the green.",
+          "t": "Blanch the spinach and basil in another pot of boiling water and move to ice water to set the green.",
           "s": 30
         },
         {
-          "t": "Blend the leaves with the fresh cheese, milk, 1 garlic clove, salt and the oil (and walnuts or peanuts if you like) into a smooth green cream.",
+          "t": "Blend the leaves with the queso fresco, evaporated milk, sautéed onion and garlic, salt and the oil into a smooth green cream.",
           "s": null
         },
         {
@@ -11291,41 +11968,88 @@ const CATALOG_DISHES = [
       "en": "Peruvian Cilantro Beef Stew"
     },
     "brTip": {
-      "es": "Guiso verde aromático con mucho coentro fresco batido, cerveza o vinagre, servido con feijão y arroz.",
-      "pt": "Ensopado aromático com bastante coentro fresco batido, servido com arroz e feijão.",
-      "en": "Beef braised in vibrant cilantro-garlic sauce with rice and beans."
+      "es": "Guiso de res con culantro licuado, ají amarillo y chicha de jora o cerveza, servido con frijoles y arroz.",
+      "pt": "Ensopado de carne com coentro batido, ají amarillo e chicha de jora ou cerveja, servido com feijão e arroz.",
+      "en": "Beef stew with blended cilantro, ají amarillo and chicha de jora or beer, served with beans and rice."
     },
     "macrosTrad": {
-      "kcal": 631,
-      "p": 69,
-      "c": 55,
-      "f": 13
+      "kcal": 662,
+      "p": 43,
+      "c": 62,
+      "f": 27
     },
     "macrosFit": {
-      "kcal": 625,
-      "p": 73,
-      "c": 48,
-      "f": 14
+      "kcal": 482,
+      "p": 30,
+      "c": 54,
+      "f": 17
     },
     "ingredients": [
       {
-        "id": "patinho",
-        "grams": 165,
-        "fitGrams": 175,
-        "sub": null,
+        "id": "falda_res",
+        "grams": 160,
+        "fitGrams": 95,
+        "sub": {
+          "es": "En Brasil: Acém ou costela",
+          "pt": "No Brasil: Acém ou costela",
+          "en": "In Brazil: Acém ou costela"
+        },
         "fitId": null
       },
       {
         "id": "cheiro_verde",
         "grams": 40,
         "fitGrams": 40,
-        "sub": "Coentro fresco",
+        "sub": {
+          "es": "En Brasil: Coentro",
+          "pt": "No Brasil: Coentro",
+          "en": "In Brazil: Coentro"
+        },
+        "fitId": null
+      },
+      {
+        "id": "aji_amarillo",
+        "grams": 15,
+        "fitGrams": 15,
+        "sub": {
+          "es": "En Brasil: Pimentão amarelo + pimenta",
+          "pt": "No Brasil: Pimentão amarelo + pimenta",
+          "en": "In Brazil: Pimentão amarelo + pimenta"
+        },
+        "fitId": null
+      },
+      {
+        "id": "arveja",
+        "grams": 40,
+        "fitGrams": 45,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "cenoura",
+        "grams": 50,
+        "fitGrams": 55,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "cebola",
+        "grams": 50,
+        "fitGrams": 55,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "alho",
+        "grams": 8,
+        "fitGrams": 9,
+        "sub": null,
         "fitId": null
       },
       {
         "id": "feijao",
         "grams": 110,
-        "fitGrams": 110,
+        "fitGrams": 90,
         "sub": null,
         "fitId": null
       },
@@ -11333,22 +12057,8 @@ const CATALOG_DISHES = [
         "id": "arroz_branco",
         "grams": 100,
         "fitGrams": 80,
-        "sub": "Arroz Integral",
+        "sub": null,
         "fitId": "arroz"
-      },
-      {
-        "id": "cenoura",
-        "grams": 70,
-        "fitGrams": 80,
-        "sub": null,
-        "fitId": null
-      },
-      {
-        "id": "cebola",
-        "grams": 50,
-        "fitGrams": 50,
-        "sub": null,
-        "fitId": null
       }
     ],
     "steps": {
@@ -11366,7 +12076,7 @@ const CATALOG_DISHES = [
           "s": 300
         },
         {
-          "t": "En la misma olla sofríe la cebolla, el ajo y el comino.",
+          "t": "En la misma olla sofríe la cebolla, el ajo, la pasta de ají amarillo y el comino.",
           "s": 240
         },
         {
@@ -11374,7 +12084,7 @@ const CATALOG_DISHES = [
           "s": 180
         },
         {
-          "t": "Devuelve la carne con la zanahoria y 1 taza de caldo (o cerveza); tapa y cocina a fuego bajo hasta que esté tierna.",
+          "t": "Devuelve la carne con la zanahoria y 1 taza de chicha de jora o cerveza; tapa y cocina a fuego bajo hasta que esté tierna. Agrega las arvejas al final.",
           "s": 1500
         },
         {
@@ -11396,7 +12106,7 @@ const CATALOG_DISHES = [
           "s": 300
         },
         {
-          "t": "Na mesma panela refogue a cebola, o alho e o cominho.",
+          "t": "Na mesma panela refogue a cebola, o alho, a pasta de ají amarillo e o cominho.",
           "s": 240
         },
         {
@@ -11404,7 +12114,7 @@ const CATALOG_DISHES = [
           "s": 180
         },
         {
-          "t": "Volte a carne com a cenoura e 1 xícara de caldo (ou cerveja); tampe e cozinhe em fogo baixo até ficar macia.",
+          "t": "Devolva a carne com a cenoura e 1 xícara de chicha de jora ou cerveja; tampe e cozinhe em fogo baixo até ficar macia. Junte as ervilhas no final.",
           "s": 1500
         },
         {
@@ -11426,7 +12136,7 @@ const CATALOG_DISHES = [
           "s": 300
         },
         {
-          "t": "In the same pot sauté the onion, garlic and cumin.",
+          "t": "In the same pot sauté the onion, garlic, ají amarillo paste and cumin.",
           "s": 240
         },
         {
@@ -11434,7 +12144,7 @@ const CATALOG_DISHES = [
           "s": 180
         },
         {
-          "t": "Return the beef with the carrot and 1 cup of stock (or beer); cover and simmer until tender.",
+          "t": "Return the beef with the carrot and 1 cup of chicha de jora or beer; cover and simmer until tender. Add the peas at the end.",
           "s": 1500
         },
         {
@@ -11457,55 +12167,71 @@ const CATALOG_DISHES = [
       "en": "Peruvian Huancaína Potatoes"
     },
     "brTip": {
-      "es": "Salsa cremosa sin cocción final hecha con pimentão amarelo salteado, queijo minas frescal, leite y bolacha água e sal.",
-      "pt": "Molho cremoso feito com pimentão amarelo refogado, queijo minas, leite e bolacha água e sal.",
-      "en": "Creamy yellow pepper & Minas cheese sauce poured over boiled potatoes and egg."
+      "es": "Crema de ají amarillo, queso fresco, leche evaporada y galleta de soda, sin cocción final. En Brasil: queijo minas frescal y bolacha água e sal.",
+      "pt": "Creme de ají amarillo, queijo fresco, leite evaporado e bolacha água e sal, sem cozimento final. No Brasil: queijo minas frescal.",
+      "en": "Cream of ají amarillo, queso fresco, evaporated milk and soda crackers, uncooked. In Brazil: minas frescal cheese."
     },
     "macrosTrad": {
-      "kcal": 471,
-      "p": 26,
-      "c": 42,
-      "f": 23
+      "kcal": 576,
+      "p": 25,
+      "c": 43,
+      "f": 34
     },
     "macrosFit": {
-      "kcal": 339,
-      "p": 20,
-      "c": 37,
-      "f": 13
+      "kcal": 343,
+      "p": 18,
+      "c": 35,
+      "f": 15
     },
     "ingredients": [
       {
         "id": "batata",
         "grams": 180,
-        "fitGrams": 150,
-        "sub": null,
+        "fitGrams": 145,
+        "sub": {
+          "es": "En Brasil: Batata amarela",
+          "pt": "No Brasil: Batata amarela",
+          "en": "In Brazil: Batata amarela"
+        },
         "fitId": null
       },
       {
-        "id": "minas",
-        "grams": 65,
-        "fitGrams": 45,
-        "sub": "Queijo minas frescal",
+        "id": "queso_fresco",
+        "grams": 60,
+        "fitGrams": 40,
+        "sub": {
+          "es": "En Brasil: Queijo minas frescal",
+          "pt": "No Brasil: Queijo minas frescal",
+          "en": "In Brazil: Queijo minas frescal"
+        },
         "fitId": "ricota"
       },
       {
-        "id": "pimentao",
-        "grams": 70,
-        "fitGrams": 70,
-        "sub": "Pimentão amarelo",
+        "id": "aji_amarillo",
+        "grams": 30,
+        "fitGrams": 35,
+        "sub": {
+          "es": "En Brasil: Pimentão amarelo + pimenta",
+          "pt": "No Brasil: Pimentão amarelo + pimenta",
+          "en": "In Brazil: Pimentão amarelo + pimenta"
+        },
         "fitId": null
       },
       {
-        "id": "leite",
-        "grams": 70,
-        "fitGrams": 70,
-        "sub": null,
-        "fitId": null
+        "id": "leite_evaporado",
+        "grams": 60,
+        "fitGrams": 60,
+        "sub": {
+          "es": "En Brasil: Leite integral + creme de leite",
+          "pt": "No Brasil: Leite integral + creme de leite",
+          "en": "In Brazil: Leite integral + creme de leite"
+        },
+        "fitId": "leite_desnatado"
       },
       {
         "id": "ovo",
-        "grams": 60,
-        "fitGrams": 60,
+        "grams": 50,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
@@ -11513,6 +12239,13 @@ const CATALOG_DISHES = [
         "id": "azeitona",
         "grams": 15,
         "fitGrams": 15,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "azeite",
+        "grams": 10,
+        "fitGrams": 5,
         "sub": null,
         "fitId": null
       }
@@ -11528,11 +12261,11 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Sofríe en sartén tiras de pimentón amarillo con cebolla y ajo (y ají si te gusta picante) hasta ablandar.",
+          "t": "Sofríe en sartén la pasta de ají amarillo con cebolla y ajo hasta ablandar.",
           "s": 240
         },
         {
-          "t": "Licúa el sofrito con el queso fresco, la leche, 2 galletas de soda y una pizca de cúrcuma y sal hasta lograr una crema lisa y espesa.",
+          "t": "Licúa el sofrito con el queso fresco, la leche evaporada, 2 galletas de soda y sal hasta lograr una crema lisa y espesa.",
           "s": null
         },
         {
@@ -11558,11 +12291,11 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Refogue na frigideira tiras de pimentão amarelo com cebola e alho (e pimenta se gostar de picante) até amolecer.",
+          "t": "Refogue na frigideira a pasta de ají amarillo com cebola e alho até amaciar.",
           "s": 240
         },
         {
-          "t": "Bata o refogado com o queijo fresco, o leite, 2 bolachas água e sal e uma pitada de cúrcuma e sal até virar um creme liso e grosso.",
+          "t": "Bata o refogado com o queijo fresco, o leite evaporado, 2 bolachas água e sal e sal até obter um creme liso e grosso.",
           "s": null
         },
         {
@@ -11588,11 +12321,11 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Sauté strips of yellow pepper with onion and garlic (and chili if you like heat) until soft.",
+          "t": "Sauté the ají amarillo paste with onion and garlic until soft.",
           "s": 240
         },
         {
-          "t": "Blend the sauté with the fresh cheese, milk, 2 saltine crackers, a pinch of turmeric and salt into a thick, smooth cream.",
+          "t": "Blend the sauté with the queso fresco, evaporated milk, 2 soda crackers and salt into a smooth, thick cream.",
           "s": null
         },
         {
@@ -11623,28 +12356,32 @@ const CATALOG_DISHES = [
       "en": "Peruvian Fish Tiradito"
     },
     "brTip": {
-      "es": "Similar al sashimi con influencia nikkei: láminas finas de tilápia/linguado bañadas en crema de limón y ají.",
-      "pt": "Fatias finas tipo sashimi banhadas em creme de limão e pimentão amarelo.",
-      "en": "Sashimi-style thin fish slices dressed in zesty lime-pepper cream."
+      "es": "De influencia nikkei: láminas finas de corvina o lenguado bañadas en crema de limón y ají amarillo. En Brasil: tilápia o linguado.",
+      "pt": "De influência nikkei: lâminas finas de corvina ou linguado banhadas em creme de limão e ají amarillo. No Brasil: tilápia ou linguado.",
+      "en": "Nikkei-style thin slices of corvina or sole in a lime and ají amarillo cream. In Brazil: tilapia or sole."
     },
     "macrosTrad": {
-      "kcal": 257,
-      "p": 36,
-      "c": 23,
-      "f": 3
+      "kcal": 287,
+      "p": 37,
+      "c": 30,
+      "f": 4
     },
     "macrosFit": {
-      "kcal": 259,
-      "p": 38,
-      "c": 22,
-      "f": 3
+      "kcal": 282,
+      "p": 39,
+      "c": 25,
+      "f": 4
     },
     "ingredients": [
       {
         "id": "tilapia",
         "grams": 170,
-        "fitGrams": 180,
-        "sub": null,
+        "fitGrams": 185,
+        "sub": {
+          "es": "En Brasil: Tilápia ou pescada",
+          "pt": "No Brasil: Tilápia ou pescada",
+          "en": "In Brazil: Tilápia ou pescada"
+        },
         "fitId": null
       },
       {
@@ -11655,24 +12392,39 @@ const CATALOG_DISHES = [
         "fitId": null
       },
       {
-        "id": "pimentao",
-        "grams": 45,
-        "fitGrams": 45,
-        "sub": "Pimentão amarelo",
+        "id": "aji_amarillo",
+        "grams": 25,
+        "fitGrams": 30,
+        "sub": {
+          "es": "En Brasil: Pimentão amarelo + pimenta",
+          "pt": "No Brasil: Pimentão amarelo + pimenta",
+          "en": "In Brazil: Pimentão amarelo + pimenta"
+        },
         "fitId": null
       },
       {
         "id": "batata_doce",
-        "grams": 90,
-        "fitGrams": 80,
+        "grams": 80,
+        "fitGrams": 65,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "milho",
+        "grams": 40,
+        "fitGrams": 30,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cheiro_verde",
-        "grams": 10,
-        "fitGrams": 10,
-        "sub": null,
+        "grams": 5,
+        "fitGrams": 5,
+        "sub": {
+          "es": "En Brasil: Coentro",
+          "pt": "No Brasil: Coentro",
+          "en": "In Brazil: Coentro"
+        },
         "fitId": null
       }
     ],
@@ -11691,7 +12443,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Licúa el jugo de 2 limones con un trocito de pimentón amarillo, ajo, una pizca de jengibre y sal hasta emulsionar.",
+          "t": "Licúa el jugo de 2 limones con la pasta de ají amarillo, ajo, una pizca de jengibre y sal hasta emulsionar.",
           "s": null
         },
         {
@@ -11721,7 +12473,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Bata o suco de 2 limões com um pedacinho de pimentão amarelo, alho, uma pitada de gengibre e sal até emulsionar.",
+          "t": "Bata o suco de 2 limões com a pasta de ají amarillo, alho, uma pitada de gengibre e sal até emulsionar.",
           "s": null
         },
         {
@@ -11751,7 +12503,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Blend the juice of 2 limes with a small piece of yellow pepper, garlic, a pinch of ginger and salt until emulsified.",
+          "t": "Blend the juice of 2 limes with the ají amarillo paste, garlic, a pinch of ginger and salt until emulsified.",
           "s": null
         },
         {
@@ -11787,22 +12539,22 @@ const CATALOG_DISHES = [
       "en": "Brilliant way to turn leftover Brazilian rice and beans into a crispy skillet cake."
     },
     "macrosTrad": {
-      "kcal": 782,
-      "p": 71,
-      "c": 54,
+      "kcal": 859,
+      "p": 72,
+      "c": 74,
       "f": 29
     },
     "macrosFit": {
-      "kcal": 731,
+      "kcal": 785,
       "p": 76,
-      "c": 47,
+      "c": 60,
       "f": 25
     },
     "ingredients": [
       {
         "id": "feijao",
         "grams": 130,
-        "fitGrams": 130,
+        "fitGrams": 105,
         "sub": null,
         "fitId": null
       },
@@ -11810,7 +12562,7 @@ const CATALOG_DISHES = [
         "id": "arroz_branco",
         "grams": 110,
         "fitGrams": 90,
-        "sub": "Arroz Integral",
+        "sub": null,
         "fitId": "arroz"
       },
       {
@@ -11822,15 +12574,33 @@ const CATALOG_DISHES = [
       },
       {
         "id": "cebola",
-        "grams": 50,
-        "fitGrams": 50,
+        "grams": 40,
+        "fitGrams": 45,
         "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "aji_amarillo",
+        "grams": 10,
+        "fitGrams": 10,
+        "sub": {
+          "es": "En Brasil: Pimentão amarelo + pimenta",
+          "pt": "No Brasil: Pimentão amarelo + pimenta",
+          "en": "In Brazil: Pimentão amarelo + pimenta"
+        },
         "fitId": null
       },
       {
         "id": "ovo",
         "grams": 60,
-        "fitGrams": 60,
+        "fitGrams": 65,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "banana_terra",
+        "grams": 60,
+        "fitGrams": 50,
         "sub": null,
         "fitId": null
       },
@@ -11849,7 +12619,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Sofríe la cebolla, el ajo, el comino y pasta amarilla o páprica en sartén con unas gotas de aceite.",
+          "t": "Sofríe la cebolla, el ajo, el comino y la pasta de ají amarillo en sartén con unas gotas de aceite.",
           "s": 180
         },
         {
@@ -11879,7 +12649,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Refogue a cebola, o alho, o cominho e pasta amarela ou páprica na frigideira com gotas de óleo.",
+          "t": "Refogue a cebola, o alho, o cominho e a pasta de ají amarillo na frigideira com gotas de óleo.",
           "s": 180
         },
         {
@@ -11909,7 +12679,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Sauté the onion, garlic, cumin and yellow paste or paprika in a pan with a few drops of oil.",
+          "t": "Sauté the onion, garlic, cumin and ají amarillo paste in a pan with a few drops of oil.",
           "s": 180
         },
         {
@@ -11953,57 +12723,93 @@ const CATALOG_DISHES = [
       "en": "Vibrant green rice cooked with blended fresh cilantro, carrot, and pepper."
     },
     "macrosTrad": {
-      "kcal": 585,
-      "p": 46,
-      "c": 50,
-      "f": 22
+      "kcal": 646,
+      "p": 49,
+      "c": 61,
+      "f": 23
     },
     "macrosFit": {
-      "kcal": 549,
-      "p": 45,
-      "c": 41,
-      "f": 23
+      "kcal": 544,
+      "p": 67,
+      "c": 53,
+      "f": 6
     },
     "ingredients": [
       {
         "id": "coxa_frango",
         "grams": 165,
-        "fitGrams": 165,
-        "sub": "Peito de frango",
-        "fitId": null
+        "fitGrams": 180,
+        "sub": null,
+        "fitId": "frango"
       },
       {
         "id": "arroz_branco",
         "grams": 130,
         "fitGrams": 105,
-        "sub": "Arroz Integral",
+        "sub": null,
         "fitId": "arroz"
       },
       {
         "id": "cheiro_verde",
         "grams": 40,
         "fitGrams": 40,
-        "sub": "Coentro fresco",
+        "sub": {
+          "es": "En Brasil: Coentro",
+          "pt": "No Brasil: Coentro",
+          "en": "In Brazil: Coentro"
+        },
+        "fitId": null
+      },
+      {
+        "id": "aji_amarillo",
+        "grams": 10,
+        "fitGrams": 10,
+        "sub": {
+          "es": "En Brasil: Pimentão amarelo + pimenta",
+          "pt": "No Brasil: Pimentão amarelo + pimenta",
+          "en": "In Brazil: Pimentão amarelo + pimenta"
+        },
+        "fitId": null
+      },
+      {
+        "id": "arveja",
+        "grams": 40,
+        "fitGrams": 45,
+        "sub": null,
         "fitId": null
       },
       {
         "id": "cenoura",
-        "grams": 60,
-        "fitGrams": 70,
+        "grams": 40,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
       {
         "id": "pimentao",
-        "grams": 50,
-        "fitGrams": 50,
+        "grams": 30,
+        "fitGrams": 35,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "milho",
+        "grams": 30,
+        "fitGrams": 25,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
-        "grams": 45,
+        "grams": 40,
         "fitGrams": 45,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "alho",
+        "grams": 8,
+        "fitGrams": 9,
         "sub": null,
         "fitId": null
       }
@@ -12019,7 +12825,7 @@ const CATALOG_DISHES = [
           "s": 360
         },
         {
-          "t": "En la misma olla sofríe la cebolla, el ajo y el comino.",
+          "t": "En la misma olla sofríe la cebolla, el ajo, la pasta de ají amarillo y el comino.",
           "s": 180
         },
         {
@@ -12027,7 +12833,7 @@ const CATALOG_DISHES = [
           "s": 180
         },
         {
-          "t": "Incorpora el arroz crudo lavado, la zanahoria, el pimentón, el pollo y el caldo (2 partes por 1 de arroz); ajusta la sal.",
+          "t": "Incorpora el arroz crudo lavado, la zanahoria, las arvejas, el choclo, el pimiento, el pollo y el caldo (2 partes por 1 de arroz); ajusta la sal.",
           "s": null
         },
         {
@@ -12049,7 +12855,7 @@ const CATALOG_DISHES = [
           "s": 360
         },
         {
-          "t": "Na mesma panela refogue a cebola, o alho e o cominho.",
+          "t": "Na mesma panela refogue a cebola, o alho, a pasta de ají amarillo e o cominho.",
           "s": 180
         },
         {
@@ -12057,7 +12863,7 @@ const CATALOG_DISHES = [
           "s": 180
         },
         {
-          "t": "Acrescente o arroz cru lavado, a cenoura, o pimentão, o frango e o caldo (2 partes para 1 de arroz); acerte o sal.",
+          "t": "Junte o arroz cru lavado, a cenoura, as ervilhas, o milho, o pimentão, o frango e o caldo (2 partes para 1 de arroz); acerte o sal.",
           "s": null
         },
         {
@@ -12079,7 +12885,7 @@ const CATALOG_DISHES = [
           "s": 360
         },
         {
-          "t": "In the same pot sauté the onion, garlic and cumin.",
+          "t": "In the same pot sauté the onion, garlic, ají amarillo paste and cumin.",
           "s": 180
         },
         {
@@ -12087,7 +12893,7 @@ const CATALOG_DISHES = [
           "s": 180
         },
         {
-          "t": "Add the washed raw rice, carrot, pepper, chicken and stock (2 parts to 1 of rice); adjust the salt.",
+          "t": "Add the washed raw rice, carrot, peas, corn, bell pepper, chicken and broth (2 parts to 1 of rice); adjust salt.",
           "s": null
         },
         {
@@ -12119,58 +12925,74 @@ const CATALOG_DISHES = [
       "en": "Fish gently braised in its own juices with red onion, tomato, and cassava."
     },
     "macrosTrad": {
-      "kcal": 384,
+      "kcal": 382,
       "p": 39,
-      "c": 50,
+      "c": 49,
       "f": 4
     },
     "macrosFit": {
-      "kcal": 368,
-      "p": 41,
-      "c": 44,
+      "kcal": 376,
+      "p": 43,
+      "c": 43,
       "f": 4
     },
     "ingredients": [
       {
         "id": "tilapia",
         "grams": 180,
-        "fitGrams": 190,
-        "sub": null,
+        "fitGrams": 200,
+        "sub": {
+          "es": "En Brasil: Tilápia ou pescada",
+          "pt": "No Brasil: Tilápia ou pescada",
+          "en": "In Brazil: Tilápia ou pescada"
+        },
         "fitId": null
       },
       {
         "id": "tomate",
         "grams": 110,
-        "fitGrams": 110,
+        "fitGrams": 125,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
         "grams": 80,
-        "fitGrams": 80,
-        "sub": "Cebola roxa",
+        "fitGrams": 90,
+        "sub": {
+          "es": "En Brasil: Cebola roxa",
+          "pt": "No Brasil: Cebola roxa",
+          "en": "In Brazil: Cebola roxa"
+        },
+        "fitId": null
+      },
+      {
+        "id": "aji_amarillo",
+        "grams": 10,
+        "fitGrams": 10,
+        "sub": {
+          "es": "En Brasil: Pimentão amarelo + pimenta",
+          "pt": "No Brasil: Pimentão amarelo + pimenta",
+          "en": "In Brazil: Pimentão amarelo + pimenta"
+        },
         "fitId": null
       },
       {
         "id": "mandioca",
         "grams": 120,
-        "fitGrams": 100,
+        "fitGrams": 95,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cheiro_verde",
-        "grams": 15,
-        "fitGrams": 15,
-        "sub": null,
-        "fitId": null
-      },
-      {
-        "id": "limao",
-        "grams": 15,
-        "fitGrams": 15,
-        "sub": null,
+        "grams": 10,
+        "fitGrams": 10,
+        "sub": {
+          "es": "En Brasil: Coentro",
+          "pt": "No Brasil: Coentro",
+          "en": "In Brazil: Coentro"
+        },
         "fitId": null
       }
     ],
@@ -12189,7 +13011,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "En una sartén honda con unas gotas de aceite sofríe ajo y la cebolla.",
+          "t": "En una sartén honda con unas gotas de aceite sofríe ajo, la cebolla y el ají amarillo en tiras.",
           "s": 120
         },
         {
@@ -12197,7 +13019,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Agrega ⅓ de taza de caldo o agua y 1 cda de vinagre (o cerveza blanca); tapa bien y cocina a fuego medio sin mover.",
+          "t": "Agrega ⅓ de taza de caldo o agua y un chorrito de chicha de jora (o vinagre); tapa bien y cocina a fuego medio sin mover.",
           "s": 480
         },
         {
@@ -12219,7 +13041,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Numa frigideira funda com gotas de óleo refogue alho e a cebola.",
+          "t": "Numa frigideira funda com gotas de óleo refogue alho, a cebola e o ají amarillo em tiras.",
           "s": 120
         },
         {
@@ -12227,7 +13049,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Junte ⅓ de xícara de caldo ou água e 1 colher de vinagre (ou cerveja clara); tampe bem e cozinhe em fogo médio sem mexer.",
+          "t": "Junte ⅓ de xícara de caldo ou água e um pouco de chicha de jora (ou vinagre); tampe bem e cozinhe em fogo médio sem mexer.",
           "s": 480
         },
         {
@@ -12249,7 +13071,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "In a deep pan with a few drops of oil sauté garlic and the onion.",
+          "t": "In a deep pan with a few drops of oil sauté garlic, the onion and the ají amarillo strips.",
           "s": 120
         },
         {
@@ -12257,7 +13079,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Add ⅓ cup stock or water and 1 tbsp vinegar (or light beer); cover tightly and cook over medium heat without stirring.",
+          "t": "Add ⅓ cup of broth or water and a splash of chicha de jora (or vinegar); cover tightly and cook over medium heat without stirring.",
           "s": 480
         },
         {
@@ -12280,55 +13102,77 @@ const CATALOG_DISHES = [
       "en": "Peruvian Spiced Grill Skewers"
     },
     "brTip": {
-      "es": "Tradicional con corazón de res o patinho en cubos marinado en vinagre, comino, ajo y páprica; servido con papa o mandioca.",
-      "pt": "Cubos marinados no vinagre, cominho, alho e páprica defumada; servido com batata ou mandioca.",
-      "en": "Vinegar-cumin-garlic skewers served with golden potatoes or cassava."
+      "es": "Tradicional con corazón de res en cubos marinado en ají panca, vinagre, comino y ajo; servido con papa y choclo. En Brasil: coração bovino.",
+      "pt": "Tradicional com coração bovino em cubos marinado em ají panca, vinagre, cominho e alho; servido com batata e milho.",
+      "en": "Traditionally beef heart cubes marinated in ají panca, vinegar, cumin and garlic; served with potato and corn."
     },
     "macrosTrad": {
-      "kcal": 600,
-      "p": 65,
-      "c": 28,
-      "f": 25
+      "kcal": 452,
+      "p": 35,
+      "c": 38,
+      "f": 18
     },
     "macrosFit": {
-      "kcal": 571,
-      "p": 68,
-      "c": 24,
-      "f": 21
+      "kcal": 399,
+      "p": 37,
+      "c": 32,
+      "f": 13
     },
     "ingredients": [
       {
-        "id": "patinho",
+        "id": "corazon_res",
         "grams": 170,
-        "fitGrams": 180,
+        "fitGrams": 185,
+        "sub": {
+          "es": "En Brasil: Coração bovino",
+          "pt": "No Brasil: Coração bovino",
+          "en": "In Brazil: Coração bovino"
+        },
+        "fitId": null
+      },
+      {
+        "id": "aji_panca",
+        "grams": 20,
+        "fitGrams": 25,
+        "sub": {
+          "es": "En Brasil: Páprica defumada + pimenta",
+          "pt": "No Brasil: Páprica defumada + pimenta",
+          "en": "In Brazil: Páprica defumada + pimenta"
+        },
+        "fitId": null
+      },
+      {
+        "id": "vinagre",
+        "grams": 10,
+        "fitGrams": 10,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "alho",
+        "grams": 10,
+        "fitGrams": 10,
         "sub": null,
         "fitId": null
       },
       {
         "id": "batata",
         "grams": 130,
-        "fitGrams": 110,
-        "sub": "Mandioca / Batata-doce",
+        "fitGrams": 105,
+        "sub": null,
         "fitId": null
       },
       {
-        "id": "alho",
-        "grams": 15,
-        "fitGrams": 15,
+        "id": "milho",
+        "grams": 50,
+        "fitGrams": 40,
         "sub": null,
         "fitId": null
       },
       {
         "id": "azeite",
-        "grams": 12,
-        "fitGrams": 8,
-        "sub": null,
-        "fitId": null
-      },
-      {
-        "id": "limao",
-        "grams": 15,
-        "fitGrams": 15,
+        "grams": 10,
+        "fitGrams": 5,
         "sub": null,
         "fitId": null
       }
@@ -12336,11 +13180,11 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Mezcla 2 cdas de vinagre tinto o de manzana, 3 dientes de ajo machacados, 1 cdta de comino, 1 cda de páprica, orégano, el aceite y sal.",
+          "t": "Mezcla el ají panca, 2 cdas de vinagre tinto, 3 dientes de ajo machacados, 1 cdta de comino, orégano, el aceite y sal.",
           "s": null
         },
         {
-          "t": "Corta la carne en cubos de 3 cm y báñalos con la marinada.",
+          "t": "Limpia el corazón de res (retira grasa y nervios), córtalo en cubos de 3 cm y báñalos con la marinada.",
           "s": null
         },
         {
@@ -12348,7 +13192,7 @@ const CATALOG_DISHES = [
           "s": 1200
         },
         {
-          "t": "Cuece las papas en rodajas gruesas en agua con sal y luego dóralas en sartén.",
+          "t": "Cuece las papas en rodajas gruesas y el choclo en agua con sal; luego dora las papas en sartén.",
           "s": 900
         },
         {
@@ -12360,17 +13204,17 @@ const CATALOG_DISHES = [
           "s": 360
         },
         {
-          "t": "Sirve con las papas doradas, limón y salsa picante o chimichurri.",
+          "t": "Sirve con las papas doradas, el choclo y salsa de ají.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Misture 2 colheres de vinagre de vinho ou maçã, 3 dentes de alho amassados, 1 colher (chá) de cominho, 1 colher de páprica, orégano, o azeite e sal.",
+          "t": "Misture o ají panca, 2 colheres de vinagre tinto, 3 dentes de alho amassados, 1 colher de chá de cominho, orégano, o óleo e sal.",
           "s": null
         },
         {
-          "t": "Corte a carne em cubos de 3 cm e banhe com a marinada.",
+          "t": "Limpe o coração bovino (tire gordura e nervos), corte em cubos de 3 cm e cubra com a marinada.",
           "s": null
         },
         {
@@ -12378,7 +13222,7 @@ const CATALOG_DISHES = [
           "s": 1200
         },
         {
-          "t": "Cozinhe as batatas em rodelas grossas em água com sal e depois doure na frigideira.",
+          "t": "Cozinhe as batatas em rodelas grossas e o milho em água com sal; depois doure as batatas na frigideira.",
           "s": 900
         },
         {
@@ -12390,17 +13234,17 @@ const CATALOG_DISHES = [
           "s": 360
         },
         {
-          "t": "Sirva com as batatas douradas, limão e molho de pimenta ou chimichurri.",
+          "t": "Sirva com as batatas douradas, o milho e molho de ají.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Mix 2 tbsp red-wine or cider vinegar, 3 crushed garlic cloves, 1 tsp cumin, 1 tbsp paprika, oregano, the oil and salt.",
+          "t": "Mix the ají panca, 2 tbsp red wine vinegar, 3 crushed garlic cloves, 1 tsp cumin, oregano, the oil and salt.",
           "s": null
         },
         {
-          "t": "Cut the beef into 3 cm cubes and coat with the marinade.",
+          "t": "Trim the beef heart of fat and sinew, cut into 3 cm cubes and coat with the marinade.",
           "s": null
         },
         {
@@ -12408,7 +13252,7 @@ const CATALOG_DISHES = [
           "s": 1200
         },
         {
-          "t": "Boil the potatoes in thick slices in salted water, then brown them in a pan.",
+          "t": "Boil the thick potato slices and the corn in salted water; then brown the potatoes in a pan.",
           "s": 900
         },
         {
@@ -12420,7 +13264,7 @@ const CATALOG_DISHES = [
           "s": 360
         },
         {
-          "t": "Serve with the golden potatoes, lime and hot sauce or chimichurri.",
+          "t": "Serve with the golden potatoes, the corn and ají sauce.",
           "s": null
         }
       ]
@@ -12444,15 +13288,15 @@ const CATALOG_DISHES = [
       "en": "Hearty cilantro-broth soup with chicken, rice, carrot, and corn."
     },
     "macrosTrad": {
-      "kcal": 439,
-      "p": 54,
-      "c": 44,
+      "kcal": 466,
+      "p": 56,
+      "c": 49,
       "f": 5
     },
     "macrosFit": {
-      "kcal": 433,
-      "p": 58,
-      "c": 37,
+      "kcal": 467,
+      "p": 61,
+      "c": 43,
       "f": 6
     },
     "ingredients": [
@@ -12465,36 +13309,79 @@ const CATALOG_DISHES = [
       },
       {
         "id": "arroz_branco",
-        "grams": 80,
-        "fitGrams": 65,
-        "sub": "Arroz Integral",
+        "grams": 70,
+        "fitGrams": 55,
+        "sub": null,
         "fitId": "arroz"
       },
       {
         "id": "cheiro_verde",
         "grams": 35,
         "fitGrams": 35,
-        "sub": "Coentro fresco",
+        "sub": {
+          "es": "En Brasil: Coentro",
+          "pt": "No Brasil: Coentro",
+          "en": "In Brazil: Coentro"
+        },
+        "fitId": null
+      },
+      {
+        "id": "aji_amarillo",
+        "grams": 10,
+        "fitGrams": 10,
+        "sub": {
+          "es": "En Brasil: Pimentão amarelo + pimenta",
+          "pt": "No Brasil: Pimentão amarelo + pimenta",
+          "en": "In Brazil: Pimentão amarelo + pimenta"
+        },
+        "fitId": null
+      },
+      {
+        "id": "arveja",
+        "grams": 30,
+        "fitGrams": 35,
+        "sub": null,
         "fitId": null
       },
       {
         "id": "cenoura",
-        "grams": 70,
-        "fitGrams": 80,
+        "grams": 50,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
       {
         "id": "milho",
-        "grams": 60,
-        "fitGrams": 50,
+        "grams": 50,
+        "fitGrams": 40,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "pimentao",
+        "grams": 20,
+        "fitGrams": 25,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "cebola",
+        "grams": 40,
+        "fitGrams": 45,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "alho",
+        "grams": 8,
+        "fitGrams": 9,
         "sub": null,
         "fitId": null
       },
       {
         "id": "limao",
-        "grams": 15,
-        "fitGrams": 15,
+        "grams": 10,
+        "fitGrams": 10,
         "sub": null,
         "fitId": null
       }
@@ -12510,11 +13397,11 @@ const CATALOG_DISHES = [
           "s": 240
         },
         {
-          "t": "Añade el cilantro licuado (y pimentón o ají amarillo si tienes) y fríe.",
+          "t": "Añade el cilantro licuado y la pasta de ají amarillo y fríe.",
           "s": 120
         },
         {
-          "t": "Agrega 900 ml de agua o caldo, el arroz, la zanahoria y el choclo; sala.",
+          "t": "Agrega 900 ml de agua o caldo, el arroz, la zanahoria, las arvejas, el choclo y el pimiento; sala.",
           "s": null
         },
         {
@@ -12540,11 +13427,11 @@ const CATALOG_DISHES = [
           "s": 240
         },
         {
-          "t": "Junte o coentro batido (e pimentão ou pimenta amarela se tiver) e frite.",
+          "t": "Junte o coentro batido e a pasta de ají amarillo e frite.",
           "s": 120
         },
         {
-          "t": "Acrescente 900 ml de água ou caldo, o arroz, a cenoura e o milho; salgue.",
+          "t": "Junte 900 ml de água ou caldo, o arroz, a cenoura, as ervilhas, o milho e o pimentão; salgue.",
           "s": null
         },
         {
@@ -12570,11 +13457,11 @@ const CATALOG_DISHES = [
           "s": 240
         },
         {
-          "t": "Add the blended cilantro (and yellow pepper or chili if you have it) and fry.",
+          "t": "Add the blended cilantro and the ají amarillo paste and fry.",
           "s": 120
         },
         {
-          "t": "Add 900 ml water or stock, the rice, carrot and corn; salt it.",
+          "t": "Add 900 ml of water or broth, the rice, carrot, peas, corn and bell pepper; salt.",
           "s": null
         },
         {
@@ -12605,62 +13492,92 @@ const CATALOG_DISHES = [
       "en": "Peruvian Creamy Quinoa Risotto"
     },
     "brTip": {
-      "es": "La quinoa se encuentra fácil en la sección natural de supermercados en Brasil (o usa avena gruesa en emergencia).",
-      "pt": "Quinoa (fácil nos mercados BR) cozida estilo risoto com queijo minas e frango.",
-      "en": "Quinoa cooked risotto-style with Minas cheese and seared chicken."
+      "es": "Quinua cocida como risotto con ají amarillo, queso y leche evaporada. En Brasil la quinoa está en la sección natural del súper.",
+      "pt": "Quinoa cozida como risoto com ají amarillo, queijo e leite evaporado. No Brasil a quinoa fica na seção natural do mercado.",
+      "en": "Quinoa cooked like risotto with ají amarillo, cheese and evaporated milk. In Brazil quinoa is in the natural foods aisle."
     },
     "macrosTrad": {
-      "kcal": 751,
-      "p": 70,
-      "c": 67,
-      "f": 22
+      "kcal": 603,
+      "p": 54,
+      "c": 43,
+      "f": 23
     },
     "macrosFit": {
-      "kcal": 700,
-      "p": 71,
-      "c": 67,
-      "f": 16
+      "kcal": 459,
+      "p": 52,
+      "c": 35,
+      "f": 11
     },
     "ingredients": [
       {
-        "id": "frango",
+        "id": "quinua",
         "grams": 150,
-        "fitGrams": 165,
-        "sub": null,
+        "fitGrams": 120,
+        "sub": {
+          "es": "En Brasil: Quinoa (mercado natural)",
+          "pt": "No Brasil: Quinoa (mercado natural)",
+          "en": "In Brazil: Quinoa (mercado natural)"
+        },
         "fitId": null
       },
       {
-        "id": "aveia",
-        "grams": 85,
-        "fitGrams": 85,
-        "sub": "Quinoa em grãos",
+        "id": "frango",
+        "grams": 120,
+        "fitGrams": 130,
+        "sub": null,
         "fitId": null
       },
       {
         "id": "minas",
-        "grams": 45,
-        "fitGrams": 30,
-        "sub": null,
+        "grams": 30,
+        "fitGrams": 20,
+        "sub": {
+          "es": "En Brasil: Parmesão ou queijo minas",
+          "pt": "No Brasil: Parmesão ou queijo minas",
+          "en": "In Brazil: Parmesão ou queijo minas"
+        },
         "fitId": "ricota"
       },
       {
-        "id": "tomate",
-        "grams": 60,
-        "fitGrams": 70,
-        "sub": null,
-        "fitId": null
+        "id": "leite_evaporado",
+        "grams": 40,
+        "fitGrams": 40,
+        "sub": {
+          "es": "En Brasil: Leite integral + creme de leite",
+          "pt": "No Brasil: Leite integral + creme de leite",
+          "en": "In Brazil: Leite integral + creme de leite"
+        },
+        "fitId": "leite_desnatado"
       },
       {
         "id": "cebola",
-        "grams": 45,
+        "grams": 40,
         "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "leite",
-        "grams": 50,
-        "fitGrams": 50,
+        "id": "aji_amarillo",
+        "grams": 10,
+        "fitGrams": 10,
+        "sub": {
+          "es": "En Brasil: Pimentão amarelo + pimenta",
+          "pt": "No Brasil: Pimentão amarelo + pimenta",
+          "en": "In Brazil: Pimentão amarelo + pimenta"
+        },
+        "fitId": null
+      },
+      {
+        "id": "manteiga",
+        "grams": 10,
+        "fitGrams": 5,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "tomate",
+        "grams": 40,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       }
@@ -12668,7 +13585,7 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Lava muy bien la quinua (o usa avena como alternativa) bajo el grifo en colador fino para quitarle el amargor de la saponina.",
+          "t": "Lava muy bien la quinua bajo el grifo en colador fino para quitarle el amargor de la saponina.",
           "s": null
         },
         {
@@ -12676,7 +13593,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Sofríe la cebolla y el ajo con unas gotas de aceite y agrega la quinua escurrida.",
+          "t": "Sofríe la cebolla, el ajo y la pasta de ají amarillo en la mantequilla y agrega la quinua escurrida.",
           "s": 180
         },
         {
@@ -12684,7 +13601,7 @@ const CATALOG_DISHES = [
           "s": 900
         },
         {
-          "t": "Baja el fuego e incorpora el queso rallado y un chorrito de leche hasta lograr textura cremosa; sala.",
+          "t": "Baja el fuego e incorpora el queso rallado y la leche evaporada hasta lograr textura cremosa; sala.",
           "s": 120
         },
         {
@@ -12698,7 +13615,7 @@ const CATALOG_DISHES = [
       ],
       "pt": [
         {
-          "t": "Lave muito bem a quinoa (ou use aveia como alternativa) em peneira fina sob a torneira para tirar o amargor da saponina.",
+          "t": "Lave muito bem a quinoa sob a torneira em peneira fina para tirar o amargor da saponina.",
           "s": null
         },
         {
@@ -12706,7 +13623,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Refogue a cebola e o alho com gotas de óleo e junte a quinoa escorrida.",
+          "t": "Refogue a cebola, o alho e a pasta de ají amarillo na manteiga e junte a quinoa escorrida.",
           "s": 180
         },
         {
@@ -12714,7 +13631,7 @@ const CATALOG_DISHES = [
           "s": 900
         },
         {
-          "t": "Abaixe o fogo e incorpore o queijo ralado e um fio de leite até ficar cremoso; salgue.",
+          "t": "Abaixe o fogo e junte o queijo ralado e o leite evaporado até ficar cremoso; salgue.",
           "s": 120
         },
         {
@@ -12728,7 +13645,7 @@ const CATALOG_DISHES = [
       ],
       "en": [
         {
-          "t": "Rinse the quinoa (or use oats as an alternative) very well under the tap in a fine sieve to remove the bitter saponin.",
+          "t": "Rinse the quinoa very well in a fine sieve to remove the bitter saponin.",
           "s": null
         },
         {
@@ -12736,7 +13653,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Sauté the onion and garlic with a few drops of oil and add the drained quinoa.",
+          "t": "Sauté the onion, garlic and ají amarillo paste in the butter and add the drained quinoa.",
           "s": 180
         },
         {
@@ -12744,7 +13661,7 @@ const CATALOG_DISHES = [
           "s": 900
         },
         {
-          "t": "Lower the heat and stir in the grated cheese and a splash of milk until creamy; salt it.",
+          "t": "Lower the heat and stir in the grated cheese and evaporated milk until creamy; salt.",
           "s": 120
         },
         {
@@ -12771,56 +13688,60 @@ const CATALOG_DISHES = [
       "en": "Peruvian Crispy Fries & Sausage"
     },
     "brTip": {
-      "es": "Versión tradicional con lingüiça/salchicha y papas crocantes; en modo fit usa peito de frango en tiras y papas en airfryer.",
-      "pt": "Batatas crocantes com linguiça/salsicha fatiada (ou frango em tiras no modo fit).",
-      "en": "Crispy fries topped with seared sausage (or chicken in fit mode) and sauces."
+      "es": "Original con salchicha tipo hot dog y papas fritas, con mayonesa, ketchup y crema de ají. En Brasil: salsicha. Modo fit: pechuga en tiras.",
+      "pt": "Original com salsicha tipo hot dog e batata frita, com maionese, ketchup e creme de ají. Modo fit: peito de frango em tiras.",
+      "en": "Made with hot dog sausage and fries, with mayo, ketchup and ají cream. Fit mode: chicken breast strips."
     },
     "macrosTrad": {
-      "kcal": 621,
-      "p": 31,
+      "kcal": 775,
+      "p": 19,
       "c": 36,
-      "f": 40
+      "f": 63
     },
     "macrosFit": {
-      "kcal": 412,
-      "p": 57,
-      "c": 27,
-      "f": 8
+      "kcal": 424,
+      "p": 53,
+      "c": 25,
+      "f": 12
     },
     "ingredients": [
       {
-        "id": "linguica",
+        "id": "salchicha",
         "grams": 140,
-        "fitGrams": 0,
-        "sub": "Peito de frango em tiras",
-        "fitId": null
-      },
-      {
-        "id": "frango",
-        "grams": 0,
-        "fitGrams": 160,
+        "fitGrams": 155,
         "sub": null,
-        "fitId": null
+        "fitId": "frango"
       },
       {
         "id": "batata",
         "grams": 170,
-        "fitGrams": 130,
-        "sub": "Batata na airfryer",
+        "fitGrams": 135,
+        "sub": null,
         "fitId": null
+      },
+      {
+        "id": "azeite",
+        "grams": 15,
+        "fitGrams": 7.5,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "maionesa",
+        "grams": 15,
+        "fitGrams": 7.5,
+        "sub": null,
+        "fitId": "iogurte"
       },
       {
         "id": "tomate",
-        "grams": 60,
-        "fitGrams": 70,
-        "sub": null,
-        "fitId": null
-      },
-      {
-        "id": "requeijao",
-        "grams": 25,
+        "grams": 20,
         "fitGrams": 25,
-        "sub": null,
+        "sub": {
+          "es": "En Brasil: Ketchup",
+          "pt": "No Brasil: Ketchup",
+          "en": "In Brazil: Ketchup"
+        },
         "fitId": null
       }
     ],
@@ -12835,7 +13756,7 @@ const CATALOG_DISHES = [
           "s": 960
         },
         {
-          "t": "Corta la salchicha/lingüiça (o la pechuga en modo fit) en rodajas diagonales.",
+          "t": "Corta las salchichas en rodajas diagonales.",
           "s": null
         },
         {
@@ -12851,7 +13772,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Sirve con mostaza, salsa roja y crema de ají o requeijão, y la ensalada al lado.",
+          "t": "Sirve con mayonesa, ketchup, mostaza y crema de ají, y la ensalada al lado.",
           "s": null
         }
       ],
@@ -12865,7 +13786,7 @@ const CATALOG_DISHES = [
           "s": 960
         },
         {
-          "t": "Corte a linguiça (ou o peito de frango no modo fit) em rodelas na diagonal.",
+          "t": "Corte as salsichas em rodelas diagonais.",
           "s": null
         },
         {
@@ -12881,7 +13802,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Sirva com mostarda, molho vermelho e creme de pimenta ou requeijão, e a salada ao lado.",
+          "t": "Sirva com maionese, ketchup, mostarda e creme de ají, e a salada ao lado.",
           "s": null
         }
       ],
@@ -12895,7 +13816,7 @@ const CATALOG_DISHES = [
           "s": 960
         },
         {
-          "t": "Slice the sausage (or chicken breast for the fit version) on the diagonal.",
+          "t": "Slice the sausages diagonally.",
           "s": null
         },
         {
@@ -12911,7 +13832,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Serve with mustard, ketchup and chili cream or requeijão, with the salad on the side.",
+          "t": "Serve with mayonnaise, ketchup, mustard and ají cream, with the salad on the side.",
           "s": null
         }
       ]
@@ -12930,57 +13851,94 @@ const CATALOG_DISHES = [
       "en": "Peruvian Pickled Onion Fish"
     },
     "brTip": {
-      "es": "Filete de pescado sellado cubierto con mucha cebolla morada encurtida tibia en vinagre, páprica y batata-doce.",
-      "pt": "Peixe grelhado coberto com cebola roxa refogada no vinagre e páprica + batata-doce.",
-      "en": "Seared fish blanketed in tangy vinegar-paprika onions and sweet potato."
+      "es": "Pescado frito cubierto con cebolla encurtida tibia en vinagre y ají panca, con camote, huevo, aceituna y queso fresco.",
+      "pt": "Peixe frito coberto com cebola em conserva morna no vinagre e ají panca, com batata-doce, ovo, azeitona e queijo fresco.",
+      "en": "Fried fish topped with warm pickled onion in vinegar and ají panca, with sweet potato, egg, olive and queso fresco."
     },
     "macrosTrad": {
-      "kcal": 508,
-      "p": 45,
+      "kcal": 548,
+      "p": 47,
       "c": 32,
-      "f": 23
+      "f": 26
     },
     "macrosFit": {
-      "kcal": 451,
-      "p": 47,
-      "c": 30,
-      "f": 16
+      "kcal": 476,
+      "p": 50,
+      "c": 29,
+      "f": 17
     },
     "ingredients": [
       {
         "id": "tilapia",
         "grams": 175,
-        "fitGrams": 185,
-        "sub": null,
+        "fitGrams": 195,
+        "sub": {
+          "es": "En Brasil: Tilápia ou pescada",
+          "pt": "No Brasil: Tilápia ou pescada",
+          "en": "In Brazil: Tilápia ou pescada"
+        },
         "fitId": null
       },
       {
         "id": "cebola",
         "grams": 100,
-        "fitGrams": 100,
-        "sub": "Cebola roxa",
+        "fitGrams": 115,
+        "sub": {
+          "es": "En Brasil: Cebola roxa",
+          "pt": "No Brasil: Cebola roxa",
+          "en": "In Brazil: Cebola roxa"
+        },
         "fitId": null
       },
       {
-        "id": "batata_doce",
-        "grams": 110,
-        "fitGrams": 100,
-        "sub": null,
+        "id": "aji_panca",
+        "grams": 15,
+        "fitGrams": 15,
+        "sub": {
+          "es": "En Brasil: Páprica defumada + pimenta",
+          "pt": "No Brasil: Páprica defumada + pimenta",
+          "en": "In Brazil: Páprica defumada + pimenta"
+        },
         "fitId": null
       },
       {
-        "id": "azeitona",
-        "grams": 20,
+        "id": "vinagre",
+        "grams": 15,
         "fitGrams": 15,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "ovo",
-        "grams": 60,
-        "fitGrams": 60,
+        "id": "batata_doce",
+        "grams": 100,
+        "fitGrams": 80,
         "sub": null,
         "fitId": null
+      },
+      {
+        "id": "ovo",
+        "grams": 50,
+        "fitGrams": 55,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "azeitona",
+        "grams": 15,
+        "fitGrams": 15,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "queso_fresco",
+        "grams": 20,
+        "fitGrams": 15,
+        "sub": {
+          "es": "En Brasil: Queijo minas frescal",
+          "pt": "No Brasil: Queijo minas frescal",
+          "en": "In Brazil: Queijo minas frescal"
+        },
+        "fitId": "ricota"
       },
       {
         "id": "azeite",
@@ -13009,7 +13967,7 @@ const CATALOG_DISHES = [
           "s": 180
         },
         {
-          "t": "Añade 1 cdta de páprica, 1 cdta de comino, 3 cdas de vinagre tinto o de manzana y 2 cdas de agua; hierve.",
+          "t": "Añade la pasta de ají panca, 1 cdta de comino, el vinagre y 2 cdas de agua; hierve.",
           "s": 120
         },
         {
@@ -13017,7 +13975,7 @@ const CATALOG_DISHES = [
           "s": 300
         },
         {
-          "t": "Sirve con el camote, el huevo duro en cuartos y las aceitunas.",
+          "t": "Sirve con el camote, el huevo duro en cuartos, las aceitunas y el queso fresco.",
           "s": null
         }
       ],
@@ -13039,7 +13997,7 @@ const CATALOG_DISHES = [
           "s": 180
         },
         {
-          "t": "Junte 1 colher (chá) de páprica, 1 de cominho, 3 colheres de vinagre de vinho ou maçã e 2 de água; ferva.",
+          "t": "Junte a pasta de ají panca, 1 colher de chá de cominho, o vinagre e 2 colheres de água; ferva.",
           "s": 120
         },
         {
@@ -13047,7 +14005,7 @@ const CATALOG_DISHES = [
           "s": 300
         },
         {
-          "t": "Sirva com a batata-doce, o ovo cozido em quartos e as azeitonas.",
+          "t": "Sirva com a batata-doce, o ovo cozido em quartos, as azeitonas e o queijo fresco.",
           "s": null
         }
       ],
@@ -13069,7 +14027,7 @@ const CATALOG_DISHES = [
           "s": 180
         },
         {
-          "t": "Add 1 tsp paprika, 1 tsp cumin, 3 tbsp red-wine or cider vinegar and 2 tbsp water; bring to a boil.",
+          "t": "Add the ají panca paste, 1 tsp cumin, the vinegar and 2 tbsp water; boil.",
           "s": 120
         },
         {
@@ -13077,7 +14035,7 @@ const CATALOG_DISHES = [
           "s": 300
         },
         {
-          "t": "Serve with the sweet potato, quartered boiled egg and olives.",
+          "t": "Serve with the sweet potato, quartered hard-boiled egg, olives and queso fresco.",
           "s": null
         }
       ]
@@ -13096,62 +14054,117 @@ const CATALOG_DISHES = [
       "en": "Peruvian Seafood Soup"
     },
     "brTip": {
-      "es": "Caldo concentrado de pescado y camarón con tomate, cebolla y mandioca cocida.",
-      "pt": "Caldo intenso de peixe e camarão com tomate, cebola roxa e mandioca.",
-      "en": "Rich Peruvian fish and shrimp soup with tomato and cassava."
+      "es": "Sopa concentrada de pescado, camarón, mariscos y calamar con ají panca y ají amarillo. En Brasil: mexilhão y lula congelados.",
+      "pt": "Sopa concentrada de peixe, camarão, mariscos e lula com ají panca e ají amarillo. No Brasil: mexilhão e lula congelados.",
+      "en": "Rich soup of fish, shrimp, shellfish and squid with ají panca and ají amarillo. In Brazil: frozen mussels and squid."
     },
     "macrosTrad": {
-      "kcal": 352,
-      "p": 43,
-      "c": 38,
-      "f": 4
+      "kcal": 425,
+      "p": 52,
+      "c": 43,
+      "f": 5
     },
     "macrosFit": {
-      "kcal": 349,
-      "p": 45,
-      "c": 35,
-      "f": 4
+      "kcal": 429,
+      "p": 56,
+      "c": 39,
+      "f": 6
     },
     "ingredients": [
       {
         "id": "tilapia",
-        "grams": 130,
-        "fitGrams": 140,
-        "sub": null,
+        "grams": 120,
+        "fitGrams": 130,
+        "sub": {
+          "es": "En Brasil: Tilápia ou pescada",
+          "pt": "No Brasil: Tilápia ou pescada",
+          "en": "In Brazil: Tilápia ou pescada"
+        },
         "fitId": null
       },
       {
         "id": "camarao",
-        "grams": 80,
-        "fitGrams": 80,
+        "grams": 60,
+        "fitGrams": 65,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "mariscos",
+        "grams": 60,
+        "fitGrams": 65,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "calamar",
+        "grams": 40,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
       {
         "id": "tomate",
-        "grams": 100,
-        "fitGrams": 100,
+        "grams": 90,
+        "fitGrams": 105,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
-        "grams": 60,
-        "fitGrams": 60,
-        "sub": "Cebola roxa",
+        "grams": 50,
+        "fitGrams": 55,
+        "sub": {
+          "es": "En Brasil: Cebola roxa",
+          "pt": "No Brasil: Cebola roxa",
+          "en": "In Brazil: Cebola roxa"
+        },
         "fitId": null
       },
       {
-        "id": "mandioca",
-        "grams": 90,
-        "fitGrams": 80,
+        "id": "aji_panca",
+        "grams": 10,
+        "fitGrams": 10,
+        "sub": {
+          "es": "En Brasil: Páprica defumada + pimenta",
+          "pt": "No Brasil: Páprica defumada + pimenta",
+          "en": "In Brazil: Páprica defumada + pimenta"
+        },
+        "fitId": null
+      },
+      {
+        "id": "aji_amarillo",
+        "grams": 10,
+        "fitGrams": 10,
+        "sub": {
+          "es": "En Brasil: Pimentão amarelo + pimenta",
+          "pt": "No Brasil: Pimentão amarelo + pimenta",
+          "en": "In Brazil: Pimentão amarelo + pimenta"
+        },
+        "fitId": null
+      },
+      {
+        "id": "alho",
+        "grams": 8,
+        "fitGrams": 9,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cheiro_verde",
-        "grams": 15,
-        "fitGrams": 15,
+        "grams": 10,
+        "fitGrams": 10,
+        "sub": {
+          "es": "En Brasil: Coentro",
+          "pt": "No Brasil: Coentro",
+          "en": "In Brazil: Coentro"
+        },
+        "fitId": null
+      },
+      {
+        "id": "mandioca",
+        "grams": 90,
+        "fitGrams": 70,
         "sub": null,
         "fitId": null
       }
@@ -13167,7 +14180,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Sofríe la cebolla, el ajo, el tomate y la páprica en olla con unas gotas de aceite hasta formar una pasta espesa.",
+          "t": "Sofríe la cebolla, el ajo, el tomate, el ají panca y el ají amarillo en olla con unas gotas de aceite hasta formar una pasta espesa.",
           "s": 300
         },
         {
@@ -13179,7 +14192,7 @@ const CATALOG_DISHES = [
           "s": 240
         },
         {
-          "t": "Añade los camarones solo al final, hasta que se pongan rosados.",
+          "t": "Añade los camarones, los mariscos y el calamar solo al final, hasta que los camarones se pongan rosados.",
           "s": 120
         },
         {
@@ -13197,7 +14210,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Refogue a cebola, o alho, o tomate e a páprica na panela com gotas de óleo até virar uma pasta grossa.",
+          "t": "Refogue a cebola, o alho, o tomate, o ají panca e o ají amarillo na panela com gotas de óleo até formar uma pasta grossa.",
           "s": 300
         },
         {
@@ -13209,7 +14222,7 @@ const CATALOG_DISHES = [
           "s": 240
         },
         {
-          "t": "Junte os camarões só no final, até ficarem rosados.",
+          "t": "Junte os camarões, os mariscos e a lula só no final, até os camarões ficarem rosados.",
           "s": 120
         },
         {
@@ -13227,7 +14240,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Sauté the onion, garlic, tomato and paprika in a pot with a few drops of oil into a thick paste.",
+          "t": "Sauté the onion, garlic, tomato, ají panca and ají amarillo in a pot with a few drops of oil into a thick paste.",
           "s": 300
         },
         {
@@ -13239,7 +14252,7 @@ const CATALOG_DISHES = [
           "s": 240
         },
         {
-          "t": "Add the shrimp only at the end, until pink.",
+          "t": "Add the shrimp, shellfish and squid only at the end, until the shrimp turn pink.",
           "s": 120
         },
         {
@@ -13257,61 +14270,69 @@ const CATALOG_DISHES = [
     "fav": false,
     "img": "images/pe_20.jpg",
     "title": {
-      "es": "Chupe de Camarones / Pescado",
-      "pt": "Chupe Cremoso de Camarão/Peixe",
-      "en": "Peruvian Shrimp Chowder"
+      "es": "Chupe de Camarones",
+      "pt": "Chupe de Camarões",
+      "en": "Peruvian Shrimp Chowder (Chupe)"
     },
     "brTip": {
-      "es": "Sopa cremosa con leche, huevo pochado, queso fresco/minas, papa y maíz.",
-      "pt": "Sopa cremosa com leite, ovo, queijo minas, batata e milho.",
-      "en": "Creamy Peruvian chowder with milk, egg, Minas cheese, potato, and corn."
+      "es": "Sopa cremosa de camarones con ají panca, leche evaporada, huevo, queso fresco, papa y choclo. En Brasil: queijo minas frescal.",
+      "pt": "Sopa cremosa de camarão com ají panca, leite evaporado, ovo, queijo fresco, batata e milho. No Brasil: queijo minas frescal.",
+      "en": "Creamy shrimp soup with ají panca, evaporated milk, egg, queso fresco, potato and corn. In Brazil: minas frescal cheese."
     },
     "macrosTrad": {
-      "kcal": 514,
-      "p": 46,
-      "c": 42,
-      "f": 19
+      "kcal": 578,
+      "p": 47,
+      "c": 59,
+      "f": 18
     },
     "macrosFit": {
-      "kcal": 434,
-      "p": 44,
-      "c": 36,
-      "f": 13
+      "kcal": 453,
+      "p": 45,
+      "c": 49,
+      "f": 9
     },
     "ingredients": [
       {
         "id": "camarao",
         "grams": 130,
-        "fitGrams": 140,
-        "sub": "Tilápia em cubos",
+        "fitGrams": 145,
+        "sub": null,
         "fitId": null
       },
       {
         "id": "batata",
         "grams": 120,
-        "fitGrams": 100,
+        "fitGrams": 95,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "leite",
-        "grams": 100,
-        "fitGrams": 100,
-        "sub": "Leite desnatado",
-        "fitId": null
+        "id": "leite_evaporado",
+        "grams": 60,
+        "fitGrams": 60,
+        "sub": {
+          "es": "En Brasil: Leite integral + creme de leite",
+          "pt": "No Brasil: Leite integral + creme de leite",
+          "en": "In Brazil: Leite integral + creme de leite"
+        },
+        "fitId": "leite_desnatado"
       },
       {
         "id": "ovo",
-        "grams": 60,
-        "fitGrams": 60,
+        "grams": 50,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "minas",
-        "grams": 40,
-        "fitGrams": 30,
-        "sub": null,
+        "id": "queso_fresco",
+        "grams": 30,
+        "fitGrams": 20,
+        "sub": {
+          "es": "En Brasil: Queijo minas frescal",
+          "pt": "No Brasil: Queijo minas frescal",
+          "en": "In Brazil: Queijo minas frescal"
+        },
         "fitId": "ricota"
       },
       {
@@ -13322,9 +14343,41 @@ const CATALOG_DISHES = [
         "fitId": null
       },
       {
+        "id": "arveja",
+        "grams": 30,
+        "fitGrams": 35,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "arroz_branco",
+        "grams": 30,
+        "fitGrams": 25,
+        "sub": null,
+        "fitId": "arroz"
+      },
+      {
+        "id": "aji_panca",
+        "grams": 8,
+        "fitGrams": 9,
+        "sub": {
+          "es": "En Brasil: Páprica defumada + pimenta",
+          "pt": "No Brasil: Páprica defumada + pimenta",
+          "en": "In Brazil: Páprica defumada + pimenta"
+        },
+        "fitId": null
+      },
+      {
         "id": "tomate",
-        "grams": 60,
-        "fitGrams": 60,
+        "grams": 40,
+        "fitGrams": 45,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "cebola",
+        "grams": 40,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       }
@@ -13336,7 +14389,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Sofríe la cebolla, el ajo, el tomate y la páprica en olla con unas gotas de aceite.",
+          "t": "Sofríe la cebolla, el ajo, el tomate y la pasta de ají panca en olla con unas gotas de aceite.",
           "s": 240
         },
         {
@@ -13348,7 +14401,7 @@ const CATALOG_DISHES = [
           "s": 840
         },
         {
-          "t": "Baja el fuego y añade los camarones (o pescado), la leche y el queso; cocina sin dejar que hierva fuerte para que la leche no se corte.",
+          "t": "Baja el fuego y añade los camarones, la leche evaporada y el queso; cocina sin dejar que hierva fuerte para que la leche no se corte.",
           "s": 180
         },
         {
@@ -13366,7 +14419,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Refogue a cebola, o alho, o tomate e a páprica na panela com gotas de óleo.",
+          "t": "Refogue a cebola, o alho, o tomate e a pasta de ají panca na panela com gotas de óleo.",
           "s": 240
         },
         {
@@ -13378,7 +14431,7 @@ const CATALOG_DISHES = [
           "s": 840
         },
         {
-          "t": "Abaixe o fogo e acrescente os camarões (ou peixe), o leite e o queijo; cozinhe sem ferver forte para o leite não talhar.",
+          "t": "Abaixe o fogo e junte os camarões, o leite evaporado e o queijo; cozinhe sem ferver forte para o leite não talhar.",
           "s": 180
         },
         {
@@ -13396,7 +14449,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Sauté the onion, garlic, tomato and paprika in a pot with a few drops of oil.",
+          "t": "Sauté the onion, garlic, tomato and ají panca paste in a pot with a few drops of oil.",
           "s": 240
         },
         {
@@ -13408,7 +14461,7 @@ const CATALOG_DISHES = [
           "s": 840
         },
         {
-          "t": "Lower the heat and add the shrimp (or fish), milk and cheese; cook without a hard boil so the milk does not curdle.",
+          "t": "Lower the heat and add the shrimp, evaporated milk and cheese; do not boil hard so the milk does not curdle.",
           "s": 180
         },
         {
@@ -13421,7 +14474,7 @@ const CATALOG_DISHES = [
         }
       ]
     },
-    "videoQuery": "como hacer Chupe de Camarones / Pescado receta paso a paso"
+    "videoQuery": "como hacer Chupe de Camarones receta paso a paso"
   },
   {
     "id": "co_1",
@@ -13440,36 +14493,43 @@ const CATALOG_DISHES = [
       "en": "In Brazil: carioca/red beans, hydrated flocão cornmeal arepa, banana-da-terra, and pork."
     },
     "macrosTrad": {
-      "kcal": 992,
-      "p": 86,
-      "c": 92,
-      "f": 31
+      "kcal": 1452,
+      "p": 74,
+      "c": 114,
+      "f": 77
     },
     "macrosFit": {
-      "kcal": 929,
-      "p": 89,
-      "c": 74,
-      "f": 30
+      "kcal": 1166,
+      "p": 70,
+      "c": 91,
+      "f": 58
     },
     "ingredients": [
       {
         "id": "patinho",
-        "grams": 120,
-        "fitGrams": 140,
+        "grams": 100,
+        "fitGrams": 110,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "lombo",
+        "id": "panceta",
         "grams": 80,
-        "fitGrams": 70,
-        "sub": "Chicharrón / Lombo crocante",
+        "fitGrams": 50,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "linguica",
+        "grams": 50,
+        "fitGrams": 30,
+        "sub": null,
         "fitId": null
       },
       {
         "id": "feijao",
         "grams": 140,
-        "fitGrams": 130,
+        "fitGrams": 110,
         "sub": null,
         "fitId": null
       },
@@ -13477,34 +14537,52 @@ const CATALOG_DISHES = [
         "id": "arroz_branco",
         "grams": 100,
         "fitGrams": 80,
-        "sub": "Arroz Integral",
+        "sub": null,
         "fitId": "arroz"
       },
       {
         "id": "ovo",
         "grams": 60,
-        "fitGrams": 60,
+        "fitGrams": 65,
         "sub": null,
         "fitId": null
       },
       {
         "id": "banana_terra",
         "grams": 80,
-        "fitGrams": 60,
+        "fitGrams": 65,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "cuscuz",
-        "grams": 50,
-        "fitGrams": 45,
-        "sub": "Arepa de milho",
+        "id": "harina_pan",
+        "grams": 40,
+        "fitGrams": 30,
+        "sub": {
+          "es": "En Brasil: Flocão de milho",
+          "pt": "No Brasil: Flocão de milho",
+          "en": "In Brazil: Flocão de milho"
+        },
         "fitId": null
       },
       {
         "id": "abacate",
         "grams": 50,
-        "fitGrams": 40,
+        "fitGrams": 55,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "tomate",
+        "grams": 30,
+        "fitGrams": 35,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "cebola",
+        "grams": 20,
+        "fitGrams": 25,
         "sub": null,
         "fitId": null
       }
@@ -13520,11 +14598,11 @@ const CATALOG_DISHES = [
           "s": 1080
         },
         {
-          "t": "Arepa: hidrata la harina de maíz (o flocão) con agua tibia y sal, forma un disco y ásalo en sartén por ambos lados.",
+          "t": "Arepa: hidrata la harina de maíz precocida con agua tibia y sal, forma un disco y ásalo en sartén por ambos lados.",
           "s": 480
         },
         {
-          "t": "Corta el cerdo en tiras, sálalo y cocínalo en airfryer a 200 °C hasta que quede crocante (estilo chicharrón).",
+          "t": "Chicharrón: corta la panceta en tiras, sálala y cocínala en airfryer a 200 °C (o fríela) hasta que quede crocante; dora también el chorizo.",
           "s": 720
         },
         {
@@ -13550,11 +14628,11 @@ const CATALOG_DISHES = [
           "s": 1080
         },
         {
-          "t": "Arepa: hidrate a farinha de milho (ou flocão) com água morna e sal, forme um disco e asse na frigideira dos dois lados.",
+          "t": "Arepa: hidrate a farinha de milho pré-cozida com água morna e sal, forme um disco e asse na frigideira dos dois lados.",
           "s": 480
         },
         {
-          "t": "Corte o porco em tiras, salgue e leve à airfryer a 200 °C até ficar crocante (tipo torresmo).",
+          "t": "Torresmo: corte a panceta em tiras, salgue e asse na airfryer a 200 °C (ou frite) até ficar crocante; doure também a linguiça.",
           "s": 720
         },
         {
@@ -13580,11 +14658,11 @@ const CATALOG_DISHES = [
           "s": 1080
         },
         {
-          "t": "Arepa: hydrate the corn flour (or flocão) with warm water and salt, shape a disc and cook in a pan on both sides.",
+          "t": "Arepa: mix the precooked corn flour with warm water and salt, shape a disc and cook it in a pan on both sides.",
           "s": 480
         },
         {
-          "t": "Cut the pork into strips, salt it and air-fry at 200 °C until crisp (chicharrón style).",
+          "t": "Chicharrón: cut the pork belly into strips, salt and air-fry at 200 °C (or fry) until crisp; brown the chorizo too.",
           "s": 720
         },
         {
@@ -13615,21 +14693,21 @@ const CATALOG_DISHES = [
       "en": "Colombian Ajiaco Soup"
     },
     "brTip": {
-      "es": "Usa mezcla de batata comum (se deshace y espesa) + batata asterix/baroa, mazorca (milho verde), creme de leite/requeijão y aguacate.",
-      "pt": "Use batata comum (que derrete e engrossa) + milho verde + creme de leite/requeijão + abacate.",
-      "en": "Combine boiling potatoes with sweet corn, chicken, cream, and avocado."
+      "es": "Original con tres papas (criolla, pastusa y sabanera), guascas, mazorca, crema de leche, alcaparras y aguacate. En Brasil: batata comum + batata bolinha.",
+      "pt": "Original com três batatas (criolla, pastusa e sabanera), guascas, milho, creme de leite, alcaparras e abacate. No Brasil: batata comum + batata bolinha.",
+      "en": "Made with three potatoes (criolla, pastusa, sabanera), guascas, corn, cream, capers and avocado. In Brazil: regular + baby potatoes."
     },
     "macrosTrad": {
-      "kcal": 643,
-      "p": 64,
-      "c": 61,
-      "f": 17
+      "kcal": 679,
+      "p": 61,
+      "c": 62,
+      "f": 22
     },
     "macrosFit": {
-      "kcal": 601,
-      "p": 66,
-      "c": 51,
-      "f": 15
+      "kcal": 582,
+      "p": 64,
+      "c": 52,
+      "f": 14
     },
     "ingredients": [
       {
@@ -13641,44 +14719,52 @@ const CATALOG_DISHES = [
       },
       {
         "id": "batata",
-        "grams": 180,
-        "fitGrams": 140,
-        "sub": null,
+        "grams": 200,
+        "fitGrams": 160,
+        "sub": {
+          "es": "En Brasil: Batata inglesa + batata bolinha",
+          "pt": "No Brasil: Batata inglesa + batata bolinha",
+          "en": "In Brazil: Batata inglesa + batata bolinha"
+        },
         "fitId": null
       },
       {
         "id": "milho",
         "grams": 90,
-        "fitGrams": 80,
+        "fitGrams": 70,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "requeijao",
-        "grams": 35,
-        "fitGrams": 30,
-        "sub": "Creme de leite / Requeijão",
-        "fitId": null
+        "id": "creme_leite",
+        "grams": 30,
+        "fitGrams": 20,
+        "sub": null,
+        "fitId": "iogurte"
       },
       {
         "id": "abacate",
         "grams": 50,
-        "fitGrams": 40,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
-        "grams": 40,
-        "fitGrams": 40,
+        "grams": 30,
+        "fitGrams": 35,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cheiro_verde",
-        "grams": 15,
-        "fitGrams": 15,
-        "sub": null,
+        "grams": 10,
+        "fitGrams": 10,
+        "sub": {
+          "es": "En Brasil: Coentro (no Brasil não há guascas)",
+          "pt": "No Brasil: Coentro (no Brasil não há guascas)",
+          "en": "In Brazil: Coentro (no Brasil não há guascas)"
+        },
         "fitId": null
       }
     ],
@@ -13709,7 +14795,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Sirve en tazón con el pollo desmenuzado encima, una cucharada de crema o requeijão, alcaparras opcionales y el aguacate al lado.",
+          "t": "Sirve en tazón con el pollo desmenuzado encima, una cucharada de crema de leche, alcaparras y el aguacate al lado.",
           "s": null
         }
       ],
@@ -13739,7 +14825,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Sirva em tigela com o frango desfiado por cima, uma colher de creme de leite ou requeijão, alcaparras opcionais e o abacate ao lado.",
+          "t": "Sirva na tigela com o frango desfiado por cima, uma colher de creme de leite, alcaparras e o abacate ao lado.",
           "s": null
         }
       ],
@@ -13769,7 +14855,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Serve in bowls with the shredded chicken on top, a spoonful of cream or requeijão, optional capers and the avocado on the side.",
+          "t": "Serve in a bowl topped with the shredded chicken, a spoon of cream, capers and avocado on the side.",
           "s": null
         }
       ]
@@ -13793,36 +14879,40 @@ const CATALOG_DISHES = [
       "en": "Hearty broth with beef, cassava, plantain, corn, potato, and cilantro."
     },
     "macrosTrad": {
-      "kcal": 768,
-      "p": 66,
-      "c": 98,
-      "f": 14
+      "kcal": 783,
+      "p": 38,
+      "c": 100,
+      "f": 28
     },
     "macrosFit": {
-      "kcal": 715,
-      "p": 68,
-      "c": 79,
-      "f": 14
+      "kcal": 567,
+      "p": 25,
+      "c": 83,
+      "f": 17
     },
     "ingredients": [
       {
-        "id": "patinho",
+        "id": "falda_res",
         "grams": 165,
-        "fitGrams": 175,
-        "sub": null,
+        "fitGrams": 100,
+        "sub": {
+          "es": "En Brasil: Costela bovina",
+          "pt": "No Brasil: Costela bovina",
+          "en": "In Brazil: Costela bovina"
+        },
         "fitId": null
       },
       {
         "id": "mandioca",
         "grams": 130,
-        "fitGrams": 110,
+        "fitGrams": 105,
         "sub": null,
         "fitId": null
       },
       {
         "id": "banana_terra",
         "grams": 80,
-        "fitGrams": 60,
+        "fitGrams": 65,
         "sub": null,
         "fitId": null
       },
@@ -13842,8 +14932,15 @@ const CATALOG_DISHES = [
       },
       {
         "id": "tomate",
-        "grams": 60,
-        "fitGrams": 60,
+        "grams": 40,
+        "fitGrams": 45,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "cebola",
+        "grams": 40,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
@@ -13851,7 +14948,11 @@ const CATALOG_DISHES = [
         "id": "cheiro_verde",
         "grams": 15,
         "fitGrams": 15,
-        "sub": null,
+        "sub": {
+          "es": "En Brasil: Coentro",
+          "pt": "No Brasil: Coentro",
+          "en": "In Brazil: Coentro"
+        },
         "fitId": null
       }
     ],
@@ -13966,57 +15067,69 @@ const CATALOG_DISHES = [
       "en": "If Harina PAN isn't nearby, use Brazilian milharina or well-hydrated flocão."
     },
     "macrosTrad": {
-      "kcal": 646,
-      "p": 64,
-      "c": 33,
-      "f": 28
+      "kcal": 797,
+      "p": 41,
+      "c": 62,
+      "f": 42
     },
     "macrosFit": {
-      "kcal": 578,
-      "p": 66,
-      "c": 30,
-      "f": 20
+      "kcal": 509,
+      "p": 26,
+      "c": 51,
+      "f": 22
     },
     "ingredients": [
       {
-        "id": "patinho",
+        "id": "falda_res",
         "grams": 150,
-        "fitGrams": 165,
-        "sub": null,
-        "fitId": null
-      },
-      {
-        "id": "cuscuz",
-        "grams": 100,
         "fitGrams": 90,
-        "sub": "Farinha de milho pré-cozida / Flocão",
+        "sub": {
+          "es": "En Brasil: Fraldinha ou acém desfiado",
+          "pt": "No Brasil: Fraldinha ou acém desfiado",
+          "en": "In Brazil: Fraldinha ou acém desfiado"
+        },
         "fitId": null
       },
       {
-        "id": "minas",
+        "id": "harina_pan",
+        "grams": 70,
+        "fitGrams": 55,
+        "sub": {
+          "es": "En Brasil: Flocão de milho",
+          "pt": "No Brasil: Flocão de milho",
+          "en": "In Brazil: Flocão de milho"
+        },
+        "fitId": null
+      },
+      {
+        "id": "queso_fresco",
         "grams": 40,
         "fitGrams": 30,
-        "sub": null,
+        "sub": {
+          "es": "En Brasil: Queijo coalho",
+          "pt": "No Brasil: Queijo coalho",
+          "en": "In Brazil: Queijo coalho"
+        },
         "fitId": "ricota"
       },
       {
         "id": "tomate",
         "grams": 70,
-        "fitGrams": 70,
+        "fitGrams": 80,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
         "grams": 40,
-        "fitGrams": 40,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
       {
         "id": "azeite",
         "grams": 8,
-        "fitGrams": 5,
+        "fitGrams": 4,
         "sub": null,
         "fitId": null
       }
@@ -14024,7 +15137,7 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Mezcla 1 taza de harina de maíz precocida (o flocão hidratado) con 1 taza de agua tibia, sal y 1 cdta de aceite.",
+          "t": "Mezcla 1 taza de harina de maíz precocida con 1 taza de agua tibia, sal y 1 cdta de aceite.",
           "s": null
         },
         {
@@ -14054,7 +15167,7 @@ const CATALOG_DISHES = [
       ],
       "pt": [
         {
-          "t": "Misture 1 xícara de farinha de milho pré-cozida (ou flocão hidratado) com 1 xícara de água morna, sal e 1 colher (chá) de óleo.",
+          "t": "Misture 1 xícara de farinha de milho pré-cozida com 1 xícara de água morna, sal e 1 colher de chá de óleo.",
           "s": null
         },
         {
@@ -14084,7 +15197,7 @@ const CATALOG_DISHES = [
       ],
       "en": [
         {
-          "t": "Mix 1 cup precooked corn flour (or hydrated flocão) with 1 cup warm water, salt and 1 tsp oil.",
+          "t": "Mix 1 cup of precooked corn flour with 1 cup of warm water, salt and 1 tsp oil.",
           "s": null
         },
         {
@@ -14132,50 +15245,40 @@ const CATALOG_DISHES = [
       "en": "Practical skillet version without deep frying: crisp corn cake stuffed with egg."
     },
     "macrosTrad": {
-      "kcal": 483,
-      "p": 24,
-      "c": 32,
-      "f": 29
+      "kcal": 555,
+      "p": 13,
+      "c": 63,
+      "f": 27
     },
     "macrosFit": {
-      "kcal": 370,
-      "p": 21,
-      "c": 30,
-      "f": 18
+      "kcal": 419,
+      "p": 13,
+      "c": 52,
+      "f": 17
     },
     "ingredients": [
       {
+        "id": "harina_pan",
+        "grams": 80,
+        "fitGrams": 65,
+        "sub": {
+          "es": "En Brasil: Flocão de milho",
+          "pt": "No Brasil: Flocão de milho",
+          "en": "In Brazil: Flocão de milho"
+        },
+        "fitId": null
+      },
+      {
         "id": "ovo",
-        "grams": 120,
-        "fitGrams": 120,
-        "sub": null,
-        "fitId": null
-      },
-      {
-        "id": "cuscuz",
-        "grams": 105,
-        "fitGrams": 95,
-        "sub": "Milharina / Flocão",
-        "fitId": null
-      },
-      {
-        "id": "minas",
-        "grams": 35,
-        "fitGrams": 25,
-        "sub": null,
-        "fitId": "ricota"
-      },
-      {
-        "id": "cebola",
-        "grams": 30,
-        "fitGrams": 30,
+        "grams": 60,
+        "fitGrams": 65,
         "sub": null,
         "fitId": null
       },
       {
         "id": "azeite",
-        "grams": 10,
-        "fitGrams": 5,
+        "grams": 20,
+        "fitGrams": 10,
         "sub": null,
         "fitId": null
       }
@@ -14291,57 +15394,79 @@ const CATALOG_DISHES = [
       "en": "Beef, mashed potato, and hogao stuffed in cornmeal pastry (great air-fried)."
     },
     "macrosTrad": {
-      "kcal": 500,
-      "p": 52,
-      "c": 49,
-      "f": 10
+      "kcal": 825,
+      "p": 45,
+      "c": 93,
+      "f": 29
     },
     "macrosFit": {
-      "kcal": 507,
-      "p": 57,
-      "c": 43,
-      "f": 11
+      "kcal": 673,
+      "p": 47,
+      "c": 75,
+      "f": 19
     },
     "ingredients": [
       {
+        "id": "harina_pan",
+        "grams": 90,
+        "fitGrams": 70,
+        "sub": {
+          "es": "En Brasil: Flocão de milho",
+          "pt": "No Brasil: Flocão de milho",
+          "en": "In Brazil: Flocão de milho"
+        },
+        "fitId": null
+      },
+      {
         "id": "patinho",
-        "grams": 130,
-        "fitGrams": 145,
+        "grams": 100,
+        "fitGrams": 110,
         "sub": null,
         "fitId": null
       },
       {
         "id": "batata",
-        "grams": 100,
-        "fitGrams": 80,
+        "grams": 90,
+        "fitGrams": 70,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "cuscuz",
-        "grams": 95,
-        "fitGrams": 85,
-        "sub": "Milharina / Farinha de milho",
-        "fitId": null
-      },
-      {
         "id": "tomate",
-        "grams": 60,
-        "fitGrams": 60,
+        "grams": 50,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
         "grams": 40,
-        "fitGrams": 40,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
       {
+        "id": "azeite",
+        "grams": 20,
+        "fitGrams": 10,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "cheiro_verde",
+        "grams": 10,
+        "fitGrams": 10,
+        "sub": {
+          "es": "En Brasil: Coentro",
+          "pt": "No Brasil: Coentro",
+          "en": "In Brazil: Coentro"
+        },
+        "fitId": null
+      },
+      {
         "id": "limao",
-        "grams": 15,
-        "fitGrams": 15,
+        "grams": 10,
+        "fitGrams": 10,
         "sub": null,
         "fitId": null
       }
@@ -14452,63 +15577,88 @@ const CATALOG_DISHES = [
       "en": "Colombian Chicken & Rice"
     },
     "brTip": {
-      "es": "Con mucho pimentón rojo, zanahoria, arvejas/milho verde y un toque de salsa de tomate o colorau.",
-      "pt": "Com pimentão, cenoura, milho/ervilha e toque de extrato de tomate.",
-      "en": "Colorful one-pot rice with shredded chicken, bell pepper, carrot, and peas/corn."
+      "es": "Con achiote, pimentón, zanahoria, arvejas y maíz. En Brasil el achiote es el colorau.",
+      "pt": "Com achiote, pimentão, cenoura, ervilha e milho. No Brasil o achiote é o colorau.",
+      "en": "With annatto, bell pepper, carrot, peas and corn. In Brazil annatto is sold as colorau."
     },
     "macrosTrad": {
-      "kcal": 506,
-      "p": 58,
-      "c": 55,
+      "kcal": 525,
+      "p": 59,
+      "c": 57,
       "f": 5
     },
     "macrosFit": {
-      "kcal": 493,
-      "p": 61,
-      "c": 48,
+      "kcal": 516,
+      "p": 64,
+      "c": 49,
       "f": 6
     },
     "ingredients": [
       {
         "id": "frango",
         "grams": 160,
-        "fitGrams": 170,
+        "fitGrams": 175,
         "sub": null,
         "fitId": null
       },
       {
         "id": "arroz_branco",
         "grams": 120,
-        "fitGrams": 100,
-        "sub": "Arroz Integral",
+        "fitGrams": 95,
+        "sub": null,
         "fitId": "arroz"
       },
       {
         "id": "cenoura",
-        "grams": 70,
-        "fitGrams": 80,
+        "grams": 50,
+        "fitGrams": 55,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "arveja",
+        "grams": 40,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
       {
         "id": "pimentao",
-        "grams": 60,
-        "fitGrams": 60,
+        "grams": 40,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
       {
         "id": "milho",
-        "grams": 50,
-        "fitGrams": 50,
+        "grams": 30,
+        "fitGrams": 25,
         "sub": null,
         "fitId": null
       },
       {
         "id": "tomate",
-        "grams": 60,
-        "fitGrams": 60,
+        "grams": 40,
+        "fitGrams": 45,
         "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "cebola",
+        "grams": 30,
+        "fitGrams": 35,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "achiote",
+        "grams": 3,
+        "fitGrams": 3,
+        "sub": {
+          "es": "En Brasil: Colorau (urucum)",
+          "pt": "No Brasil: Colorau (urucum)",
+          "en": "In Brazil: Colorau (urucum)"
+        },
         "fitId": null
       }
     ],
@@ -14523,11 +15673,11 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "En una olla grande sofríe la cebolla, el pimentón y el tomate con unas gotas de aceite, comino y achiote/colorau.",
+          "t": "En una olla grande sofríe la cebolla, el pimentón y el tomate con unas gotas de aceite, comino y achiote.",
           "s": 240
         },
         {
-          "t": "Agrega el arroz crudo lavado, la zanahoria y el maíz (o arvejas) y mezcla para nacarar el grano.",
+          "t": "Agrega el arroz crudo lavado, la zanahoria, el maíz y las arvejas y mezcla para nacarar el grano.",
           "s": 120
         },
         {
@@ -14553,11 +15703,11 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Numa panela grande refogue a cebola, o pimentão e o tomate com gotas de óleo, cominho e colorau.",
+          "t": "Numa panela grande refogue a cebola, o pimentão e o tomate com gotas de óleo, cominho e achiote (colorau).",
           "s": 240
         },
         {
-          "t": "Junte o arroz cru lavado, a cenoura e o milho (ou ervilha) e misture para envolver o grão.",
+          "t": "Junte o arroz cru lavado, a cenoura, o milho e as ervilhas e misture para nacarar o grão.",
           "s": 120
         },
         {
@@ -14583,11 +15733,11 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "In a large pot sauté the onion, pepper and tomato with a few drops of oil, cumin and annatto.",
+          "t": "In a large pot sauté the onion, bell pepper and tomato with a few drops of oil, cumin and annatto.",
           "s": 240
         },
         {
-          "t": "Add the washed raw rice, carrot and corn (or peas) and stir to coat the grains.",
+          "t": "Add the washed raw rice, carrot, corn and peas and stir to coat the grains.",
           "s": 120
         },
         {
@@ -14623,43 +15773,47 @@ const CATALOG_DISHES = [
       "en": "Use Brazilian fraldinha (flank steak) braised in rich tomato-scallion hogao."
     },
     "macrosTrad": {
-      "kcal": 526,
-      "p": 66,
-      "c": 34,
-      "f": 13
+      "kcal": 523,
+      "p": 37,
+      "c": 33,
+      "f": 28
     },
     "macrosFit": {
-      "kcal": 522,
-      "p": 68,
+      "kcal": 356,
+      "p": 24,
       "c": 31,
-      "f": 13
+      "f": 16
     },
     "ingredients": [
       {
-        "id": "patinho",
+        "id": "falda_res",
         "grams": 170,
-        "fitGrams": 175,
-        "sub": "Fraldinha / Patinho",
+        "fitGrams": 100,
+        "sub": {
+          "es": "En Brasil: Fraldinha",
+          "pt": "No Brasil: Fraldinha",
+          "en": "In Brazil: Fraldinha"
+        },
         "fitId": null
       },
       {
         "id": "tomate",
-        "grams": 120,
-        "fitGrams": 120,
+        "grams": 100,
+        "fitGrams": 115,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
         "grams": 60,
-        "fitGrams": 60,
+        "fitGrams": 70,
         "sub": null,
         "fitId": null
       },
       {
         "id": "batata",
         "grams": 120,
-        "fitGrams": 100,
+        "fitGrams": 95,
         "sub": null,
         "fitId": null
       },
@@ -14672,8 +15826,8 @@ const CATALOG_DISHES = [
       },
       {
         "id": "cheiro_verde",
-        "grams": 15,
-        "fitGrams": 15,
+        "grams": 10,
+        "fitGrams": 10,
         "sub": null,
         "fitId": null
       }
@@ -14789,65 +15943,87 @@ const CATALOG_DISHES = [
       "en": "Everyday Colombian braised chicken with potato, cassava, and tomato-scallion broth."
     },
     "macrosTrad": {
-      "kcal": 622,
-      "p": 45,
+      "kcal": 626,
+      "p": 46,
       "c": 60,
       "f": 23
     },
     "macrosFit": {
-      "kcal": 582,
-      "p": 45,
-      "c": 50,
-      "f": 23
+      "kcal": 517,
+      "p": 64,
+      "c": 51,
+      "f": 5
     },
     "ingredients": [
       {
         "id": "coxa_frango",
         "grams": 170,
-        "fitGrams": 170,
-        "sub": "Peito de frango",
-        "fitId": null
+        "fitGrams": 185,
+        "sub": null,
+        "fitId": "frango"
       },
       {
-        "id": "mandioca",
-        "grams": 110,
-        "fitGrams": 90,
+        "id": "batata",
+        "grams": 120,
+        "fitGrams": 95,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "batata",
-        "grams": 100,
-        "fitGrams": 80,
+        "id": "mandioca",
+        "grams": 90,
+        "fitGrams": 70,
         "sub": null,
         "fitId": null
       },
       {
         "id": "tomate",
         "grams": 100,
-        "fitGrams": 100,
+        "fitGrams": 115,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
         "grams": 50,
-        "fitGrams": 50,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "cheiro_verde",
-        "grams": 15,
-        "fitGrams": 15,
+        "id": "alho",
+        "grams": 8,
+        "fitGrams": 9,
         "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "achiote",
+        "grams": 2,
+        "fitGrams": 2,
+        "sub": {
+          "es": "En Brasil: Colorau (urucum)",
+          "pt": "No Brasil: Colorau (urucum)",
+          "en": "In Brazil: Colorau (urucum)"
+        },
+        "fitId": null
+      },
+      {
+        "id": "cheiro_verde",
+        "grams": 10,
+        "fitGrams": 10,
+        "sub": {
+          "es": "En Brasil: Coentro",
+          "pt": "No Brasil: Coentro",
+          "en": "In Brazil: Coentro"
+        },
         "fitId": null
       }
     ],
     "steps": {
       "es": [
         {
-          "t": "Sazona el pollo con ajo, comino, achiote/colorau o páprica y sal.",
+          "t": "Sazona el pollo con ajo, comino, achiote y sal.",
           "s": null
         },
         {
@@ -14877,7 +16053,7 @@ const CATALOG_DISHES = [
       ],
       "pt": [
         {
-          "t": "Tempere o frango com alho, cominho, colorau ou páprica e sal.",
+          "t": "Tempere o frango com alho, cominho, achiote (colorau) e sal.",
           "s": null
         },
         {
@@ -14907,7 +16083,7 @@ const CATALOG_DISHES = [
       ],
       "en": [
         {
-          "t": "Season the chicken with garlic, cumin, annatto or paprika and salt.",
+          "t": "Season the chicken with garlic, cumin, annatto and salt.",
           "s": null
         },
         {
@@ -14950,48 +16126,52 @@ const CATALOG_DISHES = [
       "en": "Colombian Shredded Beef"
     },
     "brTip": {
-      "es": "En Brasil usa acém, músculo o patinho cocido en olla a presión y salteado en hogao colombiano.",
-      "pt": "Use acém, músculo ou patinho cozido na pressão, desfiado e refogado no hogao.",
-      "en": "Pressure-cooked Brazilian beef shredded and tossed in tomato-scallion hogao."
+      "es": "Original con falda o sobrebarriga cocida y desmechada en hogao. En Brasil: fraldinha, acém o músculo.",
+      "pt": "Original com fraldinha cozida e desfiada no hogao. No Brasil: fraldinha, acém ou músculo.",
+      "en": "Made with flank steak cooked and shredded in hogao. In Brazil: fraldinha, acém or músculo."
     },
     "macrosTrad": {
       "kcal": 644,
-      "p": 67,
+      "p": 38,
       "c": 63,
-      "f": 13
+      "f": 28
     },
     "macrosFit": {
-      "kcal": 601,
-      "p": 68,
-      "c": 50,
-      "f": 14
+      "kcal": 447,
+      "p": 24,
+      "c": 52,
+      "f": 17
     },
     "ingredients": [
       {
-        "id": "patinho",
+        "id": "falda_res",
         "grams": 170,
-        "fitGrams": 175,
-        "sub": null,
+        "fitGrams": 100,
+        "sub": {
+          "es": "En Brasil: Fraldinha ou acém",
+          "pt": "No Brasil: Fraldinha ou acém",
+          "en": "In Brazil: Fraldinha ou acém"
+        },
         "fitId": null
       },
       {
         "id": "tomate",
         "grams": 110,
-        "fitGrams": 110,
+        "fitGrams": 125,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
         "grams": 60,
-        "fitGrams": 60,
+        "fitGrams": 70,
         "sub": null,
         "fitId": null
       },
       {
         "id": "pimentao",
-        "grams": 40,
-        "fitGrams": 50,
+        "grams": 30,
+        "fitGrams": 35,
         "sub": null,
         "fitId": null
       },
@@ -14999,13 +16179,13 @@ const CATALOG_DISHES = [
         "id": "arroz_branco",
         "grams": 100,
         "fitGrams": 80,
-        "sub": "Arroz Integral",
+        "sub": null,
         "fitId": "arroz"
       },
       {
         "id": "banana_terra",
         "grams": 70,
-        "fitGrams": 50,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       }
@@ -15116,63 +16296,88 @@ const CATALOG_DISHES = [
       "en": "Colombian Coconut Seafood Stew"
     },
     "brTip": {
-      "es": "Del Caribe colombiano: leite de coco + tomate + pimentão + peixe e camarão.",
-      "pt": "Do Caribe colombiano: leite de coco, tomate, pimentão, tilápia e camarão.",
-      "en": "Colombian Caribbean coconut milk stew with white fish and shrimp."
+      "es": "Del Caribe colombiano: pescado, camarón, calamar y mariscos en leche de coco con tomate y pimentón.",
+      "pt": "Do Caribe colombiano: peixe, camarão, lula e mariscos no leite de coco com tomate e pimentão.",
+      "en": "From the Colombian Caribbean: fish, shrimp, squid and shellfish in coconut milk with tomato and bell pepper."
     },
     "macrosTrad": {
-      "kcal": 500,
-      "p": 44,
+      "kcal": 538,
+      "p": 51,
       "c": 37,
-      "f": 20
+      "f": 21
     },
     "macrosFit": {
-      "kcal": 443,
-      "p": 45,
-      "c": 29,
-      "f": 17
+      "kcal": 466,
+      "p": 55,
+      "c": 31,
+      "f": 13
     },
     "ingredients": [
       {
         "id": "tilapia",
-        "grams": 120,
-        "fitGrams": 130,
-        "sub": null,
+        "grams": 100,
+        "fitGrams": 110,
+        "sub": {
+          "es": "En Brasil: Tilápia ou pescada",
+          "pt": "No Brasil: Tilápia ou pescada",
+          "en": "In Brazil: Tilápia ou pescada"
+        },
         "fitId": null
       },
       {
         "id": "camarao",
         "grams": 80,
-        "fitGrams": 80,
+        "fitGrams": 90,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "calamar",
+        "grams": 40,
+        "fitGrams": 45,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "mariscos",
+        "grams": 40,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
       {
         "id": "leite_coco",
         "grams": 90,
-        "fitGrams": 70,
-        "sub": "Leite de coco light",
+        "fitGrams": 45,
+        "sub": null,
         "fitId": null
       },
       {
         "id": "tomate",
-        "grams": 80,
+        "grams": 70,
         "fitGrams": 80,
         "sub": null,
         "fitId": null
       },
       {
         "id": "pimentao",
-        "grams": 50,
-        "fitGrams": 50,
+        "grams": 40,
+        "fitGrams": 45,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "cebola",
+        "grams": 40,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
       {
         "id": "arroz_branco",
-        "grams": 100,
-        "fitGrams": 80,
-        "sub": "Arroz Integral",
+        "grams": 80,
+        "fitGrams": 65,
+        "sub": null,
         "fitId": "arroz"
       }
     ],
@@ -15199,7 +16404,7 @@ const CATALOG_DISHES = [
           "s": 240
         },
         {
-          "t": "Agrega los camarones solo al final, hasta que se pongan rosados; ajusta la sal.",
+          "t": "Agrega los camarones, el calamar y los mariscos solo al final, hasta que los camarones se pongan rosados; ajusta la sal.",
           "s": 120
         },
         {
@@ -15229,7 +16434,7 @@ const CATALOG_DISHES = [
           "s": 240
         },
         {
-          "t": "Acrescente os camarões só no final, até ficarem rosados; acerte o sal.",
+          "t": "Junte os camarões, a lula e os mariscos só no final, até os camarões ficarem rosados; acerte o sal.",
           "s": 120
         },
         {
@@ -15259,7 +16464,7 @@ const CATALOG_DISHES = [
           "s": 240
         },
         {
-          "t": "Add the shrimp only at the end, until pink; adjust the salt.",
+          "t": "Add the shrimp, squid and shellfish only at the end, until the shrimp turn pink; adjust salt.",
           "s": 120
         },
         {
@@ -15287,50 +16492,57 @@ const CATALOG_DISHES = [
       "en": "Reduce coconut milk until caramelized before cooking rice, served with seared fish."
     },
     "macrosTrad": {
-      "kcal": 521,
+      "kcal": 593,
       "p": 41,
-      "c": 41,
-      "f": 21
+      "c": 60,
+      "f": 22
     },
     "macrosFit": {
-      "kcal": 446,
-      "p": 42,
-      "c": 33,
-      "f": 17
+      "kcal": 472,
+      "p": 44,
+      "c": 46,
+      "f": 13
     },
     "ingredients": [
       {
         "id": "tilapia",
         "grams": 175,
-        "fitGrams": 185,
+        "fitGrams": 195,
         "sub": null,
         "fitId": null
       },
       {
         "id": "arroz_branco",
         "grams": 120,
-        "fitGrams": 100,
-        "sub": "Arroz Integral",
+        "fitGrams": 95,
+        "sub": null,
         "fitId": "arroz"
       },
       {
         "id": "leite_coco",
         "grams": 100,
-        "fitGrams": 70,
+        "fitGrams": 50,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "banana_terra",
+        "grams": 60,
+        "fitGrams": 50,
         "sub": null,
         "fitId": null
       },
       {
         "id": "limao",
-        "grams": 20,
-        "fitGrams": 20,
+        "grams": 15,
+        "fitGrams": 15,
         "sub": null,
         "fitId": null
       },
       {
         "id": "tomate",
-        "grams": 60,
-        "fitGrams": 70,
+        "grams": 40,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       }
@@ -15446,59 +16658,64 @@ const CATALOG_DISHES = [
       "en": "10-minute Andean breakfast broth with poached eggs, scallions, cilantro, and bread."
     },
     "macrosTrad": {
-      "kcal": 540,
-      "p": 33,
-      "c": 45,
-      "f": 25
+      "kcal": 505,
+      "p": 31,
+      "c": 39,
+      "f": 24
     },
     "macrosFit": {
-      "kcal": 424,
-      "p": 26,
-      "c": 36,
-      "f": 19
+      "kcal": 370,
+      "p": 27,
+      "c": 31,
+      "f": 14
     },
     "ingredients": [
       {
         "id": "ovo",
         "grams": 120,
-        "fitGrams": 120,
+        "fitGrams": 130,
         "sub": null,
         "fitId": null
       },
       {
         "id": "leite",
         "grams": 180,
-        "fitGrams": 180,
-        "sub": "Leite desnatado",
-        "fitId": null
+        "fitGrams": 125,
+        "sub": null,
+        "fitId": "leite_desnatado"
       },
       {
         "id": "pao",
-        "grams": 60,
-        "fitGrams": 0,
-        "sub": "Pão integral / Tapioca",
-        "fitId": null
-      },
-      {
-        "id": "tapioca",
-        "grams": 0,
+        "grams": 50,
         "fitGrams": 40,
-        "sub": null,
+        "sub": {
+          "es": "En Brasil: Pão amanhecido",
+          "pt": "No Brasil: Pão amanhecido",
+          "en": "In Brazil: Pão amanhecido"
+        },
         "fitId": null
-      },
-      {
-        "id": "minas",
-        "grams": 35,
-        "fitGrams": 30,
-        "sub": null,
-        "fitId": "ricota"
       },
       {
         "id": "cheiro_verde",
         "grams": 15,
         "fitGrams": 15,
-        "sub": null,
+        "sub": {
+          "es": "En Brasil: Cebolinha + coentro",
+          "pt": "No Brasil: Cebolinha + coentro",
+          "en": "In Brazil: Cebolinha + coentro"
+        },
         "fitId": null
+      },
+      {
+        "id": "queso_fresco",
+        "grams": 30,
+        "fitGrams": 20,
+        "sub": {
+          "es": "En Brasil: Queijo minas frescal",
+          "pt": "No Brasil: Queijo minas frescal",
+          "en": "In Brazil: Queijo minas frescal"
+        },
+        "fitId": "ricota"
       }
     ],
     "steps": {
@@ -15607,33 +16824,33 @@ const CATALOG_DISHES = [
       "en": "Colombian Scrambled Eggs & Arepa"
     },
     "brTip": {
-      "es": "Huevos revueltos jugosos sobre sofrito de tomate y cebollín, servidos con arepa de flocão y queso.",
-      "pt": "Ovos mexidos cremosos com refogado de tomate e cebolinha servidos com arepa.",
-      "en": "Soft scrambled eggs cooked into tomato-scallion sofrito with corn arepa."
+      "es": "Huevos revueltos con tomate y cebolla larga, servidos con arepa de harina de maíz y queso. En Brasil: cebolinha.",
+      "pt": "Ovos mexidos com tomate e cebolinha, servidos com arepa de farinha de milho e queijo.",
+      "en": "Scrambled eggs with tomato and scallion, served with a corn arepa and cheese."
     },
     "macrosTrad": {
-      "kcal": 420,
-      "p": 29,
-      "c": 28,
-      "f": 21
+      "kcal": 574,
+      "p": 30,
+      "c": 54,
+      "f": 25
     },
     "macrosFit": {
-      "kcal": 358,
-      "p": 26,
-      "c": 26,
-      "f": 17
+      "kcal": 487,
+      "p": 29,
+      "c": 47,
+      "f": 19
     },
     "ingredients": [
       {
         "id": "ovo",
         "grams": 150,
-        "fitGrams": 150,
+        "fitGrams": 165,
         "sub": null,
         "fitId": null
       },
       {
         "id": "tomate",
-        "grams": 90,
+        "grams": 80,
         "fitGrams": 90,
         "sub": null,
         "fitId": null
@@ -15642,22 +16859,41 @@ const CATALOG_DISHES = [
         "id": "cheiro_verde",
         "grams": 20,
         "fitGrams": 20,
-        "sub": "Cebolinha",
+        "sub": {
+          "es": "En Brasil: Cebolinha (cebolla larga)",
+          "pt": "No Brasil: Cebolinha (cebolla larga)",
+          "en": "In Brazil: Cebolinha (cebolla larga)"
+        },
         "fitId": null
       },
       {
-        "id": "cuscuz",
-        "grams": 80,
-        "fitGrams": 70,
-        "sub": "Arepa de flocão",
+        "id": "harina_pan",
+        "grams": 60,
+        "fitGrams": 50,
+        "sub": {
+          "es": "En Brasil: Flocão de milho",
+          "pt": "No Brasil: Flocão de milho",
+          "en": "In Brazil: Flocão de milho"
+        },
         "fitId": null
       },
       {
-        "id": "minas",
-        "grams": 35,
-        "fitGrams": 30,
-        "sub": null,
+        "id": "queso_fresco",
+        "grams": 30,
+        "fitGrams": 20,
+        "sub": {
+          "es": "En Brasil: Queijo minas frescal",
+          "pt": "No Brasil: Queijo minas frescal",
+          "en": "In Brazil: Queijo minas frescal"
+        },
         "fitId": "ricota"
+      },
+      {
+        "id": "manteiga",
+        "grams": 5,
+        "fitGrams": 2.5,
+        "sub": null,
+        "fitId": null
       }
     ],
     "steps": {
@@ -15771,58 +17007,65 @@ const CATALOG_DISHES = [
       "en": "Colombian beans thickened with grated carrot and diced plantain."
     },
     "macrosTrad": {
-      "kcal": 639,
-      "p": 49,
-      "c": 80,
-      "f": 14
+      "kcal": 614,
+      "p": 16,
+      "c": 77,
+      "f": 28
     },
     "macrosFit": {
-      "kcal": 631,
-      "p": 53,
-      "c": 67,
-      "f": 17
+      "kcal": 443,
+      "p": 13,
+      "c": 62,
+      "f": 18
     },
     "ingredients": [
       {
         "id": "feijao",
         "grams": 150,
-        "fitGrams": 145,
+        "fitGrams": 120,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "lombo",
-        "grams": 130,
-        "fitGrams": 150,
+        "id": "panceta",
+        "grams": 50,
+        "fitGrams": 30,
         "sub": null,
         "fitId": null
       },
       {
         "id": "banana_terra",
-        "grams": 80,
-        "fitGrams": 60,
+        "grams": 70,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cenoura",
-        "grams": 60,
-        "fitGrams": 70,
+        "grams": 40,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
       {
         "id": "tomate",
-        "grams": 70,
-        "fitGrams": 70,
+        "grams": 50,
+        "fitGrams": 55,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "cebola",
+        "grams": 30,
+        "fitGrams": 35,
         "sub": null,
         "fitId": null
       },
       {
         "id": "arroz_branco",
         "grams": 90,
-        "fitGrams": 75,
-        "sub": "Arroz Integral",
+        "fitGrams": 70,
+        "sub": null,
         "fitId": "arroz"
       }
     ],
@@ -15845,7 +17088,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Corta el cerdo en cubos y dóralos en sartén hasta que queden crocantes.",
+          "t": "Corta la panceta en cubos y dórala en sartén hasta que quede crocante (chicharrón).",
           "s": 360
         },
         {
@@ -15875,7 +17118,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Corte o porco em cubos e doure na frigideira até ficar crocante.",
+          "t": "Corte a panceta em cubos e doure na frigideira até ficar crocante (torresmo).",
           "s": 360
         },
         {
@@ -15905,7 +17148,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Cube the pork and brown it in a pan until crisp.",
+          "t": "Cut the pork belly into cubes and brown until crisp (chicharrón).",
           "s": 360
         },
         {
@@ -15937,22 +17180,43 @@ const CATALOG_DISHES = [
       "en": "Seared pork loin glazed in fresh blended pineapple reduction."
     },
     "macrosTrad": {
-      "kcal": 555,
+      "kcal": 586,
       "p": 54,
-      "c": 41,
+      "c": 49,
       "f": 18
     },
     "macrosFit": {
-      "kcal": 539,
-      "p": 55,
-      "c": 34,
-      "f": 19
+      "kcal": 601,
+      "p": 60,
+      "c": 42,
+      "f": 21
     },
     "ingredients": [
       {
         "id": "lombo",
         "grams": 175,
-        "fitGrams": 180,
+        "fitGrams": 195,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "abacaxi",
+        "grams": 80,
+        "fitGrams": 80,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "cebola",
+        "grams": 30,
+        "fitGrams": 35,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "limao",
+        "grams": 10,
+        "fitGrams": 10,
         "sub": null,
         "fitId": null
       },
@@ -15960,27 +17224,13 @@ const CATALOG_DISHES = [
         "id": "arroz_branco",
         "grams": 110,
         "fitGrams": 90,
-        "sub": "Arroz Integral",
+        "sub": null,
         "fitId": "arroz"
-      },
-      {
-        "id": "cebola",
-        "grams": 50,
-        "fitGrams": 50,
-        "sub": null,
-        "fitId": null
-      },
-      {
-        "id": "limao",
-        "grams": 15,
-        "fitGrams": 15,
-        "sub": null,
-        "fitId": null
       },
       {
         "id": "brocolis",
         "grams": 80,
-        "fitGrams": 100,
+        "fitGrams": 90,
         "sub": null,
         "fitId": null
       }
@@ -16091,41 +17341,45 @@ const CATALOG_DISHES = [
       "en": "Colombian Cheesy Hogao Potatoes"
     },
     "brTip": {
-      "es": "Papas cocidas bañadas en salsa cremosa de hogao (tomate + cebollín) con queijo minas derretido.",
-      "pt": "Batatas cozidas cobertas com molho hogao cremoso e queijo minas derretido.",
-      "en": "Boiled potatoes smothered in creamy tomato-scallion cheese sauce."
+      "es": "Papas bañadas en salsa de hogao, crema y queso campesino o doble crema. En Brasil: queijo minas padrão.",
+      "pt": "Batatas banhadas em molho de hogao, creme e queijo campesino ou doble crema. No Brasil: queijo minas padrão.",
+      "en": "Potatoes covered in hogao sauce, cream and campesino or doble crema cheese. In Brazil: minas padrão cheese."
     },
     "macrosTrad": {
-      "kcal": 548,
-      "p": 59,
-      "c": 38,
-      "f": 18
+      "kcal": 612,
+      "p": 56,
+      "c": 42,
+      "f": 24
     },
     "macrosFit": {
-      "kcal": 464,
-      "p": 60,
-      "c": 32,
-      "f": 10
+      "kcal": 436,
+      "p": 56,
+      "c": 36,
+      "f": 7
     },
     "ingredients": [
       {
         "id": "batata",
-        "grams": 170,
-        "fitGrams": 140,
-        "sub": null,
+        "grams": 200,
+        "fitGrams": 160,
+        "sub": {
+          "es": "En Brasil: Batata bolinha",
+          "pt": "No Brasil: Batata bolinha",
+          "en": "In Brazil: Batata bolinha"
+        },
         "fitId": null
       },
       {
         "id": "frango",
         "grams": 130,
-        "fitGrams": 150,
+        "fitGrams": 145,
         "sub": null,
         "fitId": null
       },
       {
         "id": "tomate",
-        "grams": 100,
-        "fitGrams": 100,
+        "grams": 90,
+        "fitGrams": 105,
         "sub": null,
         "fitId": null
       },
@@ -16133,22 +17387,30 @@ const CATALOG_DISHES = [
         "id": "cheiro_verde",
         "grams": 20,
         "fitGrams": 20,
-        "sub": "Cebolinha",
+        "sub": {
+          "es": "En Brasil: Cebolinha",
+          "pt": "No Brasil: Cebolinha",
+          "en": "In Brazil: Cebolinha"
+        },
         "fitId": null
       },
       {
-        "id": "minas",
+        "id": "queso_fresco",
         "grams": 50,
         "fitGrams": 35,
-        "sub": null,
+        "sub": {
+          "es": "En Brasil: Queijo minas padrão",
+          "pt": "No Brasil: Queijo minas padrão",
+          "en": "In Brazil: Queijo minas padrão"
+        },
         "fitId": "ricota"
       },
       {
-        "id": "requeijao",
+        "id": "creme_leite",
         "grams": 30,
-        "fitGrams": 25,
+        "fitGrams": 20,
         "sub": null,
-        "fitId": null
+        "fitId": "iogurte"
       }
     ],
     "steps": {
@@ -16170,7 +17432,7 @@ const CATALOG_DISHES = [
           "s": 300
         },
         {
-          "t": "Baja el fuego, agrega el requeijão o crema y el queso, y remueve hasta que funda en una salsa cremosa.",
+          "t": "Baja el fuego, agrega la crema de leche y el queso, y remueve hasta que funda en una salsa cremosa.",
           "s": 120
         },
         {
@@ -16200,7 +17462,7 @@ const CATALOG_DISHES = [
           "s": 300
         },
         {
-          "t": "Abaixe o fogo, junte o requeijão ou creme e o queijo e mexa até derreter num molho cremoso.",
+          "t": "Abaixe o fogo, junte o creme de leite e o queijo e mexa até derreter num molho cremoso.",
           "s": 120
         },
         {
@@ -16230,7 +17492,7 @@ const CATALOG_DISHES = [
           "s": 300
         },
         {
-          "t": "Lower the heat, add the requeijão or cream and the cheese, and stir until melted into a creamy sauce.",
+          "t": "Lower the heat, add the cream and cheese and stir until melted into a creamy sauce.",
           "s": 120
         },
         {
@@ -16252,9 +17514,9 @@ const CATALOG_DISHES = [
     "fav": false,
     "img": "images/co_18.jpg",
     "title": {
-      "es": "Mojarra / Tilapia Costeña con Arroz y Patacón",
-      "pt": "Tilápia Costeña Crocante",
-      "en": "Colombian Coastal Crisp Tilapia"
+      "es": "Mojarra Frita Costeña con Arroz de Coco y Patacón",
+      "pt": "Tilápia Frita Costeña com Arroz de Coco e Patacón",
+      "en": "Coastal Fried Mojarra with Coconut Rice and Patacón"
     },
     "brTip": {
       "es": "En Colombia la mojarra es de la misma familia que la tilápia de Brasil; acompáñala con mandioca o banana-da-terra.",
@@ -16262,22 +17524,22 @@ const CATALOG_DISHES = [
       "en": "Colombian coastal fish style adapted directly with Brazilian tilapia and plantain."
     },
     "macrosTrad": {
-      "kcal": 430,
+      "kcal": 619,
       "p": 42,
-      "c": 61,
-      "f": 4
+      "c": 62,
+      "f": 24
     },
     "macrosFit": {
-      "kcal": 392,
-      "p": 43,
+      "kcal": 492,
+      "p": 45,
       "c": 49,
-      "f": 4
+      "f": 15
     },
     "ingredients": [
       {
         "id": "tilapia",
         "grams": 185,
-        "fitGrams": 195,
+        "fitGrams": 205,
         "sub": null,
         "fitId": null
       },
@@ -16285,27 +17547,48 @@ const CATALOG_DISHES = [
         "id": "banana_terra",
         "grams": 90,
         "fitGrams": 70,
-        "sub": "Banana-da-terra ou mandioca",
+        "sub": null,
         "fitId": null
       },
       {
         "id": "arroz_branco",
         "grams": 90,
-        "fitGrams": 75,
-        "sub": "Arroz Integral",
+        "fitGrams": 70,
+        "sub": null,
         "fitId": "arroz"
       },
       {
+        "id": "leite_coco",
+        "grams": 30,
+        "fitGrams": 15,
+        "sub": null,
+        "fitId": null
+      },
+      {
         "id": "tomate",
-        "grams": 70,
-        "fitGrams": 80,
+        "grams": 50,
+        "fitGrams": 55,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "cebola",
+        "grams": 20,
+        "fitGrams": 25,
         "sub": null,
         "fitId": null
       },
       {
         "id": "limao",
-        "grams": 25,
-        "fitGrams": 25,
+        "grams": 20,
+        "fitGrams": 20,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "azeite",
+        "grams": 15,
+        "fitGrams": 7.5,
         "sub": null,
         "fitId": null
       }
@@ -16402,7 +17685,7 @@ const CATALOG_DISHES = [
         }
       ]
     },
-    "videoQuery": "como hacer Mojarra / Tilapia Costeña con Arroz y Patacón receta paso a paso"
+    "videoQuery": "como hacer Mojarra Frita Costeña con Arroz de Coco y Patacón receta paso a paso"
   },
   {
     "id": "co_19",
@@ -16421,22 +17704,36 @@ const CATALOG_DISHES = [
       "en": "Rich, brothy Colombian rice cooked with pork, chicken, and diced potato."
     },
     "macrosTrad": {
-      "kcal": 551,
-      "p": 43,
+      "kcal": 738,
+      "p": 62,
       "c": 61,
-      "f": 14
+      "f": 25
     },
     "macrosFit": {
-      "kcal": 529,
-      "p": 47,
-      "c": 48,
-      "f": 16
+      "kcal": 654,
+      "p": 63,
+      "c": 49,
+      "f": 22
     },
     "ingredients": [
       {
         "id": "lombo",
-        "grams": 130,
-        "fitGrams": 145,
+        "grams": 100,
+        "fitGrams": 110,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "linguica",
+        "grams": 50,
+        "fitGrams": 30,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "frango",
+        "grams": 60,
+        "fitGrams": 65,
         "sub": null,
         "fitId": null
       },
@@ -16444,7 +17741,7 @@ const CATALOG_DISHES = [
         "id": "arroz_branco",
         "grams": 125,
         "fitGrams": 100,
-        "sub": "Arroz Integral",
+        "sub": null,
         "fitId": "arroz"
       },
       {
@@ -16456,23 +17753,38 @@ const CATALOG_DISHES = [
       },
       {
         "id": "tomate",
-        "grams": 80,
+        "grams": 70,
         "fitGrams": 80,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
-        "grams": 50,
-        "fitGrams": 50,
+        "grams": 40,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
       {
+        "id": "achiote",
+        "grams": 2,
+        "fitGrams": 2,
+        "sub": {
+          "es": "En Brasil: Colorau (urucum)",
+          "pt": "No Brasil: Colorau (urucum)",
+          "en": "In Brazil: Colorau (urucum)"
+        },
+        "fitId": null
+      },
+      {
         "id": "cheiro_verde",
-        "grams": 15,
-        "fitGrams": 15,
-        "sub": null,
+        "grams": 10,
+        "fitGrams": 10,
+        "sub": {
+          "es": "En Brasil: Coentro",
+          "pt": "No Brasil: Coentro",
+          "en": "In Brazil: Coentro"
+        },
         "fitId": null
       }
     ],
@@ -16483,7 +17795,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Dora el cerdo en olla con unas gotas de aceite, ajo y comino.",
+          "t": "Dora el cerdo, el pollo y el chorizo en olla con unas gotas de aceite, ajo, comino y achiote.",
           "s": 300
         },
         {
@@ -16513,7 +17825,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Doure o porco na panela com gotas de óleo, alho e cominho.",
+          "t": "Doure o porco, o frango e a linguiça na panela com gotas de óleo, alho, cominho e achiote (colorau).",
           "s": 300
         },
         {
@@ -16543,7 +17855,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Brown the pork in a pot with a few drops of oil, garlic and cumin.",
+          "t": "Brown the pork, chicken and chorizo in a pot with a few drops of oil, garlic, cumin and annatto.",
           "s": 300
         },
         {
@@ -16582,55 +17894,67 @@ const CATALOG_DISHES = [
       "en": "Colombian Sweet Corn & Cheese Arepa"
     },
     "brTip": {
-      "es": "Con milho verde fresco o en lata de Brasil licuado con huevo y avena/flocão + mucho queijo minas frescal.",
-      "pt": "Feita com milho verde batido no liquidificador com ovo e flocão + queijo minas.",
-      "en": "Blended Brazilian sweet corn griddle cake filled with melted Minas cheese."
+      "es": "Arepa de maíz tierno (choclo) con mantequilla y queso fresco encima. En Brasil: milho verde y queijo minas frescal.",
+      "pt": "Arepa de milho verde com manteiga e queijo fresco por cima. No Brasil: queijo minas frescal.",
+      "en": "Fresh corn arepa with butter and queso fresco on top. In Brazil: minas frescal cheese."
     },
     "macrosTrad": {
-      "kcal": 564,
-      "p": 30,
-      "c": 60,
-      "f": 25
+      "kcal": 460,
+      "p": 15,
+      "c": 57,
+      "f": 21
     },
     "macrosFit": {
-      "kcal": 445,
-      "p": 24,
-      "c": 57,
-      "f": 15
+      "kcal": 286,
+      "p": 10,
+      "c": 46,
+      "f": 9
     },
     "ingredients": [
       {
         "id": "milho",
         "grams": 150,
-        "fitGrams": 140,
-        "sub": "Milho verde",
+        "fitGrams": 120,
+        "sub": {
+          "es": "En Brasil: Milho verde",
+          "pt": "No Brasil: Milho verde",
+          "en": "In Brazil: Milho verde"
+        },
         "fitId": null
       },
       {
-        "id": "minas",
-        "grams": 65,
-        "fitGrams": 45,
-        "sub": "Queijo minas frescal",
+        "id": "queso_fresco",
+        "grams": 50,
+        "fitGrams": 35,
+        "sub": {
+          "es": "En Brasil: Queijo minas frescal",
+          "pt": "No Brasil: Queijo minas frescal",
+          "en": "In Brazil: Queijo minas frescal"
+        },
         "fitId": "ricota"
       },
       {
-        "id": "ovo",
-        "grams": 60,
-        "fitGrams": 60,
+        "id": "harina_pan",
+        "grams": 20,
+        "fitGrams": 15,
+        "sub": {
+          "es": "En Brasil: Flocão de milho",
+          "pt": "No Brasil: Flocão de milho",
+          "en": "In Brazil: Flocão de milho"
+        },
+        "fitId": null
+      },
+      {
+        "id": "manteiga",
+        "grams": 10,
+        "fitGrams": 5,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "aveia",
-        "grams": 35,
-        "fitGrams": 35,
-        "sub": "Flocão / Aveia",
-        "fitId": null
-      },
-      {
-        "id": "leite",
-        "grams": 40,
-        "fitGrams": 40,
+        "id": "acucar",
+        "grams": 8,
+        "fitGrams": 8,
         "sub": null,
         "fitId": null
       }
@@ -16642,11 +17966,11 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Licúalos con el huevo, la leche, la avena o harina de maíz, una pizca de sal (y 1 cdta de azúcar o endulzante) hasta obtener una mezcla espesa pero vertible.",
+          "t": "Licúalos con la mantequilla derretida, la harina de maíz precocida, una pizca de sal y el azúcar hasta obtener una mezcla espesa pero vertible.",
           "s": null
         },
         {
-          "t": "Deja reposar para que la avena hidrate y espese.",
+          "t": "Deja reposar para que la harina hidrate y espese.",
           "s": 300
         },
         {
@@ -16672,11 +17996,11 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Bata com o ovo, o leite, a aveia ou farinha de milho, uma pitada de sal (e 1 colher (chá) de açúcar ou adoçante) até virar uma mistura grossa mas que escorra.",
+          "t": "Bata com a manteiga derretida, a farinha de milho pré-cozida, uma pitada de sal e o açúcar até obter uma massa grossa mas que escorra.",
           "s": null
         },
         {
-          "t": "Deixe descansar para a aveia hidratar e engrossar.",
+          "t": "Deixe descansar para a farinha hidratar e engrossar.",
           "s": 300
         },
         {
@@ -16702,11 +18026,11 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Blend them with the egg, milk, oats or corn flour, a pinch of salt (and 1 tsp sugar or sweetener) into a thick but pourable batter.",
+          "t": "Blend with the melted butter, the precooked corn flour, a pinch of salt and the sugar into a thick but pourable batter.",
           "s": null
         },
         {
-          "t": "Let it rest so the oats hydrate and thicken.",
+          "t": "Let it rest so the flour hydrates and thickens.",
           "s": 300
         },
         {
@@ -16736,9 +18060,9 @@ const CATALOG_DISHES = [
     "fav": true,
     "img": "images/es_1.jpg",
     "title": {
-      "es": "Paella Valenciana / Mixta",
-      "pt": "Paella Espanhola Tradicional",
-      "en": "Spanish Paella"
+      "es": "Paella Mixta",
+      "pt": "Paella Mista",
+      "en": "Mixed Paella"
     },
     "brTip": {
       "es": "En Brasil: azafrán → açafrão-da-terra (cúrcuma) + colorau/páprica; arroz bomba → arroz parboilizado o arroz arbóreo.",
@@ -16746,64 +18070,103 @@ const CATALOG_DISHES = [
       "en": "In Brazil: saffron sub → turmeric + paprika; use parboiled or arborio rice."
     },
     "macrosTrad": {
-      "kcal": 600,
-      "p": 59,
-      "c": 44,
-      "f": 20
+      "kcal": 636,
+      "p": 61,
+      "c": 49,
+      "f": 21
     },
     "macrosFit": {
-      "kcal": 534,
-      "p": 65,
-      "c": 36,
+      "kcal": 568,
+      "p": 67,
+      "c": 42,
       "f": 14
     },
     "ingredients": [
       {
         "id": "frango",
-        "grams": 120,
-        "fitGrams": 140,
+        "grams": 100,
+        "fitGrams": 110,
         "sub": null,
         "fitId": null
       },
       {
         "id": "camarao",
-        "grams": 90,
-        "fitGrams": 90,
+        "grams": 60,
+        "fitGrams": 65,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "mariscos",
+        "grams": 50,
+        "fitGrams": 55,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "calamar",
+        "grams": 40,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
       {
         "id": "arroz_branco",
-        "grams": 130,
-        "fitGrams": 105,
-        "sub": "Arroz parboilizado/integral",
+        "grams": 120,
+        "fitGrams": 95,
+        "sub": {
+          "es": "En Brasil: Arroz parboilizado (bomba)",
+          "pt": "No Brasil: Arroz parboilizado (bomba)",
+          "en": "In Brazil: Arroz parboilizado (bomba)"
+        },
         "fitId": "arroz"
       },
       {
         "id": "pimentao",
+        "grams": 50,
+        "fitGrams": 55,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "tomate",
         "grams": 60,
         "fitGrams": 70,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "tomate",
-        "grams": 80,
-        "fitGrams": 80,
+        "id": "arveja",
+        "grams": 30,
+        "fitGrams": 35,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "azafran",
+        "grams": 1,
+        "fitGrams": 1,
         "sub": null,
         "fitId": null
       },
       {
         "id": "azeite",
         "grams": 15,
-        "fitGrams": 8,
+        "fitGrams": 7.5,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "alho",
+        "grams": 5,
+        "fitGrams": 6,
         "sub": null,
         "fitId": null
       },
       {
         "id": "limao",
-        "grams": 15,
-        "fitGrams": 15,
+        "grams": 10,
+        "fitGrams": 10,
         "sub": null,
         "fitId": null
       }
@@ -16811,7 +18174,7 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Calienta el caldo de pollo o pescado (2,5 partes por 1 de arroz) con una pizca de azafrán o cúrcuma y mantenlo caliente. Corta el pollo en trozos y sazónalo con sal.",
+          "t": "Calienta el caldo de pollo o pescado (2,5 partes por 1 de arroz) con unas hebras de azafrán y mantenlo caliente. Corta el pollo en trozos y sazónalo con sal.",
           "s": null
         },
         {
@@ -16819,7 +18182,7 @@ const CATALOG_DISHES = [
           "s": 360
         },
         {
-          "t": "En el centro sofríe ajo picado, el pimentón en tiras y el tomate rallado con 1 cdta de páprica dulce.",
+          "t": "En el centro sofríe el calamar en aros, el ajo picado, el pimiento en tiras y el tomate rallado con 1 cdta de pimentón dulce.",
           "s": 240
         },
         {
@@ -16831,7 +18194,7 @@ const CATALOG_DISHES = [
           "s": 480
         },
         {
-          "t": "Baja a fuego suave y, en los últimos minutos, acomoda los camarones encima hasta que se pongan rosados. Si quieres socarrat, sube el fuego 1 min al final.",
+          "t": "Baja a fuego suave y, en los últimos minutos, acomoda los camarones y los mejillones encima hasta que los camarones se pongan rosados. Si quieres socarrat, sube el fuego 1 min al final.",
           "s": 600
         },
         {
@@ -16841,7 +18204,7 @@ const CATALOG_DISHES = [
       ],
       "pt": [
         {
-          "t": "Aqueça o caldo de frango ou peixe (2,5 partes para 1 de arroz) com uma pitada de açafrão ou cúrcuma e mantenha quente. Corte o frango em pedaços e tempere com sal.",
+          "t": "Aqueça o caldo de frango ou peixe (2,5 partes para 1 de arroz) com alguns fios de açafrão e mantenha quente. Corte o frango em pedaços e tempere com sal.",
           "s": null
         },
         {
@@ -16849,7 +18212,7 @@ const CATALOG_DISHES = [
           "s": 360
         },
         {
-          "t": "No centro refogue alho picado, o pimentão em tiras e o tomate ralado com 1 colher (chá) de páprica doce.",
+          "t": "No centro refogue a lula em anéis, o alho picado, o pimentão em tiras e o tomate ralado com 1 colher de chá de páprica doce.",
           "s": 240
         },
         {
@@ -16861,7 +18224,7 @@ const CATALOG_DISHES = [
           "s": 480
         },
         {
-          "t": "Abaixe o fogo e, nos últimos minutos, arrume os camarões por cima até ficarem rosados. Para ter socarrat, aumente o fogo 1 min no final.",
+          "t": "Abaixe para fogo baixo e, nos últimos minutos, arrume os camarões e os mexilhões por cima até os camarões ficarem rosados. Para o socarrat, aumente o fogo 1 min no final.",
           "s": 600
         },
         {
@@ -16871,7 +18234,7 @@ const CATALOG_DISHES = [
       ],
       "en": [
         {
-          "t": "Heat the chicken or fish stock (2.5 parts to 1 of rice) with a pinch of saffron or turmeric and keep it hot. Cut the chicken into pieces and salt it.",
+          "t": "Heat the chicken or fish stock (2.5 parts to 1 of rice) with a few saffron threads and keep it hot. Cut the chicken into pieces and salt it.",
           "s": null
         },
         {
@@ -16879,7 +18242,7 @@ const CATALOG_DISHES = [
           "s": 360
         },
         {
-          "t": "In the center sauté chopped garlic, the pepper strips and grated tomato with 1 tsp sweet paprika.",
+          "t": "In the center sauté the squid rings, chopped garlic, pepper strips and grated tomato with 1 tsp sweet paprika.",
           "s": 240
         },
         {
@@ -16891,7 +18254,7 @@ const CATALOG_DISHES = [
           "s": 480
         },
         {
-          "t": "Lower the heat and, in the last minutes, arrange the shrimp on top until pink. For socarrat, turn up the heat for 1 min at the end.",
+          "t": "Lower the heat and, in the last minutes, place the shrimp and mussels on top until the shrimp turn pink. For socarrat, raise the heat for 1 min at the end.",
           "s": 600
         },
         {
@@ -16900,7 +18263,7 @@ const CATALOG_DISHES = [
         }
       ]
     },
-    "videoQuery": "como hacer Paella Valenciana / Mixta receta paso a paso"
+    "videoQuery": "como hacer Paella Mixta receta paso a paso"
   },
   {
     "id": "es_2",
@@ -16919,43 +18282,43 @@ const CATALOG_DISHES = [
       "en": "Thinly sliced potato, onion, eggs, and olive oil (air-fry potatoes in fit mode)."
     },
     "macrosTrad": {
-      "kcal": 593,
+      "kcal": 637,
       "p": 28,
       "c": 39,
-      "f": 36
+      "f": 41
     },
     "macrosFit": {
-      "kcal": 464,
-      "p": 27,
+      "kcal": 555,
+      "p": 30,
       "c": 34,
-      "f": 24
+      "f": 33
     },
     "ingredients": [
       {
         "id": "ovo",
         "grams": 180,
-        "fitGrams": 180,
+        "fitGrams": 200,
         "sub": null,
         "fitId": null
       },
       {
         "id": "batata",
         "grams": 170,
-        "fitGrams": 140,
+        "fitGrams": 135,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
         "grams": 70,
-        "fitGrams": 70,
+        "fitGrams": 80,
         "sub": null,
         "fitId": null
       },
       {
         "id": "azeite",
-        "grams": 20,
-        "fitGrams": 8,
+        "grams": 25,
+        "fitGrams": 15,
         "sub": null,
         "fitId": null
       }
@@ -17071,65 +18434,72 @@ const CATALOG_DISHES = [
       "en": "No-cook chilled tomato, cucumber, bell pepper, garlic, and olive oil soup."
     },
     "macrosTrad": {
-      "kcal": 366,
-      "p": 14,
-      "c": 32,
-      "f": 22
+      "kcal": 365,
+      "p": 10,
+      "c": 31,
+      "f": 24
     },
     "macrosFit": {
-      "kcal": 333,
-      "p": 20,
-      "c": 18,
-      "f": 21
+      "kcal": 280,
+      "p": 11,
+      "c": 30,
+      "f": 14
     },
     "ingredients": [
       {
         "id": "tomate",
         "grams": 220,
-        "fitGrams": 240,
+        "fitGrams": 255,
         "sub": null,
         "fitId": null
       },
       {
         "id": "pepino",
-        "grams": 70,
-        "fitGrams": 80,
+        "grams": 60,
+        "fitGrams": 70,
         "sub": null,
         "fitId": null
       },
       {
         "id": "pimentao",
-        "grams": 50,
-        "fitGrams": 60,
+        "grams": 40,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
       {
         "id": "pao",
         "grams": 30,
-        "fitGrams": 0,
-        "sub": "Sem pão no modo fit",
+        "fitGrams": 25,
+        "sub": null,
         "fitId": null
       },
       {
         "id": "alho",
         "grams": 5,
-        "fitGrams": 5,
+        "fitGrams": 6,
         "sub": null,
         "fitId": null
       },
       {
         "id": "azeite",
-        "grams": 15,
+        "grams": 20,
+        "fitGrams": 10,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "vinagre",
+        "grams": 10,
         "fitGrams": 10,
         "sub": null,
         "fitId": null
       },
       {
         "id": "ovo",
-        "grams": 60,
-        "fitGrams": 120,
-        "sub": "Ovo cozido para proteína",
+        "grams": 30,
+        "fitGrams": 35,
+        "sub": null,
         "fitId": null
       }
     ],
@@ -17234,67 +18604,71 @@ const CATALOG_DISHES = [
     "fav": false,
     "img": "images/es_4.jpg",
     "title": {
-      "es": "Gambas / Tilapia al Ajillo",
-      "pt": "Camarão ou Peixe ao Alho Espanhol",
-      "en": "Spanish Garlic Chili Shrimp/Fish"
+      "es": "Gambas al Ajillo",
+      "pt": "Camarão ao Alho (Gambas al Ajillo)",
+      "en": "Garlic Shrimp (Gambas al Ajillo)"
     },
     "brTip": {
-      "es": "Aceite de oliva aromático con mucho ajo laminado y pimenta calabresa/dedo-de-moça; listo en 10 minutos.",
-      "pt": "Azeite aromatizado com bastante alho em lâminas e pimenta calabresa.",
-      "en": "Olive oil infused with sliced garlic and chili flakes, ready in 10 minutes."
+      "es": "Aceite de oliva con mucho ajo laminado y guindilla; listo en 10 minutos. En Brasil: pimenta calabresa o dedo-de-moça.",
+      "pt": "Azeite com muito alho laminado e guindilla; pronto em 10 minutos. No Brasil: pimenta calabresa ou dedo-de-moça.",
+      "en": "Olive oil with lots of sliced garlic and guindilla chili; ready in 10 minutes. In Brazil: red pepper flakes."
     },
     "macrosTrad": {
-      "kcal": 532,
-      "p": 38,
-      "c": 40,
-      "f": 25
+      "kcal": 531,
+      "p": 37,
+      "c": 34,
+      "f": 28
     },
     "macrosFit": {
-      "kcal": 367,
-      "p": 36,
-      "c": 25,
-      "f": 14
+      "kcal": 435,
+      "p": 39,
+      "c": 30,
+      "f": 18
     },
     "ingredients": [
       {
         "id": "camarao",
         "grams": 170,
-        "fitGrams": 180,
-        "sub": "Tilápia em cubos",
+        "fitGrams": 185,
+        "sub": null,
         "fitId": null
       },
       {
         "id": "alho",
-        "grams": 25,
+        "grams": 20,
         "fitGrams": 25,
         "sub": null,
         "fitId": null
       },
       {
         "id": "azeite",
-        "grams": 22,
-        "fitGrams": 12,
+        "grams": 25,
+        "fitGrams": 15,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "pao",
-        "grams": 60,
-        "fitGrams": 0,
-        "sub": "Arroz ou mandioca",
+        "id": "chile_seco",
+        "grams": 2,
+        "fitGrams": 2.5,
+        "sub": {
+          "es": "En Brasil: Pimenta calabresa (guindilla)",
+          "pt": "No Brasil: Pimenta calabresa (guindilla)",
+          "en": "In Brazil: Pimenta calabresa (guindilla)"
+        },
         "fitId": null
       },
       {
-        "id": "batata",
-        "grams": 0,
-        "fitGrams": 100,
+        "id": "pao",
+        "grams": 50,
+        "fitGrams": 40,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cheiro_verde",
-        "grams": 10,
-        "fitGrams": 10,
+        "grams": 5,
+        "fitGrams": 5,
         "sub": null,
         "fitId": null
       }
@@ -17302,7 +18676,7 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Seca muy bien los camarones pelados (o los cubos de tilapia) con papel toalla y sazónalos con sal.",
+          "t": "Seca muy bien los langostinos o gambas pelados con papel toalla y sazónalos con sal.",
           "s": null
         },
         {
@@ -17310,7 +18684,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Coloca el ajo en una cazuela o sartén fría con el aceite de oliva y una guindilla o pizca de ají en hojuelas.",
+          "t": "Coloca el ajo en una cazuela de barro o sartén fría con el aceite de oliva y la guindilla.",
           "s": null
         },
         {
@@ -17332,7 +18706,7 @@ const CATALOG_DISHES = [
       ],
       "pt": [
         {
-          "t": "Seque muito bem os camarões descascados (ou cubos de tilápia) com papel-toalha e tempere com sal.",
+          "t": "Seque muito bem os camarões descascados com papel-toalha e tempere com sal.",
           "s": null
         },
         {
@@ -17340,7 +18714,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Coloque o alho numa caçarola ou frigideira fria com o azeite e uma pimenta seca ou pitada de pimenta calabresa.",
+          "t": "Coloque o alho numa caçarola de barro ou frigideira fria com o azeite e a guindilla (pimenta seca).",
           "s": null
         },
         {
@@ -17362,7 +18736,7 @@ const CATALOG_DISHES = [
       ],
       "en": [
         {
-          "t": "Pat the peeled shrimp (or tilapia cubes) very dry with paper towels and salt them.",
+          "t": "Pat the peeled prawns very dry with paper towel and salt them.",
           "s": null
         },
         {
@@ -17370,7 +18744,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Put the garlic in a cold clay dish or pan with the olive oil and a dried chili or pinch of chili flakes.",
+          "t": "Put the garlic in a cold clay dish or pan with the olive oil and the guindilla chili.",
           "s": null
         },
         {
@@ -17391,7 +18765,7 @@ const CATALOG_DISHES = [
         }
       ]
     },
-    "videoQuery": "como hacer Gambas / Tilapia al Ajillo receta paso a paso"
+    "videoQuery": "como hacer Gambas al Ajillo receta paso a paso"
   },
   {
     "id": "es_5",
@@ -17410,50 +18784,50 @@ const CATALOG_DISHES = [
       "en": "Chicken braised with whole golden garlic cloves, bay leaf, and potatoes."
     },
     "macrosTrad": {
-      "kcal": 685,
+      "kcal": 676,
       "p": 48,
-      "c": 31,
+      "c": 29,
       "f": 42
     },
     "macrosFit": {
-      "kcal": 573,
-      "p": 47,
+      "kcal": 514,
+      "p": 68,
       "c": 26,
-      "f": 32
+      "f": 14
     },
     "ingredients": [
       {
         "id": "coxa_frango",
         "grams": 180,
-        "fitGrams": 180,
-        "sub": "Peito de frango",
-        "fitId": null
+        "fitGrams": 200,
+        "sub": null,
+        "fitId": "frango"
       },
       {
         "id": "alho",
-        "grams": 30,
+        "grams": 25,
         "fitGrams": 30,
-        "sub": null,
-        "fitId": null
-      },
-      {
-        "id": "batata",
-        "grams": 130,
-        "fitGrams": 100,
         "sub": null,
         "fitId": null
       },
       {
         "id": "azeite",
         "grams": 18,
-        "fitGrams": 8,
+        "fitGrams": 9,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "limao",
-        "grams": 15,
-        "fitGrams": 15,
+        "id": "batata",
+        "grams": 130,
+        "fitGrams": 105,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "cheiro_verde",
+        "grams": 5,
+        "fitGrams": 5,
         "sub": null,
         "fitId": null
       }
@@ -17485,7 +18859,7 @@ const CATALOG_DISHES = [
           "s": 720
         },
         {
-          "t": "Termina con gotas de limón y sirve con las papas doradas.",
+          "t": "Termina con perejil picado y sirve con las papas doradas.",
           "s": null
         }
       ],
@@ -17515,7 +18889,7 @@ const CATALOG_DISHES = [
           "s": 720
         },
         {
-          "t": "Finalize com gotas de limão e sirva com as batatas douradas.",
+          "t": "Finalize com salsinha picada e sirva com as batatas douradas.",
           "s": null
         }
       ],
@@ -17545,7 +18919,7 @@ const CATALOG_DISHES = [
           "s": 720
         },
         {
-          "t": "Finish with a few drops of lemon and serve with the golden potatoes.",
+          "t": "Finish with chopped parsley and serve with the golden potatoes.",
           "s": null
         }
       ]
@@ -17569,57 +18943,71 @@ const CATALOG_DISHES = [
       "en": "Crispy potato cubes in smoky-spicy tomato brava sauce with grilled chicken."
     },
     "macrosTrad": {
-      "kcal": 539,
-      "p": 51,
-      "c": 42,
-      "f": 19
+      "kcal": 641,
+      "p": 50,
+      "c": 39,
+      "f": 32
     },
     "macrosFit": {
-      "kcal": 468,
-      "p": 58,
-      "c": 35,
-      "f": 11
+      "kcal": 488,
+      "p": 55,
+      "c": 34,
+      "f": 15
     },
     "ingredients": [
       {
         "id": "batata",
         "grams": 180,
-        "fitGrams": 140,
+        "fitGrams": 145,
         "sub": null,
         "fitId": null
       },
       {
         "id": "frango",
         "grams": 140,
-        "fitGrams": 165,
+        "fitGrams": 155,
         "sub": null,
         "fitId": null
       },
       {
         "id": "tomate",
-        "grams": 100,
-        "fitGrams": 100,
+        "grams": 50,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "cebola",
-        "grams": 40,
-        "fitGrams": 40,
+        "id": "pimenton",
+        "grams": 3,
+        "fitGrams": 3,
         "sub": null,
         "fitId": null
       },
       {
         "id": "alho",
-        "grams": 10,
-        "fitGrams": 10,
+        "grams": 5,
+        "fitGrams": 6,
         "sub": null,
         "fitId": null
       },
       {
         "id": "azeite",
-        "grams": 15,
-        "fitGrams": 6,
+        "grams": 20,
+        "fitGrams": 10,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "maionesa",
+        "grams": 10,
+        "fitGrams": 5,
+        "sub": null,
+        "fitId": "iogurte"
+      },
+      {
+        "id": "cebola",
+        "grams": 30,
+        "fitGrams": 35,
         "sub": null,
         "fitId": null
       }
@@ -17639,7 +19027,7 @@ const CATALOG_DISHES = [
           "s": 180
         },
         {
-          "t": "Añade 1 cdta de páprica dulce, ½ cdta de páprica picante o ají en hojuelas y 1 cdta de harina o maicena; remueve sin que se queme.",
+          "t": "Añade 1 cdta de pimentón dulce, ½ cdta de pimentón picante y 1 cdta de harina; remueve sin que se queme.",
           "s": null
         },
         {
@@ -17651,7 +19039,7 @@ const CATALOG_DISHES = [
           "s": 480
         },
         {
-          "t": "Sirve las papas calientes bañadas con la salsa brava, junto al pollo.",
+          "t": "Sirve las papas calientes bañadas con la salsa brava y un poco de alioli, junto al pollo.",
           "s": null
         }
       ],
@@ -17669,7 +19057,7 @@ const CATALOG_DISHES = [
           "s": 180
         },
         {
-          "t": "Junte 1 colher (chá) de páprica doce, ½ de páprica picante ou pimenta calabresa e 1 de farinha ou amido; mexa sem queimar.",
+          "t": "Junte 1 colher de chá de páprica doce, ½ de páprica picante e 1 de farinha; mexa sem queimar.",
           "s": null
         },
         {
@@ -17681,7 +19069,7 @@ const CATALOG_DISHES = [
           "s": 480
         },
         {
-          "t": "Sirva as batatas quentes cobertas com o molho bravo, junto com o frango.",
+          "t": "Sirva as batatas quentes cobertas com o molho bravo e um pouco de aioli, junto com o frango.",
           "s": null
         }
       ],
@@ -17699,7 +19087,7 @@ const CATALOG_DISHES = [
           "s": 180
         },
         {
-          "t": "Add 1 tsp sweet paprika, ½ tsp hot paprika or chili flakes and 1 tsp flour or cornstarch; stir without burning.",
+          "t": "Add 1 tsp sweet paprika, ½ tsp hot paprika and 1 tsp flour; stir without burning.",
           "s": null
         },
         {
@@ -17711,7 +19099,7 @@ const CATALOG_DISHES = [
           "s": 480
         },
         {
-          "t": "Serve the hot potatoes topped with brava sauce, alongside the chicken.",
+          "t": "Serve the hot potatoes topped with the brava sauce and a little aioli, alongside the chicken.",
           "s": null
         }
       ]
@@ -17730,27 +19118,27 @@ const CATALOG_DISHES = [
       "en": "Spanish Broken Eggs & Potatoes"
     },
     "brTip": {
-      "es": "Papas crocantes cubiertas con jamón/lombo sellado y huevos de yema líquida que se rompen al servir.",
-      "pt": "Batatas crocantes cobertas com ovos de gema mole e carne/presunto.",
-      "en": "Crispy potatoes topped with runny-yolk eggs and seared meat."
+      "es": "Patatas fritas con jamón serrano y huevos de yema líquida que se rompen al servir.",
+      "pt": "Batatas fritas com presunto serrano e ovos de gema mole que se rompem ao servir.",
+      "en": "Fried potatoes with serrano ham and runny eggs broken at the table."
     },
     "macrosTrad": {
-      "kcal": 632,
-      "p": 44,
-      "c": 34,
-      "f": 35
+      "kcal": 592,
+      "p": 34,
+      "c": 30,
+      "f": 37
     },
     "macrosFit": {
-      "kcal": 572,
-      "p": 49,
-      "c": 28,
-      "f": 28
+      "kcal": 447,
+      "p": 29,
+      "c": 25,
+      "f": 26
     },
     "ingredients": [
       {
         "id": "ovo",
         "grams": 120,
-        "fitGrams": 120,
+        "fitGrams": 130,
         "sub": null,
         "fitId": null
       },
@@ -17762,23 +19150,20 @@ const CATALOG_DISHES = [
         "fitId": null
       },
       {
-        "id": "lombo",
-        "grams": 90,
-        "fitGrams": 110,
-        "sub": "Presunto / Lombo em tiras",
-        "fitId": null
-      },
-      {
-        "id": "cebola",
-        "grams": 40,
-        "fitGrams": 40,
-        "sub": null,
+        "id": "jamon",
+        "grams": 50,
+        "fitGrams": 30,
+        "sub": {
+          "es": "En Brasil: Presunto cru",
+          "pt": "No Brasil: Presunto cru",
+          "en": "In Brazil: Presunto cru"
+        },
         "fitId": null
       },
       {
         "id": "azeite",
-        "grams": 15,
-        "fitGrams": 6,
+        "grams": 20,
+        "fitGrams": 10,
         "sub": null,
         "fitId": null
       }
@@ -17794,12 +19179,12 @@ const CATALOG_DISHES = [
           "s": 960
         },
         {
-          "t": "Corta la cebolla en tiras y el lomo o jamón en tiras finas.",
+          "t": "Corta el jamón serrano en tiras finas.",
           "s": null
         },
         {
-          "t": "Saltea la cebolla y la carne en sartén hasta que doren.",
-          "s": 180
+          "t": "Saltea el jamón solo unos segundos en sartén para que suelte aroma, sin secarlo.",
+          "s": 30
         },
         {
           "t": "En otra sartén fríe los huevos en el aceite de oliva, bañando la clara con el aceite y dejando la yema completamente líquida.",
@@ -17824,12 +19209,12 @@ const CATALOG_DISHES = [
           "s": 960
         },
         {
-          "t": "Corte a cebola em tiras e o lombo ou presunto em tiras finas.",
+          "t": "Corte o presunto cru em tiras finas.",
           "s": null
         },
         {
-          "t": "Salteie a cebola e a carne na frigideira até dourar.",
-          "s": 180
+          "t": "Salteie o presunto só alguns segundos na frigideira para soltar o aroma, sem ressecar.",
+          "s": 30
         },
         {
           "t": "Em outra frigideira frite os ovos no azeite, regando a clara com o azeite e deixando a gema totalmente mole.",
@@ -17854,12 +19239,12 @@ const CATALOG_DISHES = [
           "s": 960
         },
         {
-          "t": "Slice the onion and cut the pork loin or ham into thin strips.",
+          "t": "Cut the serrano ham into thin strips.",
           "s": null
         },
         {
-          "t": "Sauté the onion and meat in a pan until browned.",
-          "s": 180
+          "t": "Sauté the ham for just a few seconds to release its aroma without drying it.",
+          "s": 30
         },
         {
           "t": "In another pan fry the eggs in the olive oil, basting the whites and keeping the yolks fully runny.",
@@ -17889,62 +19274,73 @@ const CATALOG_DISHES = [
       "en": "Spanish White Bean Stew"
     },
     "brTip": {
-      "es": "En Brasil consigue fácil 'feijão branco' en el súper, cocido lento con páprica defumada y lingüiça paio.",
-      "pt": "Use feijão branco brasileiro cozido com páprica defumada e linguiça paio/lombo.",
-      "en": "Brazilian white beans simmered with smoked paprika and sausage/pork."
+      "es": "Original con fabes asturianas, chorizo, morcilla y panceta. En Brasil: feijão branco y linguiça paio.",
+      "pt": "Original com fabes asturianas, chouriço, morcela e toucinho. No Brasil: feijão branco e linguiça paio.",
+      "en": "Made with Asturian fabes, chorizo, morcilla and pork belly. In Brazil: white beans and paio sausage."
     },
     "macrosTrad": {
-      "kcal": 561,
-      "p": 42,
-      "c": 34,
-      "f": 29
+      "kcal": 547,
+      "p": 27,
+      "c": 45,
+      "f": 30
     },
     "macrosFit": {
-      "kcal": 456,
-      "p": 48,
-      "c": 31,
-      "f": 15
+      "kcal": 395,
+      "p": 20,
+      "c": 37,
+      "f": 19
     },
     "ingredients": [
       {
-        "id": "feijao",
+        "id": "alubia",
         "grams": 150,
-        "fitGrams": 140,
-        "sub": "Feijão branco",
+        "fitGrams": 120,
+        "sub": {
+          "es": "En Brasil: Feijão branco",
+          "pt": "No Brasil: Feijão branco",
+          "en": "In Brazil: Feijão branco"
+        },
         "fitId": null
       },
       {
         "id": "linguica",
-        "grams": 80,
-        "fitGrams": 0,
-        "sub": "Lombo suíno magro",
+        "grams": 50,
+        "fitGrams": 30,
+        "sub": null,
         "fitId": null
       },
       {
-        "id": "lombo",
-        "grams": 70,
-        "fitGrams": 140,
+        "id": "panceta",
+        "grams": 30,
+        "fitGrams": 20,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
-        "grams": 50,
-        "fitGrams": 50,
+        "grams": 30,
+        "fitGrams": 35,
         "sub": null,
         "fitId": null
       },
       {
         "id": "alho",
-        "grams": 10,
-        "fitGrams": 10,
+        "grams": 8,
+        "fitGrams": 9,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "cenoura",
-        "grams": 60,
-        "fitGrams": 70,
+        "id": "pimenton",
+        "grams": 2,
+        "fitGrams": 2,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "azafran",
+        "grams": 0.5,
+        "fitGrams": 0.5,
         "sub": null,
         "fitId": null
       }
@@ -17952,19 +19348,19 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Remoja el frijol blanco toda la noche en agua fría; escúrrelo.",
+          "t": "Remoja las alubias (fabes) toda la noche en agua fría; escúrrelas.",
           "s": null
         },
         {
-          "t": "Cuécelo a fuego suave con agua fría, 1 cebolla entera, la zanahoria, el ajo y laurel (o en olla a presión 20 min).",
+          "t": "Cuécelo a fuego suave con agua fría, 1 cebolla entera, el ajo, laurel y unas hebras de azafrán (o en olla a presión 20 min).",
           "s": 1200
         },
         {
-          "t": "Corta el lomo en trozos y la lingüiça/chorizo en rodajas gruesas.",
+          "t": "Corta la panceta en trozos y el chorizo en rodajas gruesas.",
           "s": null
         },
         {
-          "t": "Agrégalos a la olla con 1 cdta de páprica ahumada y cocina a fuego bajo.",
+          "t": "Agrégalos a la olla con 1 cdta de pimentón y cocina a fuego bajo.",
           "s": 900
         },
         {
@@ -17972,7 +19368,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Saca la cebolla y la zanahoria cocidas, lícualas con un cucharón de caldo y devuélvelas para dar cremosidad; ajusta la sal.",
+          "t": "Saca la cebolla cocida, lícuala con un cucharón de caldo y devuélvela para dar cremosidad; ajusta la sal.",
           "s": null
         },
         {
@@ -17982,19 +19378,19 @@ const CATALOG_DISHES = [
       ],
       "pt": [
         {
-          "t": "Deixe o feijão branco de molho a noite toda em água fria; escorra.",
+          "t": "Deixe o feijão branco (fabes) de molho a noite toda em água fria; escorra.",
           "s": null
         },
         {
-          "t": "Cozinhe em fogo baixo com água fria, 1 cebola inteira, a cenoura, o alho e louro (ou 20 min na pressão).",
+          "t": "Cozinhe em fogo baixo com água fria, 1 cebola inteira, o alho, louro e alguns fios de açafrão (ou na pressão por 20 min).",
           "s": 1200
         },
         {
-          "t": "Corte o lombo em pedaços e a linguiça em rodelas grossas.",
+          "t": "Corte o toucinho em pedaços e a linguiça (chouriço) em rodelas grossas.",
           "s": null
         },
         {
-          "t": "Junte à panela com 1 colher (chá) de páprica defumada e cozinhe em fogo baixo.",
+          "t": "Junte na panela com 1 colher de chá de páprica e cozinhe em fogo baixo.",
           "s": 900
         },
         {
@@ -18002,7 +19398,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Retire a cebola e a cenoura cozidas, bata com uma concha de caldo e devolva para dar cremosidade; acerte o sal.",
+          "t": "Retire a cebola cozida, bata com uma concha de caldo e devolva para dar cremosidade; acerte o sal.",
           "s": null
         },
         {
@@ -18012,19 +19408,19 @@ const CATALOG_DISHES = [
       ],
       "en": [
         {
-          "t": "Soak the white beans overnight in cold water; drain.",
+          "t": "Soak the white beans (fabes) overnight in cold water; drain.",
           "s": null
         },
         {
-          "t": "Simmer gently in cold water with 1 whole onion, the carrot, garlic and bay leaf (or 20 min in a pressure cooker).",
+          "t": "Simmer gently in cold water with 1 whole onion, the garlic, bay leaf and a few saffron threads (or 20 min in a pressure cooker).",
           "s": 1200
         },
         {
-          "t": "Cut the pork loin into chunks and the sausage into thick slices.",
+          "t": "Cut the pork belly into pieces and the chorizo into thick rounds.",
           "s": null
         },
         {
-          "t": "Add them to the pot with 1 tsp smoked paprika and cook on low.",
+          "t": "Add them to the pot with 1 tsp paprika and simmer.",
           "s": 900
         },
         {
@@ -18032,7 +19428,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Remove the cooked onion and carrot, blend with a ladle of broth and return for creaminess; adjust the salt.",
+          "t": "Remove the cooked onion, blend it with a ladle of broth and return it for creaminess; adjust salt.",
           "s": null
         },
         {
@@ -18060,57 +19456,57 @@ const CATALOG_DISHES = [
       "en": "Slow-simmered zucchini, bell pepper, and tomato stew topped with eggs."
     },
     "macrosTrad": {
-      "kcal": 383,
+      "kcal": 382,
       "p": 20,
       "c": 19,
       "f": 26
     },
     "macrosFit": {
-      "kcal": 324,
-      "p": 20,
-      "c": 20,
-      "f": 19
+      "kcal": 341,
+      "p": 22,
+      "c": 21,
+      "f": 20
     },
     "ingredients": [
       {
         "id": "ovo",
         "grams": 120,
-        "fitGrams": 120,
+        "fitGrams": 130,
         "sub": null,
         "fitId": null
       },
       {
         "id": "abobrinha",
-        "grams": 140,
-        "fitGrams": 160,
+        "grams": 130,
+        "fitGrams": 150,
         "sub": null,
         "fitId": null
       },
       {
         "id": "tomate",
         "grams": 130,
-        "fitGrams": 130,
+        "fitGrams": 150,
         "sub": null,
         "fitId": null
       },
       {
         "id": "pimentao",
         "grams": 70,
-        "fitGrams": 70,
+        "fitGrams": 80,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
         "grams": 50,
-        "fitGrams": 50,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
       {
         "id": "azeite",
         "grams": 15,
-        "fitGrams": 8,
+        "fitGrams": 7.5,
         "sub": null,
         "fitId": null
       }
@@ -18226,65 +19622,93 @@ const CATALOG_DISHES = [
       "en": "Tender meatballs simmered in tomato and ground nut sauce."
     },
     "macrosTrad": {
-      "kcal": 600,
+      "kcal": 690,
       "p": 68,
-      "c": 43,
-      "f": 16
+      "c": 46,
+      "f": 25
     },
     "macrosFit": {
-      "kcal": 591,
-      "p": 71,
-      "c": 35,
-      "f": 17
+      "kcal": 658,
+      "p": 73,
+      "c": 41,
+      "f": 21
     },
     "ingredients": [
       {
         "id": "patinho",
         "grams": 160,
-        "fitGrams": 170,
+        "fitGrams": 175,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "tomate",
-        "grams": 120,
-        "fitGrams": 120,
+        "id": "pan_rallado",
+        "grams": 15,
+        "fitGrams": 10,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "ovo",
+        "grams": 25,
+        "fitGrams": 30,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
         "grams": 50,
-        "fitGrams": 50,
+        "fitGrams": 55,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "tomate",
+        "grams": 100,
+        "fitGrams": 115,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cenoura",
-        "grams": 60,
-        "fitGrams": 60,
-        "sub": null,
-        "fitId": null
-      },
-      {
-        "id": "ovo",
         "grams": 40,
-        "fitGrams": 40,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "arroz_branco",
+        "id": "alho",
+        "grams": 8,
+        "fitGrams": 9,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "farinha_trigo",
+        "grams": 5,
+        "fitGrams": 5,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "batata",
         "grams": 100,
         "fitGrams": 80,
-        "sub": "Arroz Integral",
-        "fitId": "arroz"
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "azeite",
+        "grams": 10,
+        "fitGrams": 5,
+        "sub": null,
+        "fitId": null
       }
     ],
     "steps": {
       "es": [
         {
-          "t": "Mezcla la carne molida con ajo picado, perejil, el huevo batido, 2 cdas de avena o pan rallado, sal y pimienta.",
+          "t": "Mezcla la carne molida con ajo picado, perejil, el huevo batido, el pan rallado, sal y pimienta.",
           "s": null
         },
         {
@@ -18300,7 +19724,7 @@ const CATALOG_DISHES = [
           "s": 300
         },
         {
-          "t": "Añade el tomate triturado, la páprica y ½ taza de caldo; cocina y licúa para obtener una salsa suave.",
+          "t": "Añade 1 cdta de harina, el tomate triturado, el pimentón y ½ taza de caldo; cocina y licúa para obtener una salsa suave.",
           "s": 480
         },
         {
@@ -18308,13 +19732,13 @@ const CATALOG_DISHES = [
           "s": 600
         },
         {
-          "t": "Sirve con el arroz cocido y perejil picado.",
-          "s": 1080
+          "t": "Sirve con papas fritas o al horno y perejil picado.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Misture a carne moída com alho picado, salsinha, o ovo batido, 2 colheres de aveia ou farinha de rosca, sal e pimenta.",
+          "t": "Misture a carne moída com alho picado, salsinha, o ovo batido, a farinha de rosca, sal e pimenta.",
           "s": null
         },
         {
@@ -18330,7 +19754,7 @@ const CATALOG_DISHES = [
           "s": 300
         },
         {
-          "t": "Junte o tomate triturado, a páprica e ½ xícara de caldo; cozinhe e bata para obter um molho liso.",
+          "t": "Junte 1 colher de chá de farinha, o tomate triturado, a páprica e ½ xícara de caldo; cozinhe e bata para obter um molho liso.",
           "s": 480
         },
         {
@@ -18338,13 +19762,13 @@ const CATALOG_DISHES = [
           "s": 600
         },
         {
-          "t": "Sirva com o arroz cozido e salsinha picada.",
-          "s": 1080
+          "t": "Sirva com batatas fritas ou assadas e salsinha picada.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Mix the ground beef with chopped garlic, parsley, the beaten egg, 2 tbsp oats or breadcrumbs, salt and pepper.",
+          "t": "Mix the ground beef with chopped garlic, parsley, the beaten egg, the breadcrumbs, salt and pepper.",
           "s": null
         },
         {
@@ -18360,7 +19784,7 @@ const CATALOG_DISHES = [
           "s": 300
         },
         {
-          "t": "Add the crushed tomato, paprika and ½ cup stock; cook and blend into a smooth sauce.",
+          "t": "Add 1 tsp flour, the crushed tomato, paprika and ½ cup broth; cook and blend into a smooth sauce.",
           "s": 480
         },
         {
@@ -18368,8 +19792,8 @@ const CATALOG_DISHES = [
           "s": 600
         },
         {
-          "t": "Serve with cooked rice and chopped parsley.",
-          "s": 1080
+          "t": "Serve with fried or roasted potatoes and chopped parsley.",
+          "s": null
         }
       ]
     },
@@ -18382,9 +19806,9 @@ const CATALOG_DISHES = [
     "fav": false,
     "img": "images/es_11.jpg",
     "title": {
-      "es": "Merluza / Tilapia en Salsa Verde Vasca",
-      "pt": "Peixe ao Molho Verde Basco",
-      "en": "Basque Green-Sauce Fish"
+      "es": "Merluza en Salsa Verde Vasca",
+      "pt": "Merluza ao Molho Verde Basco",
+      "en": "Basque Hake in Green Sauce"
     },
     "brTip": {
       "es": "En Brasil usa merluza congelada o filé de tilápia cocido en caldo ligero de ajo, mucho perejil y papa.",
@@ -18392,50 +19816,79 @@ const CATALOG_DISHES = [
       "en": "White fish gently poached in garlicky parsley emulsion with potatoes."
     },
     "macrosTrad": {
-      "kcal": 424,
-      "p": 40,
-      "c": 26,
-      "f": 18
+      "kcal": 484,
+      "p": 46,
+      "c": 33,
+      "f": 19
     },
     "macrosFit": {
-      "kcal": 356,
-      "p": 42,
-      "c": 23,
-      "f": 11
+      "kcal": 426,
+      "p": 51,
+      "c": 29,
+      "f": 12
     },
     "ingredients": [
       {
         "id": "tilapia",
         "grams": 180,
-        "fitGrams": 190,
-        "sub": "Merluza ou Tilápia",
+        "fitGrams": 200,
+        "sub": {
+          "es": "En Brasil: Pescada ou tilápia (merluza)",
+          "pt": "No Brasil: Pescada ou tilápia (merluza)",
+          "en": "In Brazil: Pescada ou tilápia (merluza)"
+        },
         "fitId": null
       },
       {
-        "id": "batata",
-        "grams": 120,
-        "fitGrams": 100,
+        "id": "mariscos",
+        "grams": 40,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
       {
         "id": "alho",
-        "grams": 15,
-        "fitGrams": 15,
+        "grams": 10,
+        "fitGrams": 10,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cheiro_verde",
-        "grams": 30,
-        "fitGrams": 30,
-        "sub": "Salsinha fresca",
+        "grams": 20,
+        "fitGrams": 20,
+        "sub": {
+          "es": "En Brasil: Salsinha",
+          "pt": "No Brasil: Salsinha",
+          "en": "In Brazil: Salsinha"
+        },
+        "fitId": null
+      },
+      {
+        "id": "farinha_trigo",
+        "grams": 5,
+        "fitGrams": 5,
+        "sub": null,
         "fitId": null
       },
       {
         "id": "azeite",
         "grams": 15,
-        "fitGrams": 8,
+        "fitGrams": 7.5,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "batata",
+        "grams": 120,
+        "fitGrams": 95,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "arveja",
+        "grams": 20,
+        "fitGrams": 25,
         "sub": null,
         "fitId": null
       }
@@ -18463,7 +19916,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Añade el perejil y coloca el pescado y las papas en la sartén.",
+          "t": "Añade el perejil, las almejas y las arvejas, y coloca el pescado y las papas en la sartén.",
           "s": null
         },
         {
@@ -18493,7 +19946,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Acrescente a salsinha e coloque o peixe e as batatas na frigideira.",
+          "t": "Junte a salsinha, os mariscos e as ervilhas e coloque o peixe e as batatas na frigideira.",
           "s": null
         },
         {
@@ -18523,7 +19976,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Add the parsley and place the fish and potatoes in the pan.",
+          "t": "Add the parsley, clams and peas, and place the fish and potatoes in the pan.",
           "s": null
         },
         {
@@ -18532,7 +19985,7 @@ const CATALOG_DISHES = [
         }
       ]
     },
-    "videoQuery": "como hacer Merluza / Tilapia en Salsa Verde Vasca receta paso a paso"
+    "videoQuery": "como hacer Merluza en Salsa Verde Vasca receta paso a paso"
   },
   {
     "id": "es_12",
@@ -18541,9 +19994,9 @@ const CATALOG_DISHES = [
     "fav": false,
     "img": "images/es_12.jpg",
     "title": {
-      "es": "Arroz Caldoso de Mariscos / Pescado",
-      "pt": "Arroz Caldoso Espanhol de Peixe",
-      "en": "Spanish Brothy Seafood Rice"
+      "es": "Arroz Caldoso de Mariscos",
+      "pt": "Arroz Caldoso de Frutos do Mar",
+      "en": "Brothy Seafood Rice"
     },
     "brTip": {
       "es": "A mitad de camino entre risotto y sopa: arroz suelto con caldo sabroso de tomate, ajo y pescado/camarón.",
@@ -18551,29 +20004,43 @@ const CATALOG_DISHES = [
       "en": "Soupy Spanish saffron-tomato rice with fish and shrimp."
     },
     "macrosTrad": {
-      "kcal": 449,
-      "p": 41,
-      "c": 37,
-      "f": 15
+      "kcal": 476,
+      "p": 42,
+      "c": 40,
+      "f": 16
     },
     "macrosFit": {
-      "kcal": 375,
-      "p": 42,
-      "c": 30,
-      "f": 10
+      "kcal": 419,
+      "p": 46,
+      "c": 34,
+      "f": 11
     },
     "ingredients": [
       {
         "id": "tilapia",
-        "grams": 110,
-        "fitGrams": 120,
+        "grams": 80,
+        "fitGrams": 90,
         "sub": null,
         "fitId": null
       },
       {
         "id": "camarao",
-        "grams": 80,
-        "fitGrams": 80,
+        "grams": 60,
+        "fitGrams": 65,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "mariscos",
+        "grams": 40,
+        "fitGrams": 45,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "calamar",
+        "grams": 40,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
@@ -18581,20 +20048,20 @@ const CATALOG_DISHES = [
         "id": "arroz_branco",
         "grams": 110,
         "fitGrams": 90,
-        "sub": "Arroz Integral",
+        "sub": null,
         "fitId": "arroz"
       },
       {
         "id": "tomate",
-        "grams": 90,
-        "fitGrams": 90,
+        "grams": 70,
+        "fitGrams": 80,
         "sub": null,
         "fitId": null
       },
       {
         "id": "pimentao",
-        "grams": 50,
-        "fitGrams": 50,
+        "grams": 40,
+        "fitGrams": 45,
         "sub": null,
         "fitId": null
       },
@@ -18602,6 +20069,20 @@ const CATALOG_DISHES = [
         "id": "azeite",
         "grams": 12,
         "fitGrams": 6,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "alho",
+        "grams": 5,
+        "fitGrams": 6,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "azafran",
+        "grams": 0.5,
+        "fitGrams": 0.5,
         "sub": null,
         "fitId": null
       }
@@ -18617,7 +20098,7 @@ const CATALOG_DISHES = [
           "s": 240
         },
         {
-          "t": "Agrega el tomate rallado y la páprica y cocina hasta concentrar.",
+          "t": "Agrega el tomate rallado, el pimentón y unas hebras de azafrán y cocina hasta concentrar.",
           "s": 180
         },
         {
@@ -18633,7 +20114,7 @@ const CATALOG_DISHES = [
           "s": 660
         },
         {
-          "t": "Agrega el pescado y los camarones los últimos minutos para que queden justo al punto; sirve de inmediato en plato hondo.",
+          "t": "Agrega el pescado, el calamar, los mariscos y los camarones los últimos minutos para que queden justo al punto; sirve de inmediato en plato hondo.",
           "s": 180
         }
       ],
@@ -18647,7 +20128,7 @@ const CATALOG_DISHES = [
           "s": 240
         },
         {
-          "t": "Junte o tomate ralado e a páprica e cozinhe até apurar.",
+          "t": "Junte o tomate ralado, a páprica e alguns fios de açafrão e cozinhe até concentrar.",
           "s": 180
         },
         {
@@ -18663,7 +20144,7 @@ const CATALOG_DISHES = [
           "s": 660
         },
         {
-          "t": "Junte o peixe e os camarões nos últimos minutos para ficarem no ponto; sirva na hora em prato fundo.",
+          "t": "Junte o peixe, a lula, os mariscos e os camarões nos últimos minutos para ficarem no ponto; sirva na hora em prato fundo.",
           "s": 180
         }
       ],
@@ -18677,7 +20158,7 @@ const CATALOG_DISHES = [
           "s": 240
         },
         {
-          "t": "Add the grated tomato and paprika and cook until concentrated.",
+          "t": "Add the grated tomato, paprika and a few saffron threads and cook down.",
           "s": 180
         },
         {
@@ -18693,12 +20174,12 @@ const CATALOG_DISHES = [
           "s": 660
         },
         {
-          "t": "Add the fish and shrimp in the last minutes so they are just cooked; serve at once in deep plates.",
+          "t": "Add the fish, squid, shellfish and shrimp in the last minutes so they are just cooked; serve at once in deep bowls.",
           "s": 180
         }
       ]
     },
-    "videoQuery": "como hacer Arroz Caldoso de Mariscos / Pescado receta paso a paso"
+    "videoQuery": "como hacer Arroz Caldoso de Mariscos receta paso a paso"
   },
   {
     "id": "es_13",
@@ -18707,9 +20188,9 @@ const CATALOG_DISHES = [
     "fav": false,
     "img": "images/es_13.jpg",
     "title": {
-      "es": "Patatas a la Riojana con Lomo/Chorizo",
-      "pt": "Batatas à Riojana (Ensopado Espanhol)",
-      "en": "Rioja Potato & Pork Stew"
+      "es": "Patatas a la Riojana con Chorizo",
+      "pt": "Batatas à Riojana com Chouriço",
+      "en": "Riojan Potatoes with Chorizo"
     },
     "brTip": {
       "es": "Truco español: 'chascar' las papas (cortar y quebrar el trozo al final) para que suelten almidón y espesen el caldo.",
@@ -18717,57 +20198,57 @@ const CATALOG_DISHES = [
       "en": "Break potato edges when cutting so starch naturally thickens the paprika broth."
     },
     "macrosTrad": {
-      "kcal": 608,
-      "p": 50,
-      "c": 42,
-      "f": 26
+      "kcal": 442,
+      "p": 19,
+      "c": 45,
+      "f": 22
     },
     "macrosFit": {
-      "kcal": 477,
-      "p": 48,
-      "c": 34,
-      "f": 16
+      "kcal": 322,
+      "p": 14,
+      "c": 39,
+      "f": 14
     },
     "ingredients": [
       {
-        "id": "lombo",
-        "grams": 130,
-        "fitGrams": 155,
-        "sub": null,
-        "fitId": null
-      },
-      {
         "id": "linguica",
-        "grams": 50,
-        "fitGrams": 0,
-        "sub": "Páprica defumada extra no modo fit",
-        "fitId": null
-      },
-      {
-        "id": "batata",
-        "grams": 180,
-        "fitGrams": 140,
-        "sub": null,
-        "fitId": null
-      },
-      {
-        "id": "pimentao",
-        "grams": 50,
-        "fitGrams": 60,
-        "sub": null,
-        "fitId": null
-      },
-      {
-        "id": "cebola",
-        "grams": 50,
+        "grams": 80,
         "fitGrams": 50,
         "sub": null,
         "fitId": null
       },
       {
+        "id": "batata",
+        "grams": 200,
+        "fitGrams": 160,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "pimentao",
+        "grams": 30,
+        "fitGrams": 35,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "cebola",
+        "grams": 40,
+        "fitGrams": 45,
+        "sub": null,
+        "fitId": null
+      },
+      {
         "id": "alho",
-        "grams": 10,
-        "fitGrams": 10,
+        "grams": 8,
+        "fitGrams": 9,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "pimenton",
+        "grams": 3,
+        "fitGrams": 3,
         "sub": null,
         "fitId": null
       }
@@ -18779,7 +20260,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Pica la cebolla, el ajo y el pimentón; corta el lomo en cubos y el chorizo en rodajas.",
+          "t": "Pica la cebolla, el ajo y el pimiento; corta el chorizo en rodajas.",
           "s": null
         },
         {
@@ -18787,11 +20268,11 @@ const CATALOG_DISHES = [
           "s": 240
         },
         {
-          "t": "Agrega el lomo y el chorizo y dóralos.",
+          "t": "Agrega el chorizo y dóralo para que suelte su grasa roja.",
           "s": 240
         },
         {
-          "t": "Retira la olla del fuego y añade 1 cdta generosa de páprica ahumada (así no se quema); mezcla.",
+          "t": "Retira la olla del fuego y añade 1 cdta generosa de pimentón de la Vera (así no se quema); mezcla.",
           "s": null
         },
         {
@@ -18809,7 +20290,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Pique a cebola, o alho e o pimentão; corte o lombo em cubos e a linguiça em rodelas.",
+          "t": "Pique a cebola, o alho e o pimentão; corte o chouriço em rodelas.",
           "s": null
         },
         {
@@ -18817,11 +20298,11 @@ const CATALOG_DISHES = [
           "s": 240
         },
         {
-          "t": "Junte o lombo e a linguiça e doure.",
+          "t": "Junte o chouriço e doure para soltar a gordura vermelha.",
           "s": 240
         },
         {
-          "t": "Tire a panela do fogo e acrescente 1 colher (chá) cheia de páprica defumada (assim não queima); misture.",
+          "t": "Tire a panela do fogo e junte 1 colher de chá cheia de páprica defumada (assim não queima); misture.",
           "s": null
         },
         {
@@ -18839,7 +20320,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Chop the onion, garlic and bell pepper; cube the pork loin and slice the chorizo.",
+          "t": "Chop the onion, garlic and pepper; slice the chorizo.",
           "s": null
         },
         {
@@ -18847,11 +20328,11 @@ const CATALOG_DISHES = [
           "s": 240
         },
         {
-          "t": "Add the pork and chorizo and brown them.",
+          "t": "Add the chorizo and brown it so it releases its red fat.",
           "s": 240
         },
         {
-          "t": "Take the pot off the heat and add 1 heaped tsp smoked paprika (so it does not burn); stir.",
+          "t": "Take the pot off the heat and add 1 heaped tsp of smoked paprika (so it does not burn); stir.",
           "s": null
         },
         {
@@ -18864,7 +20345,7 @@ const CATALOG_DISHES = [
         }
       ]
     },
-    "videoQuery": "como hacer Patatas a la Riojana con Lomo/Chorizo receta paso a paso"
+    "videoQuery": "como hacer Patatas a la Riojana con Chorizo receta paso a paso"
   },
   {
     "id": "es_14",
@@ -18878,62 +20359,83 @@ const CATALOG_DISHES = [
       "en": "Spanish Braised Lentils"
     },
     "brTip": {
-      "es": "Las lentejas (lentilha) NO necesitan remojo previo; con zanahoria, papa, páprica defumada y lombo/chorizo quedan en 25 min.",
-      "pt": "Lentilha não precisa de molho! Cozinhe com cenoura, batata, páprica defumada e lombo.",
-      "en": "No soaking needed: lentils simmer in 25 min with carrot, potato, and smoked paprika."
+      "es": "Las lentejas no necesitan remojo; con chorizo, zanahoria, papa y pimentón quedan en 25 min.",
+      "pt": "Lentilhas não precisam de molho; com chouriço, cenoura, batata e páprica ficam prontas em 25 min.",
+      "en": "Lentils need no soaking; with chorizo, carrot, potato and paprika they are ready in 25 min."
     },
     "macrosTrad": {
-      "kcal": 503,
-      "p": 46,
-      "c": 54,
+      "kcal": 411,
+      "p": 24,
+      "c": 56,
       "f": 12
     },
     "macrosFit": {
-      "kcal": 554,
-      "p": 55,
-      "c": 51,
-      "f": 15
+      "kcal": 327,
+      "p": 19,
+      "c": 49,
+      "f": 8
     },
     "ingredients": [
       {
         "id": "lentilha",
-        "grams": 130,
-        "fitGrams": 130,
+        "grams": 150,
+        "fitGrams": 120,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "lombo",
-        "grams": 110,
-        "fitGrams": 140,
+        "id": "linguica",
+        "grams": 40,
+        "fitGrams": 25,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cenoura",
-        "grams": 80,
-        "fitGrams": 90,
-        "sub": null,
-        "fitId": null
-      },
-      {
-        "id": "batata",
-        "grams": 80,
-        "fitGrams": 60,
-        "sub": null,
-        "fitId": null
-      },
-      {
-        "id": "tomate",
-        "grams": 70,
+        "grams": 60,
         "fitGrams": 70,
         "sub": null,
         "fitId": null
       },
       {
+        "id": "batata",
+        "grams": 70,
+        "fitGrams": 55,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "tomate",
+        "grams": 40,
+        "fitGrams": 45,
+        "sub": null,
+        "fitId": null
+      },
+      {
         "id": "cebola",
-        "grams": 50,
-        "fitGrams": 50,
+        "grams": 40,
+        "fitGrams": 45,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "pimentao",
+        "grams": 20,
+        "fitGrams": 25,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "alho",
+        "grams": 5,
+        "fitGrams": 6,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "pimenton",
+        "grams": 2,
+        "fitGrams": 2,
         "sub": null,
         "fitId": null
       }
@@ -18945,7 +20447,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Pica la cebolla y el ajo, corta la zanahoria en rodajas, el tomate en cubos, la papa en dados y el lomo en trozos.",
+          "t": "Pica la cebolla, el ajo y el pimiento, corta la zanahoria en rodajas, el tomate en cubos, la papa en dados y el chorizo en rodajas.",
           "s": null
         },
         {
@@ -18953,11 +20455,11 @@ const CATALOG_DISHES = [
           "s": 300
         },
         {
-          "t": "Retira del fuego un momento y añade 1 cdta de páprica ahumada.",
+          "t": "Retira del fuego un momento y añade 1 cdta de pimentón de la Vera.",
           "s": null
         },
         {
-          "t": "Agrega las lentejas, la papa, el lomo, laurel y 700 ml de agua fría; sala.",
+          "t": "Agrega las lentejas, la papa, el chorizo, laurel y 700 ml de agua fría; sala.",
           "s": null
         },
         {
@@ -18975,7 +20477,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Pique a cebola e o alho, corte a cenoura em rodelas, o tomate em cubos, a batata em dados e o lombo em pedaços.",
+          "t": "Pique a cebola, o alho e o pimentão, corte a cenoura em rodelas, o tomate em cubos, a batata em dados e o chouriço em rodelas.",
           "s": null
         },
         {
@@ -18983,11 +20485,11 @@ const CATALOG_DISHES = [
           "s": 300
         },
         {
-          "t": "Tire do fogo um instante e junte 1 colher (chá) de páprica defumada.",
+          "t": "Tire do fogo um momento e junte 1 colher de chá de páprica defumada.",
           "s": null
         },
         {
-          "t": "Acrescente as lentilhas, a batata, o lombo, louro e 700 ml de água fria; salgue.",
+          "t": "Junte as lentilhas, a batata, o chouriço, louro e 700 ml de água fria; tempere com sal.",
           "s": null
         },
         {
@@ -19005,7 +20507,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Chop the onion and garlic, slice the carrot, dice the tomato and potato and cut the pork into chunks.",
+          "t": "Chop the onion, garlic and pepper; slice the carrot, dice the tomato and potato, and slice the chorizo.",
           "s": null
         },
         {
@@ -19013,11 +20515,11 @@ const CATALOG_DISHES = [
           "s": 300
         },
         {
-          "t": "Take it off the heat for a moment and add 1 tsp smoked paprika.",
+          "t": "Take off the heat for a moment and add 1 tsp smoked paprika.",
           "s": null
         },
         {
-          "t": "Add the lentils, potato, pork, bay leaf and 700 ml cold water; salt it.",
+          "t": "Add the lentils, potato, chorizo, bay leaf and 700 ml cold water; salt.",
           "s": null
         },
         {
@@ -19049,59 +20551,70 @@ const CATALOG_DISHES = [
       "en": "Vibrant Aragonese braised chicken with sweet bell peppers and tomato."
     },
     "macrosTrad": {
-      "kcal": 584,
-      "p": 48,
-      "c": 45,
-      "f": 24
+      "kcal": 603,
+      "p": 52,
+      "c": 16,
+      "f": 38
     },
     "macrosFit": {
-      "kcal": 555,
-      "p": 48,
-      "c": 39,
-      "f": 24
+      "kcal": 467,
+      "p": 69,
+      "c": 18,
+      "f": 13
     },
     "ingredients": [
       {
         "id": "coxa_frango",
         "grams": 175,
-        "fitGrams": 175,
-        "sub": "Peito de frango",
-        "fitId": null
+        "fitGrams": 195,
+        "sub": null,
+        "fitId": "frango"
       },
       {
         "id": "pimentao",
         "grams": 100,
-        "fitGrams": 110,
+        "fitGrams": 115,
         "sub": null,
         "fitId": null
       },
       {
         "id": "tomate",
         "grams": 110,
-        "fitGrams": 110,
+        "fitGrams": 125,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
         "grams": 50,
-        "fitGrams": 50,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
       {
         "id": "alho",
-        "grams": 15,
-        "fitGrams": 15,
+        "grams": 10,
+        "fitGrams": 10,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "arroz_branco",
-        "grams": 100,
-        "fitGrams": 80,
-        "sub": "Arroz Integral",
-        "fitId": "arroz"
+        "id": "jamon",
+        "grams": 20,
+        "fitGrams": 10,
+        "sub": {
+          "es": "En Brasil: Presunto cru",
+          "pt": "No Brasil: Presunto cru",
+          "en": "In Brazil: Presunto cru"
+        },
+        "fitId": null
+      },
+      {
+        "id": "azeite",
+        "grams": 12,
+        "fitGrams": 6,
+        "sub": null,
+        "fitId": null
       }
     ],
     "steps": {
@@ -19115,11 +20628,11 @@ const CATALOG_DISHES = [
           "s": 360
         },
         {
-          "t": "En la misma cazuela sofríe la cebolla, el ajo y el pimentón hasta que ablanden.",
+          "t": "En la misma cazuela sofríe el jamón serrano en tiras, la cebolla, el ajo y el pimiento hasta que ablanden.",
           "s": 360
         },
         {
-          "t": "Agrega el tomate y 1 cdta de páprica y cocina hasta concentrar.",
+          "t": "Agrega el tomate y 1 cdta de pimentón dulce y cocina hasta concentrar.",
           "s": 300
         },
         {
@@ -19131,8 +20644,8 @@ const CATALOG_DISHES = [
           "s": 840
         },
         {
-          "t": "Sirve con arroz.",
-          "s": 1080
+          "t": "Sirve con pan para mojar la salsa.",
+          "s": null
         }
       ],
       "pt": [
@@ -19145,11 +20658,11 @@ const CATALOG_DISHES = [
           "s": 360
         },
         {
-          "t": "Na mesma caçarola refogue a cebola, o alho e o pimentão até amolecer.",
+          "t": "Na mesma caçarola refogue o presunto em tiras, a cebola, o alho e o pimentão até amaciarem.",
           "s": 360
         },
         {
-          "t": "Junte o tomate e 1 colher (chá) de páprica e cozinhe até apurar.",
+          "t": "Junte o tomate e 1 colher de chá de páprica doce e cozinhe até concentrar.",
           "s": 300
         },
         {
@@ -19161,8 +20674,8 @@ const CATALOG_DISHES = [
           "s": 840
         },
         {
-          "t": "Sirva com arroz.",
-          "s": 1080
+          "t": "Sirva com pão para molhar no molho.",
+          "s": null
         }
       ],
       "en": [
@@ -19175,11 +20688,11 @@ const CATALOG_DISHES = [
           "s": 360
         },
         {
-          "t": "In the same casserole sauté the onion, garlic and peppers until soft.",
+          "t": "In the same pot sauté the serrano ham strips, onion, garlic and pepper until soft.",
           "s": 360
         },
         {
-          "t": "Add the tomato and 1 tsp paprika and cook until concentrated.",
+          "t": "Add the tomato and 1 tsp sweet paprika and cook down.",
           "s": 300
         },
         {
@@ -19191,8 +20704,8 @@ const CATALOG_DISHES = [
           "s": 840
         },
         {
-          "t": "Serve with rice.",
-          "s": 1080
+          "t": "Serve with bread to mop up the sauce.",
+          "s": null
         }
       ]
     },
@@ -19215,28 +20728,28 @@ const CATALOG_DISHES = [
       "en": "Ideal for Brazilian summer: firm potatoes, tuna, hard-boiled egg, tomato, and olive oil."
     },
     "macrosTrad": {
-      "kcal": 536,
-      "p": 48,
-      "c": 32,
+      "kcal": 517,
+      "p": 38,
+      "c": 38,
       "f": 24
     },
     "macrosFit": {
-      "kcal": 461,
-      "p": 50,
-      "c": 28,
+      "kcal": 451,
+      "p": 41,
+      "c": 34,
       "f": 17
     },
     "ingredients": [
       {
-        "id": "atum",
-        "grams": 140,
-        "fitGrams": 150,
+        "id": "batata",
+        "grams": 160,
+        "fitGrams": 130,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "batata",
-        "grams": 140,
+        "id": "atum",
+        "grams": 100,
         "fitGrams": 110,
         "sub": null,
         "fitId": null
@@ -19244,7 +20757,7 @@ const CATALOG_DISHES = [
       {
         "id": "ovo",
         "grams": 60,
-        "fitGrams": 60,
+        "fitGrams": 65,
         "sub": null,
         "fitId": null
       },
@@ -19257,21 +20770,35 @@ const CATALOG_DISHES = [
       },
       {
         "id": "pimentao",
-        "grams": 50,
-        "fitGrams": 60,
+        "grams": 40,
+        "fitGrams": 45,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "cebola",
+        "grams": 30,
+        "fitGrams": 35,
         "sub": null,
         "fitId": null
       },
       {
         "id": "azeitona",
         "grams": 20,
-        "fitGrams": 15,
+        "fitGrams": 20,
         "sub": null,
         "fitId": null
       },
       {
         "id": "azeite",
         "grams": 15,
+        "fitGrams": 7.5,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "vinagre",
+        "grams": 8,
         "fitGrams": 8,
         "sub": null,
         "fitId": null
@@ -19378,9 +20905,9 @@ const CATALOG_DISHES = [
     "fav": false,
     "img": "images/es_17.jpg",
     "title": {
-      "es": "Bacalao / Tilapia a la Vizcaína",
-      "pt": "Bacalhau ou Peixe à Vizcaína",
-      "en": "Basque Vizcaína Tomato-Pepper Fish"
+      "es": "Bacalao a la Vizcaína",
+      "pt": "Bacalhau à Biscainha",
+      "en": "Basque Cod (Bacalao a la Vizcaína)"
     },
     "brTip": {
       "es": "Salsa roja intensa de pimentón rojo asado y cebolla caramelizada (en Brasil usa bacalhau dessalgado o tilápia).",
@@ -19388,43 +20915,68 @@ const CATALOG_DISHES = [
       "en": "Roasted red pepper and caramelized onion sauce spooned over fish."
     },
     "macrosTrad": {
-      "kcal": 505,
-      "p": 53,
-      "c": 34,
-      "f": 18
+      "kcal": 559,
+      "p": 54,
+      "c": 38,
+      "f": 22
     },
     "macrosFit": {
-      "kcal": 442,
-      "p": 55,
-      "c": 30,
-      "f": 11
+      "kcal": 495,
+      "p": 58,
+      "c": 37,
+      "f": 13
     },
     "ingredients": [
       {
         "id": "bacalhau",
         "grams": 165,
-        "fitGrams": 175,
-        "sub": "Tilápia no dia a dia",
+        "fitGrams": 180,
+        "sub": null,
         "fitId": null
       },
       {
         "id": "pimentao",
-        "grams": 100,
-        "fitGrams": 100,
-        "sub": "Pimentão vermelho",
+        "grams": 60,
+        "fitGrams": 70,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "chile_seco",
+        "grams": 10,
+        "fitGrams": 10,
+        "sub": {
+          "es": "En Brasil: Páprica (pimiento choricero)",
+          "pt": "No Brasil: Páprica (pimiento choricero)",
+          "en": "In Brazil: Páprica (pimiento choricero)"
+        },
         "fitId": null
       },
       {
         "id": "cebola",
         "grams": 90,
-        "fitGrams": 90,
+        "fitGrams": 105,
         "sub": null,
         "fitId": null
       },
       {
         "id": "tomate",
-        "grams": 80,
-        "fitGrams": 80,
+        "grams": 60,
+        "fitGrams": 70,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "alho",
+        "grams": 8,
+        "fitGrams": 9,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "azeite",
+        "grams": 18,
+        "fitGrams": 9,
         "sub": null,
         "fitId": null
       },
@@ -19434,19 +20986,12 @@ const CATALOG_DISHES = [
         "fitGrams": 80,
         "sub": null,
         "fitId": null
-      },
-      {
-        "id": "azeite",
-        "grams": 15,
-        "fitGrams": 8,
-        "sub": null,
-        "fitId": null
       }
     ],
     "steps": {
       "es": [
         {
-          "t": "Si usas bacalao salado, desálalo de antemano (24–36 h en agua fría cambiándola cada 8 h). Si usas tilapia, solo sálala.",
+          "t": "Desala el bacalao de antemano (24–36 h en agua fría, cambiándola cada 8 h).",
           "s": null
         },
         {
@@ -19458,7 +21003,7 @@ const CATALOG_DISHES = [
           "s": 600
         },
         {
-          "t": "Agrega el pimentón rojo picado y el tomate y cocina.",
+          "t": "Agrega la carne de los pimientos choriceros hidratados, el pimiento rojo picado y el tomate, y cocina.",
           "s": 360
         },
         {
@@ -19476,7 +21021,7 @@ const CATALOG_DISHES = [
       ],
       "pt": [
         {
-          "t": "Se usar bacalhau salgado, dessalgue antes (24–36 h em água fria trocando a cada 8 h). Se usar tilápia, apenas salgue.",
+          "t": "Dessalgue o bacalhau com antecedência (24–36 h em água fria, trocando a cada 8 h).",
           "s": null
         },
         {
@@ -19488,7 +21033,7 @@ const CATALOG_DISHES = [
           "s": 600
         },
         {
-          "t": "Junte o pimentão vermelho picado e o tomate e cozinhe.",
+          "t": "Junte a polpa dos pimentões choriceros hidratados, o pimentão vermelho picado e o tomate, e cozinhe.",
           "s": 360
         },
         {
@@ -19506,7 +21051,7 @@ const CATALOG_DISHES = [
       ],
       "en": [
         {
-          "t": "If using salt cod, desalt it beforehand (24–36 h in cold water, changing it every 8 h). If using tilapia, just salt it.",
+          "t": "Desalt the cod in advance (24–36 h in cold water, changing it every 8 h).",
           "s": null
         },
         {
@@ -19518,7 +21063,7 @@ const CATALOG_DISHES = [
           "s": 600
         },
         {
-          "t": "Add the chopped red pepper and tomato and cook.",
+          "t": "Add the pulp of the soaked choricero peppers, the chopped red pepper and the tomato, and cook.",
           "s": 360
         },
         {
@@ -19535,7 +21080,7 @@ const CATALOG_DISHES = [
         }
       ]
     },
-    "videoQuery": "como hacer Bacalao / Tilapia a la Vizcaína receta paso a paso"
+    "videoQuery": "como hacer Bacalao a la Vizcaína receta paso a paso"
   },
   {
     "id": "es_18",
@@ -19549,34 +21094,38 @@ const CATALOG_DISHES = [
       "en": "Spanish Braised Beef & Potatoes"
     },
     "brTip": {
-      "es": "Guiso tierno de patinho o acém con zanahoria, papa, tomate, ajo y laurel.",
-      "pt": "Carne macia cozida com cenoura, batata, tomate, páprica e louro.",
-      "en": "Slow-simmered beef with carrot, potato, tomato, paprika, and bay leaf."
+      "es": "Original con ternera (morcillo o aguja) guisada en vino tinto. En Brasil: músculo, acém o patinho.",
+      "pt": "Original com vitela (músculo ou acém) cozida no vinho tinto. No Brasil: músculo, acém ou patinho.",
+      "en": "Made with veal (shank or chuck) braised in red wine. In Brazil: músculo, acém or patinho."
     },
     "macrosTrad": {
-      "kcal": 545,
-      "p": 67,
-      "c": 39,
+      "kcal": 589,
+      "p": 68,
+      "c": 43,
       "f": 13
     },
     "macrosFit": {
-      "kcal": 537,
-      "p": 68,
-      "c": 35,
-      "f": 13
+      "kcal": 615,
+      "p": 74,
+      "c": 41,
+      "f": 14
     },
     "ingredients": [
       {
         "id": "patinho",
         "grams": 170,
-        "fitGrams": 175,
-        "sub": null,
+        "fitGrams": 185,
+        "sub": {
+          "es": "En Brasil: Acém ou músculo",
+          "pt": "No Brasil: Acém ou músculo",
+          "en": "In Brazil: Acém ou músculo"
+        },
         "fitId": null
       },
       {
         "id": "batata",
         "grams": 130,
-        "fitGrams": 100,
+        "fitGrams": 105,
         "sub": null,
         "fitId": null
       },
@@ -19588,23 +21137,37 @@ const CATALOG_DISHES = [
         "fitId": null
       },
       {
+        "id": "arveja",
+        "grams": 30,
+        "fitGrams": 35,
+        "sub": null,
+        "fitId": null
+      },
+      {
         "id": "tomate",
-        "grams": 80,
-        "fitGrams": 80,
+        "grams": 60,
+        "fitGrams": 70,
         "sub": null,
         "fitId": null
       },
       {
         "id": "cebola",
         "grams": 50,
-        "fitGrams": 50,
+        "fitGrams": 55,
         "sub": null,
         "fitId": null
       },
       {
         "id": "alho",
-        "grams": 10,
-        "fitGrams": 10,
+        "grams": 8,
+        "fitGrams": 9,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "vinho_tinto",
+        "grams": 30,
+        "fitGrams": 30,
         "sub": null,
         "fitId": null
       }
@@ -19624,11 +21187,11 @@ const CATALOG_DISHES = [
           "s": 240
         },
         {
-          "t": "Añade el tomate y 1 cdta de páprica dulce y remueve.",
+          "t": "Añade el tomate y 1 cdta de pimentón dulce y remueve.",
           "s": null
         },
         {
-          "t": "Devuelve la carne, cubre con caldo o agua, agrega laurel y sal y cocina hasta ablandar (20 min en olla a presión o unos 40 min tapada).",
+          "t": "Devuelve la carne, vierte el vino tinto y deja que se evapore el alcohol; cubre con caldo o agua, agrega laurel y sal y cocina hasta ablandar (20 min en olla a presión o unos 40 min tapada).",
           "s": 1200
         },
         {
@@ -19654,11 +21217,11 @@ const CATALOG_DISHES = [
           "s": 240
         },
         {
-          "t": "Junte o tomate e 1 colher (chá) de páprica doce e mexa.",
+          "t": "Junte o tomate e 1 colher de chá de páprica doce e mexa.",
           "s": null
         },
         {
-          "t": "Volte a carne, cubra com caldo ou água, junte louro e sal e cozinhe até amaciar (20 min na pressão ou uns 40 min tampada).",
+          "t": "Devolva a carne, junte o vinho tinto e deixe o álcool evaporar; cubra com caldo ou água, junte louro e sal e cozinhe até amaciar (20 min na pressão ou uns 40 min tampada).",
           "s": 1200
         },
         {
@@ -19688,7 +21251,7 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Return the beef, cover with stock or water, add bay leaf and salt and cook until tender (20 min in a pressure cooker or about 40 min covered).",
+          "t": "Return the beef, pour in the red wine and let the alcohol cook off; cover with broth or water, add bay leaf and salt and cook until tender (20 min pressure cooker or about 40 min covered).",
           "s": 1200
         },
         {
@@ -19710,83 +21273,80 @@ const CATALOG_DISHES = [
     "fav": false,
     "img": "images/es_19.jpg",
     "title": {
-      "es": "Pan Tumaca Catalán con Pollo/Jamón",
-      "pt": "Pão com Tomate (Pan Tumaca) Proteico",
-      "en": "Catalan Tomato Bread & Protein"
+      "es": "Pan Tumaca con Jamón Serrano",
+      "pt": "Pan Tumaca com Presunto Cru",
+      "en": "Pan Tumaca with Serrano Ham"
     },
     "brTip": {
-      "es": "Pan tostado frotado con ajo crudo, tomate maduro rallado, aceite de oliva y lonchas de peito de peru/pollo.",
-      "pt": "Pão tostado esfregado com alho cru, tomate maduro ralado, azeite e frango/queijo.",
-      "en": "Crisp toasted bread rubbed with garlic, grated ripe tomato, olive oil, and lean protein."
+      "es": "Pan rústico tostado frotado con ajo y tomate maduro, aceite de oliva y jamón serrano. En Brasil: presunto cru.",
+      "pt": "Pão rústico tostado esfregado com alho e tomate maduro, azeite e presunto serrano. No Brasil: presunto cru.",
+      "en": "Toasted rustic bread rubbed with garlic and ripe tomato, olive oil and serrano ham. In Brazil: presunto cru."
     },
     "macrosTrad": {
-      "kcal": 523,
-      "p": 46,
-      "c": 46,
-      "f": 17
+      "kcal": 490,
+      "p": 27,
+      "c": 49,
+      "f": 22
     },
     "macrosFit": {
-      "kcal": 459,
-      "p": 48,
-      "c": 38,
+      "kcal": 340,
+      "p": 18,
+      "c": 41,
       "f": 12
     },
     "ingredients": [
       {
         "id": "pao",
-        "grams": 75,
-        "fitGrams": 0,
-        "sub": "Pão integral ou tapioca crocante",
-        "fitId": null
-      },
-      {
-        "id": "tapioca",
-        "grams": 0,
-        "fitGrams": 55,
+        "grams": 80,
+        "fitGrams": 65,
         "sub": null,
-        "fitId": null
-      },
-      {
-        "id": "frango",
-        "grams": 120,
-        "fitGrams": 145,
-        "sub": "Peito de peru / Frango",
         "fitId": null
       },
       {
         "id": "tomate",
         "grams": 100,
-        "fitGrams": 110,
+        "fitGrams": 115,
         "sub": null,
         "fitId": null
       },
       {
         "id": "alho",
         "grams": 5,
-        "fitGrams": 5,
+        "fitGrams": 6,
         "sub": null,
         "fitId": null
       },
       {
         "id": "azeite",
         "grams": 12,
-        "fitGrams": 8,
+        "fitGrams": 6,
         "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "jamon",
+        "grams": 60,
+        "fitGrams": 35,
+        "sub": {
+          "es": "En Brasil: Presunto cru",
+          "pt": "No Brasil: Presunto cru",
+          "en": "In Brazil: Presunto cru"
+        },
         "fitId": null
       }
     ],
     "steps": {
       "es": [
         {
-          "t": "Sazona la pechuga con sal y pimienta (o usa jamón o pechuga de pavo en lonchas).",
+          "t": "Ten listas lonchas finas de jamón serrano a temperatura ambiente.",
           "s": null
         },
         {
-          "t": "Sella el pollo a la plancha con unas gotas de aceite por ambos lados y córtalo en lonchas finas.",
-          "s": 480
+          "t": "Elige un pan rústico de miga abierta (pan de payés o chapata).",
+          "s": null
         },
         {
-          "t": "Corta rebanadas de pan rústico (o tapioca en modo fit) y tuéstalas hasta que estén crocantes.",
+          "t": "Corta rebanadas de pan rústico y tuéstalas hasta que estén crocantes.",
           "s": 180
         },
         {
@@ -19802,21 +21362,21 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Coloca el pollo o jamón encima y sirve al momento, antes de que el pan se ablande.",
+          "t": "Coloca el jamón encima y sirve al momento, antes de que el pan se ablande.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Tempere o peito com sal e pimenta (ou use presunto ou peito de peru fatiado).",
+          "t": "Deixe prontas fatias finas de presunto cru em temperatura ambiente.",
           "s": null
         },
         {
-          "t": "Sele o frango na chapa com gotas de óleo dos dois lados e corte em fatias finas.",
-          "s": 480
+          "t": "Escolha um pão rústico de miolo aerado (tipo ciabatta).",
+          "s": null
         },
         {
-          "t": "Corte fatias de pão rústico (ou tapioca no modo fit) e toste até ficarem crocantes.",
+          "t": "Corte fatias de pão rústico e toste até ficarem crocantes.",
           "s": 180
         },
         {
@@ -19832,21 +21392,21 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Coloque o frango ou presunto por cima e sirva na hora, antes de o pão amolecer.",
+          "t": "Coloque o presunto por cima e sirva na hora, antes que o pão amoleça.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Season the chicken breast with salt and pepper (or use sliced ham or turkey breast).",
+          "t": "Have thin slices of serrano ham ready at room temperature.",
           "s": null
         },
         {
-          "t": "Sear the chicken on a griddle with a few drops of oil on both sides and slice thinly.",
-          "s": 480
+          "t": "Choose a rustic open-crumb bread (pa de pagès or ciabatta).",
+          "s": null
         },
         {
-          "t": "Cut slices of rustic bread (or tapioca for the fit version) and toast until crisp.",
+          "t": "Slice the rustic bread and toast until crisp.",
           "s": 180
         },
         {
@@ -19862,12 +21422,12 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Top with the chicken or ham and serve right away, before the bread softens.",
+          "t": "Top with the ham and serve right away, before the bread softens.",
           "s": null
         }
       ]
     },
-    "videoQuery": "como hacer Pan Tumaca Catalán con Pollo/Jamón receta paso a paso"
+    "videoQuery": "como hacer Pan Tumaca con Jamón Serrano receta paso a paso"
   },
   {
     "id": "es_20",
@@ -19876,9 +21436,9 @@ const CATALOG_DISHES = [
     "fav": false,
     "img": "images/es_20.jpg",
     "title": {
-      "es": "Fideuá Española de Pescado",
-      "pt": "Fideuá Espanhola (Paella de Macarrão)",
-      "en": "Spanish Seafood Noodle Paella"
+      "es": "Fideuá de Mariscos",
+      "pt": "Fideuá de Frutos do Mar",
+      "en": "Seafood Fideuà"
     },
     "brTip": {
       "es": "Como la paella pero con macarrão cabelo-de-anjo o espaguete partido en trocitos tostado primero en aceite.",
@@ -19886,65 +21446,104 @@ const CATALOG_DISHES = [
       "en": "Paella-style dish made with short toasted pasta noodles instead of rice."
     },
     "macrosTrad": {
-      "kcal": 513,
+      "kcal": 589,
       "p": 45,
       "c": 42,
-      "f": 19
+      "f": 27
     },
     "macrosFit": {
-      "kcal": 426,
-      "p": 46,
-      "c": 34,
+      "kcal": 452,
+      "p": 48,
+      "c": 37,
       "f": 12
     },
     "ingredients": [
       {
-        "id": "tilapia",
+        "id": "macarrao",
         "grams": 110,
-        "fitGrams": 125,
+        "fitGrams": 90,
+        "sub": {
+          "es": "En Brasil: Macarrão cabelo de anjo",
+          "pt": "No Brasil: Macarrão cabelo de anjo",
+          "en": "In Brazil: Macarrão cabelo de anjo"
+        },
+        "fitId": null
+      },
+      {
+        "id": "tilapia",
+        "grams": 80,
+        "fitGrams": 90,
         "sub": null,
         "fitId": null
       },
       {
         "id": "camarao",
-        "grams": 80,
-        "fitGrams": 80,
+        "grams": 60,
+        "fitGrams": 65,
         "sub": null,
         "fitId": null
       },
       {
-        "id": "macarrao",
-        "grams": 115,
-        "fitGrams": 90,
-        "sub": "Macarrão cabelo de anjo / integral",
+        "id": "calamar",
+        "grams": 40,
+        "fitGrams": 45,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "mariscos",
+        "grams": 30,
+        "fitGrams": 35,
+        "sub": null,
         "fitId": null
       },
       {
         "id": "tomate",
-        "grams": 80,
-        "fitGrams": 80,
+        "grams": 60,
+        "fitGrams": 70,
         "sub": null,
         "fitId": null
       },
       {
         "id": "pimentao",
-        "grams": 50,
-        "fitGrams": 50,
+        "grams": 30,
+        "fitGrams": 35,
         "sub": null,
         "fitId": null
       },
       {
         "id": "azeite",
         "grams": 15,
-        "fitGrams": 8,
+        "fitGrams": 7.5,
         "sub": null,
         "fitId": null
+      },
+      {
+        "id": "alho",
+        "grams": 5,
+        "fitGrams": 6,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "azafran",
+        "grams": 0.5,
+        "fitGrams": 0.5,
+        "sub": null,
+        "fitId": null
+      },
+      {
+        "id": "maionesa",
+        "grams": 10,
+        "fitGrams": 5,
+        "sub": null,
+        "fitId": "iogurte"
       }
     ],
     "steps": {
       "es": [
         {
-          "t": "Calienta el caldo de pescado (2 partes por 1 de fideos) y mantenlo caliente. Corta el pescado en trozos y sálalo junto con los camarones.",
+          "t": "Calienta el caldo de pescado (2 partes por 1 de fideos) con unas hebras de azafrán. Corta el pescado en trozos y sálalo junto con los camarones.",
           "s": null
         },
         {
@@ -19956,7 +21555,7 @@ const CATALOG_DISHES = [
           "s": 180
         },
         {
-          "t": "En la misma sartén sofríe el ajo, el pimentón y el tomate rallado con páprica y el resto del aceite.",
+          "t": "En la misma sartén sofríe el calamar, el ajo, el pimiento y el tomate rallado con pimentón y el resto del aceite.",
           "s": 240
         },
         {
@@ -19968,13 +21567,13 @@ const CATALOG_DISHES = [
           "s": 180
         },
         {
-          "t": "Deja reposar un par de minutos y sirve con gajos de limón (y alioli si te gusta).",
+          "t": "Deja reposar un par de minutos y sirve con gajos de limón y alioli.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Aqueça o caldo de peixe (2 partes para 1 de macarrão) e mantenha quente. Corte o peixe em pedaços e salgue junto com os camarões.",
+          "t": "Aqueça o caldo de peixe (2 partes para 1 de macarrão) com alguns fios de açafrão. Corte o peixe em pedaços e salgue junto com os camarões.",
           "s": null
         },
         {
@@ -19986,7 +21585,7 @@ const CATALOG_DISHES = [
           "s": 180
         },
         {
-          "t": "Na mesma frigideira refogue o alho, o pimentão e o tomate ralado com páprica e o resto do azeite.",
+          "t": "Na mesma frigideira refogue a lula, o alho, o pimentão e o tomate ralado com páprica e o resto do azeite.",
           "s": 240
         },
         {
@@ -19998,13 +21597,13 @@ const CATALOG_DISHES = [
           "s": 180
         },
         {
-          "t": "Deixe descansar uns minutos e sirva com gomos de limão (e alioli se gostar).",
+          "t": "Deixe descansar alguns minutos e sirva com gomos de limão e aioli.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Heat the fish stock (2 parts to 1 of noodles) and keep it hot. Cut the fish into pieces and salt it along with the shrimp.",
+          "t": "Heat the fish stock (2 parts to 1 of noodles) with a few saffron threads. Cut the fish into pieces and salt it with the shrimp.",
           "s": null
         },
         {
@@ -20016,7 +21615,7 @@ const CATALOG_DISHES = [
           "s": 180
         },
         {
-          "t": "In the same pan sauté the garlic, bell pepper and grated tomato with paprika and the rest of the oil.",
+          "t": "In the same pan sauté the squid, garlic, pepper and grated tomato with paprika and the rest of the oil.",
           "s": 240
         },
         {
@@ -20028,11 +21627,11 @@ const CATALOG_DISHES = [
           "s": 180
         },
         {
-          "t": "Let it rest a couple of minutes and serve with lemon wedges (and aioli if you like).",
+          "t": "Rest a couple of minutes and serve with lemon wedges and aioli.",
           "s": null
         }
       ]
     },
-    "videoQuery": "como hacer Fideuá Española de Pescado receta paso a paso"
+    "videoQuery": "como hacer Fideuá de Mariscos receta paso a paso"
   }
 ];
