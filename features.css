@@ -1,0 +1,184 @@
+/* SaborFit BR — estilos de las funciones extra (modo cocina, semana, temporizadores…) */
+.sf-ico { width: 15px; height: 15px; stroke: currentColor; fill: none; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; vertical-align: -3px; }
+.c-dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-right: 4px; vertical-align: 0; box-shadow: 0 0 0 1.5px rgba(255,255,255,0.25); }
+
+/* Barra inferior con 5 pestañas */
+.bottom-nav { grid-template-columns: repeat(5, 1fr) !important; }
+.nav-btn { font-size: 9.5px !important; }
+
+/* Fotos con brillo de carga y aparición suave */
+@keyframes sfShimmer { from { background-position: 150% 0; } to { background-position: -50% 0; } }
+.recipe-img-wrap, .modal-hero, .sf-slot img {
+  background-image: linear-gradient(100deg, rgba(255,240,220,0.03) 30%, rgba(255,240,220,0.11) 50%, rgba(255,240,220,0.03) 70%);
+  background-size: 200% 100%; animation: sfShimmer 1.3s linear infinite;
+}
+.recipe-img-wrap:has(img.loaded), .recipe-img-wrap.no-img, .modal-hero:has(img.loaded) { animation: none; background-image: none; }
+.recipe-img-wrap img, .modal-hero img { opacity: 0; transition: opacity 0.45s ease, transform 0.6s ease; }
+.recipe-img-wrap img.loaded, .modal-hero img.loaded { opacity: 1; }
+::view-transition-old(sf-hero), ::view-transition-new(sf-hero) { animation-duration: 0.38s; animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1); }
+
+/* Acento de color por país dentro de la receta */
+.accent-bar { width: 38px; height: 4px; border-radius: 99px; background: var(--accent, var(--gold)); margin: 2px 0 10px; box-shadow: 0 0 14px var(--accent, var(--gold)); }
+.modal-sheet .pill-tag.country { border-color: var(--accent, rgba(255,236,210,0.16)); }
+
+/* Insignias de dificultad y equipo */
+.sf-badges { display: flex; flex-wrap: wrap; gap: 6px; margin: -2px 0 12px; }
+.sf-badge { font-size: 10.5px; font-weight: 500; padding: 4px 10px; border-radius: 99px; background: var(--glass-inner); border: 1px solid var(--border); color: var(--muted); }
+.sf-badge.gold { color: var(--gold); border-color: var(--gold-line); }
+.sf-badge.d-easy { color: var(--c-prot); border-color: rgba(169,201,154,0.45); }
+.sf-badge.d-mid { color: var(--gold); border-color: var(--gold-line); }
+.sf-badge.d-hard { color: var(--c-carb); border-color: rgba(222,143,98,0.45); }
+.qf-pill.sf-eq { font-size: 11px; }
+
+/* Anillos de macros en la receta */
+.sf-rings { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; text-align: center; margin: 2px 0 12px; }
+.sf-ring .ring-box { width: 54px; height: 54px; margin-bottom: 5px; }
+.sf-ring .ring-box svg { width: 54px; height: 54px; }
+.sf-ring .ring-val { font-size: 12px; font-weight: 500; }
+.sf-ring .ring-label { font-size: 10px; line-height: 1.2; }
+.sf-ring .ring-label small { display: block; color: var(--faint); font-size: 9px; }
+@keyframes sfRing { from { stroke-dashoffset: 132; } }
+.sf-ring .ring-fg { animation: sfRing 0.9s cubic-bezier(0.22, 1, 0.36, 1); }
+
+.sf-cook-cta { margin: 4px 0 14px !important; background: var(--gold) !important; color: var(--ink) !important; font-weight: 600 !important; }
+.sf-cook-cta svg { width: 18px; height: 18px; }
+
+/* Marcar ingredientes / pasos con un pequeño "pop" */
+@keyframes sfPop { 0% { transform: scale(0.6); } 60% { transform: scale(1.18); } 100% { transform: scale(1); } }
+.done .tick, .step-box.done .step-num { animation: sfPop 0.28s ease; }
+.stock-tag.miss { cursor: pointer; }
+.stock-tag.miss::after { content: ' ⇄'; }
+.sub-br { cursor: pointer; }
+.ing-item.swapped b + * { color: var(--gold); }
+.swap-tag { font-size: 9.5px; color: var(--ink); background: var(--gold); border-radius: 99px; padding: 2px 7px; margin-left: 6px; font-weight: 600; }
+
+/* Conservación */
+.sf-store { display: grid; grid-template-columns: 1fr; gap: 6px; }
+.sf-store div { display: grid; grid-template-columns: 86px 1fr; gap: 8px; font-size: 12px; line-height: 1.4; padding: 9px 12px; border-radius: 14px; background: var(--glass-inner); border: 1px solid var(--border); }
+.sf-store b { color: var(--gold); font-weight: 600; font-size: 11.5px; }
+
+/* Plan de tiempo */
+.sf-tl { background: var(--glass-inner); border: 1px solid var(--border); border-radius: 18px; padding: 12px 12px 10px; }
+.sf-tl-sub { font-size: 11.5px; color: var(--text); margin-bottom: 8px; }
+.sf-tl-row { display: grid; grid-template-columns: 18px 1fr 30px; gap: 8px; align-items: center; height: 18px; }
+.sf-tl-row span { font-size: 10px; color: var(--muted); text-align: right; }
+.sf-tl-row em { font-size: 9.5px; color: var(--faint); font-style: normal; }
+.sf-tl-track { position: relative; height: 8px; border-radius: 99px; background: rgba(255,240,220,0.05); }
+.sf-tl-track i { position: absolute; top: 0; bottom: 0; border-radius: 99px; background: var(--gold); }
+.sf-tl-track i.wait { background: repeating-linear-gradient(45deg, var(--gold) 0 4px, var(--gold-soft) 4px 8px); }
+.sf-tl-legend { font-size: 10px; color: var(--faint); margin-top: 8px; }
+
+.timer-btn.running { background: var(--gold); color: var(--ink); font-variant-numeric: tabular-nums; }
+
+/* Bandeja de temporizadores (encima de todo) */
+.sf-timers { position: absolute; bottom: 88px; left: 12px; right: 12px; z-index: 70; display: none; flex-wrap: wrap; gap: 6px; justify-content: center; pointer-events: none; }
+.sf-timers.show { display: flex; }
+.sf-cook.open ~ .sf-timers { bottom: 94px; }
+.sf-timer { pointer-events: auto; display: flex; align-items: center; gap: 8px; padding: 6px 8px 6px 12px; border-radius: 99px; border: 1px solid var(--gold-line); background: var(--glass-strong); -webkit-backdrop-filter: var(--blur); backdrop-filter: var(--blur); color: var(--text); box-shadow: var(--shadow); cursor: pointer; font-size: 11px; max-width: 100%; }
+.sf-timer b { font-size: 14px; font-weight: 600; color: var(--gold); font-variant-numeric: tabular-nums; }
+.sf-timer span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 150px; color: var(--muted); }
+.sf-timer i { font-style: normal; width: 20px; height: 20px; border-radius: 50%; background: var(--glass-inner); display: flex; align-items: center; justify-content: center; font-size: 9px; }
+@keyframes sfFlash { 0%,100% { transform: scale(1); } 50% { transform: scale(1.06); } }
+.sf-timer.done { background: var(--gold); border-color: transparent; animation: sfFlash 0.8s ease infinite; }
+.sf-timer.done b, .sf-timer.done span { color: var(--ink); }
+
+/* Modo cocina a pantalla completa */
+.sf-cook { position: absolute; inset: 0; z-index: 60; display: none; flex-direction: column; padding: 18px 18px 22px; background: var(--bg); background-image: radial-gradient(circle at 50% 0%, var(--gold-soft), transparent 60%); }
+.sf-cook.open { display: flex; animation: fadeUp 0.35s cubic-bezier(0.22, 1, 0.36, 1); }
+.sf-cook-top { display: flex; align-items: center; gap: 10px; }
+.sf-cook-title { flex: 1; font-size: 14px; font-weight: 500; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sf-round { width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--border); background: var(--glass-inner); cursor: pointer; font-size: 15px; }
+.sf-round.on { background: var(--gold); border-color: transparent; }
+.sf-dots { display: flex; gap: 4px; margin: 16px 0 10px; }
+.sf-dots i { flex: 1; height: 4px; border-radius: 99px; background: var(--glass-inner); border: 1px solid var(--border); transition: background 0.3s; }
+.sf-dots i.past { background: var(--gold-line); border-color: transparent; }
+.sf-dots i.now { background: var(--gold); border-color: transparent; }
+.sf-ing-toggle { align-self: flex-start; background: var(--glass-inner); border: 1px solid var(--border); border-radius: 99px; padding: 7px 13px; font-size: 11.5px; cursor: pointer; color: var(--text); }
+.sf-cook-ings { margin-top: 8px; max-height: 32%; overflow-y: auto; display: grid; grid-template-columns: 1fr 1fr; gap: 4px 10px; font-size: 12px; padding: 10px 12px; border-radius: 16px; background: var(--glass-inner); border: 1px solid var(--border); }
+.sf-cook-ings b { color: var(--gold); font-weight: 600; }
+.sf-cook-body { flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; overflow-y: auto; padding: 10px 2px; }
+.sf-cook-step-n { font-size: 11px; letter-spacing: 2.4px; text-transform: uppercase; color: var(--gold); margin-bottom: 14px; font-weight: 600; }
+.sf-cook-text { font-size: 25px; line-height: 1.35; font-weight: 300; letter-spacing: -0.3px; animation: fadeUp 0.35s ease; }
+.sf-cook-sub { font-size: 14px; color: var(--muted); margin-top: 8px; }
+.sf-cook-timer { margin-top: 22px; background: var(--ivory); color: var(--ink); border: none; border-radius: 99px; padding: 13px 22px; font-size: 15px; font-weight: 600; cursor: pointer; font-variant-numeric: tabular-nums; box-shadow: 0 10px 26px rgba(0,0,0,0.28); }
+body.light .sf-cook-timer { background: #2A1D13; color: #FBF5EC; }
+.sf-cook-timer.running { background: var(--gold); color: var(--ink); }
+.sf-cook-hint { font-size: 10px; color: var(--faint); text-align: center; margin-bottom: 10px; }
+.sf-cook-nav { display: flex; gap: 8px; }
+.sf-cook-nav .btn-sec:disabled { opacity: 0.35; }
+
+/* Hoja secundaria (reemplazos, día, foto) */
+.sf-sheet { z-index: 50; }
+.sf-sheet-head { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 12px; }
+.sf-opt { width: 100%; display: flex; justify-content: space-between; align-items: center; gap: 8px; text-align: left; padding: 12px 14px; margin-bottom: 7px; border-radius: 16px; background: var(--glass-inner); border: 1px solid var(--border); cursor: pointer; color: var(--text); }
+.sf-opt b { display: block; font-size: 13px; font-weight: 500; }
+.sf-opt small { font-size: 10.5px; color: var(--muted); }
+.sf-opt:active { transform: scale(0.98); }
+.sf-opt.ghost { background: transparent; border-style: dashed; }
+.sf-day-pick { display: grid; grid-template-columns: 74px 1fr 1fr; gap: 6px; align-items: center; margin-bottom: 6px; font-size: 12px; }
+.sf-day-pick button { text-align: left; padding: 8px 10px; border-radius: 14px; background: var(--glass-inner); border: 1px solid var(--border); cursor: pointer; min-width: 0; }
+.sf-day-pick button b { display: block; font-size: 11px; font-weight: 600; color: var(--gold); }
+.sf-day-pick button small { display: block; font-size: 10px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sf-day-pick button.taken { border-color: var(--gold-line); }
+
+/* Semana */
+.sf-day { padding: 14px; }
+.sf-day.today { border-color: var(--gold-line); }
+.sf-day-name { font-size: 15px; font-weight: 500; margin-bottom: 8px; }
+.sf-day.today .sf-day-name::after { content: ' ●'; color: var(--gold); font-size: 10px; vertical-align: 2px; }
+.sf-slot { display: grid; grid-template-columns: 52px 1fr auto; gap: 10px; align-items: center; padding: 7px; border-radius: 16px; background: var(--glass-inner); border: 1px solid var(--border); margin-bottom: 6px; }
+.sf-slot img { width: 52px; height: 52px; border-radius: 12px; object-fit: cover; cursor: pointer; }
+.sf-slot-main { min-width: 0; cursor: pointer; }
+.sf-slot-main small { display: block; font-size: 9.5px; letter-spacing: 1.2px; text-transform: uppercase; color: var(--muted); }
+.sf-slot-main b { display: block; font-size: 12.5px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sf-slot-main span { font-size: 10.5px; color: var(--gold); }
+.sf-slot-btns { display: flex; gap: 4px; }
+.sf-slot-btns button { width: 28px; height: 28px; border-radius: 50%; border: 1px solid var(--border); background: var(--glass); color: var(--muted); cursor: pointer; font-size: 12px; }
+.sf-slot.empty { width: 100%; display: flex; justify-content: space-between; align-items: center; padding: 12px 14px; border-style: dashed; cursor: pointer; color: var(--text); }
+.sf-slot.empty small { font-size: 9.5px; letter-spacing: 1.2px; text-transform: uppercase; color: var(--muted); }
+.sf-slot.empty b { font-size: 12px; font-weight: 500; color: var(--gold); }
+
+/* Lista de compras */
+.sf-shop-progress { font-size: 11px; color: var(--muted); }
+.sf-shop-item .log-del { width: 24px; height: 24px; font-size: 10px; }
+
+/* Mis platos */
+.sf-gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 14px; }
+.sf-shot { text-align: left; background: var(--glass); border: 1px solid var(--border); border-radius: 18px; padding: 5px; cursor: pointer; color: var(--text); min-width: 0; }
+.sf-shot img { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 14px; display: block; }
+.sf-shot span { display: block; font-size: 10.5px; margin: 5px 3px 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sf-shot small { display: block; font-size: 9px; color: var(--gold); margin: 1px 3px 2px; }
+.sf-shot-big { width: 100%; border-radius: 22px; margin-bottom: 10px; display: block; }
+.sf-photo-drop { display: flex; align-items: center; justify-content: center; text-align: center; width: 100%; aspect-ratio: 4 / 3; border-radius: 22px; border: 1.5px dashed var(--gold-line); background: var(--gold-soft); color: var(--gold); font-size: 13px; line-height: 1.8; cursor: pointer; overflow: hidden; }
+.sf-photo-drop.has { border-style: solid; }
+.sf-photo-drop img { width: 100%; height: 100%; object-fit: cover; }
+.sf-photo-change { font-size: 10.5px; color: var(--muted); text-align: center; margin-top: 6px; }
+.sf-stars { display: flex; align-items: center; gap: 4px; margin: 12px 0 10px; font-size: 12px; color: var(--muted); }
+.sf-stars span { margin-right: 6px; }
+.sf-stars button { background: none; border: none; font-size: 24px; color: var(--glass-inner); -webkit-text-stroke: 1px var(--gold-line); cursor: pointer; line-height: 1; }
+.sf-stars button.on { color: var(--gold); -webkit-text-stroke: 0; }
+.sf-note { width: 100%; border-radius: 18px; resize: none; font-family: inherit; }
+
+/* Despensa: búsqueda y "qué puedo cocinar" */
+.sf-psearch { position: relative; margin-bottom: 10px; }
+.sf-psearch .search-box { width: 100%; padding-right: 44px; }
+.sf-psearch .search-box::-webkit-search-cancel-button { display: none; }
+.sf-pclear { position: absolute; right: 7px; top: 50%; transform: translateY(-50%); width: 30px; height: 30px; border-radius: 50%; border: none; background: var(--glass-inner); color: var(--muted); cursor: pointer; }
+.sf-ptools { display: flex; gap: 6px; margin-bottom: 12px; flex-wrap: wrap; }
+.qf-pill.sf-danger { color: var(--c-carb); border-color: rgba(222,143,98,0.4); }
+.qf-pill:disabled { opacity: 0.4; cursor: default; }
+.sf-matches { display: flex; flex-direction: column; gap: 7px; margin-bottom: 14px; }
+.sf-match { display: grid; grid-template-columns: 54px 1fr auto; gap: 10px; align-items: center; text-align: left; padding: 7px 10px 7px 7px; border-radius: 18px; background: var(--glass); border: 1px solid var(--border); color: var(--text); cursor: pointer; -webkit-backdrop-filter: var(--blur); backdrop-filter: var(--blur); }
+.sf-match:active { transform: scale(0.985); }
+.sf-match img { width: 54px; height: 54px; border-radius: 13px; object-fit: cover; }
+.sf-match-main { min-width: 0; }
+.sf-match-main b { display: block; font-size: 12.5px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sf-match-main small { display: block; font-size: 10px; color: var(--muted); }
+.sf-match-main em { display: block; font-style: normal; font-size: 10px; color: var(--gold); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 1px; }
+.sf-match-end { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; }
+.sf-match-end i { font-style: normal; font-size: 15px; font-weight: 600; color: var(--gold); }
+.sf-match-end .sf-badge, .sf-match-end .stock-tag { font-size: 9px; padding: 2px 7px; white-space: nowrap; }
+
+@media (prefers-reduced-motion: reduce) {
+  .recipe-img-wrap, .modal-hero, .sf-slot img, .sf-ring .ring-fg, .sf-timer.done, .sf-cook-text { animation: none !important; }
+}

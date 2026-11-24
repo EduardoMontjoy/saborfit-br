@@ -887,67 +887,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Pela y corta la mandioca en trozos. Cuécela en agua con sal 20 min hasta que al pinchar con tenedor se deshaga fácil; retira la fibra central dura.",
+          "t": "Pela la mandioca, córtala en trozos de 5 cm y retira la fibra central dura. Si usas carne seca, desálala hirviéndola 15 min en agua y escurre; si usas patinho, sazónalo con sal y pimienta.",
+          "s": null
+        },
+        {
+          "t": "Cuece la mandioca en agua con sal hasta que al pincharla con un tenedor se deshaga fácil.",
           "s": 1200
         },
         {
-          "t": "Aplasta la mandioca caliente con tenedor o prensapapas junto con el requeijão y 3 cucharadas de leche hasta lograr un puré liso.",
+          "t": "Escúrrela y aplástala aún caliente con el requeijão y 3 cucharadas de leche hasta lograr un puré liso; prueba la sal.",
           "s": null
         },
         {
-          "t": "Aparte, sofríe cebolla, ajo y tomate picado 4 min; agrega la carne desmenuzada o molida y cocina 5 min hasta quedar jugosa.",
+          "t": "Sofríe la cebolla y el ajo picados en un hilo de aceite 3 min; agrega el tomate picado y cocina hasta que se deshaga.",
+          "s": 240
+        },
+        {
+          "t": "Añade la carne desmenuzada (o molida) y cocina a fuego medio hasta que quede jugosa, sin líquido suelto; termina con cheiro-verde.",
           "s": 300
         },
         {
-          "t": "En un molde resistente al horno, coloca la carne al fondo, cubre con el puré de mandioca y espolvorea queso rallado.",
+          "t": "En un molde para horno pon la carne en el fondo, cubre con el puré de mandioca alisando con una cuchara y espolvorea el queso rallado.",
           "s": null
         },
         {
-          "t": "Gratina en horno a 200°C (o airfryer) 10 min hasta que la superficie burbujee y dore.",
+          "t": "Gratina en el horno a 200 °C (o airfryer) hasta que la superficie burbujee y se dore. Deja reposar 5 min antes de servir.",
           "s": 600
         }
       ],
       "pt": [
         {
-          "t": "Cozinhe a mandioca em água e sal por 20 min até ficar bem macia e retire o fio central.",
+          "t": "Descasque a mandioca, corte em pedaços de 5 cm e retire a fibra central. Se usar carne seca, dessalgue fervendo 15 min e escorra; se usar patinho, tempere com sal e pimenta.",
+          "s": null
+        },
+        {
+          "t": "Cozinhe a mandioca em água com sal até desmanchar ao espetar com um garfo.",
           "s": 1200
         },
         {
-          "t": "Amasse ainda quente com requeijão e um pouco de leite até formar purê liso.",
+          "t": "Escorra e amasse ainda quente com o requeijão e 3 colheres de leite até virar um purê liso; acerte o sal.",
           "s": null
         },
         {
-          "t": "Refogue cebola, alho, tomate e a carne desfiada ou moída por 5 min.",
+          "t": "Refogue a cebola e o alho picados num fio de óleo por 3 min; junte o tomate picado e cozinhe até desmanchar.",
+          "s": 240
+        },
+        {
+          "t": "Acrescente a carne desfiada (ou moída) e cozinhe em fogo médio até ficar suculenta, sem líquido solto; finalize com cheiro-verde.",
           "s": 300
         },
         {
-          "t": "Em um refratário, coloque a carne embaixo, cubra com o purê e polvilhe queijo.",
+          "t": "Num refratário coloque a carne no fundo, cubra com o purê de mandioca alisando com uma colher e polvilhe o queijo ralado.",
           "s": null
         },
         {
-          "t": "Gratine no forno ou airfryer a 200°C por 10 min até dourar.",
+          "t": "Gratine no forno a 200 °C (ou airfryer) até a superfície borbulhar e dourar. Deixe descansar 5 min antes de servir.",
           "s": 600
         }
       ],
       "en": [
         {
-          "t": "Boil peeled cassava in salted water 20 min until fork-tender; remove tough center vein.",
+          "t": "Peel the cassava, cut it into 5 cm pieces and remove the tough central fiber. If using dried beef, desalt it by boiling 15 min and drain; if using lean beef, season with salt and pepper.",
+          "s": null
+        },
+        {
+          "t": "Boil the cassava in salted water until it falls apart when pierced with a fork.",
           "s": 1200
         },
         {
-          "t": "Mash while hot with requeijão and a splash of milk until smooth.",
+          "t": "Drain and mash while hot with the requeijão and 3 tablespoons of milk into a smooth purée; check the salt.",
           "s": null
         },
         {
-          "t": "Sauté onion, garlic, tomato, and shredded or ground beef for 5 min.",
+          "t": "Sauté the chopped onion and garlic in a drizzle of oil for 3 min; add the chopped tomato and cook until it breaks down.",
+          "s": 240
+        },
+        {
+          "t": "Add the shredded (or ground) beef and cook over medium heat until juicy with no loose liquid; finish with fresh herbs.",
           "s": 300
         },
         {
-          "t": "Layer beef in a baking dish, spread cassava mash on top, and sprinkle cheese.",
+          "t": "In a baking dish spread the beef on the bottom, cover with the cassava purée smoothing it with a spoon, and sprinkle with grated cheese.",
           "s": null
         },
         {
-          "t": "Broil or air-fry at 200°C for 10 min until golden.",
+          "t": "Gratinate in the oven at 200 °C (or air fryer) until bubbling and golden. Rest 5 min before serving.",
           "s": 600
         }
       ]
@@ -1036,68 +1060,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Sazona los trozos de pollo con ajo, sal, pimienta y 1 cdta de cúrcuma (açafrão-da-terra).",
+          "t": "Corta el pollo en presas medianas (o la pechuga en cubos grandes) y sazónalo con ajo machacado, sal, pimienta y la cúrcuma. Deja reposar 10 min.",
           "s": null
         },
         {
-          "t": "Calienta aceite en olla grande y dora el pollo 6 min por todos sus lados hasta que tome color dorado.",
+          "t": "Pica la cebolla, el pimentón y el tomate en cubos pequeños. Lava el arroz hasta que el agua salga clara y escúrrelo.",
+          "s": null
+        },
+        {
+          "t": "Calienta el aceite en una olla grande y dora el pollo por todos sus lados hasta que tome color dorado.",
           "s": 360
         },
         {
-          "t": "Agrega cebolla, pimentón y tomate picados; sofríe 3 min raspando el fondo de la olla para levantar todo el sabor.",
+          "t": "Agrega la cebolla, el pimentón y el tomate; sofríe raspando el fondo de la olla para levantar los jugos dorados.",
           "s": 180
         },
         {
-          "t": "Añade el arroz crudo y remueve 2 min para que absorba la grasa aromática. Vierte agua hirviendo (doble volumen del arroz).",
+          "t": "Añade el arroz y remueve para que se impregne de la grasa y la cúrcuma. Vierte agua hirviendo (el doble del volumen del arroz) y prueba la sal.",
           "s": 120
         },
         {
-          "t": "Tapa y cocina a fuego bajo 16 min hasta que el agua se consuma y el arroz quede suelto. Apaga, reposa 5 min y mezcla cheiro-verde.",
+          "t": "Tapa y cocina a fuego bajo hasta que el agua se consuma y el arroz esté suelto.",
           "s": 960
+        },
+        {
+          "t": "Apaga, deja reposar tapado 5 min, mezcla el cheiro-verde picado y sirve.",
+          "s": 300
         }
       ],
       "pt": [
         {
-          "t": "Tempere os pedaços de frango com alho, sal, pimenta e açafrão-da-terra.",
+          "t": "Corte o frango em pedaços médios (ou o peito em cubos grandes) e tempere com alho amassado, sal, pimenta e a cúrcuma. Deixe descansar 10 min.",
           "s": null
         },
         {
-          "t": "Doure bem o frango em panela larga por 6 min.",
+          "t": "Pique a cebola, o pimentão e o tomate em cubinhos. Lave o arroz até a água sair limpa e escorra.",
+          "s": null
+        },
+        {
+          "t": "Aqueça o óleo numa panela grande e doure o frango por todos os lados.",
           "s": 360
         },
         {
-          "t": "Junte cebola, pimentão e tomate picados; refogue por 3 min.",
+          "t": "Junte a cebola, o pimentão e o tomate; refogue raspando o fundo da panela para soltar o queimadinho.",
           "s": 180
         },
         {
-          "t": "Adicione o arroz cru, mexa 2 min e cubra com água fervente (dobro da medida do arroz).",
+          "t": "Acrescente o arroz e mexa para pegar a gordura e a cúrcuma. Despeje água fervente (o dobro do volume do arroz) e acerte o sal.",
           "s": 120
         },
         {
-          "t": "Tampe e cozinhe em fogo baixo por 16 min. Desligue, aguarde 5 min e misture cheiro-verde.",
+          "t": "Tampe e cozinhe em fogo baixo até a água secar e o arroz ficar soltinho.",
           "s": 960
+        },
+        {
+          "t": "Desligue, deixe descansar tampado 5 min, misture o cheiro-verde picado e sirva.",
+          "s": 300
         }
       ],
       "en": [
         {
-          "t": "Season chicken pieces with garlic, salt, pepper, and turmeric.",
+          "t": "Cut the chicken into medium pieces (or the breast into large cubes) and season with crushed garlic, salt, pepper and the turmeric. Rest 10 min.",
           "s": null
         },
         {
-          "t": "Brown chicken well in a wide pot for 6 min.",
+          "t": "Dice the onion, bell pepper and tomato small. Rinse the rice until the water runs clear and drain.",
+          "s": null
+        },
+        {
+          "t": "Heat the oil in a large pot and brown the chicken on all sides.",
           "s": 360
         },
         {
-          "t": "Add chopped onion, bell pepper, and tomato; sauté 3 min.",
+          "t": "Add the onion, pepper and tomato; sauté, scraping the bottom of the pot to lift the browned bits.",
           "s": 180
         },
         {
-          "t": "Stir in raw rice 2 min, then pour double volume of boiling water.",
+          "t": "Stir in the rice so it is coated with the fat and turmeric. Pour in boiling water (twice the volume of rice) and adjust the salt.",
           "s": 120
         },
         {
-          "t": "Cover and simmer on low 16 min until absorbed; rest 5 min and fluff with fresh herbs.",
+          "t": "Cover and cook on low until the water is absorbed and the rice is fluffy.",
           "s": 960
+        },
+        {
+          "t": "Turn off the heat, rest covered 5 min, stir in the chopped herbs and serve.",
+          "s": 300
         }
       ]
     },
@@ -1185,56 +1233,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Sazona las chuletas/lomo de cerdo con ajo, limón, sal y pimienta 10 min; luego asa en sartén 4 min por lado hasta dorar.",
+          "t": "Sazona las chuletas o el lomo de cerdo con ajo machacado, jugo de limón, sal y pimienta; deja marinar 10 min.",
+          "s": null
+        },
+        {
+          "t": "Asa el cerdo en sartén caliente con unas gotas de aceite hasta dorar por ambos lados y que el centro deje de estar rosado. Reserva tapado.",
           "s": 480
         },
         {
-          "t": "Para el tutu: sofríe ajo y cebolla, agrega el feijão cocido con su caldo y aplasta la mitad. Añade la farinha de mandioca en forma de lluvia mientras revuelves hasta lograr crema espesa.",
-          "s": 240
+          "t": "Tutu: sofríe ajo y cebolla picados 2 min, agrega el feijão cocido con su caldo y aplasta la mitad de los granos con una cuchara.",
+          "s": 180
         },
         {
-          "t": "Corta la couve en tiras muy finas y saltéala 2 min en sartén con ajo y sal.",
+          "t": "Añade la farinha de mandioca en lluvia, removiendo sin parar, hasta obtener una crema espesa; ajusta la sal.",
+          "s": 180
+        },
+        {
+          "t": "Corta la couve en tiras muy finas (enrolla las hojas como un cigarro) y saltéala con ajo y sal solo hasta que brille.",
           "s": 120
         },
         {
-          "t": "Fríe 1 huevo y dora rodajas de banana-da-terra en sartén. Sirve todo organizado en el plato con arroz.",
-          "s": 180
+          "t": "En la misma sartén dora la banana-da-terra en rodajas y fríe el huevo dejando la yema blanda.",
+          "s": 300
+        },
+        {
+          "t": "Sirve todo junto en el plato: arroz, tutu, cerdo, couve, banana y el huevo encima.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Tempere a bisteca/lombo com alho, limão e sal; grelhe 4 min de cada lado.",
+          "t": "Tempere as bistecas ou o lombo com alho amassado, suco de limão, sal e pimenta; deixe marinar 10 min.",
+          "s": null
+        },
+        {
+          "t": "Grelhe o porco em frigideira quente com gotas de óleo até dourar dos dois lados e o centro não estar mais rosado. Reserve tampado.",
           "s": 480
         },
         {
-          "t": "Para o tutu: refogue alho e cebola, junte o feijão com caldo e vá polvilhando farinha de mandioca mexendo até engrossar.",
-          "s": 240
+          "t": "Tutu: refogue alho e cebola picados por 2 min, junte o feijão cozido com caldo e amasse metade dos grãos com uma colher.",
+          "s": 180
         },
         {
-          "t": "Refogue a couve fatiada fina no alho por 2 min.",
+          "t": "Acrescente a farinha de mandioca em chuva, mexendo sem parar, até virar um creme grosso; acerte o sal.",
+          "s": 180
+        },
+        {
+          "t": "Corte a couve em tiras bem finas (enrole as folhas como um charuto) e refogue com alho e sal só até brilhar.",
           "s": 120
         },
         {
-          "t": "Frite 1 ovo e doure a banana-da-terra. Sirva tudo no prato com arroz.",
-          "s": 180
+          "t": "Na mesma frigideira doure a banana-da-terra em rodelas e frite o ovo com a gema mole.",
+          "s": 300
+        },
+        {
+          "t": "Sirva tudo junto no prato: arroz, tutu, porco, couve, banana e o ovo por cima.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Season pork chop with garlic, lime, and salt; sear 4 min per side.",
+          "t": "Season the pork chops or loin with crushed garlic, lime juice, salt and pepper; marinate 10 min.",
+          "s": null
+        },
+        {
+          "t": "Sear the pork in a hot pan with a few drops of oil until golden on both sides and no longer pink in the center. Keep covered.",
           "s": 480
         },
         {
-          "t": "Make tutu: sauté garlic and onion, add beans with broth, and whisk in cassava flour until thick.",
-          "s": 240
+          "t": "Tutu: sauté chopped garlic and onion 2 min, add the cooked beans with their broth and mash half of them with a spoon.",
+          "s": 180
         },
         {
-          "t": "Flash-sauté shredded collard greens with garlic 2 min.",
+          "t": "Rain in the cassava flour, stirring constantly, until it becomes a thick cream; adjust the salt.",
+          "s": 180
+        },
+        {
+          "t": "Slice the collard greens very thin (roll the leaves like a cigar) and sauté with garlic and salt just until glossy.",
           "s": 120
         },
         {
-          "t": "Fry 1 egg and sear plantain slices; plate everything with rice.",
-          "s": 180
+          "t": "In the same pan brown the plantain slices and fry the egg with a runny yolk.",
+          "s": 300
+        },
+        {
+          "t": "Plate everything together: rice, tutu, pork, greens, plantain and the egg on top.",
+          "s": null
         }
       ]
     },
@@ -1329,68 +1413,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Cuece la mandioca hasta que quede muy blanda; licúala aún tibia con el leite de coco y un poco de agua de cocción hasta obtener una crema espesa.",
-          "s": 900
+          "t": "Pela la mandioca, córtala en trozos y retira la fibra central.",
+          "s": null
         },
         {
-          "t": "Sazona los camarones (o cubos de tilapia) con limón, sal y ajo; séllalos rápido 2 min en sartén caliente y retira para que no queden chiclosos.",
+          "t": "Cuécela en agua con sal hasta que esté muy blanda; guarda una taza del agua de cocción.",
+          "s": 1200
+        },
+        {
+          "t": "Licúa la mandioca tibia con la leche de coco y un poco del agua de cocción hasta obtener una crema espesa y lisa.",
+          "s": null
+        },
+        {
+          "t": "Sazona los camarones (o cubos de tilapia) con limón, sal y ajo; séllalos en sartén muy caliente y retíralos enseguida para que no queden chiclosos.",
           "s": 120
         },
         {
-          "t": "En la misma sartén, sofríe cebolla, pimentón y tomate picados 5 min hasta deshacerse.",
+          "t": "En la misma sartén sofríe la cebolla, el pimentón y el tomate picados hasta que se deshagan.",
           "s": 300
         },
         {
-          "t": "Vierte la crema de mandioca y el azeite de dendê; mezcla 3 min a fuego bajo.",
+          "t": "Vierte la crema de mandioca y el dendê (o aceite de oliva en modo fit); mezcla a fuego bajo. Si queda muy espesa, agrega agua de cocción.",
           "s": 180
         },
         {
-          "t": "Devuelve los camarones a la olla solo 1 min para calentar, espolvorea cilantro y sirve con arroz.",
-          "s": null
+          "t": "Devuelve los camarones solo para calentar, espolvorea cilantro y sirve con arroz blanco.",
+          "s": 60
         }
       ],
       "pt": [
         {
-          "t": "Cozinhe a mandioca até ficar bem macia e bata no liquidificador com leite de coco até virar creme liso.",
-          "s": 900
+          "t": "Descasque a mandioca, corte em pedaços e retire a fibra central.",
+          "s": null
         },
         {
-          "t": "Tempere o camarão (ou tilápia) com limão, alho e sal; sele rápido por 2 min e reserve.",
+          "t": "Cozinhe em água com sal até ficar bem macia; guarde uma xícara da água do cozimento.",
+          "s": 1200
+        },
+        {
+          "t": "Bata a mandioca morna com o leite de coco e um pouco da água do cozimento até virar um creme grosso e liso.",
+          "s": null
+        },
+        {
+          "t": "Tempere os camarões (ou cubos de tilápia) com limão, sal e alho; sele em frigideira bem quente e retire logo para não ficarem borrachudos.",
           "s": 120
         },
         {
-          "t": "Na mesma panela, refogue cebola, pimentão e tomate por 5 min.",
+          "t": "Na mesma frigideira refogue a cebola, o pimentão e o tomate picados até desmancharem.",
           "s": 300
         },
         {
-          "t": "Junte o creme de mandioca e o dendê; misture por 3 min em fogo baixo.",
+          "t": "Despeje o creme de mandioca e o dendê (ou azeite no modo fit); misture em fogo baixo. Se ficar grosso demais, junte água do cozimento.",
           "s": 180
         },
         {
-          "t": "Volte o camarão por 1 min só para aquecer, finalize com coentro e sirva com arroz.",
-          "s": null
+          "t": "Volte os camarões só para aquecer, polvilhe coentro e sirva com arroz branco.",
+          "s": 60
         }
       ],
       "en": [
         {
-          "t": "Boil cassava until very soft and blend with coconut milk into a smooth cream.",
-          "s": 900
+          "t": "Peel the cassava, cut it into chunks and remove the central fiber.",
+          "s": null
         },
         {
-          "t": "Season shrimp (or tilapia) with lime, garlic, and salt; flash-sear 2 min and set aside.",
+          "t": "Boil in salted water until very soft; save a cup of the cooking water.",
+          "s": 1200
+        },
+        {
+          "t": "Blend the warm cassava with the coconut milk and a little cooking water into a thick, smooth cream.",
+          "s": null
+        },
+        {
+          "t": "Season the shrimp (or tilapia cubes) with lime, salt and garlic; sear in a very hot pan and remove at once so they do not get rubbery.",
           "s": 120
         },
         {
-          "t": "In the same pan, sauté onion, bell pepper, and tomato 5 min.",
+          "t": "In the same pan sauté the chopped onion, pepper and tomato until they break down.",
           "s": 300
         },
         {
-          "t": "Stir in cassava cream and dendê oil; simmer 3 min.",
+          "t": "Pour in the cassava cream and the dendê (or olive oil in fit mode); stir on low. If too thick, add cooking water.",
           "s": 180
         },
         {
-          "t": "Return seafood for 1 min to warm through, garnish with cilantro, and serve with rice.",
-          "s": null
+          "t": "Return the shrimp just to heat through, sprinkle with cilantro and serve with white rice.",
+          "s": 60
         }
       ]
     },
@@ -1485,67 +1593,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Cuece el feijão carioca al dente (que el grano quede entero, sin deshacerse) y escúrrelo completamente en colador.",
+          "t": "Cuece el feijão carioca al dente (el grano debe quedar entero) y escúrrelo muy bien en un colador; si usas de lata, enjuágalo.",
           "s": null
         },
         {
-          "t": "Dora los cubos de cerdo y lingüiça en sartén grande 5 min con ajo y cebolla.",
+          "t": "Corta el lomo de cerdo en cubos de 1,5 cm y la lingüiça en rodajas. Pica la cebolla y el ajo; corta la couve en tiras finísimas.",
+          "s": null
+        },
+        {
+          "t": "Dora el cerdo y la lingüiça en una sartén grande sin aceite (sueltan su grasa) hasta que estén dorados.",
           "s": 300
         },
         {
-          "t": "Haz un hueco en la sartén, agrega los huevos batidos o revuélvelos ahí mismo hasta cuajar en trozos.",
+          "t": "Agrega la cebolla y el ajo y sofríe hasta que estén transparentes.",
+          "s": 180
+        },
+        {
+          "t": "Haz un hueco en el centro, rompe los huevos y revuélvelos ahí mismo hasta cuajar en trozos; mezcla con la carne.",
           "s": 120
         },
         {
-          "t": "Agrega la couve picada fina 1 min, luego incorpora el feijão bien escurrido.",
-          "s": null
+          "t": "Añade la couve y, enseguida, el feijão escurrido; mezcla con cuidado para no romper los granos.",
+          "s": 60
         },
         {
-          "t": "Apaga el fuego y ve añadiendo la farinha de mandioca de a pocos mientras mezclas para que quede suelto y húmedo (no seco); termina con cheiro-verde.",
+          "t": "Apaga el fuego y agrega la farinha de mandioca de a pocos, mezclando, hasta que quede suelto y húmedo (no seco). Termina con cheiro-verde y sal al gusto.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Cozinhe o feijão carioca al dente (grãos firmes) e escorra toda a água.",
+          "t": "Cozinhe o feijão carioca al dente (o grão deve ficar inteiro) e escorra muito bem; se for de lata, enxágue.",
           "s": null
         },
         {
-          "t": "Doure a linguiça e o lombo em cubinhos com alho e cebola por 5 min.",
+          "t": "Corte o lombo em cubos de 1,5 cm e a linguiça em rodelas. Pique a cebola e o alho; corte a couve em tiras finíssimas.",
+          "s": null
+        },
+        {
+          "t": "Doure o lombo e a linguiça numa frigideira grande sem óleo (eles soltam gordura) até dourarem.",
           "s": 300
         },
         {
-          "t": "Abra espaço na frigideira e mexa os ovos até cozinharem em pedaços.",
+          "t": "Junte a cebola e o alho e refogue até ficarem transparentes.",
+          "s": 180
+        },
+        {
+          "t": "Abra um espaço no centro, quebre os ovos e mexa ali mesmo até firmarem em pedaços; misture com a carne.",
           "s": 120
         },
         {
-          "t": "Junte a couve fatiada fina por 1 min e depois o feijão escorrido.",
-          "s": null
+          "t": "Acrescente a couve e logo o feijão escorrido; misture com cuidado para não quebrar os grãos.",
+          "s": 60
         },
         {
-          "t": "Desligue o fogo e misture a farinha de mandioca aos poucos até ficar soltinho; finalize com cheiro-verde.",
+          "t": "Desligue o fogo e junte a farinha de mandioca aos poucos, misturando, até ficar soltinho e úmido (não seco). Finalize com cheiro-verde e sal a gosto.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Cook carioca beans until just tender (firm grains) and drain thoroughly.",
+          "t": "Cook the pinto beans al dente (the beans should stay whole) and drain well; if canned, rinse them.",
           "s": null
         },
         {
-          "t": "Brown sausage and pork cubes with garlic and onion 5 min.",
+          "t": "Cut the pork loin into 1.5 cm cubes and slice the sausage. Chop the onion and garlic; slice the collard greens very thin.",
+          "s": null
+        },
+        {
+          "t": "Brown the pork and sausage in a large dry pan (they release their own fat) until golden.",
           "s": 300
         },
         {
-          "t": "Push aside and scramble eggs in the same pan.",
+          "t": "Add the onion and garlic and sauté until translucent.",
+          "s": 180
+        },
+        {
+          "t": "Make a well in the center, crack in the eggs and scramble them right there into chunks; mix with the meat.",
           "s": 120
         },
         {
-          "t": "Toss in shredded collards for 1 min, then fold in drained beans.",
-          "s": null
+          "t": "Add the greens and then the drained beans; fold gently so the beans do not break.",
+          "s": 60
         },
         {
-          "t": "Turn off heat and gradually fold in cassava flour until coated but moist; top with fresh herbs.",
+          "t": "Turn off the heat and add the cassava flour little by little, mixing, until loose and moist (not dry). Finish with herbs and salt to taste.",
           "s": null
         }
       ]
@@ -1627,67 +1759,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Lava el quiabo entero y sécalo completamente con paño limpio antes de cortarlo en rodajas de 1.5 cm (si está mojado, suelta baba).",
+          "t": "Lava el quiabo entero y sécalo completamente con un paño limpio antes de cortarlo en rodajas de 1,5 cm: si está mojado, suelta baba.",
           "s": null
         },
         {
-          "t": "En sartén bien caliente con 1 cdta de aceite, saltea el quiabo con gotas de limón durante 5 min sin tapar hasta dorar los bordes; reserva.",
+          "t": "En sartén muy caliente con 1 cdta de aceite, saltea el quiabo con unas gotas de limón, sin tapar, hasta que se doren los bordes; reserva.",
           "s": 300
         },
         {
-          "t": "En olla, dora el pollo sazonado con ajo, sal y pimentón dulce 6 min hasta que suelte color.",
+          "t": "Sazona el pollo con ajo machacado, sal y una pizca de páprica.",
+          "s": null
+        },
+        {
+          "t": "En una olla con un hilo de aceite dora el pollo por todos lados hasta que suelte color y se forme fondo dorado.",
           "s": 360
         },
         {
-          "t": "Agrega cebolla picada y 1 taza de agua caliente; cocina tapado a fuego medio 15 min hasta que el pollo esté tierno.",
+          "t": "Agrega la cebolla picada y sofríe 2 min; vierte 1 taza de agua caliente raspando el fondo.",
+          "s": 120
+        },
+        {
+          "t": "Tapa y cocina a fuego medio hasta que el pollo esté tierno y la salsa reducida.",
           "s": 900
         },
         {
-          "t": "Incorpora el quiabo dorado los últimos 3 minutos solo para integrar sabores y sirve con arroz o angu (polenta).",
+          "t": "Incorpora el quiabo dorado los últimos minutos solo para integrar sabores, sin revolver mucho. Sirve con arroz o angu.",
           "s": 180
         }
       ],
       "pt": [
         {
-          "t": "Lave o quiabo inteiro e seque muito bem com pano antes de cortar em rodelas.",
+          "t": "Lave o quiabo inteiro e seque completamente com um pano limpo antes de cortar em rodelas de 1,5 cm: molhado, ele solta baba.",
           "s": null
         },
         {
-          "t": "Em frigideira quente com fio de óleo e gotas de limão, frite o quiabo sem tampa por 5 min; reserve.",
+          "t": "Em frigideira bem quente com 1 colher (chá) de óleo, salteie o quiabo com gotas de limão, sem tampar, até dourar as bordas; reserve.",
           "s": 300
         },
         {
-          "t": "Na panela, doure o frango temperado com alho, sal e colorau por 6 min.",
+          "t": "Tempere o frango com alho amassado, sal e uma pitada de páprica.",
+          "s": null
+        },
+        {
+          "t": "Numa panela com um fio de óleo doure o frango por todos os lados até pegar cor e formar um fundo dourado.",
           "s": 360
         },
         {
-          "t": "Junte a cebola e 1 xícara de água quente; cozinhe tampado por 15 min.",
+          "t": "Junte a cebola picada e refogue 2 min; despeje 1 xícara de água quente raspando o fundo.",
+          "s": 120
+        },
+        {
+          "t": "Tampe e cozinhe em fogo médio até o frango ficar macio e o molho reduzir.",
           "s": 900
         },
         {
-          "t": "Adicione o quiabo dourado nos últimos 3 min e sirva com arroz ou angu.",
+          "t": "Incorpore o quiabo dourado nos últimos minutos só para pegar sabor, mexendo pouco. Sirva com arroz ou angu.",
           "s": 180
         }
       ],
       "en": [
         {
-          "t": "Wash whole okra and pat completely dry before slicing.",
+          "t": "Wash the okra whole and dry it completely with a clean cloth before slicing into 1.5 cm rounds: wet okra turns slimy.",
           "s": null
         },
         {
-          "t": "Sear okra uncovered in a hot pan with a splash of lime for 5 min until edges brown; set aside.",
+          "t": "In a very hot pan with 1 tsp oil, sauté the okra with a few drops of lime, uncovered, until the edges brown; set aside.",
           "s": 300
         },
         {
-          "t": "Brown chicken seasoned with garlic and salt in a pot for 6 min.",
+          "t": "Season the chicken with crushed garlic, salt and a pinch of paprika.",
+          "s": null
+        },
+        {
+          "t": "In a pot with a drizzle of oil brown the chicken on all sides until it colors and leaves a golden base.",
           "s": 360
         },
         {
-          "t": "Add onion and 1 cup hot water; simmer covered 15 min.",
+          "t": "Add the chopped onion and sauté 2 min; pour in 1 cup of hot water, scraping the bottom.",
+          "s": 120
+        },
+        {
+          "t": "Cover and cook over medium heat until the chicken is tender and the sauce reduced.",
           "s": 900
         },
         {
-          "t": "Fold in seared okra for the last 3 min and serve with rice.",
+          "t": "Fold in the browned okra for the last minutes just to combine flavors, stirring little. Serve with rice or angu.",
           "s": 180
         }
       ]
@@ -1762,55 +1918,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "En un bol, mezcla 1 taza de flocão de milho con 1 pizca de sal y 1/2 taza de agua. Deja hidratar 10 min hasta que absorba todo y quede húmedo pero suelto.",
+          "t": "En un bol mezcla el flocão de milho con la pizca de sal. Agrega el agua poco a poco, mezclando con los dedos, hasta que quede húmedo pero suelto (como arena mojada).",
+          "s": null
+        },
+        {
+          "t": "Deja hidratar para que el maíz absorba toda el agua.",
           "s": 600
         },
         {
-          "t": "Coloca en la cuscuzeira con agua abajo (sin presionar el maíz) y cocina al vapor 8–10 min hasta sentir aroma a maíz cocido. (Tip rápido: en bol tapado en microondas 3 min).",
+          "t": "Pon agua en la base de la cuscuzeira sin que toque la parte perforada. Coloca el maíz hidratado sin presionarlo, para que el vapor pase.",
+          "s": null
+        },
+        {
+          "t": "Tapa y cocina al vapor a fuego medio hasta que sientas aroma a maíz cocido y esté firme. (Atajo: bol tapado 3 min en microondas.)",
           "s": 540
         },
         {
-          "t": "Mientras tanto, asa el queijo coalho/minas en sartén y haz 2 huevos revueltos o estrellados.",
+          "t": "Mientras tanto, corta el queijo coalho en lonchas y dóralo en sartén antiadherente por ambos lados.",
+          "s": 240
+        },
+        {
+          "t": "Haz los huevos estrellados o revueltos en la misma sartén con unas gotas de aceite y sal.",
           "s": 180
         },
         {
-          "t": "Sirve el cuscuz caliente con el queso fundiendo encima, los huevos y tomate picado.",
+          "t": "Desmolda el cuscuz caliente, ponle encima el queso dorado, los huevos y el tomate picado con un hilo de aceite.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Misture o flocão de milho com sal e água (metade do volume do flocão) e deixe hidratar por 10 min.",
+          "t": "Numa tigela misture o flocão com a pitada de sal. Junte a água aos poucos, misturando com os dedos, até ficar úmido mas soltinho (como areia molhada).",
+          "s": null
+        },
+        {
+          "t": "Deixe hidratar para o milho absorver toda a água.",
           "s": 600
         },
         {
-          "t": "Coloque na cuscuzeira sem apertar e cozinhe no vapor por 8–10 min (ou 3 min no micro-ondas em tigela tampada).",
+          "t": "Coloque água na base da cuscuzeira sem encostar na parte furada. Ponha o milho hidratado sem apertar, para o vapor passar.",
+          "s": null
+        },
+        {
+          "t": "Tampe e cozinhe no vapor em fogo médio até sentir cheiro de milho cozido e firmar. (Atalho: tigela tampada 3 min no micro-ondas.)",
           "s": 540
         },
         {
-          "t": "Enquanto isso, grelhe o queijo coalho/minas e prepare os ovos mexidos ou fritos.",
+          "t": "Enquanto isso, corte o queijo coalho em fatias e doure em frigideira antiaderente dos dois lados.",
+          "s": 240
+        },
+        {
+          "t": "Faça os ovos fritos ou mexidos na mesma frigideira com gotas de óleo e sal.",
           "s": 180
         },
         {
-          "t": "Sirva o cuscuz quentinho com o queijo derretendo por cima, ovos e tomate.",
+          "t": "Desenforme o cuscuz quente e coloque por cima o queijo dourado, os ovos e o tomate picado com um fio de azeite.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Mix cornmeal (flocão) with salt and half its volume in water; rest 10 min to hydrate.",
+          "t": "In a bowl mix the flaked corn with the pinch of salt. Add the water gradually, mixing with your fingers, until moist but loose (like wet sand).",
+          "s": null
+        },
+        {
+          "t": "Let it hydrate so the corn absorbs all the water.",
           "s": 600
         },
         {
-          "t": "Steam in a cuscuzeira (without packing down) for 8–10 min until fragrant.",
+          "t": "Put water in the base of the couscous steamer without touching the perforated part. Add the corn without pressing it, so steam can pass.",
+          "s": null
+        },
+        {
+          "t": "Cover and steam over medium heat until it smells of cooked corn and is firm. (Shortcut: covered bowl, 3 min in the microwave.)",
           "s": 540
         },
         {
-          "t": "Meanwhile sear cheese and fry or scramble eggs.",
+          "t": "Meanwhile, slice the coalho cheese and brown it in a nonstick pan on both sides.",
+          "s": 240
+        },
+        {
+          "t": "Fry or scramble the eggs in the same pan with a few drops of oil and salt.",
           "s": 180
         },
         {
-          "t": "Top steaming cornmeal with melted cheese, eggs, and diced tomato.",
+          "t": "Unmold the hot couscous and top with the browned cheese, eggs and chopped tomato with a drizzle of olive oil.",
           "s": null
         }
       ]
@@ -1899,56 +2091,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Sofríe cebolla y ajo en olla 3 min. Agrega las papas peladas en cubos y cubre con agua o caldo; hierve 15 min hasta que estén muy blandas.",
-          "s": 900
-        },
-        {
-          "t": "Licúa o pasa por mixer las papas con su agua hasta obtener una crema espesa y lisa.",
+          "t": "Pela las papas y córtalas en cubos; pica la cebolla y el ajo. Lava la couve, quítale el tallo central y córtala en tiras finísimas (enrollando las hojas).",
           "s": null
         },
         {
-          "t": "Aparte, dora las rodajas finas de lingüiça calabresa (o pollo desmenuzado en modo fit) 4 min.",
+          "t": "Sofríe la cebolla y el ajo en el aceite en una olla hasta que estén transparentes.",
+          "s": 180
+        },
+        {
+          "t": "Agrega las papas, cubre con el caldo o agua y una pizca de sal; hierve hasta que estén muy blandas.",
+          "s": 900
+        },
+        {
+          "t": "Licúa (o pasa el mixer) las papas con su líquido hasta tener una crema espesa y lisa. Si queda muy espesa, agrega agua caliente.",
+          "s": null
+        },
+        {
+          "t": "Aparte, dora las rodajas de lingüiça (o el pollo desmenuzado en modo fit) en una sartén.",
           "s": 240
         },
         {
-          "t": "Lleva la crema nuevamente a hervor suave, añade la carne y la couve cortada en tiras finísimas. Cocina solo 2 min para que la couve siga verde brillante.",
+          "t": "Lleva la crema de nuevo a hervor suave, añade la carne y la couve y cocina solo hasta que la couve esté verde brillante.",
           "s": 120
+        },
+        {
+          "t": "Prueba la sal, sirve bien caliente en tazón y termina con un hilo de aceite de oliva.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Refogue cebola e alho por 3 min, junte as batatas em cubos e água; cozinhe por 15 min até amaciar.",
-          "s": 900
-        },
-        {
-          "t": "Bata no liquidificador com a água do cozimento até virar um creme aveludado.",
+          "t": "Descasque as batatas e corte em cubos; pique a cebola e o alho. Lave a couve, tire o talo central e corte em tiras finíssimas (enrolando as folhas).",
           "s": null
         },
         {
-          "t": "Doure rodelas finas de calabresa (ou frango no modo fit) por 4 min.",
+          "t": "Refogue a cebola e o alho no azeite numa panela até ficarem transparentes.",
+          "s": 180
+        },
+        {
+          "t": "Junte as batatas, cubra com o caldo ou água e uma pitada de sal; ferva até ficarem bem moles.",
+          "s": 900
+        },
+        {
+          "t": "Bata (ou passe o mixer) as batatas com o líquido até virar um creme grosso e liso. Se ficar grosso demais, junte água quente.",
+          "s": null
+        },
+        {
+          "t": "À parte, doure as rodelas de linguiça (ou o frango desfiado no modo fit) numa frigideira.",
           "s": 240
         },
         {
-          "t": "Volte o creme ao fogo, junte a calabresa e a couve fatiada bem fina; cozinhe apenas 2 min para manter a cor verde.",
+          "t": "Volte o creme à fervura suave, junte a carne e a couve e cozinhe só até a couve ficar verde brilhante.",
           "s": 120
+        },
+        {
+          "t": "Acerte o sal, sirva bem quente numa tigela e finalize com um fio de azeite.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Sauté onion and garlic 3 min, add diced potatoes and water; boil 15 min until very tender.",
-          "s": 900
-        },
-        {
-          "t": "Blend potatoes with cooking liquid into a smooth soup.",
+          "t": "Peel and cube the potatoes; chop the onion and garlic. Wash the collard greens, remove the central stem and slice them very thin (rolling the leaves).",
           "s": null
         },
         {
-          "t": "Crisp thin slices of smoked sausage (or chicken) for 4 min.",
+          "t": "Sauté the onion and garlic in the olive oil in a pot until translucent.",
+          "s": 180
+        },
+        {
+          "t": "Add the potatoes, cover with stock or water and a pinch of salt; boil until very soft.",
+          "s": 900
+        },
+        {
+          "t": "Blend (or use a stick blender) the potatoes with their liquid into a thick, smooth cream. If too thick, add hot water.",
+          "s": null
+        },
+        {
+          "t": "Separately, brown the sausage slices (or shredded chicken in fit mode) in a pan.",
           "s": 240
         },
         {
-          "t": "Return soup to simmer, stir in meat and finely shredded collards for just 2 min.",
+          "t": "Bring the soup back to a gentle boil, add the meat and greens and cook just until the greens are bright green.",
           "s": 120
+        },
+        {
+          "t": "Check the salt, serve piping hot in a bowl and finish with a drizzle of olive oil.",
+          "s": null
         }
       ]
     },
@@ -2036,56 +2264,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Corta la carne seca desalada (o carne asada/patinho) en cubos pequeños de 1 cm.",
+          "t": "Si usas carne seca, desálala hirviéndola 15 min y escúrrela; córtala (o el patinho) en cubos pequeños de 1 cm.",
           "s": null
         },
         {
-          "t": "Dora la carne en olla caliente 5 min con cebolla, ajo y pimentón.",
+          "t": "Pica la cebolla, el ajo, el pimentón y el tomate. Lava el arroz y escúrrelo.",
+          "s": null
+        },
+        {
+          "t": "Dora la carne en una olla caliente con un hilo de aceite hasta que esté bien dorada.",
           "s": 300
         },
         {
-          "t": "Agrega el tomate picado y el arroz crudo; mezcla 2 min para sellar los granos.",
+          "t": "Agrega la cebolla, el ajo y el pimentón y sofríe hasta que ablanden.",
+          "s": 180
+        },
+        {
+          "t": "Incorpora el tomate y el arroz crudo; mezcla para sellar los granos.",
           "s": 120
         },
         {
-          "t": "Cubre con agua caliente (2 dedos arriba del arroz), tapa y cocina a fuego bajo 15 min hasta secar. Termina con cheiro-verde.",
+          "t": "Cubre con agua caliente (2 dedos por encima del arroz), prueba la sal, tapa y cocina a fuego bajo hasta que se seque.",
           "s": 900
+        },
+        {
+          "t": "Deja reposar tapado 5 min, suelta el arroz con un tenedor y termina con abundante cheiro-verde.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Corte a carne seca dessalgada (ou patinho/sobra de churrasco) em cubinhos.",
+          "t": "Se usar carne seca, dessalgue fervendo 15 min e escorra; corte (ou o patinho) em cubinhos de 1 cm.",
           "s": null
         },
         {
-          "t": "Doure a carne em panela quente por 5 min com cebola, alho e pimentão.",
+          "t": "Pique a cebola, o alho, o pimentão e o tomate. Lave o arroz e escorra.",
+          "s": null
+        },
+        {
+          "t": "Doure a carne numa panela quente com um fio de óleo até ficar bem dourada.",
           "s": 300
         },
         {
-          "t": "Junte o tomate picado e o arroz cru; refogue por 2 min.",
+          "t": "Junte a cebola, o alho e o pimentão e refogue até amolecerem.",
+          "s": 180
+        },
+        {
+          "t": "Incorpore o tomate e o arroz cru; misture para selar os grãos.",
           "s": 120
         },
         {
-          "t": "Cubra com água quente, tampe e cozinhe em fogo baixo por 15 min; finalize com cheiro-verde.",
+          "t": "Cubra com água quente (2 dedos acima do arroz), acerte o sal, tampe e cozinhe em fogo baixo até secar.",
           "s": 900
+        },
+        {
+          "t": "Deixe descansar tampado 5 min, solte o arroz com um garfo e finalize com bastante cheiro-verde.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Dice desalted cured beef (or lean beef) into small 1cm cubes.",
+          "t": "If using dried beef, desalt it by boiling 15 min and drain; cut it (or the lean beef) into small 1 cm cubes.",
           "s": null
         },
         {
-          "t": "Brown beef with onion, garlic, and bell pepper for 5 min.",
+          "t": "Chop the onion, garlic, bell pepper and tomato. Rinse and drain the rice.",
+          "s": null
+        },
+        {
+          "t": "Brown the meat in a hot pot with a drizzle of oil until well browned.",
           "s": 300
         },
         {
-          "t": "Add chopped tomato and raw rice; stir 2 min.",
+          "t": "Add the onion, garlic and pepper and sauté until soft.",
+          "s": 180
+        },
+        {
+          "t": "Stir in the tomato and raw rice to coat the grains.",
           "s": 120
         },
         {
-          "t": "Pour hot water to cover, simmer covered 15 min until tender, and garnish with herbs.",
+          "t": "Cover with hot water (2 fingers above the rice), check the salt, cover and cook on low until dry.",
           "s": 900
+        },
+        {
+          "t": "Rest covered 5 min, fluff with a fork and finish with plenty of fresh herbs.",
+          "s": null
         }
       ]
     },
@@ -2166,56 +2430,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Corta la carne en cubos medianos y sella en olla a presión (o normal) a fuego fuerte hasta dorar bien los bordes (6 min).",
+          "t": "Corta la carne en cubos medianos (4 cm), sécala con papel y sazónala con sal y pimienta. Pela la mandioca, córtala en trozos y quita la fibra central.",
+          "s": null
+        },
+        {
+          "t": "Calienta la olla (a presión o normal) con un hilo de aceite y sella la carne a fuego fuerte, en tandas, hasta dorar bien los bordes.",
           "s": 360
         },
         {
-          "t": "Agrega cebolla, ajo y tomate picado; sofríe 3 min.",
+          "t": "Agrega la cebolla, el ajo y el tomate picados y sofríe raspando el fondo.",
           "s": 180
         },
         {
-          "t": "Cubre con agua caliente y cocina 20 min en olla a presión (o 45 min en olla normal) hasta que la carne esté blanda.",
+          "t": "Cubre con agua caliente y cocina hasta que la carne esté blanda: 20 min en olla a presión (o unos 45 min en olla normal).",
           "s": 1200
         },
         {
-          "t": "Abre la olla, agrega la mandioca en trozos medianos y cocina 12 min más hasta que la mandioca esté suave y espese el caldo; termina con cheiro-verde.",
+          "t": "Libera la presión con cuidado y abre la olla.",
+          "s": null
+        },
+        {
+          "t": "Agrega la mandioca y cocina sin tapa hasta que esté suave y empiece a deshacerse, espesando el caldo (la carne queda “atolada” en el puré).",
           "s": 720
+        },
+        {
+          "t": "Prueba la sal, termina con cheiro-verde picado y sirve en plato hondo.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Corte a carne em cubos e sele em panela de pressão bem quente por 6 min até dourar.",
+          "t": "Corte a carne em cubos médios (4 cm), seque com papel e tempere com sal e pimenta. Descasque a mandioca, corte em pedaços e tire a fibra central.",
+          "s": null
+        },
+        {
+          "t": "Aqueça a panela (de pressão ou comum) com um fio de óleo e sele a carne em fogo alto, em partes, até dourar bem as bordas.",
           "s": 360
         },
         {
-          "t": "Junte cebola, alho e tomate picado e refogue por 3 min.",
+          "t": "Junte a cebola, o alho e o tomate picados e refogue raspando o fundo.",
           "s": 180
         },
         {
-          "t": "Cubra com água quente e cozinhe na pressão por 20 min até a carne amaciar.",
+          "t": "Cubra com água quente e cozinhe até a carne amaciar: 20 min na pressão (ou uns 45 min em panela comum).",
           "s": 1200
         },
         {
-          "t": "Adicione a mandioca em pedaços e cozinhe mais 12 min até ficar macia e engrossar o caldo; finalize com cheiro-verde.",
+          "t": "Tire a pressão com cuidado e abra a panela.",
+          "s": null
+        },
+        {
+          "t": "Junte a mandioca e cozinhe sem tampa até ficar macia e começar a desmanchar, engrossando o caldo (a carne fica “atolada”).",
           "s": 720
+        },
+        {
+          "t": "Acerte o sal, finalize com cheiro-verde picado e sirva em prato fundo.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Sear cubed beef in a hot pressure cooker for 6 min until well browned.",
+          "t": "Cut the beef into medium cubes (4 cm), pat dry and season with salt and pepper. Peel the cassava, cut into chunks and remove the central fiber.",
+          "s": null
+        },
+        {
+          "t": "Heat the pot (pressure cooker or regular) with a drizzle of oil and sear the beef over high heat in batches until the edges are well browned.",
           "s": 360
         },
         {
-          "t": "Add onion, garlic, and diced tomato; sauté 3 min.",
+          "t": "Add the chopped onion, garlic and tomato and sauté, scraping the bottom.",
           "s": 180
         },
         {
-          "t": "Cover with hot water and pressure-cook 20 min until beef is tender.",
+          "t": "Cover with hot water and cook until the beef is tender: 20 min in a pressure cooker (or about 45 min in a regular pot).",
           "s": 1200
         },
         {
-          "t": "Add cassava chunks and simmer 12 more min until tender and broth thickens; garnish with herbs.",
+          "t": "Release the pressure carefully and open the pot.",
+          "s": null
+        },
+        {
+          "t": "Add the cassava and cook uncovered until soft and starting to break down, thickening the broth (the beef ends up “stuck” in the purée).",
           "s": 720
+        },
+        {
+          "t": "Check the salt, finish with chopped herbs and serve in a deep plate.",
+          "s": null
         }
       ]
     },
@@ -2310,56 +2610,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Remoja el pan francés del día anterior en el leite de coco y 1/2 taza de agua durante 5 min.",
-          "s": 300
-        },
-        {
-          "t": "Licúa ese pan remojado junto con el maní tostado (amendoim), cebolla, tomate y jengibre hasta obtener una pasta espesa.",
+          "t": "Corta el pan del día anterior en trozos y remójalo en la leche de coco con 1/2 taza de agua.",
           "s": null
         },
         {
-          "t": "Lleva la mezcla a olla a fuego medio-bajo y revuelve constantemente con cuchara de madera 8 min hasta despegar del fondo.",
+          "t": "Deja que el pan se ablande por completo.",
+          "s": 300
+        },
+        {
+          "t": "Licúa el pan remojado con el maní tostado, la cebolla, el tomate y el jengibre hasta tener una pasta espesa y lisa.",
+          "s": null
+        },
+        {
+          "t": "Sazona los camarones (o el pollo) con sal y séllalos rápido en sartén caliente; retira.",
+          "s": 120
+        },
+        {
+          "t": "Pasa la pasta a una olla a fuego medio-bajo y remueve sin parar con cuchara de madera hasta que se despegue del fondo. Si espesa demasiado, agrega agua.",
           "s": 480
         },
         {
-          "t": "Agrega los camarones sellados (o pollo desmenuzado) y el azeite de dendê; cocina 3 min y sirve con arroz.",
+          "t": "Agrega los camarones y el dendê (o aceite de oliva en modo fit); cocina y ajusta la sal.",
           "s": 180
+        },
+        {
+          "t": "Sirve caliente con arroz blanco; en Bahía también se usa para rellenar acarajé.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Deixe o pão amanhecido de molho no leite de coco e água por 5 min.",
-          "s": 300
-        },
-        {
-          "t": "Bata no liquidificador com amendoim torrado, cebola, tomate e gengibre.",
+          "t": "Corte o pão amanhecido em pedaços e deixe de molho no leite de coco com 1/2 xícara de água.",
           "s": null
         },
         {
-          "t": "Leve ao fogo médio-baixo mexendo sempre por 8 min até engrossar e soltar do fundo.",
+          "t": "Deixe o pão amolecer por completo.",
+          "s": 300
+        },
+        {
+          "t": "Bata o pão demolhado com o amendoim torrado, a cebola, o tomate e o gengibre até virar uma pasta grossa e lisa.",
+          "s": null
+        },
+        {
+          "t": "Tempere os camarões (ou o frango) com sal e sele rapidamente em frigideira quente; retire.",
+          "s": 120
+        },
+        {
+          "t": "Leve a pasta a uma panela em fogo médio-baixo e mexa sem parar com colher de pau até soltar do fundo. Se engrossar demais, junte água.",
           "s": 480
         },
         {
-          "t": "Junte o camarão (ou frango) e o azeite de dendê por 3 min; sirva com arroz.",
+          "t": "Junte os camarões e o dendê (ou azeite no modo fit); cozinhe e acerte o sal.",
           "s": 180
+        },
+        {
+          "t": "Sirva quente com arroz branco; na Bahia também recheia o acarajé.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Soak day-old bread in coconut milk and water for 5 min.",
-          "s": 300
-        },
-        {
-          "t": "Blend with roasted peanuts, onion, tomato, and ginger until smooth.",
+          "t": "Tear the day-old bread into pieces and soak it in the coconut milk with 1/2 cup water.",
           "s": null
         },
         {
-          "t": "Cook over medium-low heat stirring constantly 8 min until thick.",
+          "t": "Let the bread soften completely.",
+          "s": 300
+        },
+        {
+          "t": "Blend the soaked bread with the roasted peanuts, onion, tomato and ginger into a thick, smooth paste.",
+          "s": null
+        },
+        {
+          "t": "Season the shrimp (or chicken) with salt and sear quickly in a hot pan; remove.",
+          "s": 120
+        },
+        {
+          "t": "Transfer the paste to a pot over medium-low heat and stir constantly with a wooden spoon until it pulls away from the bottom. Add water if it gets too thick.",
           "s": 480
         },
         {
-          "t": "Fold in seared shrimp (or chicken) and dendê oil for 3 min; serve with rice.",
+          "t": "Add the shrimp and the dendê (or olive oil in fit mode); cook and adjust the salt.",
           "s": 180
+        },
+        {
+          "t": "Serve hot with white rice; in Bahia it is also used to fill acarajé.",
+          "s": null
         }
       ]
     },
@@ -2440,55 +2776,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Saca la carne de la nevera 10 min antes y sécala bien; sazona con sal y ajo solo al momento de ir a la sartén.",
+          "t": "Saca la carne de la nevera 10 min antes y sécala muy bien con papel (si está húmeda, no dora).",
           "s": null
         },
         {
-          "t": "Calienta sartén hasta que casi humee, pon un hilo de aceite y sella el bife 2.5 min por lado sin aplastarlo.",
+          "t": "Pica el ajo y corta la cebolla en rodajas. Ten listos el arroz y el feijão calientes.",
+          "s": null
+        },
+        {
+          "t": "Sazona el bife con sal y ajo solo justo antes de ponerlo en la sartén (la sal antes le saca jugo).",
+          "s": null
+        },
+        {
+          "t": "Calienta la sartén hasta que casi humee, pon un hilo de aceite y sella el bife sin aplastarlo ni moverlo; voltea una sola vez.",
           "s": 300
         },
         {
-          "t": "Retira el bife a un plato caliente. En la misma sartén, saltea cebolla en rodajas 2 min y fríe 1 huevo dejando la yema cremosa.",
+          "t": "Retíralo a un plato caliente y deja reposar mientras, en la misma sartén, salteas la cebolla.",
+          "s": 120
+        },
+        {
+          "t": "Fríe el huevo con unas gotas de aceite, echándole aceite caliente por encima con una cuchara para cuajar la clara sin endurecer la yema.",
           "s": 180
         },
         {
-          "t": "Coloca el huevo encima del bife y sirve con arroz blanco y feijão carioca.",
+          "t": "Pon el huevo “a caballo” sobre el bife con la cebolla y sirve con arroz blanco y feijão.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Seque o bife e tempere com sal e alho na hora de grelhar.",
+          "t": "Tire a carne da geladeira 10 min antes e seque muito bem com papel (úmida, ela não doura).",
           "s": null
         },
         {
-          "t": "Em frigideira bem quente, sele o bife por 2.5 min de cada lado sem apertar.",
+          "t": "Pique o alho e corte a cebola em rodelas. Deixe o arroz e o feijão quentes prontos.",
+          "s": null
+        },
+        {
+          "t": "Tempere o bife com sal e alho só na hora de ir para a frigideira (o sal antes tira o suco).",
+          "s": null
+        },
+        {
+          "t": "Aqueça a frigideira até quase fumegar, coloque um fio de óleo e sele o bife sem apertar nem mexer; vire uma vez só.",
           "s": 300
         },
         {
-          "t": "Reserve o bife no prato. Na mesma frigideira, doure cebola e frite 1 ovo deixando a gema mole.",
+          "t": "Retire para um prato quente e deixe descansar enquanto, na mesma frigideira, salteia a cebola.",
+          "s": 120
+        },
+        {
+          "t": "Frite o ovo com gotas de óleo, jogando óleo quente por cima com uma colher para firmar a clara sem endurecer a gema.",
           "s": 180
         },
         {
-          "t": "Coloque o ovo sobre o bife e sirva com arroz e feijão.",
+          "t": "Coloque o ovo “a cavalo” sobre o bife com a cebola e sirva com arroz branco e feijão.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Pat steak dry and season with salt and garlic right before searing.",
+          "t": "Take the steak out of the fridge 10 min ahead and pat it very dry (a wet steak will not brown).",
           "s": null
         },
         {
-          "t": "Sear in a piping-hot skillet 2.5 min per side without pressing.",
+          "t": "Chop the garlic and slice the onion. Have the rice and beans hot and ready.",
+          "s": null
+        },
+        {
+          "t": "Season the steak with salt and garlic only right before it goes in the pan (salting early draws out juice).",
+          "s": null
+        },
+        {
+          "t": "Heat the pan until almost smoking, add a drizzle of oil and sear the steak without pressing or moving it; flip only once.",
           "s": 300
         },
         {
-          "t": "Transfer steak to plate; fry onion rings and 1 sunny-side-up egg in the pan.",
+          "t": "Move it to a warm plate to rest while you sauté the onion in the same pan.",
+          "s": 120
+        },
+        {
+          "t": "Fry the egg with a few drops of oil, spooning hot oil over the top to set the white without hardening the yolk.",
           "s": 180
         },
         {
-          "t": "Slide egg over steak and serve with rice and beans.",
+          "t": "Place the egg “on horseback” over the steak with the onion and serve with white rice and beans.",
           "s": null
         }
       ]
@@ -2563,55 +2935,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Corta el pollo en trozos pequeños tamaño bocado y marina 15 min con jugo de limón, ajo machacado, sal y pimienta.",
-          "s": 900
-        },
-        {
-          "t": "Escurre y seca ligeramente los trozos.",
+          "t": "Corta el pollo en trozos pequeños tamaño bocado (con hueso, con un cuchillo pesado; o pechuga en cubos).",
           "s": null
         },
         {
-          "t": "Cocina en airfryer a 200°C durante 18 min (o dora en sartén con aceite caliente) hasta que la piel/exterior quede súper crocante.",
+          "t": "Marina con el jugo de limón, la mitad del ajo machacado, sal y pimienta.",
+          "s": 900
+        },
+        {
+          "t": "Escurre y seca ligeramente los trozos con papel para que queden crocantes.",
+          "s": null
+        },
+        {
+          "t": "Cocina en airfryer a 200 °C, agitando la canasta a mitad de tiempo, hasta que estén muy dorados (o fríe en aceite caliente por tandas).",
           "s": 1080
         },
         {
-          "t": "Dora láminas finas de ajo 30 seg (sin quemar), mezcla sobre el pollo caliente junto con perejil picado y más limón.",
+          "t": "Mientras, lamina el resto del ajo y dóralo en una sartén con un poco de aceite a fuego bajo hasta que esté apenas dorado (si se quema, amarga).",
+          "s": 60
+        },
+        {
+          "t": "Mezcla el pollo caliente con el ajo dorado, el perejil picado y más gotas de limón.",
+          "s": null
+        },
+        {
+          "t": "Sirve como tapa (petisco) con mandioca cocida o frita y rodajas de limón.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Corte o frango em pedaços pequenos e marine por 15 min com limão, alho, sal e pimenta.",
-          "s": 900
-        },
-        {
-          "t": "Escorra e seque bem os pedaços.",
+          "t": "Corte o frango em pedaços pequenos (com osso, usando uma faca pesada; ou peito em cubos).",
           "s": null
         },
         {
-          "t": "Asse na airfryer a 200°C por 18 min (ou frite até dourar bem) até ficar bem crocante.",
+          "t": "Marine com o suco de limão, metade do alho amassado, sal e pimenta.",
+          "s": 900
+        },
+        {
+          "t": "Escorra e seque levemente os pedaços com papel para ficarem crocantes.",
+          "s": null
+        },
+        {
+          "t": "Asse na airfryer a 200 °C, sacudindo o cesto na metade do tempo, até ficarem bem dourados (ou frite em óleo quente aos poucos).",
           "s": 1080
         },
         {
-          "t": "Doure lâminas de alho por 30s, jogue sobre o frango quente com salsinha e limão.",
+          "t": "Enquanto isso, lamine o resto do alho e doure numa frigideira com um pouco de óleo em fogo baixo até ficar levemente dourado (queimado amarga).",
+          "s": 60
+        },
+        {
+          "t": "Misture o frango quente com o alho dourado, a salsinha picada e mais gotas de limão.",
+          "s": null
+        },
+        {
+          "t": "Sirva como petisco com mandioca cozida ou frita e rodelas de limão.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Cut chicken into bite-sized pieces and marinate 15 min in lime, garlic, salt, and pepper.",
-          "s": 900
-        },
-        {
-          "t": "Drain and pat dry.",
+          "t": "Cut the chicken into small bite-sized pieces (bone-in with a heavy knife, or breast in cubes).",
           "s": null
         },
         {
-          "t": "Air-fry at 200°C for 18 min (or pan-fry) until golden and crispy.",
+          "t": "Marinate with the lime juice, half the crushed garlic, salt and pepper.",
+          "s": 900
+        },
+        {
+          "t": "Drain and lightly pat the pieces dry so they get crispy.",
+          "s": null
+        },
+        {
+          "t": "Air-fry at 200 °C, shaking the basket halfway, until deeply golden (or fry in hot oil in batches).",
           "s": 1080
         },
         {
-          "t": "Toast garlic slices 30s and toss over hot chicken with parsley and fresh lime.",
+          "t": "Meanwhile, slice the remaining garlic and fry it gently in a little oil until just golden (burnt garlic is bitter).",
+          "s": 60
+        },
+        {
+          "t": "Toss the hot chicken with the golden garlic, chopped parsley and more lime.",
+          "s": null
+        },
+        {
+          "t": "Serve as a snack with boiled or fried cassava and lime wedges.",
           "s": null
         }
       ]
@@ -2700,56 +3108,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Corta la carne magra (patinho o filé mignon) en cubos pequeños uniformes de 1 cm; sazona con sal y pimienta.",
+          "t": "Corta la carne en cubos pequeños y parejos de 1 cm, sécalos con papel y sazona con sal y pimienta.",
           "s": null
         },
         {
-          "t": "Calienta sartén fuerte y sella la carne en 2 tandas (para que dore y no hierva) durante 4 min.",
+          "t": "Pica la cebolla, el ajo y el tomate. Ten listos el arroz, el huevo y la farofa.",
+          "s": null
+        },
+        {
+          "t": "Calienta bien una sartén con un hilo de aceite y sella la carne en 2 tandas (si la amontonas, hierve en vez de dorar).",
           "s": 240
         },
         {
-          "t": "En la misma sartén, sofríe cebolla, ajo y tomate picado 4 min; agrega 1 cda de shoyu y 1/2 taza de agua caliente.",
+          "t": "Retira la carne y, en la misma sartén, sofríe la cebolla, el ajo y el tomate hasta que se deshagan.",
           "s": 240
         },
         {
-          "t": "Devuelve la carne y cocina tapado a fuego bajo 10 min hasta que la salsa quede brillante y espesa. Sirve con arroz, huevo y farofa.",
+          "t": "Agrega 1 cda de shoyu y 1/2 taza de agua caliente, raspando el fondo para disolver lo dorado.",
+          "s": null
+        },
+        {
+          "t": "Devuelve la carne, tapa y cocina a fuego bajo hasta que la salsa quede brillante y espesa.",
           "s": 600
+        },
+        {
+          "t": "Sirve con arroz blanco, un huevo frito o pochado encima y farofa al lado.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Corte o patinho em cubinhos de 1 cm e tempere com sal e pimenta.",
+          "t": "Corte a carne em cubinhos regulares de 1 cm, seque com papel e tempere com sal e pimenta.",
           "s": null
         },
         {
-          "t": "Sele a carne em frigideira bem quente aos poucos por 4 min até dourar.",
+          "t": "Pique a cebola, o alho e o tomate. Deixe prontos o arroz, o ovo e a farofa.",
+          "s": null
+        },
+        {
+          "t": "Aqueça bem uma frigideira com um fio de óleo e sele a carne em 2 levas (amontoada, ela cozinha em vez de dourar).",
           "s": 240
         },
         {
-          "t": "Refogue cebola, alho e tomate por 4 min; junte 1 col. de shoyu e 1/2 xícara de água.",
+          "t": "Retire a carne e, na mesma frigideira, refogue a cebola, o alho e o tomate até desmancharem.",
           "s": 240
         },
         {
-          "t": "Volte a carne e cozinhe 10 min até o molho encorpar; sirva com arroz, ovo e farofa.",
+          "t": "Junte 1 colher de shoyu e 1/2 xícara de água quente, raspando o fundo para soltar o dourado.",
+          "s": null
+        },
+        {
+          "t": "Volte a carne, tampe e cozinhe em fogo baixo até o molho ficar brilhante e encorpado.",
           "s": 600
+        },
+        {
+          "t": "Sirva com arroz branco, um ovo frito ou pochê por cima e farofa ao lado.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Dice lean beef into uniform 1cm cubes and season with salt and pepper.",
+          "t": "Cut the beef into small even 1 cm cubes, pat dry and season with salt and pepper.",
           "s": null
         },
         {
-          "t": "Sear beef in batches in a hot skillet for 4 min.",
+          "t": "Chop the onion, garlic and tomato. Have the rice, egg and farofa ready.",
+          "s": null
+        },
+        {
+          "t": "Heat a pan well with a drizzle of oil and sear the beef in 2 batches (crowded meat steams instead of browning).",
           "s": 240
         },
         {
-          "t": "Sauté onion, garlic, and tomato 4 min; add soy sauce and 1/2 cup water.",
+          "t": "Remove the beef and, in the same pan, sauté the onion, garlic and tomato until they break down.",
           "s": 240
         },
         {
-          "t": "Return beef and simmer 10 min until glossy; serve with rice, egg, and farofa.",
+          "t": "Add 1 tbsp soy sauce and 1/2 cup hot water, scraping the bottom to dissolve the browned bits.",
+          "s": null
+        },
+        {
+          "t": "Return the beef, cover and cook on low until the sauce is glossy and thick.",
           "s": 600
+        },
+        {
+          "t": "Serve with white rice, a fried or poached egg on top and farofa on the side.",
+          "s": null
         }
       ]
     },
@@ -2837,56 +3281,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Sofríe cebolla y ajo en olla; dora la pechuga de pollo entera 3 min por lado.",
-          "s": 300
-        },
-        {
-          "t": "Agrega zanahoria y papa en cubitos, 1 litro de agua y sal; hierve 15 min hasta cocer el pollo.",
-          "s": 900
-        },
-        {
-          "t": "Retira el pollo un momento, desmenúzalo con 2 tenedores y devuélvelo a la olla.",
+          "t": "Pica la cebolla y el ajo; pela la zanahoria y la papa y córtalas en cubitos. Lava el arroz.",
           "s": null
         },
         {
-          "t": "Añade el arroz crudo lavado y cocina 15 min más a fuego medio hasta que el arroz esté suave y el caldo ligeramente cremoso; termina con cheiro-verde.",
+          "t": "En una olla con un hilo de aceite sofríe la cebolla y el ajo; dora la pechuga entera por ambos lados.",
+          "s": 360
+        },
+        {
+          "t": "Agrega la zanahoria, la papa, 1 litro de agua y sal; hierve hasta que el pollo esté cocido.",
           "s": 900
+        },
+        {
+          "t": "Retira el pollo, desmenúzalo con dos tenedores y devuélvelo a la olla.",
+          "s": null
+        },
+        {
+          "t": "Añade el arroz y cocina a fuego medio hasta que esté muy suave y el caldo se ponga ligeramente cremoso.",
+          "s": 900
+        },
+        {
+          "t": "Si espesa demasiado, agrega agua caliente; la canja debe quedar caldosa. Ajusta la sal.",
+          "s": null
+        },
+        {
+          "t": "Apaga, mezcla el cheiro-verde picado y sirve bien caliente.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Refogue cebola e alho; sele o peito de frango inteiro por 3 min de cada lado.",
-          "s": 300
-        },
-        {
-          "t": "Junte cenoura e batata em cubinhos, 1 litro de água e sal; ferva 15 min.",
-          "s": 900
-        },
-        {
-          "t": "Retire o frango, desfie com dois garfos e volte para a panela.",
+          "t": "Pique a cebola e o alho; descasque a cenoura e a batata e corte em cubinhos. Lave o arroz.",
           "s": null
         },
         {
-          "t": "Adicione o arroz lavado e cozinhe mais 15 min até ficar macio; finalize com cheiro-verde.",
+          "t": "Numa panela com um fio de óleo refogue a cebola e o alho; doure o peito inteiro dos dois lados.",
+          "s": 360
+        },
+        {
+          "t": "Junte a cenoura, a batata, 1 litro de água e sal; ferva até o frango cozinhar.",
           "s": 900
+        },
+        {
+          "t": "Retire o frango, desfie com dois garfos e volte à panela.",
+          "s": null
+        },
+        {
+          "t": "Acrescente o arroz e cozinhe em fogo médio até ficar bem macio e o caldo levemente cremoso.",
+          "s": 900
+        },
+        {
+          "t": "Se engrossar demais, junte água quente; a canja deve ficar caldosa. Acerte o sal.",
+          "s": null
+        },
+        {
+          "t": "Desligue, misture o cheiro-verde picado e sirva bem quente.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Sauté onion and garlic; sear chicken breast 3 min per side.",
-          "s": 300
-        },
-        {
-          "t": "Add diced carrot, potato, water, and salt; boil 15 min.",
-          "s": 900
-        },
-        {
-          "t": "Remove chicken, shred with two forks, and return to pot.",
+          "t": "Chop the onion and garlic; peel and dice the carrot and potato. Rinse the rice.",
           "s": null
         },
         {
-          "t": "Stir in rice and simmer 15 more min until tender; finish with fresh herbs.",
+          "t": "In a pot with a drizzle of oil sauté the onion and garlic; brown the whole breast on both sides.",
+          "s": 360
+        },
+        {
+          "t": "Add the carrot, potato, 1 liter of water and salt; boil until the chicken is cooked.",
           "s": 900
+        },
+        {
+          "t": "Remove the chicken, shred it with two forks and return it to the pot.",
+          "s": null
+        },
+        {
+          "t": "Add the rice and cook over medium heat until very soft and the broth turns slightly creamy.",
+          "s": 900
+        },
+        {
+          "t": "If it gets too thick, add hot water; canja should stay brothy. Adjust the salt.",
+          "s": null
+        },
+        {
+          "t": "Turn off the heat, stir in the chopped herbs and serve piping hot.",
+          "s": null
         }
       ]
     },
@@ -2967,56 +3447,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Corta la pechuga en filetes planos, sazona con ajo, sal y pimienta.",
+          "t": "Corta la pechuga en filetes planos de 1 cm (ábrela en mariposa si es gruesa) y golpéala suave para emparejar el grosor. Sazona con ajo, sal y pimienta.",
           "s": null
         },
         {
-          "t": "Pasa cada filete por huevo batido y luego por harina de avena o pan rallado (farinha de rosca) presionando bien.",
+          "t": "Prepara 3 platos: harina, huevo batido con una pizca de sal, y avena molida o pan rallado.",
           "s": null
         },
         {
-          "t": "Dora en sartén 3 min por lado (o cocina en airfryer 12 min a 190°C).",
+          "t": "Pasa cada filete por harina, luego por huevo y por último por la avena o pan rallado, presionando bien para que se adhiera.",
+          "s": null
+        },
+        {
+          "t": "Dóralos en sartén con aceite a fuego medio por ambos lados, o cocínalos en airfryer a 190 °C con un rocío de aceite, volteando a la mitad.",
           "s": 720
         },
         {
-          "t": "Coloca salsa de tomate caliente encima y cubre con láminas de queso; lleva al horno/airfryer 4 min hasta derretir y sirve con arroz.",
+          "t": "Mientras, calienta la salsa de tomate con ajo y sal (o licúa los tomates y cocínalos hasta espesar).",
+          "s": 480
+        },
+        {
+          "t": "Pon los filetes en una fuente, cúbrelos con salsa y láminas de queso, y llévalos al horno o airfryer hasta que el queso se derrita y dore.",
           "s": 240
+        },
+        {
+          "t": "Sirve de inmediato con arroz blanco (y papas fritas o puré, a la brasileña).",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Corte o frango em filés finos e tempere com alho, sal e pimenta.",
+          "t": "Corte o peito em filés finos de 1 cm (abra em borboleta se for grosso) e bata de leve para igualar a espessura. Tempere com alho, sal e pimenta.",
           "s": null
         },
         {
-          "t": "Passe no ovo batido e depois na farinha de rosca ou aveia.",
+          "t": "Prepare 3 pratos: farinha, ovo batido com uma pitada de sal, e aveia ou farinha de rosca.",
           "s": null
         },
         {
-          "t": "Doure na frigideira por 3 min de cada lado (ou na airfryer a 190°C por 12 min).",
+          "t": "Passe cada filé na farinha, depois no ovo e por último na aveia ou farinha de rosca, apertando bem para grudar.",
+          "s": null
+        },
+        {
+          "t": "Doure em frigideira com óleo em fogo médio dos dois lados, ou asse na airfryer a 190 °C com óleo borrifado, virando na metade.",
           "s": 720
         },
         {
-          "t": "Cubra com molho de tomate e fatias de queijo; gratine 4 min até derreter e sirva com arroz.",
+          "t": "Enquanto isso, aqueça o molho de tomate com alho e sal (ou bata os tomates e cozinhe até engrossar).",
+          "s": 480
+        },
+        {
+          "t": "Coloque os filés num refratário, cubra com molho e fatias de queijo e leve ao forno ou airfryer até o queijo derreter e dourar.",
           "s": 240
+        },
+        {
+          "t": "Sirva na hora com arroz branco (e batata frita ou purê, à brasileira).",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Slice chicken into thin cutlets and season with garlic, salt, and pepper.",
+          "t": "Cut the breast into flat 1 cm cutlets (butterfly it if thick) and pound gently to even the thickness. Season with garlic, salt and pepper.",
           "s": null
         },
         {
-          "t": "Dip in beaten egg and coat in breadcrumbs or oat flour.",
+          "t": "Set up 3 plates: flour, egg beaten with a pinch of salt, and ground oats or breadcrumbs.",
           "s": null
         },
         {
-          "t": "Pan-sear 3 min per side (or air-fry 12 min at 190°C).",
+          "t": "Dredge each cutlet in flour, then egg and finally the oats or breadcrumbs, pressing well so it sticks.",
+          "s": null
+        },
+        {
+          "t": "Brown in a pan with oil over medium heat on both sides, or air-fry at 190 °C with a spray of oil, flipping halfway.",
           "s": 720
         },
         {
-          "t": "Spoon tomato sauce and cheese slices over cutlets; broil 4 min until bubbly.",
+          "t": "Meanwhile, heat the tomato sauce with garlic and salt (or blend the tomatoes and cook until thick).",
+          "s": 480
+        },
+        {
+          "t": "Place the cutlets in a dish, cover with sauce and cheese slices and bake or air-fry until the cheese melts and browns.",
           "s": 240
+        },
+        {
+          "t": "Serve right away with white rice (and fries or mash, Brazilian style).",
+          "s": null
         }
       ]
     },
@@ -3097,56 +3613,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Cuece la pechuga de pollo en agua con sal y laurel 15 min, escúrrela y desmenúzala bien fina.",
-          "s": 900
-        },
-        {
-          "t": "Ralla la zanahoria cruda por el lado grueso del rallador y pica la cebolla bien finita.",
+          "t": "Pon la pechuga en una olla con agua, sal y 1 hoja de laurel.",
           "s": null
         },
         {
-          "t": "En un bol grande, mezcla el pollo frío con zanahoria, maíz verde, manzana en cubitos (opcional) y aceitunas.",
+          "t": "Cuécela a fuego medio hasta que esté blanca por dentro; deja entibiar en el caldo para que no se seque.",
+          "s": 900
+        },
+        {
+          "t": "Desmenúzala bien fina con dos tenedores y déjala enfriar por completo.",
           "s": null
         },
         {
-          "t": "Adereza con requeijão/mayonesa y yogur natural; refrigera 15 min y agrega batata palha crocante justo al servir.",
+          "t": "Ralla la zanahoria cruda por el lado grueso, pica la cebolla muy fina, escurre el maíz y corta la manzana en cubitos (opcional). Pica las aceitunas.",
+          "s": null
+        },
+        {
+          "t": "Mezcla el requeijão (o mayonesa light) con el yogur natural, sal, pimienta y unas gotas de limón para el aderezo.",
+          "s": null
+        },
+        {
+          "t": "Une el pollo con las verduras y el aderezo en un bol grande; tapa y refrigera para que se integren los sabores.",
           "s": 900
+        },
+        {
+          "t": "Sirve frío y agrega la batata palha justo al momento de servir para que siga crocante.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Cozinhe o peito de frango com sal e louro por 15 min e desfie bem fino.",
-          "s": 900
-        },
-        {
-          "t": "Rale a cenoura crua no ralo grosso e pique a cebola bem pequena.",
+          "t": "Coloque o peito numa panela com água, sal e 1 folha de louro.",
           "s": null
         },
         {
-          "t": "Misture o frango frio com cenoura, milho verde e azeitonas.",
+          "t": "Cozinhe em fogo médio até ficar branco por dentro; deixe amornar no caldo para não ressecar.",
+          "s": 900
+        },
+        {
+          "t": "Desfie bem fino com dois garfos e deixe esfriar completamente.",
           "s": null
         },
         {
-          "t": "Tempere com requeijão/maionese e iogurte; gele 15 min e finalize com batata palha na hora de servir.",
+          "t": "Rale a cenoura crua no lado grosso, pique a cebola bem fina, escorra o milho e corte a maçã em cubinhos (opcional). Pique as azeitonas.",
+          "s": null
+        },
+        {
+          "t": "Misture o requeijão (ou maionese light) com o iogurte natural, sal, pimenta e gotas de limão para o molho.",
+          "s": null
+        },
+        {
+          "t": "Junte o frango com os legumes e o molho numa tigela grande; tampe e leve à geladeira para os sabores se integrarem.",
           "s": 900
+        },
+        {
+          "t": "Sirva gelado e coloque a batata palha só na hora de servir para continuar crocante.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Poach chicken breast 15 min, drain, and shred finely.",
-          "s": 900
-        },
-        {
-          "t": "Coarsely grate raw carrot and finely mince onion.",
+          "t": "Put the chicken breast in a pot with water, salt and 1 bay leaf.",
           "s": null
         },
         {
-          "t": "Toss chilled chicken with carrot, corn, and olives.",
+          "t": "Simmer over medium heat until white inside; let it cool in the broth so it does not dry out.",
+          "s": 900
+        },
+        {
+          "t": "Shred it very finely with two forks and let it cool completely.",
           "s": null
         },
         {
-          "t": "Bind with light creamy dressing, chill 15 min, and top with crispy potato sticks before serving.",
+          "t": "Grate the raw carrot on the coarse side, mince the onion, drain the corn and dice the apple (optional). Chop the olives.",
+          "s": null
+        },
+        {
+          "t": "Mix the requeijão (or light mayo) with the plain yogurt, salt, pepper and a few drops of lemon for the dressing.",
+          "s": null
+        },
+        {
+          "t": "Combine the chicken, vegetables and dressing in a large bowl; cover and chill so the flavors meld.",
           "s": 900
+        },
+        {
+          "t": "Serve cold, adding the potato sticks just before serving so they stay crunchy.",
+          "s": null
         }
       ]
     },
@@ -3227,56 +3779,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Desmenuza pollo cocido y sofríelo 4 min con cebolla, ajo y tomate picado hasta que quede bien sabroso.",
-          "s": 240
-        },
-        {
-          "t": "En la licuadora, procesa 1 lata de maíz verde escurrido junto con requeijão y 1/2 taza de leche/caldo hasta formar crema lisa.",
+          "t": "Cocina la pechuga en agua con sal hasta que esté blanca por dentro y desmenúzala (o usa pollo cocido que tengas).",
           "s": null
         },
         {
-          "t": "Vierte esa crema sobre el pollo en una olla y cocina 3 min removiendo hasta espesar.",
+          "t": "Sofríe la cebolla y el ajo picados con un hilo de aceite; añade el tomate picado y el pollo y cocina hasta que esté sabroso y sin líquido.",
+          "s": 240
+        },
+        {
+          "t": "Licúa el maíz escurrido con el requeijão y 1/2 taza de leche o caldo hasta tener una crema lisa.",
+          "s": null
+        },
+        {
+          "t": "Vierte la crema sobre el pollo y cocina a fuego bajo removiendo hasta que espese. Ajusta la sal y la pimienta.",
           "s": 180
         },
         {
-          "t": "Pasa a un refractario, cubre con láminas de queso y hornea 12 min hasta dorar; sirve con arroz y batata palha.",
+          "t": "Precalienta el horno a 200 °C y pasa la mezcla a un refractario.",
+          "s": null
+        },
+        {
+          "t": "Cubre con láminas de queso y hornea hasta que se dore.",
           "s": 720
+        },
+        {
+          "t": "Sirve caliente con arroz blanco y batata palha por encima.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Refogue frango desfiado com cebola, alho e tomate por 4 min.",
-          "s": 240
-        },
-        {
-          "t": "Bata no liquidificador o milho escorrido com requeijão e um pouco de leite até ficar cremoso.",
+          "t": "Cozinhe o peito em água com sal até ficar branco por dentro e desfie (ou use frango já cozido).",
           "s": null
         },
         {
-          "t": "Misture o creme ao frango em fogo baixo por 3 min para encorpar.",
+          "t": "Refogue a cebola e o alho picados num fio de óleo; junte o tomate picado e o frango e cozinhe até ficar saboroso e sem líquido.",
+          "s": 240
+        },
+        {
+          "t": "Bata o milho escorrido com o requeijão e 1/2 xícara de leite ou caldo até virar um creme liso.",
+          "s": null
+        },
+        {
+          "t": "Despeje o creme sobre o frango e cozinhe em fogo baixo mexendo até engrossar. Acerte sal e pimenta.",
           "s": 180
         },
         {
-          "t": "Passe para um refratário, cubra com queijo e gratine 12 min; sirva com arroz e batata palha.",
+          "t": "Preaqueça o forno a 200 °C e passe a mistura para um refratário.",
+          "s": null
+        },
+        {
+          "t": "Cubra com fatias de queijo e asse até dourar.",
           "s": 720
+        },
+        {
+          "t": "Sirva quente com arroz branco e batata palha por cima.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Sauté shredded chicken with onion, garlic, and tomato for 4 min.",
-          "s": 240
-        },
-        {
-          "t": "Blend drained sweet corn with requeijão and milk into a smooth cream.",
+          "t": "Poach the chicken breast in salted water until white inside and shred it (or use leftover cooked chicken).",
           "s": null
         },
         {
-          "t": "Fold corn cream into chicken over low heat for 3 min.",
+          "t": "Sauté the chopped onion and garlic in a drizzle of oil; add the chopped tomato and chicken and cook until flavorful and dry.",
+          "s": 240
+        },
+        {
+          "t": "Blend the drained corn with the requeijão and 1/2 cup milk or stock into a smooth cream.",
+          "s": null
+        },
+        {
+          "t": "Pour the cream over the chicken and cook on low, stirring, until thick. Adjust salt and pepper.",
           "s": 180
         },
         {
-          "t": "Transfer to baking dish, top with cheese, and bake 12 min until golden.",
+          "t": "Preheat the oven to 200 °C and transfer the mixture to a baking dish.",
+          "s": null
+        },
+        {
+          "t": "Top with cheese slices and bake until golden.",
           "s": 720
+        },
+        {
+          "t": "Serve hot with white rice and potato sticks on top.",
+          "s": null
         }
       ]
     },
@@ -3364,56 +3952,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Hierve el bacalao desalado 8 min, escurre y sepáralo en lascas quitando espinas.",
+          "t": "Si el bacalao no viene desalado, remójalo en agua fría en la nevera 24–48 h cambiando el agua varias veces.",
+          "s": null
+        },
+        {
+          "t": "Hierve el bacalao desalado, escurre y sepáralo en lascas quitando piel y espinas.",
           "s": 480
         },
         {
-          "t": "Corta las papas en tiras muy finas (tipo fósforo) y dóralas en horno/airfryer 12 min (o usa batata palha).",
+          "t": "Corta las papas en tiras muy finas (tipo fósforo) y dóralas en horno o airfryer hasta que estén crocantes (o usa batata palha).",
           "s": 720
         },
         {
-          "t": "Sofríe cebolla en julianas finas con ajo en aceite de oliva 6 min hasta que quede bien blanda y dulce; agrega el bacalao 2 min.",
+          "t": "Corta la cebolla en juliana fina y sofríela con el ajo en el aceite de oliva a fuego medio-bajo hasta que esté muy blanda y dulce.",
           "s": 360
         },
         {
-          "t": "Agrega las papas y vierte los huevos batidos con el fuego al mínimo; remueve suave 1 min para que el huevo quede jugoso (nunca seco). Decora con aceitunas y perejil.",
+          "t": "Agrega el bacalao y saltea para que tome sabor.",
+          "s": 120
+        },
+        {
+          "t": "Baja el fuego al mínimo, añade las papas y los huevos batidos con pimienta, y remueve suave solo hasta que el huevo esté cremoso, nunca seco.",
           "s": 60
+        },
+        {
+          "t": "Prueba la sal (el bacalao ya es salado), decora con aceitunas y perejil picado y sirve enseguida.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Ferva o bacalhau dessalgado por 8 min, escorra e desfie em lascas.",
+          "t": "Se o bacalhau não vier dessalgado, deixe de molho em água fria na geladeira 24–48 h trocando a água várias vezes.",
+          "s": null
+        },
+        {
+          "t": "Ferva o bacalhau dessalgado, escorra e separe em lascas tirando pele e espinhas.",
           "s": 480
         },
         {
-          "t": "Asse tirinhas finas de batata na airfryer por 12 min (ou use batata palha).",
+          "t": "Corte as batatas em palitos bem finos e doure no forno ou airfryer até ficarem crocantes (ou use batata palha).",
           "s": 720
         },
         {
-          "t": "Refogue cebola fatiada e alho no azeite por 6 min até murchar bem; junte o bacalhau por 2 min.",
+          "t": "Corte a cebola em tiras finas e refogue com o alho no azeite em fogo médio-baixo até ficar bem macia e adocicada.",
           "s": 360
         },
         {
-          "t": "Adicione as batatas e os ovos batidos em fogo bem baixo; mexa 1 min mantendo cremoso e finalize com azeitonas e salsinha.",
+          "t": "Junte o bacalhau e salteie para pegar sabor.",
+          "s": 120
+        },
+        {
+          "t": "Abaixe o fogo ao mínimo, junte as batatas e os ovos batidos com pimenta e mexa de leve só até o ovo ficar cremoso, nunca seco.",
           "s": 60
+        },
+        {
+          "t": "Prove o sal (o bacalhau já é salgado), decore com azeitonas e salsinha e sirva logo.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Simmer desalted cod 8 min, drain, and flake into bite-sized pieces.",
+          "t": "If the salt cod is not desalted, soak it in cold water in the fridge 24–48 h, changing the water several times.",
+          "s": null
+        },
+        {
+          "t": "Boil the desalted cod, drain and flake it, removing skin and bones.",
           "s": 480
         },
         {
-          "t": "Crisp matchstick potatoes in airfryer 12 min.",
+          "t": "Cut the potatoes into very thin matchsticks and bake or air-fry until crisp (or use store-bought potato sticks).",
           "s": 720
         },
         {
-          "t": "Slow-sauté sliced onion and garlic in olive oil 6 min until sweet; toss in cod 2 min.",
+          "t": "Slice the onion thinly and cook it with the garlic in the olive oil over medium-low heat until very soft and sweet.",
           "s": 360
         },
         {
-          "t": "Fold in potatoes and beaten eggs over lowest heat for 1 min until silky; garnish with olives and parsley.",
+          "t": "Add the cod and sauté so it picks up flavor.",
+          "s": 120
+        },
+        {
+          "t": "Lower the heat to minimum, add the potatoes and eggs beaten with pepper and stir gently just until creamy, never dry.",
           "s": 60
+        },
+        {
+          "t": "Taste for salt (the cod is already salty), garnish with olives and parsley and serve at once.",
+          "s": null
         }
       ]
     },
@@ -3494,56 +4118,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Corta la carne en cubos de 3 cm y ensarta en brochetas de madera (remojadas en agua antes para que no se quemen); sala justo antes de asar.",
+          "t": "Si usas brochetas de madera, remójalas en agua 20 min para que no se quemen.",
           "s": null
         },
         {
-          "t": "Prepara el vinagrete: pica tomate, cebolla y pimentón en cubitos diminutos; mezcla con aceite, vinagre (o limón), sal y perejil.",
+          "t": "Corta la carne en cubos de 3 cm y ensártalos dejando un pequeño espacio entre ellos. Sala justo antes de asar.",
           "s": null
         },
         {
-          "t": "Asa las brochetas en sartén grill muy caliente o parrilla 3 min por cara dejando el centro jugoso.",
-          "s": 360
+          "t": "Vinagrete: pica tomate, cebolla y pimentón en cubitos diminutos; mezcla con aceite, vinagre (o limón), sal y perejil. Deja reposar para que suelte jugo.",
+          "s": null
         },
         {
-          "t": "Tuesta farinha de mandioca 3 min en sartén con cebolla picada y sirve junto a la carne y el vinagrete.",
+          "t": "Calienta la parrilla o sartén grill al máximo y asa las brochetas, girándolas, hasta dorar por fuera y dejar el centro jugoso.",
+          "s": 480
+        },
+        {
+          "t": "Deja reposar la carne mientras tuestas la farinha de mandioca en una sartén con un poco de aceite y cebolla picada, moviendo, hasta que esté dorada.",
           "s": 180
+        },
+        {
+          "t": "Ajusta la sal de la farofa y del vinagrete.",
+          "s": null
+        },
+        {
+          "t": "Sirve las brochetas con el vinagrete por encima y la farofa al lado.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Corte a carne em cubos de 3 cm, monte os espetinhos e salgue na hora de grelhar.",
+          "t": "Se usar espetos de madeira, deixe de molho em água 20 min para não queimarem.",
           "s": null
         },
         {
-          "t": "Para o vinagrete: pique tomate, cebola e pimentão bem miúdos e tempere com azeite, vinagre, sal e salsinha.",
+          "t": "Corte a carne em cubos de 3 cm e espete deixando um pequeno espaço entre eles. Salgue só na hora de assar.",
           "s": null
         },
         {
-          "t": "Grelhe os espetinhos em chapa bem quente por 3 min de cada lado.",
-          "s": 360
+          "t": "Vinagrete: pique tomate, cebola e pimentão em cubinhos; misture com azeite, vinagre (ou limão), sal e salsinha. Deixe descansar para soltar o caldo.",
+          "s": null
         },
         {
-          "t": "Doure a farinha de mandioca com cebola por 3 min e sirva tudo junto.",
+          "t": "Aqueça a churrasqueira ou bistequeira no máximo e asse os espetos, girando, até dourar por fora e ficar suculento por dentro.",
+          "s": 480
+        },
+        {
+          "t": "Deixe a carne descansar enquanto torra a farinha de mandioca numa frigideira com um pouco de óleo e cebola picada, mexendo, até dourar.",
           "s": 180
+        },
+        {
+          "t": "Acerte o sal da farofa e do vinagrete.",
+          "s": null
+        },
+        {
+          "t": "Sirva os espetos com o vinagrete por cima e a farofa ao lado.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Cube beef into 3cm pieces, thread onto skewers, and salt right before searing.",
+          "t": "If using wooden skewers, soak them in water 20 min so they do not burn.",
           "s": null
         },
         {
-          "t": "Make vinaigrette: finely dice tomato, onion, and bell pepper; dress with olive oil, vinegar, salt, and parsley.",
+          "t": "Cut the beef into 3 cm cubes and thread them leaving a little space between pieces. Salt just before grilling.",
           "s": null
         },
         {
-          "t": "Grill skewers on high heat 3 min per side.",
-          "s": 360
+          "t": "Vinaigrette: dice the tomato, onion and bell pepper very small; mix with oil, vinegar (or lime), salt and parsley. Let it rest to release juice.",
+          "s": null
         },
         {
-          "t": "Toast cassava flour with onion 3 min and serve alongside skewers and vinaigrette.",
+          "t": "Heat the grill or grill pan to maximum and cook the skewers, turning, until browned outside and juicy inside.",
+          "s": 480
+        },
+        {
+          "t": "Let the meat rest while you toast the cassava flour in a pan with a little oil and chopped onion, stirring, until golden.",
           "s": 180
+        },
+        {
+          "t": "Adjust the salt of the farofa and vinaigrette.",
+          "s": null
+        },
+        {
+          "t": "Serve the skewers topped with vinaigrette and farofa on the side.",
+          "s": null
         }
       ]
     },
@@ -3617,56 +4277,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "En un bol pequeño, bate 2 huevos con un tenedor junto con 3 cucharadas de goma de tapioca y 1 pizca de sal hasta disolver grumos.",
+          "t": "Pica el tomate en cubitos y escúrrelo; desmenuza o ralla el queso.",
           "s": null
         },
         {
-          "t": "Calienta sartén antiadherente a fuego bajo-medio con una gota de aceite y vierte la mezcla cubriendo el fondo.",
+          "t": "En un bol bate los huevos con la goma de tapioca y la pizca de sal con un tenedor hasta que no queden grumos.",
           "s": null
         },
         {
-          "t": "Cocina 2 min hasta que la base cuaje y puedas voltear como panqueque; voltea con espátula.",
+          "t": "Calienta una sartén antiadherente a fuego medio-bajo y úntala con una gota de aceite.",
+          "s": null
+        },
+        {
+          "t": "Vierte la mezcla cubriendo todo el fondo y cocina hasta que la base cuaje y los bordes se despeguen.",
           "s": 120
         },
         {
-          "t": "Pon queso minas, tomate picado y orégano en una mitad, dobla, cocina 1 min para fundir y sirve.",
+          "t": "Voltea con espátula y cocina el otro lado.",
           "s": 60
+        },
+        {
+          "t": "Pon el queso, el tomate y el orégano en una mitad, dobla y cocina hasta que el queso se funda.",
+          "s": 60
+        },
+        {
+          "t": "Sirve caliente, entera o cortada en triángulos.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Bata 2 ovos com um garfo junto com 3 colheres de goma de tapioca e sal até ficar liso.",
+          "t": "Pique o tomate em cubinhos e escorra; esfarele ou rale o queijo.",
           "s": null
         },
         {
-          "t": "Despeje na frigideira antiaderente untada em fogo baixo-médio.",
+          "t": "Numa tigela bata os ovos com a goma de tapioca e a pitada de sal com um garfo até não ter grumos.",
           "s": null
         },
         {
-          "t": "Doure por 2 min até firmar, vire com espátula.",
+          "t": "Aqueça uma frigideira antiaderente em fogo médio-baixo e unte com uma gota de óleo.",
+          "s": null
+        },
+        {
+          "t": "Despeje a mistura cobrindo todo o fundo e cozinhe até a base firmar e as bordas soltarem.",
           "s": 120
         },
         {
-          "t": "Recheie com queijo minas, tomate e orégano, dobre ao meio e aqueça 1 min.",
+          "t": "Vire com espátula e cozinhe o outro lado.",
           "s": 60
+        },
+        {
+          "t": "Coloque o queijo, o tomate e o orégano numa metade, dobre e cozinhe até o queijo derreter.",
+          "s": 60
+        },
+        {
+          "t": "Sirva quente, inteira ou cortada em triângulos.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Whisk 2 eggs with 3 tbsp tapioca starch and a pinch of salt until smooth.",
+          "t": "Dice and drain the tomato; crumble or grate the cheese.",
           "s": null
         },
         {
-          "t": "Pour into a lightly oiled non-stick skillet over medium-low heat.",
+          "t": "In a bowl whisk the eggs with the tapioca starch and pinch of salt with a fork until lump-free.",
           "s": null
         },
         {
-          "t": "Cook 2 min until set, then flip carefully.",
+          "t": "Heat a nonstick pan over medium-low and grease it with a drop of oil.",
+          "s": null
+        },
+        {
+          "t": "Pour in the batter to cover the bottom and cook until the base sets and the edges release.",
           "s": 120
         },
         {
-          "t": "Fill half with Minas cheese, diced tomato, and oregano; fold and heat 1 min.",
+          "t": "Flip with a spatula and cook the other side.",
           "s": 60
+        },
+        {
+          "t": "Add the cheese, tomato and oregano to one half, fold and cook until the cheese melts.",
+          "s": 60
+        },
+        {
+          "t": "Serve hot, whole or cut into triangles.",
+          "s": null
         }
       ]
     },
@@ -3747,56 +4443,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Corta la carne en trozos grandes (4–5 cm) y sazona con sal, pimienta y ajo.",
+          "t": "Corta la carne en trozos grandes (4–5 cm), sécala y sazónala con sal, pimienta y ajo machacado.",
           "s": null
         },
         {
-          "t": "Calienta la olla a presión destapada y dora bien la carne 6 min por todos lados (esto da el color oscuro al caldo sin colorantes).",
+          "t": "Pica la cebolla y el tomate; pela las papas y zanahorias y córtalas en trozos grandes.",
+          "s": null
+        },
+        {
+          "t": "Calienta la olla a presión destapada con un hilo de aceite y dora muy bien la carne por todos los lados: este dorado da el color oscuro al caldo.",
           "s": 360
         },
         {
-          "t": "Agrega cebolla, tomate picado y 1 taza de agua caliente raspando el fondo. Tapa y cocina 25 min desde que toma presión.",
+          "t": "Agrega la cebolla y el tomate, sofríe y vierte 1 taza de agua caliente raspando el fondo.",
+          "s": 180
+        },
+        {
+          "t": "Tapa la olla y cocina desde que toma presión hasta que la carne esté tierna.",
           "s": 1500
         },
         {
-          "t": "Libera la presión con cuidado, añade las papas y zanahorias en trozos grandes y cocina 8 min más sin presión (destapada o semitapada) hasta que las verduras estén suaves.",
+          "t": "Libera la presión con cuidado, añade las papas y zanahorias y cocina sin presión, semitapado, hasta que estén suaves.",
           "s": 480
+        },
+        {
+          "t": "Si la salsa está muy líquida, déjala reducir destapada unos minutos. Ajusta la sal y sirve con arroz.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Corte a carne em pedaços grandes e tempere com alho, sal e pimenta.",
+          "t": "Corte a carne em pedaços grandes (4–5 cm), seque e tempere com sal, pimenta e alho amassado.",
           "s": null
         },
         {
-          "t": "Sele bem a carne na panela de pressão aberta por 6 min até dourar todos os lados.",
+          "t": "Pique a cebola e o tomate; descasque as batatas e cenouras e corte em pedaços grandes.",
+          "s": null
+        },
+        {
+          "t": "Aqueça a panela de pressão destampada com um fio de óleo e doure muito bem a carne por todos os lados: esse dourado dá a cor escura ao molho.",
           "s": 360
         },
         {
-          "t": "Junte cebola, tomate e 1 xícara de água quente; tampe e cozinhe por 25 min na pressão.",
+          "t": "Junte a cebola e o tomate, refogue e despeje 1 xícara de água quente raspando o fundo.",
+          "s": 180
+        },
+        {
+          "t": "Tampe e cozinhe a partir do momento em que pegar pressão até a carne ficar macia.",
           "s": 1500
         },
         {
-          "t": "Tire a pressão, adicione batata e cenoura em pedaços e cozinhe mais 8 min até amaciarem.",
+          "t": "Tire a pressão com cuidado, junte as batatas e cenouras e cozinhe sem pressão, semitampado, até ficarem macias.",
           "s": 480
+        },
+        {
+          "t": "Se o molho estiver ralo, deixe reduzir destampado alguns minutos. Acerte o sal e sirva com arroz.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Cut beef into large 5cm chunks and season with garlic, salt, and pepper.",
+          "t": "Cut the beef into large chunks (4–5 cm), pat dry and season with salt, pepper and crushed garlic.",
           "s": null
         },
         {
-          "t": "Sear well in open pressure cooker for 6 min to develop deep browning.",
+          "t": "Chop the onion and tomato; peel the potatoes and carrots and cut into large pieces.",
+          "s": null
+        },
+        {
+          "t": "Heat the uncovered pressure cooker with a drizzle of oil and brown the beef very well on all sides: this browning gives the dark gravy.",
           "s": 360
         },
         {
-          "t": "Add onion, tomato, and 1 cup hot water; pressure-cook 25 min.",
+          "t": "Add the onion and tomato, sauté and pour in 1 cup of hot water, scraping the bottom.",
+          "s": 180
+        },
+        {
+          "t": "Lock the lid and cook from the moment it reaches pressure until the beef is tender.",
           "s": 1500
         },
         {
-          "t": "Release pressure, add potato and carrot chunks, and simmer 8 min until tender.",
+          "t": "Release the pressure carefully, add the potatoes and carrots and cook without pressure, partly covered, until tender.",
           "s": 480
+        },
+        {
+          "t": "If the sauce is thin, reduce it uncovered a few minutes. Adjust the salt and serve with rice.",
+          "s": null
         }
       ]
     },
@@ -3877,55 +4609,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Mezcla jugo de 1 limón, 4 dientes de ajo machacados, sal, pimienta negra y orégano/romero; unta bien la carne y deja marinar 20 min.",
+          "t": "Mezcla el jugo de 1 limón, 4 dientes de ajo machacados, sal, pimienta, orégano y una ramita de romero picada.",
+          "s": null
+        },
+        {
+          "t": "Unta bien la carne con la marinada por todos lados y deja reposar en la nevera.",
           "s": 1200
         },
         {
-          "t": "Coloca en bandeja cubierta con papel aluminio y hornea a 200°C durante 25 min para que quede jugosa.",
+          "t": "Precalienta el horno a 200 °C. Pela la mandioca, córtala en bastones y retira la fibra central.",
+          "s": null
+        },
+        {
+          "t": "Coloca la carne en una bandeja con la cebolla en rodajas, cubre con papel aluminio y hornea para que quede jugosa.",
           "s": 1500
         },
         {
-          "t": "Retira el papel aluminio, sube a 220°C (o pasa a airfryer) 10 min más para dorar y caramelizar la superficie.",
+          "t": "Mientras, cuece la mandioca en agua con sal hasta que esté tierna y escúrrela.",
+          "s": 900
+        },
+        {
+          "t": "Retira el aluminio, sube a 220 °C, pon la mandioca alrededor y hornea hasta dorar y caramelizar la carne.",
           "s": 600
         },
         {
-          "t": "Sirve con mandioca cocida y dorada y rodajas de limón.",
+          "t": "Deja reposar 5 min, corta entre los huesos y sirve con rodajas de limón.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Misture suco de 1 limão, alho amassado, sal, pimenta e alecrim; deixe marinando 20 min.",
+          "t": "Misture o suco de 1 limão, 4 dentes de alho amassados, sal, pimenta, orégano e um raminho de alecrim picado.",
+          "s": null
+        },
+        {
+          "t": "Esfregue bem a carne com a marinada por todos os lados e deixe descansar na geladeira.",
           "s": 1200
         },
         {
-          "t": "Asse coberta com papel alumínio a 200°C por 25 min.",
+          "t": "Preaqueça o forno a 200 °C. Descasque a mandioca, corte em palitos e tire a fibra central.",
+          "s": null
+        },
+        {
+          "t": "Coloque a carne numa assadeira com a cebola em rodelas, cubra com papel-alumínio e asse para ficar suculenta.",
           "s": 1500
         },
         {
-          "t": "Retire o alumínio e asse mais 10 min em fogo alto para dourar bem.",
+          "t": "Enquanto isso, cozinhe a mandioca em água com sal até ficar macia e escorra.",
+          "s": 900
+        },
+        {
+          "t": "Retire o alumínio, suba para 220 °C, coloque a mandioca em volta e asse até dourar e caramelizar a carne.",
           "s": 600
         },
         {
-          "t": "Sirva com mandioca cozida e limão.",
+          "t": "Deixe descansar 5 min, corte entre os ossos e sirva com rodelas de limão.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Marinate pork with lime juice, crushed garlic, salt, pepper, and rosemary for 20 min.",
+          "t": "Mix the juice of 1 lime, 4 crushed garlic cloves, salt, pepper, oregano and a chopped sprig of rosemary.",
+          "s": null
+        },
+        {
+          "t": "Rub the meat well with the marinade on all sides and let it rest in the fridge.",
           "s": 1200
         },
         {
-          "t": "Roast covered in foil at 200°C for 25 min.",
+          "t": "Preheat the oven to 200 °C. Peel the cassava, cut into sticks and remove the central fiber.",
+          "s": null
+        },
+        {
+          "t": "Place the meat on a tray with the sliced onion, cover with foil and roast so it stays juicy.",
           "s": 1500
         },
         {
-          "t": "Uncover and roast 10 more min at high heat until browned.",
+          "t": "Meanwhile, boil the cassava in salted water until tender and drain.",
+          "s": 900
+        },
+        {
+          "t": "Remove the foil, raise to 220 °C, arrange the cassava around and roast until the meat browns and caramelizes.",
           "s": 600
         },
         {
-          "t": "Serve with boiled cassava and lime wedges.",
+          "t": "Rest 5 min, cut between the bones and serve with lime wedges.",
           "s": null
         }
       ]
@@ -4007,56 +4775,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Cuece la mandioca hasta ablandar, escúrrela muy bien (cuanto más seca, mejor se moldea) y aplástala con sal y yema de huevo hasta formar una masa firme.",
-          "s": 900
-        },
-        {
-          "t": "Sofríe la carne molida con cebolla, ajo, tomate y cheiro-verde hasta que el relleno quede seco y sabroso; deja entibiar.",
-          "s": 300
-        },
-        {
-          "t": "Toma una porción de masa en la palma, aplana, pon 1 cucharada de relleno al centro y cierra dando forma ovalada.",
+          "t": "Pela la mandioca, córtala en trozos y quita la fibra central.",
           "s": null
         },
         {
-          "t": "Pincela con un poco de aceite y cocina en airfryer a 200°C por 15 min girando a mitad de tiempo hasta dorar.",
+          "t": "Cuécela en agua con sal hasta que esté muy blanda; escúrrela muy bien (cuanto más seca, mejor se moldea).",
+          "s": 1200
+        },
+        {
+          "t": "Aplástala caliente con sal y la yema de huevo hasta formar una masa firme y lisa. Deja entibiar.",
+          "s": null
+        },
+        {
+          "t": "Relleno: sofríe la cebolla y el ajo, agrega la carne molida y el tomate y cocina hasta que quede seco y sabroso; mezcla cheiro-verde y deja enfriar.",
+          "s": 480
+        },
+        {
+          "t": "Toma una porción de masa en la palma, aplánala, pon 1 cucharada de relleno al centro y ciérrala dándole forma ovalada sin grietas.",
+          "s": null
+        },
+        {
+          "t": "Pincela con un poco de aceite y cocina en airfryer a 200 °C, girando a la mitad, hasta dorar (o fríe en aceite caliente).",
           "s": 900
+        },
+        {
+          "t": "Escurre sobre papel y sirve calientes, solos o con salsa picante.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Cozinhe a mandioca, escorra muito bem e amasse ainda quente com sal até formar massa lisa.",
-          "s": 900
-        },
-        {
-          "t": "Refogue a carne moída com cebola, alho e tomate até ficar bem sequinha; deixe amornar.",
-          "s": 300
-        },
-        {
-          "t": "Abra porções da massa na mão, recheie com a carne e modele os bolinhos.",
+          "t": "Descasque a mandioca, corte em pedaços e tire a fibra central.",
           "s": null
         },
         {
-          "t": "Pincele um fio de azeite e leve à airfryer a 200°C por 15 min até dourar.",
+          "t": "Cozinhe em água com sal até ficar bem macia; escorra muito bem (quanto mais seca, melhor modela).",
+          "s": 1200
+        },
+        {
+          "t": "Amasse ainda quente com sal e a gema até formar uma massa firme e lisa. Deixe amornar.",
+          "s": null
+        },
+        {
+          "t": "Recheio: refogue a cebola e o alho, junte a carne moída e o tomate e cozinhe até ficar sequinho e saboroso; misture cheiro-verde e deixe esfriar.",
+          "s": 480
+        },
+        {
+          "t": "Pegue uma porção de massa na palma, achate, coloque 1 colher de recheio no centro e feche em formato oval sem rachaduras.",
+          "s": null
+        },
+        {
+          "t": "Pincele com um pouco de óleo e asse na airfryer a 200 °C, virando na metade, até dourar (ou frite em óleo quente).",
           "s": 900
+        },
+        {
+          "t": "Escorra no papel e sirva quentes, puros ou com molho de pimenta.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Boil cassava until tender, drain thoroughly, and mash into a firm dough.",
-          "s": 900
-        },
-        {
-          "t": "Cook ground beef with onion, garlic, and tomato until dry; cool slightly.",
-          "s": 300
-        },
-        {
-          "t": "Flatten cassava dough in palm, spoon beef inside, and seal into oval patties.",
+          "t": "Peel the cassava, cut into chunks and remove the central fiber.",
           "s": null
         },
         {
-          "t": "Brush lightly with oil and air-fry at 200°C for 15 min until crisp and golden.",
+          "t": "Boil in salted water until very soft; drain very well (the drier, the easier to shape).",
+          "s": 1200
+        },
+        {
+          "t": "Mash while hot with salt and the egg yolk into a firm, smooth dough. Let it cool slightly.",
+          "s": null
+        },
+        {
+          "t": "Filling: sauté the onion and garlic, add the ground beef and tomato and cook until dry and flavorful; stir in herbs and cool.",
+          "s": 480
+        },
+        {
+          "t": "Flatten a portion of dough in your palm, put 1 spoonful of filling in the center and seal into an oval with no cracks.",
+          "s": null
+        },
+        {
+          "t": "Brush with a little oil and air-fry at 200 °C, turning halfway, until golden (or deep-fry in hot oil).",
           "s": 900
+        },
+        {
+          "t": "Drain on paper and serve hot, plain or with hot sauce.",
+          "s": null
         }
       ]
     },
@@ -4137,56 +4941,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Precalienta el horno a 200°C.",
+          "t": "Precalienta el horno a 200 °C. Cocina el arroz si no lo tienes listo (que quede suelto).",
           "s": null
         },
         {
-          "t": "En un bol grande, mezcla el arroz ya cocido con el pollo desmenuzado sazonado, zanahoria rallada, maíz verde y tomate picado.",
-          "s": null
-        },
-        {
-          "t": "Añade el requeijão y 3 cucharadas de leche o salsa de tomate para darle humedad y cremosidad.",
-          "s": null
-        },
-        {
-          "t": "Pasa a una fuente, cubre con queso rallado y hornea 15 min hasta burbujear y dorar la superficie.",
+          "t": "Cocina la pechuga en agua con sal hasta que esté blanca por dentro y desmenúzala; sazónala con sal y pimienta.",
           "s": 900
+        },
+        {
+          "t": "Ralla la zanahoria, escurre el maíz y pica el tomate.",
+          "s": null
+        },
+        {
+          "t": "En un bol grande mezcla el arroz cocido con el pollo, la zanahoria, el maíz y el tomate.",
+          "s": null
+        },
+        {
+          "t": "Añade el requeijão y 3 cucharadas de leche o salsa de tomate para darle humedad y cremosidad; ajusta la sal.",
+          "s": null
+        },
+        {
+          "t": "Pasa a una fuente, cubre con el queso rallado y hornea hasta que burbujee y la superficie se dore.",
+          "s": 900
+        },
+        {
+          "t": "Deja reposar 5 min y sirve en porciones.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Preaqueça o forno a 200°C.",
+          "t": "Preaqueça o forno a 200 °C. Cozinhe o arroz se não tiver pronto (soltinho).",
           "s": null
         },
         {
-          "t": "Misture o arroz cozido com frango desfiado temperado, cenoura ralada, milho e tomate.",
-          "s": null
-        },
-        {
-          "t": "Incorpore o requeijão e um pouco de leite ou molho de tomate para ficar bem úmido.",
-          "s": null
-        },
-        {
-          "t": "Transfira para um refratário, cubra com queijo e asse por 15 min até gratinar.",
+          "t": "Cozinhe o peito em água com sal até ficar branco por dentro e desfie; tempere com sal e pimenta.",
           "s": 900
+        },
+        {
+          "t": "Rale a cenoura, escorra o milho e pique o tomate.",
+          "s": null
+        },
+        {
+          "t": "Numa tigela grande misture o arroz cozido com o frango, a cenoura, o milho e o tomate.",
+          "s": null
+        },
+        {
+          "t": "Junte o requeijão e 3 colheres de leite ou molho de tomate para dar umidade e cremosidade; acerte o sal.",
+          "s": null
+        },
+        {
+          "t": "Passe para um refratário, cubra com o queijo ralado e asse até borbulhar e dourar.",
+          "s": 900
+        },
+        {
+          "t": "Deixe descansar 5 min e sirva em porções.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Preheat oven to 200°C.",
+          "t": "Preheat the oven to 200 °C. Cook the rice if not ready (keep it fluffy).",
           "s": null
         },
         {
-          "t": "Combine cooked rice with shredded chicken, grated carrot, corn, and diced tomato.",
-          "s": null
-        },
-        {
-          "t": "Stir in requeijão and a splash of milk or tomato sauce until creamy.",
-          "s": null
-        },
-        {
-          "t": "Transfer to baking dish, top with cheese, and bake 15 min until golden.",
+          "t": "Poach the chicken breast in salted water until white inside and shred it; season with salt and pepper.",
           "s": 900
+        },
+        {
+          "t": "Grate the carrot, drain the corn and chop the tomato.",
+          "s": null
+        },
+        {
+          "t": "In a large bowl mix the cooked rice with the chicken, carrot, corn and tomato.",
+          "s": null
+        },
+        {
+          "t": "Add the requeijão and 3 tablespoons of milk or tomato sauce for moisture and creaminess; adjust the salt.",
+          "s": null
+        },
+        {
+          "t": "Transfer to a dish, top with the grated cheese and bake until bubbling and golden.",
+          "s": 900
+        },
+        {
+          "t": "Rest 5 min and serve in portions.",
+          "s": null
         }
       ]
     },
@@ -4267,55 +5107,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Corta la abóbora cabotiá en cubos medianos (su cáscara es comestible al cocinarse bien) y cuécela al vapor o en agua 12 min hasta que esté tierna.",
+          "t": "Si usas carne seca, desálala hirviéndola 15 min (o remojándola desde la víspera), escúrrela y desmenúzala.",
+          "s": null
+        },
+        {
+          "t": "Lava la abóbora cabotiá y córtala en cubos medianos; su cáscara se puede comer bien cocida.",
+          "s": null
+        },
+        {
+          "t": "Cuécela al vapor o en poca agua con sal hasta que esté tierna pero entera.",
           "s": 720
         },
         {
-          "t": "Sofríe cebolla y ajo 3 min, agrega la carne seca desalada y desmenuzada y saltea 4 min.",
+          "t": "Sofríe la cebolla y el ajo picados en un hilo de aceite hasta dorar.",
+          "s": 180
+        },
+        {
+          "t": "Agrega la carne desmenuzada y saltea hasta que tome color.",
           "s": 240
         },
         {
-          "t": "Incorpora los cubos de abóbora suavemente (aplastando solo unos pocos para dar cremosidad) y añade cucharadas de requeijão.",
-          "s": 120
+          "t": "Incorpora la abóbora con cuidado, aplastando solo algunos cubos para dar cremosidad, y añade cucharadas de requeijão.",
+          "s": null
         },
         {
-          "t": "Termina con cheiro-verde picado y sirve caliente.",
+          "t": "Ajusta la sal, termina con cheiro-verde picado y sirve caliente.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Corte a abóbora cabotiá em cubos e cozinhe no vapor ou água por 12 min até ficar macia.",
+          "t": "Se usar carne seca, dessalgue fervendo 15 min (ou deixando de molho desde a véspera), escorra e desfie.",
+          "s": null
+        },
+        {
+          "t": "Lave a abóbora cabotiá e corte em cubos médios; a casca pode ser comida bem cozida.",
+          "s": null
+        },
+        {
+          "t": "Cozinhe no vapor ou em pouca água com sal até ficar macia mas inteira.",
           "s": 720
         },
         {
-          "t": "Refogue cebola e alho, adicione a carne seca dessalgada e desfiada por 4 min.",
+          "t": "Refogue a cebola e o alho picados num fio de óleo até dourar.",
+          "s": 180
+        },
+        {
+          "t": "Junte a carne desfiada e salteie até pegar cor.",
           "s": 240
         },
         {
-          "t": "Misture a abóbora delicadamente e adicione colheradas de requeijão.",
-          "s": 120
+          "t": "Incorpore a abóbora com cuidado, amassando só alguns cubos para dar cremosidade, e junte colheradas de requeijão.",
+          "s": null
         },
         {
-          "t": "Finalize com cheiro-verde fresco e sirva quente.",
+          "t": "Acerte o sal, finalize com cheiro-verde picado e sirva quente.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Cube kabocha squash and steam or boil 12 min until fork-tender.",
+          "t": "If using dried beef, desalt it by boiling 15 min (or soaking overnight), drain and shred.",
+          "s": null
+        },
+        {
+          "t": "Wash the kabocha squash and cut into medium cubes; the skin is edible once well cooked.",
+          "s": null
+        },
+        {
+          "t": "Steam or cook in a little salted water until tender but intact.",
           "s": 720
         },
         {
-          "t": "Sauté onion, garlic, and shredded cured beef for 4 min.",
+          "t": "Sauté the chopped onion and garlic in a drizzle of oil until golden.",
+          "s": 180
+        },
+        {
+          "t": "Add the shredded beef and sauté until it colors.",
           "s": 240
         },
         {
-          "t": "Gently fold in squash and dollops of requeijão.",
-          "s": 120
+          "t": "Fold in the squash gently, mashing only a few cubes for creaminess, and add spoonfuls of requeijão.",
+          "s": null
         },
         {
-          "t": "Garnish with fresh herbs and serve hot.",
+          "t": "Adjust the salt, finish with chopped herbs and serve hot.",
           "s": null
         }
       ]
@@ -4397,55 +5273,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Seca los filetes de tilapia y sazona con jugo de limón, ajo en polvo/machacado, sal y pimienta 10 min.",
-          "s": 600
-        },
-        {
-          "t": "Mezcla harina de avena (o fubá de maíz) con orégano y pasa cada filete presionando para que adhiera.",
+          "t": "Seca los filetes de tilapia con papel y sazónalos con jugo de limón, ajo machacado, sal y pimienta.",
           "s": null
         },
         {
-          "t": "Rocía un hilo de aceite y cocina en airfryer a 200°C durante 12–14 min hasta quedar dorado y crocante (o 3 min por lado en sartén).",
+          "t": "Deja marinar (no más tiempo, o el limón empieza a “cocinar” el pescado).",
+          "s": 600
+        },
+        {
+          "t": "Mezcla la avena molida (o fubá) con orégano y una pizca de sal. Pasa cada filete presionando para que se adhiera por ambos lados.",
+          "s": null
+        },
+        {
+          "t": "Pela y corta el camote en cubos; cuécelo en agua con sal hasta que esté blando y aplástalo con una pizca de sal para el puré.",
+          "s": 900
+        },
+        {
+          "t": "Rocía los filetes con un hilo de aceite y cocínalos en airfryer a 200 °C hasta que estén dorados y crocantes (o 3 min por lado en sartén).",
           "s": 780
         },
         {
-          "t": "Sirve con brócoli al vapor y puré de batata-doce.",
+          "t": "Cuece el brócoli al vapor hasta que esté verde brillante y tierno pero crujiente.",
+          "s": 300
+        },
+        {
+          "t": "Sirve el pescado con el puré de camote, el brócoli y gajos de limón.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Seque os filés de tilápia e tempere com limão, alho, sal e pimenta por 10 min.",
-          "s": 600
-        },
-        {
-          "t": "Passe na farinha de aveia ou fubá temperado com orégano.",
+          "t": "Seque os filés de tilápia com papel e tempere com suco de limão, alho amassado, sal e pimenta.",
           "s": null
         },
         {
-          "t": "Pincele um fio de azeite e leve à airfryer a 200°C por 12–14 min até dourar.",
+          "t": "Deixe marinar (não mais que isso, ou o limão começa a “cozinhar” o peixe).",
+          "s": 600
+        },
+        {
+          "t": "Misture a aveia moída (ou fubá) com orégano e uma pitada de sal. Empane cada filé apertando para grudar dos dois lados.",
+          "s": null
+        },
+        {
+          "t": "Descasque e corte a batata-doce em cubos; cozinhe em água com sal até amolecer e amasse com uma pitada de sal para o purê.",
+          "s": 900
+        },
+        {
+          "t": "Borrife os filés com um fio de óleo e asse na airfryer a 200 °C até dourarem e ficarem crocantes (ou 3 min de cada lado na frigideira).",
           "s": 780
         },
         {
-          "t": "Sirva com brócolis no vapor e batata-doce.",
+          "t": "Cozinhe o brócolis no vapor até ficar verde vivo e macio mas firme.",
+          "s": 300
+        },
+        {
+          "t": "Sirva o peixe com o purê de batata-doce, o brócolis e gomos de limão.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Pat tilapia fillets dry and season with lime, garlic, salt, and pepper 10 min.",
-          "s": 600
-        },
-        {
-          "t": "Press fillets into oat flour or cornmeal mixed with oregano.",
+          "t": "Pat the tilapia fillets dry and season with lime juice, crushed garlic, salt and pepper.",
           "s": null
         },
         {
-          "t": "Lightly mist with oil and air-fry at 200°C for 12–14 min until crisp.",
+          "t": "Marinate (no longer, or the lime starts to “cook” the fish).",
+          "s": 600
+        },
+        {
+          "t": "Mix the ground oats (or cornmeal) with oregano and a pinch of salt. Press each fillet into it so it coats both sides.",
+          "s": null
+        },
+        {
+          "t": "Peel and cube the sweet potato; boil in salted water until soft and mash with a pinch of salt.",
+          "s": 900
+        },
+        {
+          "t": "Drizzle the fillets with a little oil and air-fry at 200 °C until golden and crisp (or 3 min per side in a pan).",
           "s": 780
         },
         {
-          "t": "Serve with steamed broccoli and sweet potato.",
+          "t": "Steam the broccoli until bright green and tender-crisp.",
+          "s": 300
+        },
+        {
+          "t": "Serve the fish with the sweet potato mash, broccoli and lime wedges.",
           "s": null
         }
       ]
@@ -4527,56 +5439,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Corta el bife de carne magra en tiras finas y séllalas en sartén caliente 2 min por lado con sal y pimienta.",
-          "s": 240
-        },
-        {
-          "t": "Funde las láminas de queso en una sartén antiadherente con 1 cucharada de agua tapado 1 min para lograr el punto elástico clásico.",
-          "s": 60
-        },
-        {
-          "t": "Abre el pão francês (o base de tapioca/Rap10 en modo fit), acomoda la carne, rodajas de tomate con orégano y el queso derretido encima.",
+          "t": "Corta la carne en filetes muy finos o tiras; sazona con sal y pimienta. Corta el tomate en rodajas.",
           "s": null
         },
         {
-          "t": "Prensa en tostadora o sartén 1 min hasta quedar crocante por fuera y sirve caliente.",
+          "t": "Sella la carne en sartén bien caliente con un hilo de aceite, por ambos lados, sin cocinarla de más.",
+          "s": 240
+        },
+        {
+          "t": "En una sartén antiadherente pon las láminas de queso con 1 cucharada de agua, tapa y deja fundir hasta que quede elástico (el toque del bauru clásico).",
           "s": 60
+        },
+        {
+          "t": "Abre el pan francés (o prepara la base de tapioca en modo fit) y tuéstalo ligeramente.",
+          "s": null
+        },
+        {
+          "t": "Acomoda la carne, las rodajas de tomate con una pizca de orégano y sal, y el queso derretido encima.",
+          "s": null
+        },
+        {
+          "t": "Cierra y prensa en sanduchera o en sartén con peso encima hasta que esté crocante por fuera.",
+          "s": 60
+        },
+        {
+          "t": "Corta por la mitad y sirve caliente.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Sele fatias finas de patinho/rosbife na frigideira quente por 2 min com sal e pimenta.",
-          "s": 240
-        },
-        {
-          "t": "Derreta o queijo na frigideira com 1 colher de água tampado por 1 min.",
-          "s": 60
-        },
-        {
-          "t": "Abra o pão francês (ou tapioca no modo fit), coloque a carne, rodelas de tomate com orégano e o queijo derretido.",
+          "t": "Corte a carne em bifes bem finos ou tiras; tempere com sal e pimenta. Corte o tomate em rodelas.",
           "s": null
         },
         {
-          "t": "Toste na frigideira por 1 min para ficar crocante e sirva quente.",
+          "t": "Sele a carne em frigideira bem quente com um fio de óleo, dos dois lados, sem passar do ponto.",
+          "s": 240
+        },
+        {
+          "t": "Numa frigideira antiaderente coloque as fatias de queijo com 1 colher de água, tampe e deixe derreter até ficar elástico (o toque do bauru clássico).",
           "s": 60
+        },
+        {
+          "t": "Abra o pão francês (ou prepare a base de tapioca no modo fit) e toste levemente.",
+          "s": null
+        },
+        {
+          "t": "Acomode a carne, as rodelas de tomate com uma pitada de orégano e sal, e o queijo derretido por cima.",
+          "s": null
+        },
+        {
+          "t": "Feche e prense na sanduicheira ou na frigideira com um peso por cima até ficar crocante por fora.",
+          "s": 60
+        },
+        {
+          "t": "Corte ao meio e sirva quente.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Sear thin beef strips in a hot skillet 2 min per side with salt and pepper.",
-          "s": 240
-        },
-        {
-          "t": "Melt cheese slices in a covered skillet with a drop of water for 1 min.",
-          "s": 60
-        },
-        {
-          "t": "Fill crusty bread (or tapioca wrap) with beef, sliced tomato, oregano, and melted cheese.",
+          "t": "Slice the beef into very thin steaks or strips; season with salt and pepper. Slice the tomato.",
           "s": null
         },
         {
-          "t": "Toast 1 min until crisp outside and serve hot.",
+          "t": "Sear the beef in a very hot pan with a drizzle of oil on both sides, without overcooking.",
+          "s": 240
+        },
+        {
+          "t": "In a nonstick pan put the cheese slices with 1 tablespoon of water, cover and let them melt until stretchy (the classic bauru touch).",
           "s": 60
+        },
+        {
+          "t": "Split the bread roll (or make the tapioca base in fit mode) and toast it lightly.",
+          "s": null
+        },
+        {
+          "t": "Layer the beef, the tomato slices with a pinch of oregano and salt, and the melted cheese on top.",
+          "s": null
+        },
+        {
+          "t": "Close and press in a sandwich maker or in a pan with a weight on top until crisp outside.",
+          "s": 60
+        },
+        {
+          "t": "Cut in half and serve hot.",
+          "s": null
         }
       ]
     },
@@ -4657,55 +5605,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Licúa 1 huevo, 1/2 taza de leche, 3 cucharadas de harina/avena y pizca de sal hasta obtener masa líquida.",
+          "t": "Licúa el huevo, la leche, la harina o avena y la pizca de sal hasta tener una masa líquida y lisa. Deja reposar 5 min.",
           "s": null
         },
         {
-          "t": "En sartén antiadherente a fuego medio, haz discos finos cocinando 1 min por lado; apila en un plato.",
-          "s": 240
+          "t": "Relleno: sofríe la cebolla y el ajo, agrega la carne molida y la mitad del tomate picado y cocina hasta que esté jugosa pero sin caldo.",
+          "s": 480
         },
         {
-          "t": "Sofríe la carne molida con cebolla, ajo y mitad del tomate picado hasta que quede jugosa.",
-          "s": 300
+          "t": "Para la salsa, cocina el resto del tomate picado (o salsa de tomate) con sal y una pizca de orégano hasta espesar.",
+          "s": null
         },
         {
-          "t": "Rellena cada disco, enrolla, cubre con el resto de salsa de tomate y queso; gratina 6 min.",
+          "t": "Calienta una sartén antiadherente untada con unas gotas de aceite, vierte un cucharón de masa y gírala para cubrir el fondo; cocina hasta que se despegue y voltea.",
+          "s": 120
+        },
+        {
+          "t": "Repite con el resto de la masa, apilando los discos en un plato.",
+          "s": null
+        },
+        {
+          "t": "Rellena cada disco con carne, enróllalo y colócalo en una fuente; cubre con la salsa y el queso.",
+          "s": null
+        },
+        {
+          "t": "Gratina en el horno o airfryer a 200 °C hasta que el queso se derrita y dore. Sirve caliente.",
           "s": 360
         }
       ],
       "pt": [
         {
-          "t": "Bata no liquidificador ovo, leite, farinha de aveia/trigo e sal até ficar homogêneo.",
+          "t": "Bata o ovo, o leite, a farinha ou aveia e a pitada de sal até ficar uma massa líquida e lisa. Deixe descansar 5 min.",
           "s": null
         },
         {
-          "t": "Faça discos finos na frigideira antiaderente por 1 min de cada lado.",
-          "s": 240
+          "t": "Recheio: refogue a cebola e o alho, junte a carne moída e metade do tomate picado e cozinhe até ficar suculenta mas sem caldo.",
+          "s": 480
         },
         {
-          "t": "Refogue a carne moída com cebola, alho e metade do tomate.",
-          "s": 300
+          "t": "Para o molho, cozinhe o resto do tomate picado (ou molho de tomate) com sal e uma pitada de orégano até engrossar.",
+          "s": null
         },
         {
-          "t": "Recheie os discos, enrole, cubra com molho de tomate e queijo; gratine por 6 min.",
+          "t": "Aqueça uma frigideira antiaderente untada com gotas de óleo, despeje uma concha de massa e gire para cobrir o fundo; cozinhe até soltar e vire.",
+          "s": 120
+        },
+        {
+          "t": "Repita com o resto da massa, empilhando os discos num prato.",
+          "s": null
+        },
+        {
+          "t": "Recheie cada disco com carne, enrole e coloque num refratário; cubra com o molho e o queijo.",
+          "s": null
+        },
+        {
+          "t": "Gratine no forno ou airfryer a 200 °C até o queijo derreter e dourar. Sirva quente.",
           "s": 360
         }
       ],
       "en": [
         {
-          "t": "Blend egg, milk, flour/oats, and salt into a thin batter.",
+          "t": "Blend the egg, milk, flour or oats and pinch of salt into a smooth, runny batter. Rest 5 min.",
           "s": null
         },
         {
-          "t": "Cook thin crepes in a non-stick skillet 1 min per side.",
-          "s": 240
+          "t": "Filling: sauté the onion and garlic, add the ground beef and half the chopped tomato and cook until juicy but not watery.",
+          "s": 480
         },
         {
-          "t": "Sauté ground beef with onion, garlic, and half the tomato.",
-          "s": 300
+          "t": "For the sauce, cook the remaining chopped tomato (or tomato sauce) with salt and a pinch of oregano until thick.",
+          "s": null
         },
         {
-          "t": "Roll beef inside crepes, top with tomato sauce and cheese, and bake 6 min.",
+          "t": "Heat a nonstick pan greased with a few drops of oil, pour in a ladle of batter and swirl to coat; cook until it releases and flip.",
+          "s": 120
+        },
+        {
+          "t": "Repeat with the rest of the batter, stacking the crêpes on a plate.",
+          "s": null
+        },
+        {
+          "t": "Fill each crêpe with beef, roll it up and place in a baking dish; cover with the sauce and cheese.",
+          "s": null
+        },
+        {
+          "t": "Gratinate in the oven or air fryer at 200 °C until the cheese melts and browns. Serve hot.",
           "s": 360
         }
       ]
@@ -4787,55 +5771,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Licúa el feijão carioca cocido con su caldo hasta obtener un puré líquido.",
+          "t": "Licúa el feijão carioca cocido con su caldo hasta tener un puré líquido.",
           "s": null
         },
         {
-          "t": "Sofríe ajo machacado y cebolla en olla; vierte el frijol licuado y lleva a hervor.",
+          "t": "Sofríe el ajo machacado y la cebolla picada en un hilo de aceite hasta dorar.",
           "s": 180
         },
         {
-          "t": "Agrega farinha de mandioca poco a poco batiendo con cuchara para que no haga grumos, cocina 3 min hasta consistencia de puré suave.",
+          "t": "Vierte el frijol licuado y lleva a hervor suave.",
           "s": 180
         },
         {
-          "t": "Sirve caliente con lomo a la plancha, couve salteada y huevo duro picado encima.",
+          "t": "Agrega la farinha de mandioca en lluvia, batiendo con cuchara para que no haga grumos, y cocina hasta lograr un puré suave. Ajusta la sal.",
+          "s": 180
+        },
+        {
+          "t": "Sazona el lomo con sal, ajo y pimienta y ásalo en sartén caliente hasta dorar por ambos lados.",
+          "s": 480
+        },
+        {
+          "t": "Cuece el huevo 10 min, pélalo y pícalo; saltea la couve en tiras finas con ajo hasta que brille.",
+          "s": 600
+        },
+        {
+          "t": "Sirve el tutu caliente con el huevo picado encima, el lomo y la couve al lado.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Bata o feijão cozido com o caldo no liquidificador até ficar liso.",
+          "t": "Bata o feijão carioca cozido com o caldo até virar um purê ralo.",
           "s": null
         },
         {
-          "t": "Refogue alho e cebola na panela e despeje o feijão batido até ferver.",
+          "t": "Refogue o alho amassado e a cebola picada num fio de óleo até dourar.",
           "s": 180
         },
         {
-          "t": "Vá jogando farinha de mandioca aos poucos mexendo sempre por 3 min até engrossar.",
+          "t": "Despeje o feijão batido e deixe levantar fervura suave.",
           "s": 180
         },
         {
-          "t": "Sirva com lombo grelhado, couve refogada e ovo cozido por cima.",
+          "t": "Junte a farinha de mandioca em chuva, mexendo com a colher para não empelotar, e cozinhe até virar um purê macio. Acerte o sal.",
+          "s": 180
+        },
+        {
+          "t": "Tempere o lombo com sal, alho e pimenta e grelhe em frigideira quente até dourar dos dois lados.",
+          "s": 480
+        },
+        {
+          "t": "Cozinhe o ovo por 10 min, descasque e pique; refogue a couve em tiras finas com alho até brilhar.",
+          "s": 600
+        },
+        {
+          "t": "Sirva o tutu quente com o ovo picado por cima, o lombo e a couve ao lado.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Blend cooked beans with broth until smooth.",
+          "t": "Blend the cooked pinto beans with their broth into a thin purée.",
           "s": null
         },
         {
-          "t": "Sauté garlic and onion, pour in blended beans, and bring to a simmer.",
+          "t": "Sauté the crushed garlic and chopped onion in a drizzle of oil until golden.",
           "s": 180
         },
         {
-          "t": "Whisk in cassava flour gradually for 3 min until thick and creamy.",
+          "t": "Pour in the blended beans and bring to a gentle boil.",
           "s": 180
         },
         {
-          "t": "Serve with seared pork loin, sautéed collards, and sliced boiled egg.",
+          "t": "Rain in the cassava flour, stirring with a spoon so it does not lump, and cook into a smooth purée. Adjust the salt.",
+          "s": 180
+        },
+        {
+          "t": "Season the pork with salt, garlic and pepper and sear in a hot pan until golden on both sides.",
+          "s": 480
+        },
+        {
+          "t": "Boil the egg 10 min, peel and chop it; sauté the thinly sliced greens with garlic until glossy.",
+          "s": 600
+        },
+        {
+          "t": "Serve the tutu hot with the chopped egg on top, the pork and greens on the side.",
           "s": null
         }
       ]
@@ -4917,55 +5937,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Sofríe cebolla, ajo y tomate picado con salsa de tomate 4 min; agrega 1 taza de agua/caldo, maíz verde y atún desmenuzado.",
-          "s": 240
-        },
-        {
-          "t": "Cuando hierva, baja el fuego y agrega la harina de maíz (flocão/farinha de milho) en lluvia mientras mezclas 4 min hasta despegar de la olla.",
-          "s": 240
-        },
-        {
-          "t": "Decora el fondo de un molde o taza con rodajas de huevo duro, tomate y aceitunas; rellena presionando suavemente.",
+          "t": "Cuece el huevo 10 min, pásalo a agua fría, pélalo y córtalo en rodajas. Corta también rodajas de tomate y las aceitunas.",
           "s": null
         },
         {
-          "t": "Deja reposar 5 min para que tome forma y desmolda tibio.",
+          "t": "Engrasa un molde con hueco central (o tazas) y decora el fondo y las paredes con las rodajas de huevo, tomate y aceitunas.",
+          "s": null
+        },
+        {
+          "t": "Sofríe la cebolla, el ajo y el tomate picado con la salsa de tomate hasta que se deshagan.",
+          "s": 240
+        },
+        {
+          "t": "Agrega 1 taza de agua o caldo, el maíz y el atún escurrido y desmenuzado; prueba la sal y deja hervir.",
+          "s": 120
+        },
+        {
+          "t": "Baja el fuego y agrega la harina de maíz en lluvia, mezclando sin parar hasta que la masa se despegue de la olla.",
+          "s": 240
+        },
+        {
+          "t": "Rellena el molde con la masa caliente presionando suavemente con una cuchara para que no queden huecos.",
+          "s": null
+        },
+        {
+          "t": "Deja reposar para que tome forma y desmolda tibio sobre un plato.",
           "s": 300
         }
       ],
       "pt": [
         {
-          "t": "Refogue cebola, alho e tomate por 4 min; junte água, milho e atum.",
-          "s": 240
-        },
-        {
-          "t": "Quando ferver, abaixe o fogo e adicione a farinha de milho aos poucos mexendo 4 min até soltar da panela.",
-          "s": 240
-        },
-        {
-          "t": "Forre uma tigela com rodelas de ovo cozido, tomate e azeitona e aperte a massa dentro.",
+          "t": "Cozinhe o ovo por 10 min, passe para água fria, descasque e corte em rodelas. Corte também rodelas de tomate e as azeitonas.",
           "s": null
         },
         {
-          "t": "Aguarde 5 min e desenforme morno.",
+          "t": "Unte uma forma de furo central (ou xícaras) e decore o fundo e as laterais com as rodelas de ovo, tomate e azeitonas.",
+          "s": null
+        },
+        {
+          "t": "Refogue a cebola, o alho e o tomate picado com o molho de tomate até desmancharem.",
+          "s": 240
+        },
+        {
+          "t": "Junte 1 xícara de água ou caldo, o milho e o atum escorrido e desfiado; acerte o sal e deixe ferver.",
+          "s": 120
+        },
+        {
+          "t": "Abaixe o fogo e junte a farinha de milho em chuva, mexendo sem parar até a massa soltar da panela.",
+          "s": 240
+        },
+        {
+          "t": "Encha a forma com a massa quente apertando de leve com uma colher para não ficar buracos.",
+          "s": null
+        },
+        {
+          "t": "Deixe descansar para firmar e desenforme morno num prato.",
           "s": 300
         }
       ],
       "en": [
         {
-          "t": "Sauté onion, garlic, and tomato 4 min; add water, corn, and tuna.",
-          "s": 240
-        },
-        {
-          "t": "At a boil, reduce heat and stir in cornmeal 4 min until it pulls from the pot.",
-          "s": 240
-        },
-        {
-          "t": "Line a bowl with boiled egg slices, tomato, and olives; pack mixture inside.",
+          "t": "Boil the egg 10 min, cool in cold water, peel and slice. Also slice the tomato and olives.",
           "s": null
         },
         {
-          "t": "Rest 5 min and unmold warm.",
+          "t": "Grease a ring mold (or cups) and decorate the bottom and sides with the egg, tomato and olive slices.",
+          "s": null
+        },
+        {
+          "t": "Sauté the onion, garlic and chopped tomato with the tomato sauce until they break down.",
+          "s": 240
+        },
+        {
+          "t": "Add 1 cup of water or stock, the corn and the drained, flaked tuna; check the salt and bring to a boil.",
+          "s": 120
+        },
+        {
+          "t": "Lower the heat and rain in the cornmeal, stirring constantly until the mixture pulls away from the pot.",
+          "s": 240
+        },
+        {
+          "t": "Fill the mold with the hot mixture, pressing gently with a spoon so there are no gaps.",
+          "s": null
+        },
+        {
+          "t": "Let it rest to set and unmold while warm onto a plate.",
           "s": 300
         }
       ]
@@ -5047,55 +6103,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Para la salsa: dora la carne molida con ajo y cebolla 5 min, agrega tomate triturado y cocina 12 min hasta espesar.",
-          "s": 720
-        },
-        {
-          "t": "Para el angu/polenta: disuelve el fubá en agua fría primero (¡truco para que nunca haga grumos!).",
+          "t": "Pica la cebolla y el ajo; tritura o pica el tomate.",
           "s": null
         },
         {
-          "t": "Lleva a fuego medio-bajo removiendo constantemente 12 min hasta que quede cremosa y sin sabor a maíz crudo; mezcla un poco de queso.",
+          "t": "Salsa: dora la carne molida con el ajo y la cebolla en un hilo de aceite, desmenuzándola con la cuchara.",
+          "s": 300
+        },
+        {
+          "t": "Agrega el tomate, sal y un poco de agua, y cocina a fuego bajo hasta espesar.",
           "s": 720
         },
         {
-          "t": "Sirve la polenta caliente en plato hondo con la salsa de carne encima.",
+          "t": "Angu: disuelve el fubá en el agua fría con una pizca de sal antes de llevarlo al fuego (así nunca hace grumos).",
+          "s": null
+        },
+        {
+          "t": "Cocina a fuego medio-bajo removiendo constantemente hasta que esté cremoso y no sepa a maíz crudo. Si espesa demasiado, agrega agua caliente.",
+          "s": 720
+        },
+        {
+          "t": "Apaga y mezcla un poco del queso en el angu.",
+          "s": null
+        },
+        {
+          "t": "Sirve el angu caliente en plato hondo, con la salsa de carne encima y el resto del queso rallado.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Doure o patinho moído com alho e cebola por 5 min; junte tomate e cozinhe 12 min.",
-          "s": 720
-        },
-        {
-          "t": "Dissolva o fubá em água fria antes de ir ao fogo (para não empelotar!).",
+          "t": "Pique a cebola e o alho; triture ou pique o tomate.",
           "s": null
         },
         {
-          "t": "Cozinhe em fogo baixo mexendo sempre por 12 min até ficar cremoso; misture queijo.",
+          "t": "Molho: doure a carne moída com o alho e a cebola num fio de óleo, soltando com a colher.",
+          "s": 300
+        },
+        {
+          "t": "Junte o tomate, sal e um pouco de água, e cozinhe em fogo baixo até engrossar.",
           "s": 720
         },
         {
-          "t": "Sirva a polenta mole no prato fundo com o molho de carne por cima.",
+          "t": "Angu: dissolva o fubá na água fria com uma pitada de sal antes de levar ao fogo (assim nunca empelota).",
+          "s": null
+        },
+        {
+          "t": "Cozinhe em fogo médio-baixo mexendo sem parar até ficar cremoso e sem gosto de milho cru. Se engrossar demais, junte água quente.",
+          "s": 720
+        },
+        {
+          "t": "Desligue e misture um pouco do queijo no angu.",
+          "s": null
+        },
+        {
+          "t": "Sirva o angu quente em prato fundo, com o molho de carne por cima e o resto do queijo ralado.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Brown ground beef with garlic and onion 5 min; simmer with crushed tomato 12 min.",
-          "s": 720
-        },
-        {
-          "t": "Whisk cornmeal (fubá) into cold water first to prevent lumps.",
+          "t": "Chop the onion and garlic; crush or chop the tomato.",
           "s": null
         },
         {
-          "t": "Cook over low heat stirring 12 min until silky; fold in cheese.",
+          "t": "Sauce: brown the ground beef with the garlic and onion in a drizzle of oil, breaking it up with the spoon.",
+          "s": 300
+        },
+        {
+          "t": "Add the tomato, salt and a little water and simmer on low until thick.",
           "s": 720
         },
         {
-          "t": "Ladle creamy polenta into bowls and top with beef sauce.",
+          "t": "Angu: dissolve the cornmeal in the cold water with a pinch of salt before heating it (so it never lumps).",
+          "s": null
+        },
+        {
+          "t": "Cook over medium-low heat, stirring constantly, until creamy with no raw-corn taste. If too thick, add hot water.",
+          "s": 720
+        },
+        {
+          "t": "Turn off the heat and stir some of the cheese into the angu.",
+          "s": null
+        },
+        {
+          "t": "Serve the hot angu in a deep plate with the beef sauce on top and the rest of the grated cheese.",
           "s": null
         }
       ]
@@ -5184,56 +6276,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Corta las papas en rodajas finas (3 mm) y precuécelas 5 min en agua para que se terminen de hacer junto con el pescado.",
+          "t": "Precalienta el horno a 200 °C. Sazona la tilapia con limón, ajo machacado, sal y pimienta.",
+          "s": null
+        },
+        {
+          "t": "Corta las papas en rodajas finas (3 mm) y precuécelas en agua con sal para que terminen al mismo tiempo que el pescado.",
           "s": 300
         },
         {
-          "t": "Sazona la tilapia con limón, ajo, sal y pimienta.",
+          "t": "Corta la cebolla, el pimentón y el tomate en rodajas.",
           "s": null
         },
         {
-          "t": "En una fuente aceitada, coloca capas de papa, cebolla, pimentón y tomate; pon el pescado encima y rocía aceite de oliva.",
+          "t": "En una fuente (o teja de barro) aceitada, pon una capa de papas y luego la cebolla, el pimentón y el tomate; sazona con sal.",
           "s": null
         },
         {
-          "t": "Hornea a 200°C durante 18 min hasta que el pescado esté blanco y las verduras tiernas.",
+          "t": "Coloca el pescado encima, rocía el aceite de oliva y unas gotas de limón.",
+          "s": null
+        },
+        {
+          "t": "Hornea hasta que el pescado esté blanco y se separe en lascas, y las verduras estén tiernas.",
           "s": 1080
+        },
+        {
+          "t": "Sirve en la misma fuente con perejil picado y gajos de limón.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Corte as batatas em rodelas finas e pré-cozinhe por 5 min.",
+          "t": "Preaqueça o forno a 200 °C. Tempere a tilápia com limão, alho amassado, sal e pimenta.",
+          "s": null
+        },
+        {
+          "t": "Corte as batatas em rodelas finas (3 mm) e pré-cozinhe em água com sal para terminarem junto com o peixe.",
           "s": 300
         },
         {
-          "t": "Tempere o peixe com limão, alho, sal e pimenta.",
+          "t": "Corte a cebola, o pimentão e o tomate em rodelas.",
           "s": null
         },
         {
-          "t": "Monte camadas de batata, cebola, pimentão e tomate na assadeira, coloque o peixe por cima e regue com azeite.",
+          "t": "Num refratário (ou telha de barro) untado, faça uma camada de batatas e depois cebola, pimentão e tomate; tempere com sal.",
           "s": null
         },
         {
-          "t": "Asse a 200°C por 18 min.",
+          "t": "Coloque o peixe por cima e regue com o azeite e gotas de limão.",
+          "s": null
+        },
+        {
+          "t": "Asse até o peixe ficar branco e soltar em lascas e os legumes estarem macios.",
           "s": 1080
+        },
+        {
+          "t": "Sirva no próprio refratário com salsinha picada e gomos de limão.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Thinly slice potatoes and parboil 5 min.",
+          "t": "Preheat the oven to 200 °C. Season the tilapia with lime, crushed garlic, salt and pepper.",
+          "s": null
+        },
+        {
+          "t": "Slice the potatoes thin (3 mm) and parboil in salted water so they finish with the fish.",
           "s": 300
         },
         {
-          "t": "Season fish fillets with lime, garlic, salt, and pepper.",
+          "t": "Slice the onion, bell pepper and tomato.",
           "s": null
         },
         {
-          "t": "Layer potato, onion, pepper, and tomato in oiled dish; lay fish on top and drizzle olive oil.",
+          "t": "In an oiled dish (or clay tile) layer the potatoes, then the onion, pepper and tomato; season with salt.",
           "s": null
         },
         {
-          "t": "Bake at 200°C for 18 min until fish flakes easily.",
+          "t": "Lay the fish on top and drizzle with the olive oil and a few drops of lime.",
+          "s": null
+        },
+        {
+          "t": "Bake until the fish is white and flakes, and the vegetables are tender.",
           "s": 1080
+        },
+        {
+          "t": "Serve in the same dish with chopped parsley and lime wedges.",
+          "s": null
         }
       ]
     },
@@ -5314,56 +6442,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Pela la banana-da-terra, córtala en cubos y dórala en sartén con aceite 4 min hasta caramelizar; reserva.",
+          "t": "Pela la banana-da-terra y córtala en cubos; pica la cebolla y el ajo.",
+          "s": null
+        },
+        {
+          "t": "Dora la banana en una sartén con un poco del aceite hasta caramelizar por todos lados; reserva.",
           "s": 240
         },
         {
-          "t": "En la misma sartén, sofríe cebolla picada y ajo 4 min hasta que doren.",
+          "t": "En la misma sartén sofríe la cebolla y el ajo hasta que estén dorados.",
           "s": 240
         },
         {
-          "t": "Baja el fuego, rompe los huevos y revuélvelos suavemente hasta formar trozos tiernos.",
+          "t": "Baja el fuego, rompe los huevos y revuélvelos suavemente hasta formar trozos tiernos; sazona con sal.",
           "s": 120
         },
         {
-          "t": "Agrega la farinha de mandioca y tuesta 3 min sin dejar de mover hasta quedar crocante; mezcla la banana y cheiro-verde.",
+          "t": "Agrega la farinha de mandioca y tuéstala sin dejar de mover hasta que esté crocante y dorada.",
           "s": 180
+        },
+        {
+          "t": "Apaga el fuego y mezcla la banana caramelizada y el cheiro-verde picado.",
+          "s": null
+        },
+        {
+          "t": "Sirve como acompañamiento de carnes o feijão, o sola como comida rápida.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Doure a banana-da-terra em cubos na frigideira por 4 min e reserve.",
+          "t": "Descasque a banana-da-terra e corte em cubos; pique a cebola e o alho.",
+          "s": null
+        },
+        {
+          "t": "Doure a banana numa frigideira com um pouco do óleo até caramelizar por todos os lados; reserve.",
           "s": 240
         },
         {
-          "t": "Refogue cebola e alho por 4 min até ficarem dourados.",
+          "t": "Na mesma frigideira refogue a cebola e o alho até dourarem.",
           "s": 240
         },
         {
-          "t": "Junte os ovos e mexa em fogo baixo até cozinhar.",
+          "t": "Abaixe o fogo, quebre os ovos e mexa delicadamente até formar pedaços macios; tempere com sal.",
           "s": 120
         },
         {
-          "t": "Adicione a farinha de mandioca e torre por 3 min mexendo sempre; misture a banana e cheiro-verde.",
+          "t": "Junte a farinha de mandioca e toste sem parar de mexer até ficar crocante e dourada.",
           "s": 180
+        },
+        {
+          "t": "Desligue e misture a banana caramelizada e o cheiro-verde picado.",
+          "s": null
+        },
+        {
+          "t": "Sirva como acompanhamento de carnes ou feijão, ou sozinha como refeição rápida.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Dice plantain and pan-sear 4 min until golden; set aside.",
+          "t": "Peel the plantain and cut into cubes; chop the onion and garlic.",
+          "s": null
+        },
+        {
+          "t": "Brown the plantain in a pan with a little of the oil until caramelized on all sides; set aside.",
           "s": 240
         },
         {
-          "t": "Sauté onion and garlic 4 min until golden brown.",
+          "t": "In the same pan sauté the onion and garlic until golden.",
           "s": 240
         },
         {
-          "t": "Scramble eggs gently in the pan.",
+          "t": "Lower the heat, crack in the eggs and scramble gently into soft curds; season with salt.",
           "s": 120
         },
         {
-          "t": "Stir in cassava flour and toast 3 min until crisp; fold in plantain and fresh herbs.",
+          "t": "Add the cassava flour and toast, stirring constantly, until crisp and golden.",
           "s": 180
+        },
+        {
+          "t": "Turn off the heat and fold in the caramelized plantain and chopped herbs.",
+          "s": null
+        },
+        {
+          "t": "Serve as a side for meats or beans, or on its own as a quick meal.",
+          "s": null
         }
       ]
     },
@@ -5451,56 +6615,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Cuece el feijão fradinho (o carioca) al dente 15 min sin que se rompan los granos; escurre y enfría bajo agua fría.",
+          "t": "Si usas frijol seco, remójalo desde la víspera.",
+          "s": null
+        },
+        {
+          "t": "Cuece el feijão fradinho (o carioca) en agua con sal al dente, sin que se rompan los granos.",
           "s": 900
         },
         {
-          "t": "Pica tomate, cebolla morada y pimentón en cubitos pequeños.",
+          "t": "Escúrrelo y enfríalo bajo el chorro de agua fría para cortar la cocción.",
           "s": null
         },
         {
-          "t": "Escurre bien el atún y mézclalo con el frijol frío y las verduras picadas.",
+          "t": "Pica el tomate (sin semillas), la cebolla morada y el pimentón en cubitos pequeños.",
           "s": null
         },
         {
-          "t": "Aliña con aceite de oliva, jugo de limón, sal y cilantro/perejil abundante. Ideal servir frío.",
+          "t": "Escurre bien el atún y desmenúzalo en lascas grandes.",
           "s": null
+        },
+        {
+          "t": "Mezcla el frijol, las verduras y el atún. Aliña con el aceite de oliva, el jugo de limón, sal y abundante cilantro o perejil.",
+          "s": null
+        },
+        {
+          "t": "Refrigera para que tome sabor y sirve frío.",
+          "s": 600
         }
       ],
       "pt": [
         {
-          "t": "Cozinhe o feijão fradinho al dente (grãos inteiros), escorra e esfrie em água corrente.",
+          "t": "Se usar feijão seco, deixe de molho desde a véspera.",
+          "s": null
+        },
+        {
+          "t": "Cozinhe o feijão-fradinho (ou carioca) em água com sal al dente, sem desmanchar os grãos.",
           "s": 900
         },
         {
-          "t": "Pique tomate, cebola roxa e pimentão em cubinhos.",
+          "t": "Escorra e esfrie em água corrente fria para parar o cozimento.",
           "s": null
         },
         {
-          "t": "Escorra o atum e misture com o feijão frio e os legumes.",
+          "t": "Pique o tomate (sem sementes), a cebola roxa e o pimentão em cubinhos.",
           "s": null
         },
         {
-          "t": "Tempere com azeite, limão, sal e cheiro-verde. Sirva gelado.",
+          "t": "Escorra bem o atum e separe em lascas grandes.",
           "s": null
+        },
+        {
+          "t": "Misture o feijão, os legumes e o atum. Tempere com o azeite, o suco de limão, sal e bastante coentro ou salsinha.",
+          "s": null
+        },
+        {
+          "t": "Leve à geladeira para pegar sabor e sirva gelado.",
+          "s": 600
         }
       ],
       "en": [
         {
-          "t": "Boil beans until tender yet firm, drain, and rinse under cold water.",
+          "t": "If using dried beans, soak them overnight.",
+          "s": null
+        },
+        {
+          "t": "Cook the black-eyed peas (or pinto beans) in salted water until al dente, without breaking them.",
           "s": 900
         },
         {
-          "t": "Finely dice tomato, red onion, and bell pepper.",
+          "t": "Drain and cool under cold running water to stop the cooking.",
           "s": null
         },
         {
-          "t": "Fold drained tuna into cooled beans and veggies.",
+          "t": "Dice the seeded tomato, red onion and bell pepper small.",
           "s": null
         },
         {
-          "t": "Dress with olive oil, lime juice, salt, and fresh herbs; serve chilled.",
+          "t": "Drain the tuna well and break it into large flakes.",
           "s": null
+        },
+        {
+          "t": "Combine the beans, vegetables and tuna. Dress with the olive oil, lime juice, salt and plenty of cilantro or parsley.",
+          "s": null
+        },
+        {
+          "t": "Chill so it absorbs the flavors and serve cold.",
+          "s": 600
         }
       ]
     },
@@ -5588,55 +6788,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Corta el lomo de cerdo en láminas muy finas. Licúa 2 cucharadas de pasta de tomate, ajo, páprica defumada (y colorau si tienes), orégano, comino y jugo de naranja o piña.",
+          "t": "Corta el lomo de cerdo en láminas muy finas (es más fácil si lo congelas 20 min antes).",
           "s": null
         },
         {
-          "t": "Unta la carne con esa marinada roja y deja reposar 15 min para que tome color y sabor.",
+          "t": "Licúa 2 cdas de pasta de tomate, 2 dientes de ajo, 1 cdta de páprica ahumada, achiote/colorau, orégano, comino, sal y el jugo de naranja o piña hasta tener una pasta roja.",
+          "s": null
+        },
+        {
+          "t": "Unta bien la carne con la marinada y deja reposar en la nevera.",
           "s": 900
         },
         {
-          "t": "Calienta sartén sin mucho aceite y sella el cerdo a fuego alto 5 min hasta que los bordes queden tostaditos; agrega cubitos de piña el último minuto.",
+          "t": "Pica la cebolla y el cilantro, corta la piña en cubitos y el limón en gajos.",
+          "s": null
+        },
+        {
+          "t": "Calienta una sartén grande con unas gotas de aceite y sella el cerdo a fuego alto, en tandas, hasta que los bordes queden tostados; agrega la piña el último minuto.",
           "s": 300
         },
         {
-          "t": "Calienta las tortillas (o discos de tapioca) 30 seg por lado, rellena con la carne y corona con cebolla cruda picada, cilantro y limón.",
+          "t": "Calienta las tortillas (o los discos de tapioca) en sartén seca por ambos lados.",
+          "s": 60
+        },
+        {
+          "t": "Rellena con la carne picada y corona con cebolla, cilantro, piña y unas gotas de limón.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Fatie o lombo bem fino. Bata extrato de tomate, alho, páprica defumada, colorau, cominho e suco de laranja/abacaxi.",
+          "t": "Corte o lombo em lâminas bem finas (é mais fácil se congelar 20 min antes).",
           "s": null
         },
         {
-          "t": "Marine a carne nessa pasta vermelha por 15 min.",
+          "t": "Bata 2 colheres de extrato de tomate, 2 dentes de alho, 1 colher (chá) de páprica defumada, colorau, orégano, cominho, sal e o suco de laranja ou abacaxi até virar uma pasta vermelha.",
+          "s": null
+        },
+        {
+          "t": "Passe a marinada na carne e deixe descansar na geladeira.",
           "s": 900
         },
         {
-          "t": "Sele em frigideira bem quente por 5 min até dourar as bordas; junte cubinhos de abacaxi no último minuto.",
+          "t": "Pique a cebola e o coentro, corte o abacaxi em cubinhos e o limão em gomos.",
+          "s": null
+        },
+        {
+          "t": "Aqueça uma frigideira grande com gotas de óleo e sele o porco em fogo alto, aos poucos, até as bordas tostarem; junte o abacaxi no último minuto.",
           "s": 300
         },
         {
-          "t": "Aqueça as tortilhas/Rap10, recheie com a carne e finalize com cebola crua, coentro e limão.",
+          "t": "Aqueça as tortillas (ou discos de tapioca) em frigideira seca dos dois lados.",
+          "s": 60
+        },
+        {
+          "t": "Recheie com a carne picada e finalize com cebola, coentro, abacaxi e gotas de limão.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Slice pork thinly. Blend tomato paste, garlic, smoked paprika, cumin, oregano, and orange/pineapple juice.",
+          "t": "Slice the pork loin very thin (easier if you freeze it 20 min first).",
           "s": null
         },
         {
-          "t": "Marinate pork in red paste for 15 min.",
+          "t": "Blend 2 tbsp tomato paste, 2 garlic cloves, 1 tsp smoked paprika, annatto, oregano, cumin, salt and the orange or pineapple juice into a red paste.",
+          "s": null
+        },
+        {
+          "t": "Coat the meat well with the marinade and let it rest in the fridge.",
           "s": 900
         },
         {
-          "t": "Sear in a hot skillet 5 min until charred at edges; toss in diced pineapple for the last minute.",
+          "t": "Chop the onion and cilantro, dice the pineapple and cut the lime into wedges.",
+          "s": null
+        },
+        {
+          "t": "Heat a large pan with a few drops of oil and sear the pork over high heat in batches until the edges are charred; add the pineapple in the last minute.",
           "s": 300
         },
         {
-          "t": "Warm tortillas, fill with pork, and top with diced raw onion, cilantro, and lime.",
+          "t": "Warm the tortillas (or tapioca discs) in a dry pan on both sides.",
+          "s": 60
+        },
+        {
+          "t": "Fill with the chopped meat and top with onion, cilantro, pineapple and a squeeze of lime.",
           "s": null
         }
       ]
@@ -5725,55 +6961,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Corta las tortillas o Rap10 en triángulos y hornéalos (o pon en airfryer 6 min a 180°C) hasta que queden bien crocantes como nachos.",
+          "t": "Cuece la pechuga en agua con sal hasta que esté blanca por dentro y desmenúzala.",
+          "s": null
+        },
+        {
+          "t": "Corta las tortillas o el Rap10 en triángulos y hornéalos (o airfryer a 180 °C) hasta que estén crocantes como nachos.",
           "s": 360
         },
         {
-          "t": "Hierve tomates, cebolla, ajo y chile al gusto 8 min; licúalos con cilantro y sal para formar la salsa.",
+          "t": "Salsa: hierve los tomates, la cebolla, el ajo y el chile hasta que estén blandos.",
           "s": 480
         },
         {
-          "t": "Vierte la salsa en sartén y hierve 4 min hasta espesar ligeramente.",
+          "t": "Licúalos con un poco del agua de cocción, cilantro y sal.",
+          "s": null
+        },
+        {
+          "t": "Vierte la salsa en una sartén con unas gotas de aceite y hierve hasta que espese ligeramente.",
           "s": 240
         },
         {
-          "t": "Apaga el fuego, mete los triángulos crocantes y revuelve rápido 20 seg (para que se impregnen sin ablandarse del todo). Sirve con pollo desmenuzado, queijo minas y requeijão.",
+          "t": "Apaga el fuego, agrega los totopos y revuelve rápido para que se impregnen sin ablandarse del todo.",
+          "s": 20
+        },
+        {
+          "t": "Sirve de inmediato con el pollo desmenuzado, el queso desmoronado, el requeijão (o crema) y aros de cebolla.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Corte tortilhas/Rap10 em triângulos e asse ou leve à airfryer 6 min a 180°C até ficarem crocantes.",
+          "t": "Cozinhe o peito em água com sal até ficar branco por dentro e desfie.",
+          "s": null
+        },
+        {
+          "t": "Corte as tortillas ou Rap10 em triângulos e asse (ou airfryer a 180 °C) até ficarem crocantes como nachos.",
           "s": 360
         },
         {
-          "t": "Ferva tomates, cebola, alho e pimenta por 8 min; bata no liquidificador com coentro e sal.",
+          "t": "Molho: ferva os tomates, a cebola, o alho e a pimenta até amolecerem.",
           "s": 480
         },
         {
-          "t": "Aqueça o molho na frigideira por 4 min até encorpar.",
+          "t": "Bata com um pouco da água do cozimento, coentro e sal.",
+          "s": null
+        },
+        {
+          "t": "Despeje o molho numa frigideira com gotas de óleo e ferva até engrossar levemente.",
           "s": 240
         },
         {
-          "t": "Desligue o fogo, envolva os triângulos crocantes no molho rápido e sirva com frango desfiado, queijo minas e requeijão.",
+          "t": "Desligue o fogo, junte os triângulos e mexa rápido para pegarem molho sem amolecer totalmente.",
+          "s": 20
+        },
+        {
+          "t": "Sirva na hora com o frango desfiado, o queijo esfarelado, o requeijão (ou creme) e rodelas de cebola.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Cut tortillas into triangles and bake/air-fry 6 min until crisp.",
+          "t": "Poach the chicken breast in salted water until white inside and shred it.",
+          "s": null
+        },
+        {
+          "t": "Cut the tortillas or wraps into triangles and bake (or air-fry at 180 °C) until crisp like chips.",
           "s": 360
         },
         {
-          "t": "Boil tomatoes, onion, garlic, and chili 8 min; blend with cilantro and salt.",
+          "t": "Sauce: boil the tomatoes, onion, garlic and chili until soft.",
           "s": 480
         },
         {
-          "t": "Simmer sauce in skillet 4 min until slightly thickened.",
+          "t": "Blend them with a little cooking water, cilantro and salt.",
+          "s": null
+        },
+        {
+          "t": "Pour the sauce into a pan with a few drops of oil and simmer until slightly thickened.",
           "s": 240
         },
         {
-          "t": "Turn off heat, toss chips quickly to coat while keeping crunch, and top with chicken, Minas cheese, and cream.",
+          "t": "Turn off the heat, add the chips and toss quickly so they soak up sauce without going fully soft.",
+          "s": 20
+        },
+        {
+          "t": "Serve at once with the shredded chicken, crumbled cheese, requeijão (or crema) and onion rings.",
           "s": null
         }
       ]
@@ -5862,56 +7134,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Cuece la pechuga en agua con sal 15 min y desmenúzala con dos tenedores.",
-          "s": 900
-        },
-        {
-          "t": "Licúa tomate cocido con ajo, cebolla, páprica defumada, comino y pizca de chile; cocina la salsa en sartén 6 min.",
-          "s": 360
-        },
-        {
-          "t": "Pasa ligeramente las tortillas tibias por la salsa, rellena con pollo desmenuzado y enróllalas como taquitos en una fuente.",
+          "t": "Cuece la pechuga en agua con sal y desmenúzala con dos tenedores.",
           "s": null
         },
         {
-          "t": "Baña los rollitos con el resto de la salsa roja, cubre con queso rallado y gratina 8 min en horno; termina con crema/requeijão y cebolla.",
+          "t": "Hierve o asa los tomates hasta que estén blandos.",
           "s": 480
+        },
+        {
+          "t": "Licúalos con el ajo, un trozo de cebolla, páprica ahumada, comino, una pizca de chile y sal.",
+          "s": null
+        },
+        {
+          "t": "Cocina la salsa en una sartén con unas gotas de aceite hasta que espese.",
+          "s": 360
+        },
+        {
+          "t": "Precalienta el horno a 200 °C. Pasa cada tortilla tibia por la salsa, rellénala con pollo y enróllala; colócalas juntas en una fuente.",
+          "s": null
+        },
+        {
+          "t": "Baña con el resto de la salsa, cubre con el queso y gratina en el horno.",
+          "s": 480
+        },
+        {
+          "t": "Sirve con requeijão o crema, cebolla en aros y cilantro.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Cozinhe o peito de frango por 15 min e desfie.",
-          "s": 900
-        },
-        {
-          "t": "Bata tomate cozido com alho, cebola, páprica defumada e cominho; apure o molho por 6 min.",
-          "s": 360
-        },
-        {
-          "t": "Passe tortilhas mornas rapidamente no molho, recheie com frango e enrole numa travessa.",
+          "t": "Cozinhe o peito em água com sal e desfie com dois garfos.",
           "s": null
         },
         {
-          "t": "Cubra com o restante do molho e queijo; gratine 8 min e finalize com requeijão e cebola.",
+          "t": "Ferva ou asse os tomates até amolecerem.",
           "s": 480
+        },
+        {
+          "t": "Bata com o alho, um pedaço de cebola, páprica defumada, cominho, uma pitada de pimenta e sal.",
+          "s": null
+        },
+        {
+          "t": "Cozinhe o molho numa frigideira com gotas de óleo até engrossar.",
+          "s": 360
+        },
+        {
+          "t": "Preaqueça o forno a 200 °C. Passe cada tortilla morna no molho, recheie com frango e enrole; coloque lado a lado num refratário.",
+          "s": null
+        },
+        {
+          "t": "Cubra com o resto do molho e o queijo e gratine no forno.",
+          "s": 480
+        },
+        {
+          "t": "Sirva com requeijão ou creme, cebola em rodelas e coentro.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Poach chicken breast 15 min and shred.",
-          "s": 900
-        },
-        {
-          "t": "Blend boiled tomato, garlic, onion, smoked paprika, and cumin; simmer sauce 6 min.",
-          "s": 360
-        },
-        {
-          "t": "Dip warm tortillas lightly in sauce, fill with chicken, and roll seam-side down in a baking dish.",
+          "t": "Poach the chicken breast in salted water and shred it with two forks.",
           "s": null
         },
         {
-          "t": "Ladle remaining sauce and cheese on top; bake 8 min until bubbly.",
+          "t": "Boil or roast the tomatoes until soft.",
           "s": 480
+        },
+        {
+          "t": "Blend them with the garlic, a piece of onion, smoked paprika, cumin, a pinch of chili and salt.",
+          "s": null
+        },
+        {
+          "t": "Cook the sauce in a pan with a few drops of oil until thick.",
+          "s": 360
+        },
+        {
+          "t": "Preheat the oven to 200 °C. Dip each warm tortilla in the sauce, fill with chicken and roll; place side by side in a dish.",
+          "s": null
+        },
+        {
+          "t": "Pour over the rest of the sauce, top with cheese and bake until bubbling.",
+          "s": 480
+        },
+        {
+          "t": "Serve with requeijão or crema, onion rings and cilantro.",
+          "s": null
         }
       ]
     },
@@ -5992,56 +7300,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Remoja el maíz para canjica branca 4 horas y cuécelo en olla a presión 35 min hasta que los granos revienten como flor.",
-          "s": 1800
+          "t": "Si usas maíz seco para pozole o canjica, remójalo 4 horas o desde la víspera.",
+          "s": null
         },
         {
-          "t": "Cuece el lomo de cerdo en trozos en agua con media cebolla, ajo y laurel 25 min hasta que esté tierno; deshebra en trozos grandes y guarda el caldo.",
+          "t": "Cuécelo en olla a presión hasta que los granos revienten “como flor”.",
+          "s": 2100
+        },
+        {
+          "t": "Aparte, cuece el cerdo en trozos con agua, media cebolla, ajo, laurel y sal hasta que esté tierno; guarda el caldo.",
           "s": 1500
         },
         {
-          "t": "Licúa tomate con ajo, páprica defumada y chile suave; sofríe esa salsa 5 min y agrégala al caldo con el maíz y la carne.",
+          "t": "Licúa el tomate con ajo, páprica ahumada y chile suave.",
+          "s": null
+        },
+        {
+          "t": "Sofríe esa salsa en la olla con unas gotas de aceite y agrégala al caldo con el maíz y la carne deshebrada.",
           "s": 300
         },
         {
-          "t": "Hierve todo junto 15 min con orégano seco molido entre las manos. Sirve en plato hondo con repollo/lechuga picada fina, cebolla, rábano y limón.",
+          "t": "Hierve todo junto con orégano seco frotado entre las manos; ajusta la sal.",
           "s": 900
+        },
+        {
+          "t": "Sirve en plato hondo con lechuga o repollo picado fino, cebolla, rábano en rodajas y limón.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Deixe o milho de canjica branca de molho e cozinhe na pressão por 35 min até os grãos abrirem.",
-          "s": 1800
+          "t": "Se usar milho seco para pozole ou canjica, deixe de molho 4 horas ou desde a véspera.",
+          "s": null
         },
         {
-          "t": "Cozinhe o lombo com cebola, alho e louro por 25 min, desfie grosso e reserve o caldo.",
+          "t": "Cozinhe na pressão até os grãos estourarem “como flor”.",
+          "s": 2100
+        },
+        {
+          "t": "À parte, cozinhe o porco em pedaços com água, meia cebola, alho, louro e sal até ficar macio; guarde o caldo.",
           "s": 1500
         },
         {
-          "t": "Bata tomate com alho e páprica defumada; refogue 5 min e junte ao caldo com milho e carne.",
+          "t": "Bata o tomate com alho, páprica defumada e pimenta suave.",
+          "s": null
+        },
+        {
+          "t": "Refogue esse molho na panela com gotas de óleo e junte ao caldo com o milho e a carne desfiada.",
           "s": 300
         },
         {
-          "t": "Ferva tudo por 15 min com orégano. Sirva com repolho/alface fatiada, cebola e limão.",
+          "t": "Ferva tudo junto com orégano seco esfregado entre as mãos; acerte o sal.",
           "s": 900
+        },
+        {
+          "t": "Sirva em prato fundo com alface ou repolho fininho, cebola, rabanete em rodelas e limão.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Soak white hominy (canjica) and pressure-cook 35 min until kernels bloom.",
-          "s": 1800
+          "t": "If using dried hominy, soak it 4 hours or overnight.",
+          "s": null
         },
         {
-          "t": "Simmer pork with onion, garlic, and bay leaf 25 min; shred coarsely and save broth.",
+          "t": "Cook it in a pressure cooker until the kernels burst open “like flowers”.",
+          "s": 2100
+        },
+        {
+          "t": "Separately, simmer the pork pieces in water with half an onion, garlic, bay leaf and salt until tender; keep the broth.",
           "s": 1500
         },
         {
-          "t": "Blend tomato, garlic, and smoked paprika; fry 5 min and stir into broth with hominy and pork.",
+          "t": "Blend the tomato with garlic, smoked paprika and mild chili.",
+          "s": null
+        },
+        {
+          "t": "Fry that sauce in the pot with a few drops of oil and add it to the broth with the hominy and shredded pork.",
           "s": 300
         },
         {
-          "t": "Simmer 15 min with oregano. Top bowls with shredded cabbage/lettuce, onion, and lime.",
+          "t": "Simmer everything together with dried oregano rubbed between your palms; adjust the salt.",
           "s": 900
+        },
+        {
+          "t": "Serve in deep bowls with finely shredded lettuce or cabbage, onion, sliced radish and lime.",
+          "s": null
         }
       ]
     },
@@ -6122,56 +7466,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Sofríe la carne molida con cebolla, ajo, comino y pizca de sal 5 min hasta que dore y quede suelta.",
+          "t": "Pica la cebolla y el ajo; ralla el queso.",
+          "s": null
+        },
+        {
+          "t": "Sofríe la carne molida con la cebolla, el ajo, el comino y sal en una sartén con unas gotas de aceite hasta que dore y quede suelta.",
           "s": 300
         },
         {
-          "t": "Coloca una tortilla o Rap10 en sartén caliente sin aceite a fuego medio-bajo.",
+          "t": "Pico de gallo: pica tomate, cebolla y cilantro; mezcla con jugo de limón y sal.",
           "s": null
         },
         {
-          "t": "Reparte queso rallado en toda la tortilla y pon la carne caliente solo en una mitad.",
+          "t": "Calienta una sartén sin aceite a fuego medio-bajo y coloca una tortilla.",
           "s": null
         },
         {
-          "t": "Dobla por la mitad, presiona con espátula 1.5 min por lado hasta que quede crocante por fuera y el queso bien derretido. Sirve con pico de gallo (tomate, cebolla, limón).",
+          "t": "Reparte queso en toda la tortilla y pon la carne caliente solo en una mitad.",
+          "s": null
+        },
+        {
+          "t": "Dobla, presiona con la espátula y dora por ambos lados hasta que esté crocante y el queso fundido.",
           "s": 180
+        },
+        {
+          "t": "Corta en triángulos y sirve con el pico de gallo.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Refogue a carne moída com cebola, alho e cominho por 5 min até dourar.",
+          "t": "Pique a cebola e o alho; rale o queijo.",
+          "s": null
+        },
+        {
+          "t": "Refogue a carne moída com a cebola, o alho, o cominho e sal numa frigideira com gotas de óleo até dourar e ficar soltinha.",
           "s": 300
         },
         {
-          "t": "Coloque o Rap10 ou tortilha em frigideira média sem óleo.",
+          "t": "Pico de gallo: pique tomate, cebola e coentro; misture com suco de limão e sal.",
           "s": null
         },
         {
-          "t": "Espalhe queijo ralado por cima e a carne em apenas uma metade.",
+          "t": "Aqueça uma frigideira sem óleo em fogo médio-baixo e coloque uma tortilla.",
           "s": null
         },
         {
-          "t": "Dobre ao meio e doure 1.5 min de cada lado até derreter e ficar crocante; sirva com vinagrete.",
+          "t": "Espalhe queijo por toda a tortilla e coloque a carne quente só numa metade.",
+          "s": null
+        },
+        {
+          "t": "Dobre, aperte com a espátula e doure dos dois lados até ficar crocante e o queijo derreter.",
           "s": 180
+        },
+        {
+          "t": "Corte em triângulos e sirva com o pico de gallo.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Brown ground beef with onion, garlic, and cumin for 5 min.",
+          "t": "Chop the onion and garlic; grate the cheese.",
+          "s": null
+        },
+        {
+          "t": "Sauté the ground beef with the onion, garlic, cumin and salt in a pan with a few drops of oil until browned and crumbly.",
           "s": 300
         },
         {
-          "t": "Warm tortilla in a dry skillet over medium-low heat.",
+          "t": "Pico de gallo: chop tomato, onion and cilantro; mix with lime juice and salt.",
           "s": null
         },
         {
-          "t": "Sprinkle cheese all over and spoon beef onto one half.",
+          "t": "Heat a dry pan over medium-low and place a tortilla in it.",
           "s": null
         },
         {
-          "t": "Fold over and toast 1.5 min per side until crisp and melty; serve with fresh salsa.",
+          "t": "Spread cheese over the whole tortilla and put the hot beef on one half only.",
+          "s": null
+        },
+        {
+          "t": "Fold, press with the spatula and cook both sides until crisp and the cheese melts.",
           "s": 180
+        },
+        {
+          "t": "Cut into wedges and serve with the pico de gallo.",
+          "s": null
         }
       ]
     },
@@ -6259,56 +7639,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Corta la pechuga de pollo, el pimentón y la cebolla en tiras largas y finas (del mismo grosor para que se cocinen igual).",
+          "t": "Corta el pollo, el pimentón y la cebolla en tiras largas y del mismo grosor para que se cocinen igual.",
           "s": null
         },
         {
-          "t": "Mezcla el pollo con 1 cdta de comino, 1 cdta de páprica, ajo en polvo, sal y jugo de medio limón.",
+          "t": "Mezcla el pollo con 1 cdta de comino, 1 cdta de páprica, ajo, sal y el jugo de medio limón.",
           "s": null
         },
         {
-          "t": "Calienta sartén bien fuerte; sella primero las tiras de pollo 4 min hasta dorar y retira a un plato.",
+          "t": "Deja marinar mientras calientas la sartén.",
+          "s": 600
+        },
+        {
+          "t": "Calienta una sartén bien fuerte con un hilo de aceite y sella el pollo sin amontonarlo hasta dorar; retíralo.",
           "s": 240
         },
         {
-          "t": "En la misma sartén, saltea cebolla y pimentón 3 min para que queden tiernos pero aún crocantes; devuelve el pollo, mezcla 1 min y sirve en tortillas tibias.",
+          "t": "En la misma sartén saltea la cebolla y el pimentón: deben quedar tiernos pero crocantes.",
           "s": 180
+        },
+        {
+          "t": "Devuelve el pollo, mezcla y calienta las tortillas en sartén seca.",
+          "s": 60
+        },
+        {
+          "t": "Sirve en la sartén caliente con las tortillas, requeijão o crema y limón.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Corte o frango, o pimentão e a cebola em tiras finas e compridas.",
+          "t": "Corte o frango, o pimentão e a cebola em tiras compridas e da mesma espessura para cozinharem por igual.",
           "s": null
         },
         {
-          "t": "Tempere o frango com cominho, páprica, alho, sal e suco de meio limão.",
+          "t": "Misture o frango com 1 colher (chá) de cominho, 1 de páprica, alho, sal e o suco de meio limão.",
           "s": null
         },
         {
-          "t": "Em frigideira bem quente, sele as tiras de frango por 4 min e reserve.",
+          "t": "Deixe marinar enquanto aquece a frigideira.",
+          "s": 600
+        },
+        {
+          "t": "Aqueça bem uma frigideira com um fio de óleo e sele o frango sem amontoar até dourar; retire.",
           "s": 240
         },
         {
-          "t": "Salteie cebola e pimentão por 3 min mantendo crocantes; volte o frango por 1 min e sirva nas tortilhas.",
+          "t": "Na mesma frigideira salteie a cebola e o pimentão: devem ficar macios mas crocantes.",
           "s": 180
+        },
+        {
+          "t": "Volte o frango, misture e aqueça as tortillas em frigideira seca.",
+          "s": 60
+        },
+        {
+          "t": "Sirva na frigideira quente com as tortillas, requeijão ou creme e limão.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Slice chicken, bell pepper, and onion into uniform thin strips.",
+          "t": "Cut the chicken, bell pepper and onion into long strips of the same thickness so they cook evenly.",
           "s": null
         },
         {
-          "t": "Toss chicken with cumin, paprika, garlic, salt, and lime juice.",
+          "t": "Toss the chicken with 1 tsp cumin, 1 tsp paprika, garlic, salt and the juice of half a lime.",
           "s": null
         },
         {
-          "t": "Sear chicken in a hot skillet 4 min until browned; remove.",
+          "t": "Let it marinate while the pan heats.",
+          "s": 600
+        },
+        {
+          "t": "Heat a pan very hot with a drizzle of oil and sear the chicken without crowding until golden; remove.",
           "s": 240
         },
         {
-          "t": "Stir-fry onion and peppers 3 min until crisp-tender; return chicken 1 min and serve in warm wraps.",
+          "t": "In the same pan sauté the onion and pepper: tender but still crisp.",
           "s": 180
+        },
+        {
+          "t": "Return the chicken, toss and warm the tortillas in a dry pan.",
+          "s": 60
+        },
+        {
+          "t": "Serve in the hot pan with the tortillas, requeijão or crema and lime.",
+          "s": null
         }
       ]
     },
@@ -6389,56 +7805,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Cuece la pechuga de pollo en agua con laurel y sal 15 min; desmenúzala con tenedores.",
-          "s": 900
-        },
-        {
-          "t": "Licúa los tomates maduros con 1 diente de ajo, 1 cdta generosa de páprica defumada, chile al gusto y un chorrito de caldo.",
+          "t": "Cuece la pechuga en agua con laurel y sal hasta que esté cocida; desmenúzala y guarda un poco de caldo.",
           "s": null
         },
         {
-          "t": "Corta la cebolla en plumas finas y sofríela en sartén 4 min hasta que empiece a transparentar.",
+          "t": "Cocina el arroz si no lo tienes listo.",
+          "s": 1080
+        },
+        {
+          "t": "Licúa los tomates con 1 diente de ajo, 1 cdta generosa de páprica ahumada (o chipotle si tienes), chile al gusto y un chorrito del caldo.",
+          "s": null
+        },
+        {
+          "t": "Corta la cebolla en plumas finas y sofríela en una sartén con unas gotas de aceite hasta que transparente.",
           "s": 240
         },
         {
-          "t": "Vierte la salsa roja licuada, hierve 3 min, agrega el pollo desmenuzado y cocina 5 min hasta que quede jugoso y concentrado.",
+          "t": "Vierte la salsa y hierve hasta que espese.",
+          "s": 180
+        },
+        {
+          "t": "Agrega el pollo desmenuzado y cocina hasta que quede jugoso y concentrado; ajusta la sal.",
           "s": 300
+        },
+        {
+          "t": "Sirve sobre arroz, en tostadas o tacos, con un poco de requeijão o crema.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Cozinhe o peito de frango com louro e sal por 15 min e desfie.",
-          "s": 900
-        },
-        {
-          "t": "Bata tomates maduros com alho, páprica defumada, pimenta e um pouco do caldo.",
+          "t": "Cozinhe o peito em água com louro e sal até cozinhar; desfie e guarde um pouco do caldo.",
           "s": null
         },
         {
-          "t": "Refogue cebola fatiada fina por 4 min até murchar.",
+          "t": "Cozinhe o arroz se não tiver pronto.",
+          "s": 1080
+        },
+        {
+          "t": "Bata os tomates com 1 dente de alho, 1 colher (chá) cheia de páprica defumada (ou chipotle se tiver), pimenta a gosto e um pouco do caldo.",
+          "s": null
+        },
+        {
+          "t": "Corte a cebola em meias-luas finas e refogue numa frigideira com gotas de óleo até ficar transparente.",
           "s": 240
         },
         {
-          "t": "Despeje o molho batido, ferva 3 min, junte o frango desfiado e apure por 5 min.",
+          "t": "Despeje o molho e ferva até engrossar.",
+          "s": 180
+        },
+        {
+          "t": "Junte o frango desfiado e cozinhe até ficar suculento e apurado; acerte o sal.",
           "s": 300
+        },
+        {
+          "t": "Sirva sobre arroz, em tostadas ou tacos, com um pouco de requeijão ou creme.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Poach chicken breast 15 min and shred finely.",
-          "s": 900
-        },
-        {
-          "t": "Blend ripe tomatoes with garlic, smoked paprika, chili, and a splash of broth.",
+          "t": "Poach the chicken breast in water with bay leaf and salt until cooked; shred and save some broth.",
           "s": null
         },
         {
-          "t": "Sauté thinly sliced onion 4 min until softened.",
+          "t": "Cook the rice if not ready.",
+          "s": 1080
+        },
+        {
+          "t": "Blend the tomatoes with 1 garlic clove, 1 heaped tsp smoked paprika (or chipotle if you have it), chili to taste and a splash of broth.",
+          "s": null
+        },
+        {
+          "t": "Slice the onion thinly and sauté in a pan with a few drops of oil until translucent.",
           "s": 240
         },
         {
-          "t": "Pour in red sauce, simmer 3 min, add shredded chicken and cook 5 min until rich.",
+          "t": "Pour in the sauce and simmer until thick.",
+          "s": 180
+        },
+        {
+          "t": "Add the shredded chicken and cook until juicy and concentrated; adjust the salt.",
           "s": 300
+        },
+        {
+          "t": "Serve over rice, on tostadas or in tacos, with a little requeijão or crema.",
+          "s": null
         }
       ]
     },
@@ -6526,56 +7978,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Sofríe cebolla y ajo 2 min; añade tomate picado y cocina 5 min machacando hasta formar una salsa rústica con chile al gusto.",
-          "s": 300
-        },
-        {
-          "t": "Aparte, calienta el feijão carioca en ollita y aplástalo con tenedor hasta obtener pasta cremosa.",
-          "s": 180
-        },
-        {
-          "t": "Tuesta las tortillas ligeramente en sartén y úntales una capa de frijol.",
+          "t": "Pica la cebolla, el ajo y el tomate; desmorona el queso.",
           "s": null
         },
         {
-          "t": "Fríe los huevos (con yema blanda), colócalos sobre las tortillas, baña con la salsa ranchera caliente y espolvorea queso y cilantro.",
+          "t": "Salsa ranchera: sofríe la cebolla y el ajo con unas gotas de aceite, añade el tomate y chile al gusto y cocina machacando hasta formar una salsa rústica; sala.",
+          "s": 420
+        },
+        {
+          "t": "Calienta el frijol en una ollita y aplástalo con un tenedor hasta tener una pasta cremosa (agrega un chorrito de agua si está seco).",
+          "s": 240
+        },
+        {
+          "t": "Tuesta las tortillas en sartén seca y úntales una capa de frijol.",
+          "s": 120
+        },
+        {
+          "t": "Fríe los huevos con unas gotas de aceite, dejando la yema blanda.",
           "s": 180
+        },
+        {
+          "t": "Coloca los huevos sobre las tortillas y báñalos con la salsa ranchera caliente.",
+          "s": null
+        },
+        {
+          "t": "Termina con el queso y cilantro picado y sirve enseguida.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Refogue cebola, alho e tomate picado por 5 min amassando até virar molho rústico.",
-          "s": 300
-        },
-        {
-          "t": "Aqueça o feijão carioca e amasse com garfo até formar pasta.",
-          "s": 180
-        },
-        {
-          "t": "Aqueça as tortilhas na frigideira e espalhe o feijão.",
+          "t": "Pique a cebola, o alho e o tomate; esfarele o queijo.",
           "s": null
         },
         {
-          "t": "Frite os ovos com gema mole, coloque por cima, regue com o molho quente e salpique queijo.",
+          "t": "Molho ranchero: refogue a cebola e o alho com gotas de óleo, junte o tomate e pimenta a gosto e cozinhe amassando até virar um molho rústico; salgue.",
+          "s": 420
+        },
+        {
+          "t": "Aqueça o feijão numa panelinha e amasse com um garfo até virar uma pasta cremosa (junte um pouco de água se estiver seco).",
+          "s": 240
+        },
+        {
+          "t": "Toste as tortillas em frigideira seca e passe uma camada de feijão.",
+          "s": 120
+        },
+        {
+          "t": "Frite os ovos com gotas de óleo, deixando a gema mole.",
           "s": 180
+        },
+        {
+          "t": "Coloque os ovos sobre as tortillas e regue com o molho ranchero quente.",
+          "s": null
+        },
+        {
+          "t": "Finalize com o queijo e coentro picado e sirva logo.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Sauté onion, garlic, and tomato 5 min, mashing into a chunky salsa.",
-          "s": 300
-        },
-        {
-          "t": "Warm carioca beans and mash into a spreadable paste.",
-          "s": 180
-        },
-        {
-          "t": "Toast tortillas lightly and spread with beans.",
+          "t": "Chop the onion, garlic and tomato; crumble the cheese.",
           "s": null
         },
         {
-          "t": "Top with sunny-side-up eggs, warm ranchera sauce, cheese, and cilantro.",
+          "t": "Ranchera sauce: sauté the onion and garlic with a few drops of oil, add the tomato and chili to taste and cook, mashing, into a rustic sauce; salt it.",
+          "s": 420
+        },
+        {
+          "t": "Heat the beans in a small pot and mash with a fork into a creamy paste (add a splash of water if dry).",
+          "s": 240
+        },
+        {
+          "t": "Toast the tortillas in a dry pan and spread with a layer of beans.",
+          "s": 120
+        },
+        {
+          "t": "Fry the eggs with a few drops of oil, keeping the yolks runny.",
           "s": 180
+        },
+        {
+          "t": "Set the eggs on the tortillas and spoon the hot ranchera sauce over them.",
+          "s": null
+        },
+        {
+          "t": "Finish with the cheese and chopped cilantro and serve right away.",
+          "s": null
         }
       ]
     },
@@ -6656,55 +8144,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Saltea la carne molida (o pollo en cubos) con comino, páprica, ajo y sal durante 5 min hasta dorar.",
+          "t": "Cocina el arroz y, aún tibio, mézclalo con el jugo de medio limón, cilantro picado y una pizca de sal.",
+          "s": null
+        },
+        {
+          "t": "Saltea la carne molida (o pollo en cubos) en una sartén con unas gotas de aceite, comino, páprica, ajo y sal hasta dorar.",
           "s": 300
         },
         {
-          "t": "Mezcla el arroz cocido tibio con jugo de medio limón y cilantro picado.",
+          "t": "Calienta los frijoles negros con un poco de su líquido y sal.",
+          "s": 180
+        },
+        {
+          "t": "Pico de gallo: pica tomate, cebolla morada y cilantro; mezcla con limón y sal.",
           "s": null
         },
         {
-          "t": "Prepara pico de gallo fresco mezclando tomate, cebolla morada, cilantro y limón.",
+          "t": "Corta el aguacate en láminas y rocíale limón para que no se oscurezca.",
           "s": null
         },
         {
-          "t": "Arma el bowl por secciones: arroz al limón, frijoles negros calientes, carne, pico de gallo y láminas de aguacate (abacate).",
+          "t": "Arma el bowl por secciones: arroz al limón, frijoles, carne, pico de gallo y aguacate.",
+          "s": null
+        },
+        {
+          "t": "Sirve con un gajo de limón y salsa picante al gusto.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Doure o patinho moído com cominho, páprica, alho e sal por 5 min.",
+          "t": "Cozinhe o arroz e, ainda morno, misture com o suco de meio limão, coentro picado e uma pitada de sal.",
+          "s": null
+        },
+        {
+          "t": "Salteie a carne moída (ou frango em cubos) numa frigideira com gotas de óleo, cominho, páprica, alho e sal até dourar.",
           "s": 300
         },
         {
-          "t": "Misture o arroz cozido morno com limão e coentro picado.",
+          "t": "Aqueça o feijão preto com um pouco do caldo e sal.",
+          "s": 180
+        },
+        {
+          "t": "Pico de gallo: pique tomate, cebola roxa e coentro; misture com limão e sal.",
           "s": null
         },
         {
-          "t": "Faça vinagrete fresco com tomate, cebola roxa, coentro e limão.",
+          "t": "Corte o abacate em lâminas e regue com limão para não escurecer.",
           "s": null
         },
         {
-          "t": "Monte o bowl em seções: arroz, feijão preto, carne, vinagrete e fatias de abacate.",
+          "t": "Monte a tigela por seções: arroz com limão, feijão, carne, pico de gallo e abacate.",
+          "s": null
+        },
+        {
+          "t": "Sirva com um gomo de limão e molho de pimenta a gosto.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Brown beef with cumin, paprika, garlic, and salt for 5 min.",
+          "t": "Cook the rice and, while warm, mix it with the juice of half a lime, chopped cilantro and a pinch of salt.",
+          "s": null
+        },
+        {
+          "t": "Sauté the ground beef (or cubed chicken) in a pan with a few drops of oil, cumin, paprika, garlic and salt until browned.",
           "s": 300
         },
         {
-          "t": "Toss warm cooked rice with lime juice and chopped cilantro.",
+          "t": "Heat the black beans with a little of their liquid and salt.",
+          "s": 180
+        },
+        {
+          "t": "Pico de gallo: chop tomato, red onion and cilantro; mix with lime and salt.",
           "s": null
         },
         {
-          "t": "Mix fresh pico de gallo from tomato, red onion, cilantro, and lime.",
+          "t": "Slice the avocado and squeeze lime over it so it does not brown.",
           "s": null
         },
         {
-          "t": "Assemble bowl with lime rice, black beans, beef, salsa, and sliced avocado.",
+          "t": "Build the bowl in sections: lime rice, beans, meat, pico de gallo and avocado.",
+          "s": null
+        },
+        {
+          "t": "Serve with a lime wedge and hot sauce to taste.",
           "s": null
         }
       ]
@@ -6786,56 +8310,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Corta el pescado fresco en láminas delgadas (si usas camarón, límpialo y ábrelo en mariposa; puedes blanquearlo 30 seg si prefieres no comerlo crudo).",
+          "t": "Usa pescado o camarón muy fresco y bien frío. Si prefieres no comerlo crudo, blanquea el camarón 30 segundos en agua hirviendo y pásalo a agua con hielo.",
           "s": null
         },
         {
-          "t": "En la licuadora, procesa el jugo de 3 limones con 1 puñado de cilantro, 1/3 de pepino, chile verde sin semillas y sal hasta obtener un líquido verde intenso.",
+          "t": "Corta el pescado en láminas delgadas (o abre los camarones en mariposa) y guárdalo en la nevera mientras preparas lo demás.",
           "s": null
         },
         {
-          "t": "Acomoda el pescado en plato frío junto con medias lunas de pepino y cebolla morada finita.",
+          "t": "Pela el pepino y córtalo en medias lunas; corta la cebolla morada en plumas finas.",
           "s": null
         },
         {
-          "t": "Vierte la salsa verde helada justo antes de servir (deja reposar solo 5 min) y acompaña con aguacate y tostadas crocantes.",
+          "t": "Licúa el jugo de 3 limones con un puñado de cilantro, 1/3 del pepino, chile verde sin semillas y sal hasta obtener un líquido verde intenso. Enfríalo.",
+          "s": null
+        },
+        {
+          "t": "Acomoda el pescado en un plato frío con el pepino y la cebolla.",
+          "s": null
+        },
+        {
+          "t": "Vierte la salsa verde helada justo antes de servir y deja reposar solo unos minutos.",
           "s": 300
+        },
+        {
+          "t": "Sirve con láminas de aguacate y tostadas crocantes.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Fatie o peixe bem fino (ou abra o camarão limpo; se preferir, dê um susto de 30s na água fervente).",
+          "t": "Use peixe ou camarão bem fresco e gelado. Se preferir não comer cru, branqueie o camarão 30 segundos em água fervendo e passe para água com gelo.",
           "s": null
         },
         {
-          "t": "Bata no liquidificador suco de 3 limões, coentro, pedaço de pepino, pimenta verde e sal.",
+          "t": "Corte o peixe em lâminas finas (ou abra os camarões em borboleta) e guarde na geladeira enquanto prepara o resto.",
           "s": null
         },
         {
-          "t": "Disponha o peixe em prato gelado com rodelas finas de pepino e cebola roxa.",
+          "t": "Descasque o pepino e corte em meias-luas; corte a cebola roxa em tiras finas.",
           "s": null
         },
         {
-          "t": "Despeje o molho verde gelado na hora de servir (aguarde 5 min) e finalize com abacate.",
+          "t": "Bata o suco de 3 limões com um punhado de coentro, 1/3 do pepino, pimenta verde sem sementes e sal até ficar um líquido verde intenso. Gele.",
+          "s": null
+        },
+        {
+          "t": "Arrume o peixe num prato gelado com o pepino e a cebola.",
+          "s": null
+        },
+        {
+          "t": "Despeje o molho verde gelado logo antes de servir e deixe descansar só alguns minutos.",
           "s": 300
+        },
+        {
+          "t": "Sirva com lâminas de abacate e tostadas crocantes.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Thinly slice fresh fish (or butterfly shrimp).",
+          "t": "Use very fresh, well-chilled fish or shrimp. If you prefer it not raw, blanch the shrimp 30 seconds in boiling water and plunge into ice water.",
           "s": null
         },
         {
-          "t": "Blend fresh lime juice, cilantro, cucumber piece, green chili, and salt into a bright green liquid.",
+          "t": "Slice the fish thinly (or butterfly the shrimp) and keep it in the fridge while you prepare the rest.",
           "s": null
         },
         {
-          "t": "Arrange fish on a chilled plate with thin cucumber and red onion.",
+          "t": "Peel the cucumber and cut into half-moons; slice the red onion thinly.",
           "s": null
         },
         {
-          "t": "Pour cold green sauce over, wait 5 min, and top with avocado.",
+          "t": "Blend the juice of 3 limes with a handful of cilantro, 1/3 of the cucumber, seeded green chili and salt into a vivid green liquid. Chill it.",
+          "s": null
+        },
+        {
+          "t": "Arrange the fish on a cold plate with the cucumber and onion.",
+          "s": null
+        },
+        {
+          "t": "Pour the ice-cold green sauce over just before serving and let it sit only a few minutes.",
           "s": 300
+        },
+        {
+          "t": "Serve with avocado slices and crisp tostadas.",
+          "s": null
         }
       ]
     },
@@ -6923,55 +8483,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Asa o dora los tomates cortados a la mitad junto con cebolla y ajo en sartén caliente 6 min hasta que tomen puntos tostados.",
+          "t": "Cuece la pechuga en agua con sal y desmenúzala; guarda el caldo.",
+          "s": null
+        },
+        {
+          "t": "Asa los tomates partidos, la cebolla y el ajo en sartén caliente hasta que tengan puntos tostados.",
           "s": 360
         },
         {
-          "t": "Licúa lo asado con 2 tazas de caldo de pollo, comino y páprica; cuela y hierve en olla 10 min.",
+          "t": "Licúalos con 2 tazas del caldo, comino y páprica.",
+          "s": null
+        },
+        {
+          "t": "Cuela y hierve en una olla con unas gotas de aceite; ajusta la sal.",
           "s": 600
         },
         {
-          "t": "Mientras hierve, corta tiras finas de tortilla y tuéstalas en horno/airfryer 5 min hasta quedar crocantes.",
+          "t": "Mientras, corta tiras finas de tortilla y tuéstalas en horno o airfryer hasta que estén crocantes.",
           "s": 300
         },
         {
-          "t": "Sirve el caldo bien caliente en tazón y añade en el centro pollo desmenuzado, cubos de queijo minas, aguacate y las tiras crocantes.",
+          "t": "Corta el queso y el aguacate en cubos.",
+          "s": null
+        },
+        {
+          "t": "Sirve el caldo bien caliente y pon en el centro el pollo, el queso, el aguacate y las tiras crocantes.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Asse ou toste tomates cortados ao meio com cebola e alho na frigideira por 6 min.",
+          "t": "Cozinhe o peito em água com sal e desfie; guarde o caldo.",
+          "s": null
+        },
+        {
+          "t": "Toste os tomates cortados, a cebola e o alho em frigideira quente até ficarem com pontos queimadinhos.",
           "s": 360
         },
         {
-          "t": "Bata no liquidificador com caldo de frango, cominho e páprica; ferva na panela por 10 min.",
+          "t": "Bata com 2 xícaras do caldo, cominho e páprica.",
+          "s": null
+        },
+        {
+          "t": "Coe e ferva numa panela com gotas de óleo; acerte o sal.",
           "s": 600
         },
         {
-          "t": "Corte tiras finas de tortilha/Rap10 e torre na airfryer por 5 min.",
+          "t": "Enquanto isso, corte tiras finas de tortilla e toste no forno ou airfryer até ficarem crocantes.",
           "s": 300
         },
         {
-          "t": "Sirva o caldo bem quente com frango desfiado, queijo minas em cubos, abacate e tiras crocantes.",
+          "t": "Corte o queijo e o abacate em cubos.",
+          "s": null
+        },
+        {
+          "t": "Sirva o caldo bem quente e coloque no centro o frango, o queijo, o abacate e as tiras crocantes.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Char halved tomatoes, onion, and garlic in a hot skillet 6 min.",
+          "t": "Poach the chicken breast in salted water and shred it; keep the broth.",
+          "s": null
+        },
+        {
+          "t": "Char the halved tomatoes, onion and garlic in a hot pan until spotted with brown.",
           "s": 360
         },
         {
-          "t": "Blend with chicken broth, cumin, and paprika; simmer 10 min.",
+          "t": "Blend them with 2 cups of the broth, cumin and paprika.",
+          "s": null
+        },
+        {
+          "t": "Strain and simmer in a pot with a few drops of oil; adjust the salt.",
           "s": 600
         },
         {
-          "t": "Bake or air-fry thin tortilla strips 5 min until crisp.",
+          "t": "Meanwhile, cut thin tortilla strips and toast them in the oven or air fryer until crisp.",
           "s": 300
         },
         {
-          "t": "Ladle hot soup into bowls and top with shredded chicken, Minas cheese, avocado, and crisp strips.",
+          "t": "Cube the cheese and avocado.",
+          "s": null
+        },
+        {
+          "t": "Serve the soup piping hot and place the chicken, cheese, avocado and crispy strips in the center.",
           "s": null
         }
       ]
@@ -7053,55 +8649,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Licúa jugo de 1 naranja + jugo de 1 limón, 3 dientes de ajo, 1 cda de colorau/páprica, orégano, comino y sal.",
+          "t": "Licúa el jugo de 1 naranja y 1 limón, 3 dientes de ajo, 1 cda de achiote o colorau, páprica, orégano, comino y sal hasta tener una pasta naranja-roja.",
           "s": null
         },
         {
-          "t": "Unta los trozos de lomo o paleta de cerdo con esa pasta naranja-roja y deja marinar 20 min.",
+          "t": "Corta el cerdo en trozos grandes y úntalo bien con la pasta.",
+          "s": null
+        },
+        {
+          "t": "Deja marinar en la nevera (si puedes, desde la noche anterior).",
           "s": 1200
         },
         {
-          "t": "Cocina en olla a presión 25 min (o olla tapada a fuego bajo 45 min) hasta que la carne se deshebre sola con tenedor.",
+          "t": "Cocina en olla a presión con un chorrito de agua (o en olla tapada a fuego bajo unos 45 min) hasta que la carne se deshebre sola.",
           "s": 1500
         },
         {
-          "t": "Mientras tanto, encurte cebolla morada en plumas finas con jugo de limón y sal. Sirve la carne deshebrada jugosa en tacos con la cebolla morada.",
+          "t": "Mientras, encurte la cebolla morada en plumas finas con jugo de limón y sal.",
+          "s": null
+        },
+        {
+          "t": "Deshebra la carne con dos tenedores y mézclala con su jugo de cocción.",
+          "s": null
+        },
+        {
+          "t": "Sirve en tortillas calientes con la cebolla encurtida.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Bata suco de 1 laranja + 1 limão, alho, colorau/páprica, orégano, cominho e sal.",
+          "t": "Bata o suco de 1 laranja e 1 limão, 3 dentes de alho, 1 colher de urucum ou colorau, páprica, orégano, cominho e sal até virar uma pasta laranja-avermelhada.",
           "s": null
         },
         {
-          "t": "Marine o lombo ou pernil nessa pasta por 20 min.",
+          "t": "Corte o porco em pedaços grandes e passe bem a pasta.",
+          "s": null
+        },
+        {
+          "t": "Deixe marinar na geladeira (se puder, desde a noite anterior).",
           "s": 1200
         },
         {
-          "t": "Cozinhe na pressão por 25 min até desfiar com facilidade.",
+          "t": "Cozinhe na pressão com um pouco de água (ou panela tampada em fogo baixo uns 45 min) até a carne desfiar sozinha.",
           "s": 1500
         },
         {
-          "t": "Misture cebola roxa fatiada com limão e sal e sirva sobre a carne desfiada em tacos.",
+          "t": "Enquanto isso, faça a cebola roxa em conserva rápida: tiras finas com suco de limão e sal.",
+          "s": null
+        },
+        {
+          "t": "Desfie a carne com dois garfos e misture com o caldo do cozimento.",
+          "s": null
+        },
+        {
+          "t": "Sirva em tortillas quentes com a cebola em conserva.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Blend orange juice, lime juice, garlic, colorau/paprika, oregano, cumin, and salt.",
+          "t": "Blend the juice of 1 orange and 1 lime, 3 garlic cloves, 1 tbsp annatto, paprika, oregano, cumin and salt into an orange-red paste.",
           "s": null
         },
         {
-          "t": "Marinate pork chunks in the citrus-annatto paste for 20 min.",
+          "t": "Cut the pork into large chunks and rub it well with the paste.",
+          "s": null
+        },
+        {
+          "t": "Marinate in the fridge (overnight if you can).",
           "s": 1200
         },
         {
-          "t": "Pressure-cook 25 min until shreddable with a fork.",
+          "t": "Cook in a pressure cooker with a splash of water (or covered on low about 45 min) until the meat falls apart.",
           "s": 1500
         },
         {
-          "t": "Pickle sliced red onion in lime and salt; serve over shredded pork in warm tortillas.",
+          "t": "Meanwhile, quick-pickle the thinly sliced red onion with lime juice and salt.",
+          "s": null
+        },
+        {
+          "t": "Shred the meat with two forks and mix it with its cooking juices.",
+          "s": null
+        },
+        {
+          "t": "Serve in warm tortillas with the pickled onion.",
           "s": null
         }
       ]
@@ -7183,56 +8815,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Corta el pão francês por la mitad a lo largo y tuéstalo ligeramente 2 min en sartén o airfryer para que no se aguade.",
+          "t": "Precalienta el horno o airfryer a 200 °C. Corta el pan a lo largo por la mitad.",
+          "s": null
+        },
+        {
+          "t": "Tuesta ligeramente las mitades para que no se humedezcan con el frijol.",
           "s": 120
         },
         {
-          "t": "Machaca el feijão carioca/negro caliente con ajo y un poquito de caldo hasta formar pasta untable.",
+          "t": "Machaca el frijol caliente con ajo, sal y un poco de caldo hasta formar una pasta untable.",
+          "s": 240
+        },
+        {
+          "t": "Unta una capa generosa de frijol en cada mitad y cubre con el queso.",
           "s": null
         },
         {
-          "t": "Unta una capa generosa de frijol sobre cada mitad de pan y cubre con láminas de queso.",
-          "s": null
-        },
-        {
-          "t": "Lleva al horno/airfryer 5 min a 200°C hasta derretir y dorar; sirve con pico de gallo fresco encima.",
+          "t": "Hornea hasta que el queso se derrita y dore.",
           "s": 300
+        },
+        {
+          "t": "Mientras, prepara pico de gallo con tomate, cebolla, cilantro, limón y sal.",
+          "s": null
+        },
+        {
+          "t": "Sirve los molletes calientes con el pico de gallo encima.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Corte o pão francês ao meio e toste por 2 min para ficar firme.",
+          "t": "Preaqueça o forno ou airfryer a 200 °C. Corte o pão ao meio no comprimento.",
+          "s": null
+        },
+        {
+          "t": "Toste levemente as metades para não umedecerem com o feijão.",
           "s": 120
         },
         {
-          "t": "Amasse feijão carioca ou preto quente com alho até virar pasta.",
+          "t": "Amasse o feijão quente com alho, sal e um pouco de caldo até virar uma pasta.",
+          "s": 240
+        },
+        {
+          "t": "Passe uma camada generosa de feijão em cada metade e cubra com o queijo.",
           "s": null
         },
         {
-          "t": "Espalhe o feijão sobre o pão e cubra com fatias de queijo.",
-          "s": null
-        },
-        {
-          "t": "Leve à airfryer ou forno por 5 min até derreter e sirva com vinagrete fresco.",
+          "t": "Asse até o queijo derreter e dourar.",
           "s": 300
+        },
+        {
+          "t": "Enquanto isso, prepare o pico de gallo com tomate, cebola, coentro, limão e sal.",
+          "s": null
+        },
+        {
+          "t": "Sirva os molletes quentes com o pico de gallo por cima.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Halve crusty bread rolls lengthwise and toast 2 min.",
+          "t": "Preheat the oven or air fryer to 200 °C. Split the roll lengthwise.",
+          "s": null
+        },
+        {
+          "t": "Toast the halves lightly so the beans do not make them soggy.",
           "s": 120
         },
         {
-          "t": "Mash warm beans with garlic into a smooth spread.",
+          "t": "Mash the hot beans with garlic, salt and a little stock into a spreadable paste.",
+          "s": 240
+        },
+        {
+          "t": "Spread a generous layer of beans on each half and cover with cheese.",
           "s": null
         },
         {
-          "t": "Spread beans over bread halves and top with cheese slices.",
-          "s": null
-        },
-        {
-          "t": "Broil or air-fry 5 min until melted; finish with fresh tomato salsa.",
+          "t": "Bake until the cheese melts and browns.",
           "s": 300
+        },
+        {
+          "t": "Meanwhile, make pico de gallo with tomato, onion, cilantro, lime and salt.",
+          "s": null
+        },
+        {
+          "t": "Serve the molletes hot with the pico de gallo on top.",
+          "s": null
         }
       ]
     },
@@ -7313,55 +8981,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Sofríe cebolla y ajo 3 min; agrega el frijol cocido con su caldo y licúa todo hasta obtener una crema espesa y lisa.",
+          "t": "Cuece la pechuga en agua con sal y desmenúzala.",
+          "s": null
+        },
+        {
+          "t": "Sofríe la cebolla y el ajo con unas gotas de aceite.",
           "s": 180
         },
         {
-          "t": "Regresa la crema de frijol a la olla a fuego muy bajo para que se mantenga caliente (si está muy espesa, añade chorrito de agua).",
+          "t": "Licúa el sofrito con los frijoles cocidos y su caldo hasta tener una crema espesa y lisa; sala.",
           "s": null
         },
         {
-          "t": "Rellena tortillas tibias con pollo desmenuzado (o huevo revuelto) y dóblalas en cuatro o en rollos.",
+          "t": "Regresa la crema a la olla a fuego muy bajo para mantenerla caliente; si está muy espesa, añade agua.",
+          "s": 300
+        },
+        {
+          "t": "Calienta las tortillas en sartén seca.",
+          "s": 60
+        },
+        {
+          "t": "Rellena cada tortilla con pollo y dóblala en cuatro o enróllala.",
           "s": null
         },
         {
-          "t": "Baña completamente con la crema de frijol caliente y decora con queijo minas desmoronado y aros de cebolla.",
+          "t": "Báñalas por completo con la crema de frijol caliente y decora con queso desmoronado y aros de cebolla.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Refogue cebola e alho por 3 min, junte o feijão com caldo e bata no liquidificador até ficar liso.",
+          "t": "Cozinhe o peito em água com sal e desfie.",
+          "s": null
+        },
+        {
+          "t": "Refogue a cebola e o alho com gotas de óleo.",
           "s": 180
         },
         {
-          "t": "Mantenha o creme de feijão aquecido em fogo bem baixo.",
+          "t": "Bata o refogado com o feijão cozido e o caldo até virar um creme grosso e liso; salgue.",
           "s": null
         },
         {
-          "t": "Recheie tortilhas mornas com frango desfiado e dobre.",
+          "t": "Volte o creme à panela em fogo bem baixo para manter quente; se estiver grosso demais, junte água.",
+          "s": 300
+        },
+        {
+          "t": "Aqueça as tortillas em frigideira seca.",
+          "s": 60
+        },
+        {
+          "t": "Recheie cada tortilla com frango e dobre em quatro ou enrole.",
           "s": null
         },
         {
-          "t": "Cubra com o creme de feijão quente e finalize com queijo minas esfarelado e cebola.",
+          "t": "Cubra totalmente com o creme de feijão quente e decore com queijo esfarelado e rodelas de cebola.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Sauté onion and garlic 3 min; blend with cooked beans and broth until velvety.",
+          "t": "Poach the chicken breast in salted water and shred it.",
+          "s": null
+        },
+        {
+          "t": "Sauté the onion and garlic with a few drops of oil.",
           "s": 180
         },
         {
-          "t": "Keep bean sauce warm over very low heat.",
+          "t": "Blend the sauté with the cooked beans and their broth into a thick, smooth cream; salt it.",
           "s": null
         },
         {
-          "t": "Fill warm tortillas with shredded chicken and fold.",
+          "t": "Return the cream to the pot over very low heat to keep warm; add water if too thick.",
+          "s": 300
+        },
+        {
+          "t": "Warm the tortillas in a dry pan.",
+          "s": 60
+        },
+        {
+          "t": "Fill each tortilla with chicken and fold into quarters or roll up.",
           "s": null
         },
         {
-          "t": "Coat generously with hot bean sauce and garnish with crumbled Minas cheese and onion.",
+          "t": "Cover completely with the hot bean cream and garnish with crumbled cheese and onion rings.",
           "s": null
         }
       ]
@@ -7443,56 +9147,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Corta la carne en cubos pequeños, el pimentón y la cebolla en cuadros.",
+          "t": "Corta la carne en cubos pequeños y el pimentón y la cebolla en cuadros.",
           "s": null
         },
         {
-          "t": "Dora la carne en sartén bien caliente 4 min con sal, pimienta y pizca de ajo (si quieres toque tradicional, agrega 1 tira de tocino picado).",
+          "t": "Sazona la carne con sal, pimienta y ajo picado.",
+          "s": null
+        },
+        {
+          "t": "Dora la carne en sartén bien caliente con unas gotas de aceite (si quieres el toque tradicional, primero dora 1 tira de tocino picado).",
           "s": 240
         },
         {
-          "t": "Añade cebolla y pimentón y saltea 4 min hasta que ablanden ligeramente.",
+          "t": "Agrega la cebolla y el pimentón y saltea hasta que ablanden ligeramente.",
           "s": 240
         },
         {
-          "t": "Extiende queso rallado cubriendo toda la sartén, tapa 2 min a fuego bajo hasta derretir y sirve directo con tortillas.",
+          "t": "Ajusta la sal y esparce el queso rallado cubriendo toda la sartén.",
+          "s": null
+        },
+        {
+          "t": "Tapa a fuego bajo hasta que el queso se derrita.",
           "s": 120
+        },
+        {
+          "t": "Sirve directo de la sartén con tortillas calientes y salsa al gusto.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Corte a carne em cubinhos e o pimentão e cebola em quadrados.",
+          "t": "Corte a carne em cubinhos e o pimentão e a cebola em quadrados.",
           "s": null
         },
         {
-          "t": "Sele a carne em frigideira quente por 4 min com sal, pimenta e alho.",
+          "t": "Tempere a carne com sal, pimenta e alho picado.",
+          "s": null
+        },
+        {
+          "t": "Doure a carne em frigideira bem quente com gotas de óleo (para o toque tradicional, doure antes 1 fatia de bacon picada).",
           "s": 240
         },
         {
-          "t": "Junte cebola e pimentão e salteie por 4 min.",
+          "t": "Junte a cebola e o pimentão e salteie até amolecerem levemente.",
           "s": 240
         },
         {
-          "t": "Cubra tudo com queijo ralado, tampe 2 min para derreter e sirva com tortilhas.",
+          "t": "Acerte o sal e espalhe o queijo ralado cobrindo toda a frigideira.",
+          "s": null
+        },
+        {
+          "t": "Tampe em fogo baixo até o queijo derreter.",
           "s": 120
+        },
+        {
+          "t": "Sirva direto da frigideira com tortillas quentes e molho a gosto.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Dice beef, bell pepper, and onion into bite-sized squares.",
+          "t": "Cut the beef into small cubes and the bell pepper and onion into squares.",
           "s": null
         },
         {
-          "t": "Sear beef in a hot skillet 4 min with garlic, salt, and pepper.",
+          "t": "Season the beef with salt, pepper and chopped garlic.",
+          "s": null
+        },
+        {
+          "t": "Brown the beef in a very hot pan with a few drops of oil (for the traditional touch, first crisp 1 strip of chopped bacon).",
           "s": 240
         },
         {
-          "t": "Toss in onion and peppers for 4 min.",
+          "t": "Add the onion and pepper and sauté until slightly softened.",
           "s": 240
         },
         {
-          "t": "Blanket with shredded cheese, cover 2 min to melt, and scoop into warm tortillas.",
+          "t": "Adjust the salt and scatter the grated cheese over the whole pan.",
+          "s": null
+        },
+        {
+          "t": "Cover over low heat until the cheese melts.",
           "s": 120
+        },
+        {
+          "t": "Serve straight from the pan with warm tortillas and salsa to taste.",
+          "s": null
         }
       ]
     },
@@ -7580,55 +9320,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Lleva tortillas o Rap10 a la airfryer/horno 5 min a 180°C hasta que queden rígidas y crocantes.",
+          "t": "Precalienta el horno o airfryer a 180 °C.",
+          "s": null
+        },
+        {
+          "t": "Tuesta las tortillas hasta que queden rígidas y crocantes.",
           "s": 300
         },
         {
-          "t": "Escurre muy bien el atún y mézclalo con tomate, cebolla morada picada fina, cilantro y jugo de 1 limón.",
+          "t": "Escurre muy bien el atún.",
           "s": null
         },
         {
-          "t": "Si deseas cremosidad, añade 1 cucharada de requeijão light o mayonesa.",
+          "t": "Pica fino el tomate, la cebolla morada y el cilantro.",
           "s": null
         },
         {
-          "t": "Sirve la mezcla sobre las tostadas justo al momento de comer (para que no se ablanden) y corona con láminas de aguacate.",
+          "t": "Mezcla el atún con las verduras, el jugo de 1 limón y sal; si quieres cremosidad, añade 1 cda de requeijão o mayonesa light.",
+          "s": null
+        },
+        {
+          "t": "Corta el aguacate en láminas.",
+          "s": null
+        },
+        {
+          "t": "Pon la mezcla sobre las tostadas justo al momento de comer (para que no se ablanden) y corona con el aguacate.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Asse tortilhas ou Rap10 na airfryer a 180°C por 5 min até ficarem bem crocantes.",
+          "t": "Preaqueça o forno ou airfryer a 180 °C.",
+          "s": null
+        },
+        {
+          "t": "Toste as tortillas até ficarem firmes e crocantes.",
           "s": 300
         },
         {
-          "t": "Escorra bem o atum e misture com tomate, cebola roxa, coentro e suco de 1 limão.",
+          "t": "Escorra muito bem o atum.",
           "s": null
         },
         {
-          "t": "Adicione 1 colher de requeijão light ou maionese se desejar.",
+          "t": "Pique fino o tomate, a cebola roxa e o coentro.",
           "s": null
         },
         {
-          "t": "Monte sobre as tostadas na hora de comer e finalize com abacate.",
+          "t": "Misture o atum com os legumes, o suco de 1 limão e sal; se quiser cremosidade, junte 1 colher de requeijão ou maionese light.",
+          "s": null
+        },
+        {
+          "t": "Corte o abacate em lâminas.",
+          "s": null
+        },
+        {
+          "t": "Coloque a mistura sobre as tostadas só na hora de comer (para não amolecerem) e finalize com o abacate.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Bake or air-fry tortillas 5 min at 180°C until crisp and flat.",
+          "t": "Preheat the oven or air fryer to 180 °C.",
+          "s": null
+        },
+        {
+          "t": "Toast the tortillas until stiff and crisp.",
           "s": 300
         },
         {
-          "t": "Mix well-drained tuna with diced tomato, red onion, cilantro, and lime juice.",
+          "t": "Drain the tuna very well.",
           "s": null
         },
         {
-          "t": "Fold in 1 tbsp light requeijão or mayo if desired.",
+          "t": "Finely chop the tomato, red onion and cilantro.",
           "s": null
         },
         {
-          "t": "Spoon onto crisp bases right before eating and top with sliced avocado.",
+          "t": "Mix the tuna with the vegetables, the juice of 1 lime and salt; for creaminess, add 1 tbsp requeijão or light mayo.",
+          "s": null
+        },
+        {
+          "t": "Slice the avocado.",
+          "s": null
+        },
+        {
+          "t": "Spoon the mixture onto the tostadas right before eating (so they stay crisp) and top with avocado.",
           "s": null
         }
       ]
@@ -7717,55 +9493,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Hierve la pechuga de pollo en 800 ml de agua con cebolla, 2 dientes de ajo y orégano durante 15 min; retira el pollo y desmenúzalo.",
+          "t": "Pon la pechuga en una olla con 800 ml de agua, un trozo de cebolla, 2 dientes de ajo, orégano y sal.",
+          "s": null
+        },
+        {
+          "t": "Hierve hasta que el pollo esté cocido; retíralo y desmenúzalo.",
           "s": 900
         },
         {
-          "t": "Sofríe aparte tomate picado y tiras de pimentón 3 min; agrégalos al caldo junto con la ralladura de medio limón.",
+          "t": "Sofríe aparte el tomate picado y las tiras de pimentón con unas gotas de aceite.",
           "s": 180
         },
         {
-          "t": "Devuelve el pollo desmenuzado y cocina 4 min más.",
+          "t": "Agrégalos al caldo con la ralladura de medio limón y el pollo; cocina unos minutos más.",
           "s": 240
         },
         {
-          "t": "Apaga el fuego (muy importante para que el limón no amargue!), exprime el jugo de limón fresco, sirve con tiras de tortilla crocante y aguacate.",
+          "t": "Mientras, tuesta las tiras de tortilla en horno o airfryer hasta que estén crocantes.",
+          "s": 300
+        },
+        {
+          "t": "Apaga el fuego (importante para que el limón no amargue) y exprime el jugo de limón fresco. Ajusta la sal.",
+          "s": null
+        },
+        {
+          "t": "Sirve con las tiras de tortilla crocante, aguacate y una rodaja de limón.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Cozinhe o frango em 800 ml de água com cebola, alho e orégano por 15 min; retire e desfie.",
+          "t": "Coloque o peito numa panela com 800 ml de água, um pedaço de cebola, 2 dentes de alho, orégano e sal.",
+          "s": null
+        },
+        {
+          "t": "Ferva até o frango cozinhar; retire e desfie.",
           "s": 900
         },
         {
-          "t": "Refogue tomate e pimentão por 3 min e junte ao caldo com raspas de limão.",
+          "t": "À parte, refogue o tomate picado e as tiras de pimentão com gotas de óleo.",
           "s": 180
         },
         {
-          "t": "Volte o frango desfiado e ferva mais 4 min.",
+          "t": "Junte ao caldo com as raspas de meio limão e o frango; cozinhe mais alguns minutos.",
           "s": 240
         },
         {
-          "t": "Desligue o fogo (para o limão não amargar), esprema o suco fresco e sirva com tiras crocantes.",
+          "t": "Enquanto isso, toste as tiras de tortilla no forno ou airfryer até ficarem crocantes.",
+          "s": 300
+        },
+        {
+          "t": "Desligue o fogo (importante para o limão não amargar) e esprema o suco de limão fresco. Acerte o sal.",
+          "s": null
+        },
+        {
+          "t": "Sirva com as tiras crocantes, abacate e uma rodela de limão.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Simmer chicken in 800ml water with onion, garlic, and oregano 15 min; shred.",
+          "t": "Put the chicken breast in a pot with 800 ml water, a piece of onion, 2 garlic cloves, oregano and salt.",
+          "s": null
+        },
+        {
+          "t": "Simmer until the chicken is cooked; remove and shred it.",
           "s": 900
         },
         {
-          "t": "Sauté tomato and bell pepper 3 min; add to broth with lime zest.",
+          "t": "Separately, sauté the chopped tomato and pepper strips with a few drops of oil.",
           "s": 180
         },
         {
-          "t": "Return shredded chicken and simmer 4 min.",
+          "t": "Add them to the broth with the zest of half a lime and the chicken; cook a few more minutes.",
           "s": 240
         },
         {
-          "t": "Turn off heat (prevents bitterness!), squeeze in fresh lime juice, and top with crisp strips.",
+          "t": "Meanwhile, toast the tortilla strips in the oven or air fryer until crisp.",
+          "s": 300
+        },
+        {
+          "t": "Turn off the heat (important so the lime does not turn bitter) and squeeze in fresh lime juice. Adjust the salt.",
+          "s": null
+        },
+        {
+          "t": "Serve with the crispy strips, avocado and a lime slice.",
           "s": null
         }
       ]
@@ -7847,56 +9659,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Pica la papa y la zanahoria en cubitos muy pequeños (5 mm) para que se cuezan rápido.",
+          "t": "Pica la papa y la zanahoria en cubitos muy pequeños (5 mm) para que se cuezan rápido. Pica la cebolla y el ajo.",
           "s": null
         },
         {
-          "t": "Dora la carne molida en sartén 5 min con cebolla picada, ajo, comino y sal.",
+          "t": "Cocina el arroz si no lo tienes listo.",
+          "s": 1080
+        },
+        {
+          "t": "Dora la carne molida en una sartén con unas gotas de aceite, la cebolla, el ajo, el comino y sal.",
           "s": 300
         },
         {
-          "t": "Licúa los tomates con un poquito de agua y viértelos sobre la carne junto con la papa y zanahoria.",
+          "t": "Licúa los tomates con un poquito de agua.",
           "s": null
         },
         {
-          "t": "Tapa y cocina a fuego medio 12 min removiendo ocasionalmente hasta que las verduras estén suaves y el guiso jugoso.",
+          "t": "Vierte el tomate sobre la carne y agrega la papa y la zanahoria.",
+          "s": null
+        },
+        {
+          "t": "Tapa y cocina a fuego medio, removiendo de vez en cuando, hasta que las verduras estén suaves y el guiso jugoso; añade agua si se seca.",
           "s": 720
+        },
+        {
+          "t": "Ajusta la sal y sirve con arroz o en tortillas.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Pique batata e cenoura em cubinhos bem pequenos (5 mm).",
+          "t": "Pique a batata e a cenoura em cubinhos bem pequenos (5 mm) para cozinharem rápido. Pique a cebola e o alho.",
           "s": null
         },
         {
-          "t": "Doure a carne moída com cebola, alho e cominho por 5 min.",
+          "t": "Cozinhe o arroz se não tiver pronto.",
+          "s": 1080
+        },
+        {
+          "t": "Doure a carne moída numa frigideira com gotas de óleo, a cebola, o alho, o cominho e sal.",
           "s": 300
         },
         {
-          "t": "Bata os tomates no liquidificador e despeje sobre a carne com a batata e cenoura.",
+          "t": "Bata os tomates com um pouquinho de água.",
           "s": null
         },
         {
-          "t": "Tampe e cozinhe por 12 min até os legumes ficarem macios; sirva com arroz.",
+          "t": "Despeje o tomate sobre a carne e junte a batata e a cenoura.",
+          "s": null
+        },
+        {
+          "t": "Tampe e cozinhe em fogo médio, mexendo às vezes, até os legumes ficarem macios e o ensopado suculento; junte água se secar.",
           "s": 720
+        },
+        {
+          "t": "Acerte o sal e sirva com arroz ou em tortillas.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Finely dice potato and carrot into 5mm cubes.",
+          "t": "Dice the potato and carrot very small (5 mm) so they cook quickly. Chop the onion and garlic.",
           "s": null
         },
         {
-          "t": "Brown ground beef with onion, garlic, and cumin 5 min.",
+          "t": "Cook the rice if not ready.",
+          "s": 1080
+        },
+        {
+          "t": "Brown the ground beef in a pan with a few drops of oil, the onion, garlic, cumin and salt.",
           "s": 300
         },
         {
-          "t": "Blend tomatoes with a splash of water and pour over beef with diced veggies.",
+          "t": "Blend the tomatoes with a little water.",
           "s": null
         },
         {
-          "t": "Simmer covered 12 min until tender and saucy.",
+          "t": "Pour the tomato over the beef and add the potato and carrot.",
+          "s": null
+        },
+        {
+          "t": "Cover and cook over medium heat, stirring occasionally, until the vegetables are tender and the stew juicy; add water if it dries out.",
           "s": 720
+        },
+        {
+          "t": "Adjust the salt and serve with rice or in tortillas.",
+          "s": null
         }
       ]
     },
@@ -7984,56 +9832,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Pica los camarones limpios (o filete de tilapia) en trozos pequeños.",
+          "t": "Pica los camarones limpios (o el filete de tilapia) en trozos pequeños.",
           "s": null
         },
         {
-          "t": "Sofríe cebolla, pimentón y tomate picado fino en sartén 4 min; añade el marisco/pescado con ajo y orégano y saltea 3 min.",
-          "s": 420
-        },
-        {
-          "t": "Coloca tortillas en otra sartén caliente, cubre con queso rallado y el relleno de pescado en una mitad.",
+          "t": "Pica fino la cebolla, el pimentón, el tomate y el ajo; ralla el queso.",
           "s": null
         },
         {
-          "t": "Dobla como quesadilla y dora 1.5 min por lado hasta quedar crocante; sirve con limón.",
+          "t": "Sofríe la cebolla, el pimentón y el tomate en una sartén con unas gotas de aceite.",
+          "s": 240
+        },
+        {
+          "t": "Añade el marisco con el ajo, orégano y sal, y saltea solo hasta que cambie de color.",
           "s": 180
+        },
+        {
+          "t": "Coloca una tortilla en otra sartén caliente, cubre con queso y pon el relleno en una mitad.",
+          "s": null
+        },
+        {
+          "t": "Dobla como quesadilla y dora por ambos lados hasta que esté crocante.",
+          "s": 180
+        },
+        {
+          "t": "Sirve con limón y salsa al gusto.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Pique os camarões limpos (ou tilápia) em pedaços pequenos.",
+          "t": "Pique os camarões limpos (ou o filé de tilápia) em pedaços pequenos.",
           "s": null
         },
         {
-          "t": "Refogue cebola, pimentão e tomate por 4 min; junte o camarão/peixe com alho e orégano por 3 min.",
-          "s": 420
-        },
-        {
-          "t": "Aqueça tortilhas na frigideira, espalhe queijo e o recheio em metade.",
+          "t": "Pique fino a cebola, o pimentão, o tomate e o alho; rale o queijo.",
           "s": null
         },
         {
-          "t": "Dobre e doure 1.5 min de cada lado até ficar crocante; sirva com limão.",
+          "t": "Refogue a cebola, o pimentão e o tomate numa frigideira com gotas de óleo.",
+          "s": 240
+        },
+        {
+          "t": "Junte o fruto do mar com o alho, orégano e sal, e salteie só até mudar de cor.",
           "s": 180
+        },
+        {
+          "t": "Coloque uma tortilla em outra frigideira quente, cubra com queijo e ponha o recheio numa metade.",
+          "s": null
+        },
+        {
+          "t": "Dobre como quesadilla e doure dos dois lados até ficar crocante.",
+          "s": 180
+        },
+        {
+          "t": "Sirva com limão e molho a gosto.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Roughly chop peeled shrimp or tilapia fillet.",
+          "t": "Chop the cleaned shrimp (or tilapia fillet) into small pieces.",
           "s": null
         },
         {
-          "t": "Sauté onion, bell pepper, and tomato 4 min; toss in seafood with garlic and oregano 3 min.",
-          "s": 420
-        },
-        {
-          "t": "Warm tortillas in a skillet with shredded cheese and seafood filling on half.",
+          "t": "Finely chop the onion, bell pepper, tomato and garlic; grate the cheese.",
           "s": null
         },
         {
-          "t": "Fold and crisp 1.5 min per side; serve with lime.",
+          "t": "Sauté the onion, pepper and tomato in a pan with a few drops of oil.",
+          "s": 240
+        },
+        {
+          "t": "Add the seafood with the garlic, oregano and salt, and sauté just until it changes color.",
           "s": 180
+        },
+        {
+          "t": "Place a tortilla in another hot pan, cover with cheese and put the filling on one half.",
+          "s": null
+        },
+        {
+          "t": "Fold like a quesadilla and brown both sides until crisp.",
+          "s": 180
+        },
+        {
+          "t": "Serve with lime and salsa to taste.",
+          "s": null
         }
       ]
     },
@@ -8121,55 +10005,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Marina el filete de res 15 min con jugo de limón, 2 cucharadas de jugo de naranja, ajo machacado, 1 cdta de shoyu y comino.",
+          "t": "Mezcla el jugo de limón, 2 cdas de jugo de naranja, ajo machacado, 1 cdta de shoyu, comino y sal.",
+          "s": null
+        },
+        {
+          "t": "Marina el filete de res en esa mezcla.",
           "s": 900
         },
         {
-          "t": "Calienta sartén o plancha al máximo; sella la carne entera 3 min por lado hasta lograr buen dorado exterior y centro jugoso.",
+          "t": "Mientras, pica la cebolla y el cilantro y machaca el aguacate con limón y sal.",
+          "s": null
+        },
+        {
+          "t": "Calienta la sartén o plancha al máximo con unas gotas de aceite y sella la carne entera por ambos lados hasta tener buen dorado y centro jugoso.",
           "s": 360
         },
         {
-          "t": "Saca la carne a una tabla y déjala reposar 4 min antes de picar en cubitos (así no pierde sus jugos).",
+          "t": "Pásala a una tabla y déjala reposar para que no pierda sus jugos.",
           "s": 240
         },
         {
-          "t": "Sirve sobre tortillas calientes con cebolla, cilantro, salsa roja y aguacate machacado con limón.",
+          "t": "Pica la carne en cubitos y calienta las tortillas en sartén seca.",
+          "s": 60
+        },
+        {
+          "t": "Sirve en tortillas con cebolla, cilantro, salsa roja y el aguacate.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Marine o bife por 15 min com limão, suco de laranja, alho, shoyu e cominho.",
+          "t": "Misture o suco de limão, 2 colheres de suco de laranja, alho amassado, 1 colher (chá) de shoyu, cominho e sal.",
+          "s": null
+        },
+        {
+          "t": "Marine o bife nessa mistura.",
           "s": 900
         },
         {
-          "t": "Grelhe em chapa bem quente por 3 min de cada lado.",
+          "t": "Enquanto isso, pique a cebola e o coentro e amasse o abacate com limão e sal.",
+          "s": null
+        },
+        {
+          "t": "Aqueça a frigideira ou chapa no máximo com gotas de óleo e sele a carne inteira dos dois lados até dourar bem e ficar suculenta por dentro.",
           "s": 360
         },
         {
-          "t": "Deixe a carne descansar na tábua por 4 min antes de picar em cubinhos.",
+          "t": "Passe para uma tábua e deixe descansar para não perder o suco.",
           "s": 240
         },
         {
-          "t": "Sirva em tortilhas quentes com cebola, coentro e abacate amassado.",
+          "t": "Pique a carne em cubinhos e aqueça as tortillas em frigideira seca.",
+          "s": 60
+        },
+        {
+          "t": "Sirva nas tortillas com cebola, coentro, molho vermelho e o abacate.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Marinate steak 15 min in lime, orange juice, garlic, soy sauce, and cumin.",
+          "t": "Mix the lime juice, 2 tbsp orange juice, crushed garlic, 1 tsp soy sauce, cumin and salt.",
+          "s": null
+        },
+        {
+          "t": "Marinate the beef steak in the mixture.",
           "s": 900
         },
         {
-          "t": "Sear over smoking-hot skillet 3 min per side.",
+          "t": "Meanwhile, chop the onion and cilantro and mash the avocado with lime and salt.",
+          "s": null
+        },
+        {
+          "t": "Heat the pan or griddle to maximum with a few drops of oil and sear the whole steak on both sides until well browned and juicy inside.",
           "s": 360
         },
         {
-          "t": "Rest steak on cutting board 4 min before dicing finely.",
+          "t": "Move it to a board and let it rest so it keeps its juices.",
           "s": 240
         },
         {
-          "t": "Serve in warm tortillas with onion, cilantro, and mashed avocado.",
+          "t": "Dice the meat and warm the tortillas in a dry pan.",
+          "s": 60
+        },
+        {
+          "t": "Serve in tortillas with onion, cilantro, red salsa and the avocado.",
           "s": null
         }
       ]
@@ -8251,56 +10171,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Cuece la batata-doce en rodajas gruesas en agua 15 min y déjala enfriar; corta la cebolla morada en plumas finas y remójala 5 min en agua fría con sal para quitarle lo picante.",
+          "t": "Cuece el camote en rodajas gruesas y el choclo en agua con sal; deja enfriar.",
           "s": 900
         },
         {
-          "t": "Corta los filetes de pescado bien fríos en cubos de 2 cm (descarta partes oscuras o espinas).",
+          "t": "Corta la cebolla morada en plumas finas y remójala en agua fría con sal para quitarle lo picante; escúrrela.",
+          "s": 300
+        },
+        {
+          "t": "Corta el pescado bien frío en cubos de 2 cm, descartando partes oscuras y espinas. Mantenlo en la nevera hasta el último momento.",
           "s": null
         },
         {
-          "t": "En un bol frío, mezcla el pescado con sal (necesita buena sal antes del limón), ajo rallado, cilantro picado y chile/dedo-de-moça sin venas.",
+          "t": "Exprime los limones a mano, sin apretar demasiado la cáscara para que el jugo no amargue.",
           "s": null
         },
         {
-          "t": "Exprime el jugo de limón fresco sin apretar demasiado la cáscara (para no amargar), mezcla suave 2 minutos (¡no lo dejes horas, el ceviche peruano se come al instante!) y sirve con cebolla morada, batata-doce y maíz.",
+          "t": "En un bol frío sala bien el pescado (la sal va antes del limón), añade ajo rallado, ají o chile sin venas y cilantro picado.",
+          "s": null
+        },
+        {
+          "t": "Vierte el jugo de limón y mezcla suavemente; el pescado debe tornarse blanco por fuera. ¡El ceviche peruano no se deja horas!",
           "s": 120
+        },
+        {
+          "t": "Sirve al instante con la cebolla encima, el camote y el choclo al lado; bebe la “leche de tigre” del fondo.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Cozinhe a batata-doce por 15 min e deixe esfriar; fatie a cebola roxa bem fina e lave em água gelada.",
+          "t": "Cozinhe a batata-doce em rodelas grossas e o milho em água com sal; deixe esfriar.",
           "s": 900
         },
         {
-          "t": "Corte o peixe bem gelado em cubos de 2 cm.",
+          "t": "Corte a cebola roxa em tiras finas e deixe de molho em água gelada com sal para tirar o ardor; escorra.",
+          "s": 300
+        },
+        {
+          "t": "Corte o peixe bem gelado em cubos de 2 cm, descartando partes escuras e espinhas. Mantenha na geladeira até o último momento.",
           "s": null
         },
         {
-          "t": "Misture o peixe em tigela fria com sal, alho ralado, coentro e pimenta dedo-de-moça picadinha.",
+          "t": "Esprema os limões à mão, sem apertar demais a casca para o suco não amargar.",
           "s": null
         },
         {
-          "t": "Esprema o suco de limão fresco (sem espremer a casca para não amargar), misture por 2 min e sirva na hora com cebola roxa, batata-doce e milho.",
+          "t": "Numa tigela gelada salgue bem o peixe (o sal vai antes do limão), junte alho ralado, pimenta sem veias e coentro picado.",
+          "s": null
+        },
+        {
+          "t": "Despeje o suco de limão e misture delicadamente; o peixe deve ficar branco por fora. Ceviche peruano não descansa horas!",
           "s": 120
+        },
+        {
+          "t": "Sirva na hora com a cebola por cima, a batata-doce e o milho ao lado; beba o “leite de tigre” do fundo.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Boil sweet potato 15 min and cool; thinly slice red onion and soak in cold water.",
+          "t": "Boil thick sweet-potato slices and the corn in salted water; let cool.",
           "s": 900
         },
         {
-          "t": "Cut well-chilled white fish into 2cm cubes.",
+          "t": "Slice the red onion thinly and soak it in cold salted water to tame the bite; drain.",
+          "s": 300
+        },
+        {
+          "t": "Cut the well-chilled fish into 2 cm cubes, discarding dark parts and bones. Keep it in the fridge until the last moment.",
           "s": null
         },
         {
-          "t": "Toss fish in a chilled bowl with salt, grated garlic, cilantro, and minced chili.",
+          "t": "Squeeze the limes by hand without pressing the peel too hard so the juice does not turn bitter.",
           "s": null
         },
         {
-          "t": "Squeeze fresh lime juice over (avoiding bitter pith), toss 2 min, and serve immediately with onion, sweet potato, and corn.",
+          "t": "In a cold bowl salt the fish well (salt goes before the lime), add grated garlic, deseeded chili and chopped cilantro.",
+          "s": null
+        },
+        {
+          "t": "Pour in the lime juice and toss gently; the fish should turn white outside. Peruvian ceviche is never left for hours!",
           "s": 120
+        },
+        {
+          "t": "Serve at once with the onion on top and the sweet potato and corn alongside; drink the “tiger’s milk” left in the bowl.",
+          "s": null
         }
       ]
     },
@@ -8388,67 +10344,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Corta las papas en bastones y dóralas en airfryer 15 min a 200°C (o al horno) hasta quedar crocantes.",
+          "t": "Corta las papas en bastones y dóralas en airfryer u horno a 200 °C hasta que estén crocantes.",
           "s": 900
         },
         {
-          "t": "Corta la carne en tiras gruesas de 2 cm, sazona con sal, pimienta y comino. Corta cebolla morada y tomate en gajos gruesos (retira las semillas al tomate).",
+          "t": "Cocina el arroz si no lo tienes listo.",
+          "s": 1080
+        },
+        {
+          "t": "Corta la carne en tiras gruesas de 2 cm y sazónala con sal, pimienta y comino. Corta la cebolla morada y el tomate (sin semillas) en gajos gruesos.",
           "s": null
         },
         {
-          "t": "Calienta un wok o sartén grande al MÁXIMO hasta que humee. Sella la carne 2 min sin moverla mucho para que quede dorada y jugosa; retira un segundo.",
+          "t": "Calienta un wok o sartén grande al máximo hasta que humee; sella la carne en tandas sin moverla mucho para que dore y quede jugosa; retírala.",
           "s": 120
         },
         {
-          "t": "En esa sartén ardiente, saltea la cebolla 1 min, añade ajo, tomate en gajos, 2 cdas de shoyu y 1 cda de vinagre tinto/manzana.",
-          "s": null
+          "t": "En la sartén ardiente saltea la cebolla, añade el ajo y luego el tomate: deben quedar firmes, no deshechos.",
+          "s": 60
         },
         {
-          "t": "Devuelve la carne, mezcla 30 seg con cilantro fresco picado (y las papas si te gusta todo junto) y sirve al instante con arroz blanco.",
+          "t": "Vierte 2 cdas de sillao/shoyu y 1 cda de vinagre tinto o de manzana por el borde para que flamee y caramelice.",
+          "s": 30
+        },
+        {
+          "t": "Devuelve la carne, mezcla con cilantro picado (y las papas si te gustan integradas) y sirve al instante con el arroz.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Corte as batatas em palitos e asse na airfryer a 200°C por 15 min até ficarem crocantes.",
+          "t": "Corte as batatas em palitos e doure na airfryer ou forno a 200 °C até ficarem crocantes.",
           "s": 900
         },
         {
-          "t": "Corte a carne em tiras grossas e tempere com sal, pimenta e cominho; corte cebola roxa e tomate em gomos.",
+          "t": "Cozinhe o arroz se não tiver pronto.",
+          "s": 1080
+        },
+        {
+          "t": "Corte a carne em tiras grossas de 2 cm e tempere com sal, pimenta e cominho. Corte a cebola roxa e o tomate (sem sementes) em gomos grossos.",
           "s": null
         },
         {
-          "t": "Aqueça a frigideira no máximo até fumegar; sele a carne por 2 min e reserve.",
+          "t": "Aqueça um wok ou frigideira grande no máximo até soltar fumaça; sele a carne aos poucos sem mexer muito para dourar e ficar suculenta; retire.",
           "s": 120
         },
         {
-          "t": "Salteie a cebola roxa 1 min, junte alho, tomate, shoyu e 1 colher de vinagre.",
-          "s": null
+          "t": "Na frigideira bem quente salteie a cebola, junte o alho e depois o tomate: devem ficar firmes, não desmanchados.",
+          "s": 60
         },
         {
-          "t": "Volte a carne com coentro picado por 30s e sirva imediatamente com arroz e batatas.",
+          "t": "Despeje 2 colheres de shoyu e 1 de vinagre de vinho ou maçã pela borda para flambar e caramelizar.",
+          "s": 30
+        },
+        {
+          "t": "Volte a carne, misture com coentro picado (e as batatas, se gostar tudo junto) e sirva na hora com o arroz.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Cut potatoes into fries and air-fry at 200°C for 15 min until crisp.",
+          "t": "Cut the potatoes into sticks and crisp them in the air fryer or oven at 200 °C.",
           "s": 900
         },
         {
-          "t": "Slice beef into thick strips; cut red onion and tomato into thick wedges.",
+          "t": "Cook the rice if not ready.",
+          "s": 1080
+        },
+        {
+          "t": "Cut the beef into thick 2 cm strips and season with salt, pepper and cumin. Cut the red onion and tomato (seeded) into thick wedges.",
           "s": null
         },
         {
-          "t": "Heat a wok/skillet until smoking; sear beef 2 min and remove briefly.",
+          "t": "Heat a wok or large pan to maximum until smoking; sear the beef in batches without moving it much so it browns and stays juicy; remove.",
           "s": 120
         },
         {
-          "t": "Toss red onion 1 min, add garlic, tomato wedges, soy sauce, and 1 tbsp vinegar.",
-          "s": null
+          "t": "In the blazing pan stir-fry the onion, add the garlic and then the tomato: they should stay firm, not mushy.",
+          "s": 60
         },
         {
-          "t": "Return beef and cilantro for 30s; serve immediately with rice and fries.",
+          "t": "Pour 2 tbsp soy sauce and 1 tbsp red-wine or cider vinegar around the edge so it sizzles and caramelizes.",
+          "s": 30
+        },
+        {
+          "t": "Return the beef, toss with chopped cilantro (and the fries if you like them mixed in) and serve at once with the rice.",
           "s": null
         }
       ]
@@ -8544,67 +10524,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Hierve la pechuga de pollo en agua con sal 15 min, guarda 1 taza del caldo y desmenuza el pollo fino.",
+          "t": "Hierve la pechuga en agua con sal; guarda 1 taza del caldo y desmenuza el pollo en hebras finas.",
           "s": 900
         },
         {
-          "t": "Remoja 2 rebanadas de pan sin corteza (o avena) en la leche; licúalos hasta formar pasta suave.",
+          "t": "Cuece las papas y el huevo (10 min el huevo) y cocina el arroz.",
+          "s": 1080
+        },
+        {
+          "t": "Remoja el pan sin corteza (o la avena) en la leche y licúalo hasta formar una pasta suave.",
           "s": null
         },
         {
-          "t": "Saltea pimentón amarillo picado con ajo, cebolla y pizca de cúrcuma 5 min; licúa esa mezcla para hacer la pasta amarilla.",
+          "t": "Saltea el pimentón amarillo picado con ajo, cebolla y una pizca de cúrcuma hasta ablandar; licúalo para obtener la pasta amarilla (tipo ají amarillo).",
           "s": 300
         },
         {
-          "t": "Sofríe cebolla picada fina, añade la pasta amarilla 3 min, luego agrega el pan/avena licuado y caldo de pollo removiendo 5 min hasta espesar.",
+          "t": "En una olla sofríe cebolla picada fina con unas gotas de aceite y agrega la pasta amarilla.",
+          "s": 180
+        },
+        {
+          "t": "Incorpora el pan/avena licuado y el caldo poco a poco, removiendo, hasta que espese como una crema.",
           "s": 300
         },
         {
-          "t": "Incorpora el pollo desmenuzado y queso parmesano/minas rallado 3 min. Sirve sobre papas cocidas con arroz, huevo duro y aceituna.",
+          "t": "Añade el pollo y queso parmesano o minas rallado; cocina unos minutos más. Sirve sobre las papas, con arroz, huevo duro y aceituna.",
           "s": 180
         }
       ],
       "pt": [
         {
-          "t": "Cozinhe o frango por 15 min, guarde 1 xícara do caldo e desfie bem fino.",
+          "t": "Ferva o peito em água com sal; guarde 1 xícara do caldo e desfie o frango bem fininho.",
           "s": 900
         },
         {
-          "t": "Deixe o pão (ou aveia) de molho no leite e bata até formar pasta.",
+          "t": "Cozinhe as batatas e o ovo (10 min o ovo) e prepare o arroz.",
+          "s": 1080
+        },
+        {
+          "t": "Deixe o pão sem casca (ou a aveia) de molho no leite e bata até virar uma pasta lisa.",
           "s": null
         },
         {
-          "t": "Refogue pimentão amarelo, alho e cúrcuma por 5 min e bata no liquidificador para criar o creme amarelo.",
+          "t": "Salteie o pimentão amarelo picado com alho, cebola e uma pitada de cúrcuma até amolecer; bata para obter a pasta amarela (tipo ají amarillo).",
           "s": 300
         },
         {
-          "t": "Refogue cebola, junte o creme amarelo, o pão batido e caldo mexendo por 5 min até engrossar.",
+          "t": "Numa panela refogue cebola picadinha com gotas de óleo e junte a pasta amarela.",
+          "s": 180
+        },
+        {
+          "t": "Acrescente o pão/aveia batido e o caldo aos poucos, mexendo, até engrossar como um creme.",
           "s": 300
         },
         {
-          "t": "Misture o frango desfiado e queijo ralado por 3 min; sirva com batata cozida, arroz e ovo cozido.",
+          "t": "Junte o frango e queijo parmesão ou minas ralado; cozinhe mais alguns minutos. Sirva sobre as batatas, com arroz, ovo cozido e azeitona.",
           "s": 180
         }
       ],
       "en": [
         {
-          "t": "Poach chicken 15 min, reserve 1 cup broth, and shred finely.",
+          "t": "Poach the chicken breast in salted water; keep 1 cup of broth and shred the chicken finely.",
           "s": 900
         },
         {
-          "t": "Soak bread (or oats) in milk and blend smooth.",
+          "t": "Boil the potatoes and the egg (10 min for the egg) and cook the rice.",
+          "s": 1080
+        },
+        {
+          "t": "Soak the crustless bread (or oats) in the milk and blend into a smooth paste.",
           "s": null
         },
         {
-          "t": "Sauté yellow bell pepper, garlic, and turmeric 5 min; blend into golden paste.",
+          "t": "Sauté the chopped yellow pepper with garlic, onion and a pinch of turmeric until soft; blend into the yellow paste (ají amarillo style).",
           "s": 300
         },
         {
-          "t": "Cook onion with golden paste, blended bread, and broth 5 min until thick.",
+          "t": "In a pot sauté finely chopped onion with a few drops of oil and add the yellow paste.",
+          "s": 180
+        },
+        {
+          "t": "Stir in the blended bread/oats and the broth little by little until it thickens like a cream.",
           "s": 300
         },
         {
-          "t": "Fold in chicken and grated cheese 3 min; serve over boiled potato with rice and hard egg.",
+          "t": "Add the chicken and grated parmesan or minas cheese; cook a few minutes more. Serve over the potatoes with rice, boiled egg and an olive.",
           "s": 180
         }
       ]
@@ -8686,56 +10690,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Haz una tortilla fina con los huevos batidos en sartén, retírala y córtala en cuadritos; reserva.",
-          "s": 120
-        },
-        {
-          "t": "Corta el pollo en cubos pequeños y dóralos a fuego alto 4 min con jengibre rallado y ajo.",
-          "s": 240
-        },
-        {
-          "t": "Añade pimentón rojo picado y el arroz frío del día anterior; presiona con cuchara para separar todos los granos.",
+          "t": "Usa arroz cocido del día anterior y frío: así los granos quedan sueltos. Pica el cebollín separando la parte blanca de la verde.",
           "s": null
         },
         {
-          "t": "Vierte el shoyu alrededor del arroz caliente, saltea 3 min a fuego fuerte hasta que huela a tostado, mezcla el huevo y abundante cebollín picado.",
-          "s": 180
+          "t": "Bate los huevos con una pizca de sal y haz una tortilla fina en sartén con unas gotas de aceite; córtala en cuadritos y reserva.",
+          "s": 120
+        },
+        {
+          "t": "Corta el pollo en cubos pequeños y sazónalo con sal y un chorrito de sillao.",
+          "s": null
+        },
+        {
+          "t": "Calienta un wok o sartén al máximo con unas gotas de aceite y dora el pollo con jengibre rallado, ajo y la parte blanca del cebollín.",
+          "s": 240
+        },
+        {
+          "t": "Añade el pimentón rojo picado y saltea.",
+          "s": 60
+        },
+        {
+          "t": "Agrega el arroz frío presionándolo con la cuchara para separar los granos y saltea a fuego fuerte.",
+          "s": 120
+        },
+        {
+          "t": "Vierte el sillao alrededor del borde caliente para que se tueste, mezcla con el huevo y abundante cebollín verde; sirve de inmediato.",
+          "s": 120
         }
       ],
       "pt": [
         {
-          "t": "Faça uma omelete fina com os ovos, corte em quadradinhos e reserve.",
-          "s": 120
-        },
-        {
-          "t": "Doure cubinhos de frango em fogo alto por 4 min com gengibre ralado e alho.",
-          "s": 240
-        },
-        {
-          "t": "Junte pimentão picado e o arroz frio soltinho.",
+          "t": "Use arroz cozido do dia anterior e frio: assim os grãos ficam soltinhos. Pique a cebolinha separando a parte branca da verde.",
           "s": null
         },
         {
-          "t": "Regue shoyu pelas bordas da panela quente, salteie 3 min e misture o ovo e cebolinha.",
-          "s": 180
+          "t": "Bata os ovos com uma pitada de sal e faça uma omelete fina em frigideira com gotas de óleo; corte em quadradinhos e reserve.",
+          "s": 120
+        },
+        {
+          "t": "Corte o frango em cubinhos e tempere com sal e um fio de shoyu.",
+          "s": null
+        },
+        {
+          "t": "Aqueça um wok ou frigideira no máximo com gotas de óleo e doure o frango com gengibre ralado, alho e a parte branca da cebolinha.",
+          "s": 240
+        },
+        {
+          "t": "Junte o pimentão vermelho picado e salteie.",
+          "s": 60
+        },
+        {
+          "t": "Acrescente o arroz frio apertando com a colher para soltar os grãos e salteie em fogo alto.",
+          "s": 120
+        },
+        {
+          "t": "Despeje o shoyu pela borda quente para tostar, misture com o ovo e bastante cebolinha verde; sirva na hora.",
+          "s": 120
         }
       ],
       "en": [
         {
-          "t": "Cook a thin omelette, dice into squares, and set aside.",
-          "s": 120
-        },
-        {
-          "t": "Sear diced chicken 4 min with grated ginger and garlic.",
-          "s": 240
-        },
-        {
-          "t": "Toss in diced pepper and cold leftover rice, breaking up clumps.",
+          "t": "Use cold, day-old cooked rice so the grains stay separate. Chop the scallions, keeping white and green parts apart.",
           "s": null
         },
         {
-          "t": "Splash soy sauce around hot pan edges, stir-fry 3 min, and fold in egg and scallions.",
-          "s": 180
+          "t": "Beat the eggs with a pinch of salt and make a thin omelette in a pan with a few drops of oil; cut into squares and set aside.",
+          "s": 120
+        },
+        {
+          "t": "Dice the chicken small and season with salt and a splash of soy sauce.",
+          "s": null
+        },
+        {
+          "t": "Heat a wok or pan to maximum with a few drops of oil and brown the chicken with grated ginger, garlic and the white scallion.",
+          "s": 240
+        },
+        {
+          "t": "Add the chopped red pepper and stir-fry.",
+          "s": 60
+        },
+        {
+          "t": "Add the cold rice, pressing with the spoon to break up the grains, and stir-fry over high heat.",
+          "s": 120
+        },
+        {
+          "t": "Pour the soy sauce around the hot edge so it toasts, toss with the egg and plenty of green scallion; serve right away.",
+          "s": 120
         }
       ]
     },
@@ -8823,55 +10863,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Cuece las papas peladas en agua con sal 18 min; escúrrelas muy bien y aplástalas aún calientes (pásalas por prensapapas para que no queden grumos).",
+          "t": "Cuece las papas (o el camote) peladas en agua con sal hasta que estén tiernas; escúrrelas muy bien.",
           "s": 1080
         },
         {
-          "t": "Deja entibiar el puré, luego amasa con jugo de 1 limón, aceite, pasta de pimentón amarillo/chile y sal hasta obtener una masa suave y moldeable.",
+          "t": "Aplástalas aún calientes con un prensapapas hasta que no queden grumos y deja entibiar.",
           "s": null
         },
         {
-          "t": "Aparte, mezcla el atún bien escurrido (o pollo desmenuzado) con cebolla picada fina, requeijão/mayonesa y gotas de limón.",
+          "t": "Amasa el puré con el jugo de 1 limón, el aceite, pasta de pimentón amarillo o ají y sal hasta lograr una masa suave y moldeable.",
           "s": null
         },
         {
-          "t": "En un aro o molde: pon una capa de puré frío, otra de láminas de aguacate, el relleno de atún y otra capa de puré arriba; refrigera 15 min y sirve fría.",
+          "t": "Relleno: mezcla el atún bien escurrido (o pollo desmenuzado) con cebolla picada fina, requeijão o mayonesa light y gotas de limón.",
+          "s": null
+        },
+        {
+          "t": "Corta el aguacate en láminas y rocíale limón.",
+          "s": null
+        },
+        {
+          "t": "En un aro o molde con film arma capas: puré, aguacate, relleno y termina con otra capa de puré; presiona suave.",
+          "s": null
+        },
+        {
+          "t": "Refrigera para que tome firmeza, desmolda y sirve fría decorada con huevo o aceituna si tienes.",
           "s": 900
         }
       ],
       "pt": [
         {
-          "t": "Cozinhe as batatas por 18 min, escorra bem e amasse ainda quentes até ficar bem liso.",
+          "t": "Cozinhe as batatas (ou batata-doce) descascadas em água com sal até ficarem macias; escorra muito bem.",
           "s": 1080
         },
         {
-          "t": "Quando amornar, tempere o purê com limão, azeite, sal e pasta de pimentão amarelo.",
+          "t": "Amasse ainda quentes com espremedor até não sobrar nenhum grumo e deixe amornar.",
           "s": null
         },
         {
-          "t": "Misture atum escorrido (ou frango) com cebola picadinha e requeijão/maionese.",
+          "t": "Sove o purê com o suco de 1 limão, o azeite, pasta de pimentão amarelo ou pimenta e sal até virar uma massa macia e moldável.",
           "s": null
         },
         {
-          "t": "Monte em camadas (purê, fatias de abacate, recheio de atum e purê), gele 15 min e sirva frio.",
+          "t": "Recheio: misture o atum bem escorrido (ou frango desfiado) com cebola picadinha, requeijão ou maionese light e gotas de limão.",
+          "s": null
+        },
+        {
+          "t": "Corte o abacate em lâminas e regue com limão.",
+          "s": null
+        },
+        {
+          "t": "Num aro ou forma forrada com filme monte camadas: purê, abacate, recheio e termine com outra camada de purê; aperte de leve.",
+          "s": null
+        },
+        {
+          "t": "Leve à geladeira para firmar, desenforme e sirva fria decorada com ovo ou azeitona se tiver.",
           "s": 900
         }
       ],
       "en": [
         {
-          "t": "Boil potatoes 18 min, drain well, and mash while hot until silky.",
+          "t": "Boil the peeled potatoes (or sweet potato) in salted water until tender; drain very well.",
           "s": 1080
         },
         {
-          "t": "Cool slightly, then knead in lime juice, olive oil, salt, and yellow pepper paste.",
+          "t": "Mash them while hot with a ricer until no lumps remain and let cool slightly.",
           "s": null
         },
         {
-          "t": "Mix drained tuna (or chicken) with minced onion and creamy dressing.",
+          "t": "Knead the mash with the juice of 1 lime, the oil, yellow pepper or chili paste and salt into a soft, moldable dough.",
           "s": null
         },
         {
-          "t": "Layer potato, sliced avocado, tuna salad, and potato; chill 15 min and serve cold.",
+          "t": "Filling: mix the well-drained tuna (or shredded chicken) with finely chopped onion, requeijão or light mayo and a few drops of lime.",
+          "s": null
+        },
+        {
+          "t": "Slice the avocado and squeeze lime over it.",
+          "s": null
+        },
+        {
+          "t": "In a ring or film-lined mold layer: mash, avocado, filling and finish with more mash; press gently.",
+          "s": null
+        },
+        {
+          "t": "Chill until firm, unmold and serve cold garnished with egg or olive if you have them.",
           "s": 900
         }
       ]
@@ -8946,55 +11022,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Licúa o mezcla 2 cdas de shoyu, 1 cda de vinagre, 3 dientes de ajo, 1 cdta de comino, 1 cdta de orégano, pimienta negra y sal.",
+          "t": "Licúa 2 cdas de sillao, 1 cda de vinagre, 3 dientes de ajo, 1 cdta de comino, 1 cdta de orégano, 1 cdta de páprica, pimienta negra y sal.",
           "s": null
         },
         {
-          "t": "Haz cortes superficiales en los muslos/pechuga, unta bien la marinada (incluso debajo de la piel si tiene) y reposa 20 min.",
+          "t": "Haz cortes superficiales en el pollo y unta bien la marinada, también bajo la piel si la tiene.",
+          "s": null
+        },
+        {
+          "t": "Deja reposar en la nevera (mejor si es más tiempo).",
           "s": 1200
         },
         {
-          "t": "Precalienta el horno o airfryer a 200°C; cocina el pollo 25–30 min (girando a mitad de tiempo) hasta piel crocante y centro cocido.",
-          "s": 1620
+          "t": "Precalienta el horno o airfryer a 200 °C. Corta las papas en gajos y sazónalas con sal y unas gotas de aceite.",
+          "s": null
         },
         {
-          "t": "Sirve con papas doradas y ensalada fresca con vinagreta.",
+          "t": "Hornea el pollo y las papas juntos; gira el pollo a mitad de tiempo y píntalo con la marinada sobrante.",
+          "s": 1680
+        },
+        {
+          "t": "Comprueba que el centro esté bien cocido (los jugos deben salir claros) y deja reposar unos minutos.",
+          "s": null
+        },
+        {
+          "t": "Prepara una ensalada de tomate y lechuga con limón y sal, y sirve con el pollo y las papas doradas.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Misture shoyu, vinagre, alho amassado, cominho, orégano, pimenta e sal.",
+          "t": "Bata 2 colheres de shoyu, 1 de vinagre, 3 dentes de alho, 1 colher (chá) de cominho, 1 de orégano, 1 de páprica, pimenta-do-reino e sal.",
           "s": null
         },
         {
-          "t": "Faça cortes no frango, esfregue bem o tempero e deixe marinar por 20 min.",
+          "t": "Faça cortes superficiais no frango e passe bem a marinada, inclusive sob a pele se tiver.",
+          "s": null
+        },
+        {
+          "t": "Deixe descansar na geladeira (melhor se for mais tempo).",
           "s": 1200
         },
         {
-          "t": "Asse no forno ou airfryer a 200°C por 25–30 min até dourar bem.",
-          "s": 1620
+          "t": "Preaqueça o forno ou airfryer a 200 °C. Corte as batatas em gomos e tempere com sal e gotas de óleo.",
+          "s": null
         },
         {
-          "t": "Sirva com batatas assadas e salada fresca.",
+          "t": "Asse o frango e as batatas juntos; vire o frango na metade do tempo e pincele com a marinada que sobrou.",
+          "s": 1680
+        },
+        {
+          "t": "Confira se o centro está bem cozido (o suco deve sair claro) e deixe descansar alguns minutos.",
+          "s": null
+        },
+        {
+          "t": "Prepare uma salada de tomate e alface com limão e sal, e sirva com o frango e as batatas douradas.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Whisk soy sauce, vinegar, crushed garlic, cumin, oregano, pepper, and salt.",
+          "t": "Blend 2 tbsp soy sauce, 1 tbsp vinegar, 3 garlic cloves, 1 tsp cumin, 1 tsp oregano, 1 tsp paprika, black pepper and salt.",
           "s": null
         },
         {
-          "t": "Score chicken, rub thoroughly with marinade, and rest 20 min.",
+          "t": "Score the chicken lightly and rub the marinade in well, under the skin too if it has any.",
+          "s": null
+        },
+        {
+          "t": "Let it rest in the fridge (longer is better).",
           "s": 1200
         },
         {
-          "t": "Roast or air-fry at 200°C for 25–30 min until skin is crisp and golden.",
-          "s": 1620
+          "t": "Preheat the oven or air fryer to 200 °C. Cut the potatoes into wedges and season with salt and a few drops of oil.",
+          "s": null
         },
         {
-          "t": "Serve with roasted potatoes and fresh salad.",
+          "t": "Roast the chicken and potatoes together; turn the chicken halfway and brush with the leftover marinade.",
+          "s": 1680
+        },
+        {
+          "t": "Check the center is fully cooked (juices run clear) and let it rest a few minutes.",
+          "s": null
+        },
+        {
+          "t": "Make a tomato and lettuce salad with lime and salt, and serve with the chicken and golden potatoes.",
           "s": null
         }
       ]
@@ -9076,56 +11188,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Blanquea las hojas de espinaca (y albahaca fresca) en agua hirviendo 30 seg y pasa a agua fría para fijar el color verde intenso.",
-          "s": null
+          "t": "Pon a hervir abundante agua con sal para la pasta.",
+          "s": 480
         },
         {
-          "t": "Licúa las hojas con queso fresco/minas, leche, ajo, sal y nueces/maní opcional hasta lograr crema verde suave.",
+          "t": "Blanquea la espinaca o las hojas verdes (y albahaca) en otra olla con agua hirviendo y pásalas a agua con hielo para fijar el verde.",
+          "s": 30
+        },
+        {
+          "t": "Licúa las hojas con el queso fresco, la leche, 1 diente de ajo, sal y el aceite (y nueces o maní si quieres) hasta lograr una crema verde lisa.",
           "s": null
         },
         {
           "t": "Cuece la pasta al dente según el paquete y escurre guardando un chorrito del agua.",
-          "s": 540
+          "s": 600
         },
         {
-          "t": "Mezcla la pasta caliente con la salsa verde a fuego mínimo 1 min (sin hervir). Aparte sella un bife a la plancha 3 min por lado y sírvelo encima.",
+          "t": "Sazona el bistec con sal y pimienta y séllalo en plancha muy caliente con unas gotas de aceite, por ambos lados.",
           "s": 360
+        },
+        {
+          "t": "Mezcla la pasta con la salsa verde a fuego mínimo, sin dejar hervir, aflojando con el agua reservada.",
+          "s": 60
+        },
+        {
+          "t": "Sirve la pasta con el bistec encima.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Dê um susto nas folhas de espinafre e manjericão em água fervente por 30s e esfrie.",
+          "t": "Coloque bastante água com sal para ferver para a massa.",
+          "s": 480
+        },
+        {
+          "t": "Branqueie o espinafre ou as folhas verdes (e manjericão) em outra panela com água fervendo e passe para água com gelo para fixar o verde.",
+          "s": 30
+        },
+        {
+          "t": "Bata as folhas com o queijo fresco, o leite, 1 dente de alho, sal e o azeite (e nozes ou amendoim se quiser) até virar um creme verde liso.",
           "s": null
         },
         {
-          "t": "Bata no liquidificador com queijo minas, leite, alho e sal até ficar bem verde.",
-          "s": null
+          "t": "Cozinhe a massa al dente conforme a embalagem e escorra guardando um pouco da água.",
+          "s": 600
         },
         {
-          "t": "Cozinhe o macarrão al dente e escorra.",
-          "s": 540
-        },
-        {
-          "t": "Misture a massa quente no molho verde em fogo baixo por 1 min e sirva com bife grelhado por cima.",
+          "t": "Tempere o bife com sal e pimenta e sele em chapa bem quente com gotas de óleo, dos dois lados.",
           "s": 360
+        },
+        {
+          "t": "Misture a massa com o molho verde em fogo mínimo, sem ferver, soltando com a água reservada.",
+          "s": 60
+        },
+        {
+          "t": "Sirva a massa com o bife por cima.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Blanch spinach and basil leaves 30s and shock in cold water.",
+          "t": "Bring plenty of salted water to a boil for the pasta.",
+          "s": 480
+        },
+        {
+          "t": "Blanch the spinach or greens (and basil) in another pot of boiling water and plunge into ice water to set the green.",
+          "s": 30
+        },
+        {
+          "t": "Blend the leaves with the fresh cheese, milk, 1 garlic clove, salt and the oil (and walnuts or peanuts if you like) into a smooth green cream.",
           "s": null
         },
         {
-          "t": "Blend greens with Minas cheese, milk, garlic, and salt until vibrant green.",
-          "s": null
+          "t": "Cook the pasta al dente per the package and drain, saving a splash of water.",
+          "s": 600
         },
         {
-          "t": "Boil pasta al dente and drain.",
-          "s": 540
-        },
-        {
-          "t": "Toss hot pasta with green sauce 1 min over low heat and top with seared steak.",
+          "t": "Season the steak with salt and pepper and sear on a very hot griddle with a few drops of oil, both sides.",
           "s": 360
+        },
+        {
+          "t": "Toss the pasta with the green sauce over the lowest heat, without boiling, loosening with the reserved water.",
+          "s": 60
+        },
+        {
+          "t": "Serve the pasta with the steak on top.",
+          "s": null
         }
       ]
     },
@@ -9206,56 +11354,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Licúa 1 manojo generoso de cilantro fresco con 1/2 taza de agua/caldo hasta formar un líquido verde.",
+          "t": "Licúa un manojo generoso de cilantro con ½ taza de agua o caldo hasta obtener un líquido verde.",
           "s": null
         },
         {
-          "t": "Sella cubos de carne en olla a fuego fuerte 5 min con sal y pimienta; retira.",
+          "t": "Corta la carne en cubos grandes y sazónala con sal y pimienta; pica la cebolla y el ajo y corta la zanahoria en rodajas.",
+          "s": null
+        },
+        {
+          "t": "Sella la carne en una olla con unas gotas de aceite a fuego fuerte hasta dorar; retírala.",
           "s": 300
         },
         {
-          "t": "Sofríe cebolla, ajo y comino 4 min; agrega el cilantro licuado y sofríe 3 min para quitar el sabor crudo.",
-          "s": 420
+          "t": "En la misma olla sofríe la cebolla, el ajo y el comino.",
+          "s": 240
         },
         {
-          "t": "Devuelve la carne con zanahoria en rodajas y 1 taza de caldo/cerveza; cocina tapado 25 min hasta que la carne esté tierna. Sirve con arroz y frijoles.",
+          "t": "Agrega el cilantro licuado y sofríe para quitarle el sabor a crudo.",
+          "s": 180
+        },
+        {
+          "t": "Devuelve la carne con la zanahoria y 1 taza de caldo (o cerveza); tapa y cocina a fuego bajo hasta que esté tierna.",
           "s": 1500
+        },
+        {
+          "t": "Mientras, calienta los frijoles y cocina el arroz; sirve el seco con ambos.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Bata 1 maço de coentro fresco com 1/2 xícara de água no liquidificador.",
+          "t": "Bata um maço generoso de coentro com ½ xícara de água ou caldo até virar um líquido verde.",
           "s": null
         },
         {
-          "t": "Sele os cubos de carne na panela quente por 5 min e reserve.",
+          "t": "Corte a carne em cubos grandes e tempere com sal e pimenta; pique a cebola e o alho e corte a cenoura em rodelas.",
+          "s": null
+        },
+        {
+          "t": "Sele a carne numa panela com gotas de óleo em fogo alto até dourar; retire.",
           "s": 300
         },
         {
-          "t": "Refogue cebola, alho e cominho 4 min; junte o coentro batido e refogue mais 3 min.",
-          "s": 420
+          "t": "Na mesma panela refogue a cebola, o alho e o cominho.",
+          "s": 240
         },
         {
-          "t": "Volte a carne com cenoura em rodelas e caldo; cozinhe tampado por 25 min e sirva com arroz e feijão.",
+          "t": "Junte o coentro batido e refogue para tirar o gosto de cru.",
+          "s": 180
+        },
+        {
+          "t": "Volte a carne com a cenoura e 1 xícara de caldo (ou cerveja); tampe e cozinhe em fogo baixo até ficar macia.",
           "s": 1500
+        },
+        {
+          "t": "Enquanto isso, aqueça o feijão e prepare o arroz; sirva o seco com os dois.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Blend 1 large bunch of fresh cilantro with 1/2 cup water.",
+          "t": "Blend a generous bunch of cilantro with ½ cup water or stock into a green liquid.",
           "s": null
         },
         {
-          "t": "Sear beef cubes 5 min until browned; set aside.",
+          "t": "Cut the beef into large cubes and season with salt and pepper; chop the onion and garlic and slice the carrot.",
+          "s": null
+        },
+        {
+          "t": "Sear the beef in a pot with a few drops of oil over high heat until browned; remove.",
           "s": 300
         },
         {
-          "t": "Sauté onion, garlic, and cumin 4 min; fry blended cilantro 3 min.",
-          "s": 420
+          "t": "In the same pot sauté the onion, garlic and cumin.",
+          "s": 240
         },
         {
-          "t": "Return beef with sliced carrots and broth; simmer covered 25 min and serve with rice and beans.",
+          "t": "Add the blended cilantro and fry it to cook off the raw taste.",
+          "s": 180
+        },
+        {
+          "t": "Return the beef with the carrot and 1 cup of stock (or beer); cover and simmer until tender.",
           "s": 1500
+        },
+        {
+          "t": "Meanwhile, heat the beans and cook the rice; serve the stew with both.",
+          "s": null
         }
       ]
     },
@@ -9336,55 +11520,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Cuece las papas enteras o en mitades en agua con sal 18 min hasta que entren fácil con cuchillo; pela y rebana en rodajas gruesas.",
+          "t": "Cuece las papas enteras y el huevo en agua con sal hasta que un cuchillo entre fácil en la papa (huevo 10 min).",
           "s": 1080
         },
         {
-          "t": "Sofríe en sartén tiras de pimentón amarillo con cebolla y ajo 4 min hasta ablandar (con chile si te gusta picante).",
-          "s": 240
-        },
-        {
-          "t": "Licúa lo sofrito junto con queijo minas frescal, leche, 2 galletas saladas (bolacha água e sal) y pizca de cúrcuma hasta lograr crema lisa.",
+          "t": "Pela las papas y córtalas en rodajas gruesas; pela y corta el huevo en cuartos.",
           "s": null
         },
         {
-          "t": "Acomoda las papas tibias o frías sobre hojas de lechuga, baña con la crema huancaína y decora con huevo duro y aceituna.",
+          "t": "Sofríe en sartén tiras de pimentón amarillo con cebolla y ajo (y ají si te gusta picante) hasta ablandar.",
+          "s": 240
+        },
+        {
+          "t": "Licúa el sofrito con el queso fresco, la leche, 2 galletas de soda y una pizca de cúrcuma y sal hasta lograr una crema lisa y espesa.",
+          "s": null
+        },
+        {
+          "t": "Ajusta la textura: si está espesa añade leche; si está líquida, otra galleta.",
+          "s": null
+        },
+        {
+          "t": "Acomoda hojas de lechuga en el plato y encima las papas tibias o frías.",
+          "s": null
+        },
+        {
+          "t": "Baña con la crema huancaína y decora con el huevo y la aceituna.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Cozinhe as batatas por 18 min até ficarem macias e corte em rodelas grossas.",
+          "t": "Cozinhe as batatas inteiras e o ovo em água com sal até a faca entrar fácil na batata (ovo 10 min).",
           "s": 1080
         },
         {
-          "t": "Refogue pimentão amarelo, cebola e alho por 4 min.",
-          "s": 240
-        },
-        {
-          "t": "Bata no liquidificador com queijo minas, leite, 2 bolachas água e sal e pitada de cúrcuma.",
+          "t": "Descasque as batatas e corte em rodelas grossas; descasque o ovo e corte em quartos.",
           "s": null
         },
         {
-          "t": "Disponha as batatas sobre alface, cubra com o creme e decore com ovo cozido e azeitona.",
+          "t": "Refogue na frigideira tiras de pimentão amarelo com cebola e alho (e pimenta se gostar de picante) até amolecer.",
+          "s": 240
+        },
+        {
+          "t": "Bata o refogado com o queijo fresco, o leite, 2 bolachas água e sal e uma pitada de cúrcuma e sal até virar um creme liso e grosso.",
+          "s": null
+        },
+        {
+          "t": "Ajuste a textura: se estiver grosso, mais leite; se estiver ralo, outra bolacha.",
+          "s": null
+        },
+        {
+          "t": "Arrume folhas de alface no prato e por cima as batatas mornas ou frias.",
+          "s": null
+        },
+        {
+          "t": "Cubra com o creme huancaíno e decore com o ovo e a azeitona.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Boil potatoes 18 min until tender; peel and slice thickly.",
+          "t": "Boil the whole potatoes and the egg in salted water until a knife slides easily into the potato (egg 10 min).",
           "s": 1080
         },
         {
-          "t": "Sauté yellow bell pepper, onion, and garlic 4 min.",
-          "s": 240
-        },
-        {
-          "t": "Blend with Minas cheese, milk, 2 plain crackers, and a pinch of turmeric until silky.",
+          "t": "Peel the potatoes and cut into thick slices; peel and quarter the egg.",
           "s": null
         },
         {
-          "t": "Pour over sliced potatoes and garnish with hard-boiled egg and olives.",
+          "t": "Sauté strips of yellow pepper with onion and garlic (and chili if you like heat) until soft.",
+          "s": 240
+        },
+        {
+          "t": "Blend the sauté with the fresh cheese, milk, 2 saltine crackers, a pinch of turmeric and salt into a thick, smooth cream.",
+          "s": null
+        },
+        {
+          "t": "Adjust the texture: add milk if too thick, another cracker if too thin.",
+          "s": null
+        },
+        {
+          "t": "Arrange lettuce leaves on the plate and the warm or cold potatoes on top.",
+          "s": null
+        },
+        {
+          "t": "Coat with the huancaína sauce and garnish with the egg and olive.",
           "s": null
         }
       ]
@@ -9459,55 +11679,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Con un cuchillo bien afilado, corta el filete de pescado bien frío en láminas largas y delgadas tipo sashimi (en ángulo).",
+          "t": "Cuece el camote en rodajas en agua con sal y deja enfriar.",
+          "s": 900
+        },
+        {
+          "t": "Mantén el filete de pescado muy frío (puedes dejarlo 10 min en el congelador para cortarlo mejor).",
           "s": null
         },
         {
-          "t": "Licúa jugo de 2 limones con 1 trocito de pimentón amarillo, ajo, pizca de jengibre y sal hasta emulsionar.",
+          "t": "Con un cuchillo bien afilado córtalo en ángulo en láminas largas y delgadas, tipo sashimi.",
           "s": null
         },
         {
-          "t": "Acomoda las láminas de pescado extendidas en un plato frío sin encimarlas demasiado.",
+          "t": "Licúa el jugo de 2 limones con un trocito de pimentón amarillo, ajo, una pizca de jengibre y sal hasta emulsionar.",
           "s": null
         },
         {
-          "t": "Vierte la crema cítrica encima al momento de servir y acompaña con batata-doce cocida.",
+          "t": "Acomoda las láminas extendidas en un plato frío, sin encimarlas demasiado, y sálalas ligeramente.",
+          "s": null
+        },
+        {
+          "t": "Justo al servir, vierte la crema cítrica por encima para que el pescado no se cocine de más.",
+          "s": null
+        },
+        {
+          "t": "Decora con cilantro picado y acompaña con el camote.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Com faca bem afiada, fatie o peixe gelado em lâminas finas tipo sashimi.",
+          "t": "Cozinhe a batata-doce em rodelas em água com sal e deixe esfriar.",
+          "s": 900
+        },
+        {
+          "t": "Mantenha o filé de peixe bem gelado (pode deixar 10 min no congelador para cortar melhor).",
           "s": null
         },
         {
-          "t": "Bata suco de 2 limões com pimentão amarelo, alho, gengibre e sal até emulsionar.",
+          "t": "Com uma faca bem afiada corte na diagonal em lâminas longas e finas, tipo sashimi.",
           "s": null
         },
         {
-          "t": "Disponha as fatias lado a lado em prato frio.",
+          "t": "Bata o suco de 2 limões com um pedacinho de pimentão amarelo, alho, uma pitada de gengibre e sal até emulsionar.",
           "s": null
         },
         {
-          "t": "Regue com o creme cítrico na hora de servir junto com batata-doce.",
+          "t": "Arrume as lâminas estendidas num prato gelado, sem sobrepor demais, e salgue levemente.",
+          "s": null
+        },
+        {
+          "t": "Só na hora de servir despeje o creme cítrico por cima para o peixe não “cozinhar” demais.",
+          "s": null
+        },
+        {
+          "t": "Decore com coentro picado e acompanhe com a batata-doce.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Slice chilled white fish thinly at an angle like sashimi.",
+          "t": "Boil the sweet potato slices in salted water and let cool.",
+          "s": 900
+        },
+        {
+          "t": "Keep the fish fillet very cold (10 min in the freezer makes it easier to slice).",
           "s": null
         },
         {
-          "t": "Blend fresh lime juice, yellow bell pepper, garlic, ginger, and salt until emulsified.",
+          "t": "With a very sharp knife slice it at an angle into long thin sashimi-style strips.",
           "s": null
         },
         {
-          "t": "Fan fish slices neatly across a cold plate.",
+          "t": "Blend the juice of 2 limes with a small piece of yellow pepper, garlic, a pinch of ginger and salt until emulsified.",
           "s": null
         },
         {
-          "t": "Drizzle citrus cream over right before serving alongside boiled sweet potato.",
+          "t": "Lay the slices flat on a cold plate without overlapping much and salt lightly.",
+          "s": null
+        },
+        {
+          "t": "Pour the citrus cream over right when serving so the fish does not over-cure.",
+          "s": null
+        },
+        {
+          "t": "Garnish with chopped cilantro and serve with the sweet potato.",
           "s": null
         }
       ]
@@ -9589,56 +11845,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Sofríe cebolla, ajo, comino y pasta amarilla/páprica en sartén 3 min.",
-          "s": 180
-        },
-        {
-          "t": "Agrega el frijol cocido aplastado ligeramente y el arroz cocido; mezcla bien hasta formar una masa compacta y húmeda.",
+          "t": "Aplasta ligeramente los frijoles cocidos con un tenedor (deben quedar algunos enteros) y ten listo el arroz cocido.",
           "s": null
         },
         {
-          "t": "En sartén antiadherente aceitada, coloca la mezcla y dale forma de tortilla gruesa doblando los bordes como un pastelito; dora 4 min por lado hasta formar costra crocante.",
-          "s": 480
+          "t": "Sofríe la cebolla, el ajo, el comino y pasta amarilla o páprica en sartén con unas gotas de aceite.",
+          "s": 180
         },
         {
-          "t": "Aparte sella un bife a la plancha y fríe 1 huevo; sirve sobre el tacu tacu caliente.",
-          "s": 180
+          "t": "Agrega los frijoles y el arroz y mezcla bien hasta formar una masa compacta y húmeda; sala.",
+          "s": null
+        },
+        {
+          "t": "En sartén antiadherente con el resto del aceite coloca la mezcla y, moviendo la sartén, dale forma de tortilla gruesa, doblando los bordes como un pastelito.",
+          "s": 240
+        },
+        {
+          "t": "Voltéala con ayuda de un plato y dora el otro lado hasta formar costra crocante.",
+          "s": 240
+        },
+        {
+          "t": "Aparte sella el bistec sazonado en plancha caliente por ambos lados y fríe el huevo dejando la yema blanda.",
+          "s": 360
+        },
+        {
+          "t": "Sirve el tacu tacu con el bistec y el huevo encima, y salsa criolla si tienes.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Refogue cebola, alho, cominho e páprica por 3 min.",
-          "s": 180
-        },
-        {
-          "t": "Misture feijão cozido levemente amassado e arroz cozido até formar massa úmida.",
+          "t": "Amasse levemente o feijão cozido com um garfo (alguns grãos devem ficar inteiros) e tenha o arroz cozido pronto.",
           "s": null
         },
         {
-          "t": "Doure na frigideira antiaderente moldando como um bolo achatado por 4 min de cada lado até criar casquinha.",
-          "s": 480
+          "t": "Refogue a cebola, o alho, o cominho e pasta amarela ou páprica na frigideira com gotas de óleo.",
+          "s": 180
         },
         {
-          "t": "Sirva com bife grelhado e ovo frito por cima.",
-          "s": 180
+          "t": "Junte o feijão e o arroz e misture bem até formar uma massa compacta e úmida; salgue.",
+          "s": null
+        },
+        {
+          "t": "Em frigideira antiaderente com o resto do óleo coloque a mistura e, balançando a frigideira, dê forma de omelete grossa, dobrando as bordas como um pastel.",
+          "s": 240
+        },
+        {
+          "t": "Vire com ajuda de um prato e doure o outro lado até formar uma casquinha crocante.",
+          "s": 240
+        },
+        {
+          "t": "À parte sele o bife temperado na chapa quente dos dois lados e frite o ovo deixando a gema mole.",
+          "s": 360
+        },
+        {
+          "t": "Sirva o tacu tacu com o bife e o ovo por cima, e molho criollo se tiver.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Sauté onion, garlic, cumin, and paprika 3 min.",
-          "s": 180
-        },
-        {
-          "t": "Fold in lightly mashed beans and cooked rice until cohesive.",
+          "t": "Lightly mash the cooked beans with a fork (some should stay whole) and have the cooked rice ready.",
           "s": null
         },
         {
-          "t": "Pan-fry in oiled non-stick skillet shaped like a thick oval cake, 4 min per side until crisp.",
-          "s": 480
+          "t": "Sauté the onion, garlic, cumin and yellow paste or paprika in a pan with a few drops of oil.",
+          "s": 180
         },
         {
-          "t": "Top with seared steak and a fried egg.",
-          "s": 180
+          "t": "Add the beans and rice and mix well into a compact, moist mass; salt it.",
+          "s": null
+        },
+        {
+          "t": "In a nonstick pan with the rest of the oil, add the mixture and, shaking the pan, shape it into a thick omelette, folding the edges like a turnover.",
+          "s": 240
+        },
+        {
+          "t": "Flip it with a plate and brown the other side until a crisp crust forms.",
+          "s": 240
+        },
+        {
+          "t": "Separately sear the seasoned steak on a hot griddle on both sides and fry the egg with a runny yolk.",
+          "s": 360
+        },
+        {
+          "t": "Serve the tacu tacu with the steak and egg on top, and onion relish if you have it.",
+          "s": null
         }
       ]
     },
@@ -9719,56 +12011,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Dora los muslos o pechuga de pollo sazonados con sal y pimienta 6 min en olla; retira.",
-          "s": 360
-        },
-        {
-          "t": "Licúa 1 manojo de cilantro con 1/2 taza de agua/caldo.",
+          "t": "Licúa un manojo de cilantro con ½ taza de agua o caldo. Pica la cebolla y el ajo, la zanahoria en cubitos y el pimentón en tiras.",
           "s": null
         },
         {
-          "t": "En la misma olla sofríe cebolla, ajo y comino; añade el cilantro licuado y fríe 3 min.",
+          "t": "Sazona el pollo con sal y pimienta y dóralo en olla con unas gotas de aceite; retíralo.",
+          "s": 360
+        },
+        {
+          "t": "En la misma olla sofríe la cebolla, el ajo y el comino.",
           "s": 180
         },
         {
-          "t": "Incorpora el arroz crudo, zanahoria en cubitos, tiras de pimentón, el pollo y caldo; cocina tapado 16 min hasta secar.",
+          "t": "Añade el cilantro licuado y fríe hasta que cambie a verde oscuro.",
+          "s": 180
+        },
+        {
+          "t": "Incorpora el arroz crudo lavado, la zanahoria, el pimentón, el pollo y el caldo (2 partes por 1 de arroz); ajusta la sal.",
+          "s": null
+        },
+        {
+          "t": "Tapa y cocina a fuego bajo hasta que el arroz absorba el líquido.",
           "s": 960
+        },
+        {
+          "t": "Apaga y deja reposar tapado; sirve con salsa criolla (cebolla y limón).",
+          "s": 300
         }
       ],
       "pt": [
         {
-          "t": "Doure o frango temperado com sal e pimenta por 6 min; reserve.",
-          "s": 360
-        },
-        {
-          "t": "Bata 1 maço de coentro fresco com 1/2 xícara de água.",
+          "t": "Bata um maço de coentro com ½ xícara de água ou caldo. Pique a cebola e o alho, a cenoura em cubinhos e o pimentão em tiras.",
           "s": null
         },
         {
-          "t": "Refogue cebola, alho e cominho; junte o coentro batido por 3 min.",
+          "t": "Tempere o frango com sal e pimenta e doure na panela com gotas de óleo; retire.",
+          "s": 360
+        },
+        {
+          "t": "Na mesma panela refogue a cebola, o alho e o cominho.",
           "s": 180
         },
         {
-          "t": "Adicione arroz cru, cenoura, pimentão, o frango e caldo; cozinhe tampado por 16 min.",
+          "t": "Junte o coentro batido e frite até ficar verde-escuro.",
+          "s": 180
+        },
+        {
+          "t": "Acrescente o arroz cru lavado, a cenoura, o pimentão, o frango e o caldo (2 partes para 1 de arroz); acerte o sal.",
+          "s": null
+        },
+        {
+          "t": "Tampe e cozinhe em fogo baixo até o arroz absorver o líquido.",
           "s": 960
+        },
+        {
+          "t": "Desligue e deixe descansar tampado; sirva com salsa criolla (cebola e limão).",
+          "s": 300
         }
       ],
       "en": [
         {
-          "t": "Brown seasoned chicken pieces 6 min in a pot; set aside.",
-          "s": 360
-        },
-        {
-          "t": "Blend 1 bunch cilantro with 1/2 cup water.",
+          "t": "Blend a bunch of cilantro with ½ cup water or stock. Chop the onion and garlic, dice the carrot and cut the pepper into strips.",
           "s": null
         },
         {
-          "t": "Sauté onion, garlic, and cumin; cook blended cilantro 3 min.",
+          "t": "Season the chicken with salt and pepper and brown it in a pot with a few drops of oil; remove.",
+          "s": 360
+        },
+        {
+          "t": "In the same pot sauté the onion, garlic and cumin.",
           "s": 180
         },
         {
-          "t": "Add raw rice, diced carrot, pepper, chicken, and broth; simmer covered 16 min.",
+          "t": "Add the blended cilantro and fry until it turns dark green.",
+          "s": 180
+        },
+        {
+          "t": "Add the washed raw rice, carrot, pepper, chicken and stock (2 parts to 1 of rice); adjust the salt.",
+          "s": null
+        },
+        {
+          "t": "Cover and cook on low until the rice absorbs the liquid.",
           "s": 960
+        },
+        {
+          "t": "Turn off and let it rest covered; serve with onion-lime relish.",
+          "s": 300
         }
       ]
     },
@@ -9849,55 +12177,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
+          "t": "Pela la yuca, córtala en trozos y cuécela en agua con sal hasta que esté tierna.",
+          "s": 1200
+        },
+        {
           "t": "Sazona los filetes de pescado con ajo, sal, pimienta y comino.",
           "s": null
         },
         {
-          "t": "En una sartén honda sofríe ajo y cebolla en gajos gruesos 2 min; acomoda el pescado encima y cubre con gajos de tomate.",
+          "t": "Corta la cebolla y el tomate en gajos gruesos.",
+          "s": null
+        },
+        {
+          "t": "En una sartén honda con unas gotas de aceite sofríe ajo y la cebolla.",
           "s": 120
         },
         {
-          "t": "Agrega 1/3 taza de caldo/agua y 1 cda de vinagre o cerveza blanca; tapa herméticamente y cocina a fuego medio 8 min sin mover.",
+          "t": "Acomoda el pescado encima y cúbrelo con los gajos de tomate.",
+          "s": null
+        },
+        {
+          "t": "Agrega ⅓ de taza de caldo o agua y 1 cda de vinagre (o cerveza blanca); tapa bien y cocina a fuego medio sin mover.",
           "s": 480
         },
         {
-          "t": "Destapa, añade cilantro fresco y gotas de limón; sirve con mandioca cocida.",
+          "t": "Destapa, añade cilantro fresco y gotas de limón; sirve con la yuca y su jugo.",
           "s": null
         }
       ],
       "pt": [
         {
+          "t": "Descasque a mandioca, corte em pedaços e cozinhe em água com sal até ficar macia.",
+          "s": 1200
+        },
+        {
           "t": "Tempere os filés de peixe com alho, sal, pimenta e cominho.",
           "s": null
         },
         {
-          "t": "Refogue alho e cebola em gomos 2 min; acomode o peixe e cubra com gomos de tomate.",
+          "t": "Corte a cebola e o tomate em gomos grossos.",
+          "s": null
+        },
+        {
+          "t": "Numa frigideira funda com gotas de óleo refogue alho e a cebola.",
           "s": 120
         },
         {
-          "t": "Junte 1/3 xícara de água/caldo e 1 col. de vinagre; tampe e cozinhe por 8 min.",
+          "t": "Coloque o peixe por cima e cubra com os gomos de tomate.",
+          "s": null
+        },
+        {
+          "t": "Junte ⅓ de xícara de caldo ou água e 1 colher de vinagre (ou cerveja clara); tampe bem e cozinhe em fogo médio sem mexer.",
           "s": 480
         },
         {
-          "t": "Finalize com coentro e limão; sirva com mandioca cozida.",
+          "t": "Destampe, acrescente coentro fresco e gotas de limão; sirva com a mandioca e o caldinho.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Season fish fillets with garlic, salt, pepper, and cumin.",
+          "t": "Peel the cassava, cut into chunks and boil in salted water until tender.",
+          "s": 1200
+        },
+        {
+          "t": "Season the fish fillets with garlic, salt, pepper and cumin.",
           "s": null
         },
         {
-          "t": "Sauté garlic and thick red onion wedges 2 min; lay fish on top with tomato wedges.",
+          "t": "Cut the onion and tomato into thick wedges.",
+          "s": null
+        },
+        {
+          "t": "In a deep pan with a few drops of oil sauté garlic and the onion.",
           "s": 120
         },
         {
-          "t": "Add 1/3 cup water and 1 tbsp vinegar; cover tightly and steam 8 min.",
+          "t": "Lay the fish on top and cover with the tomato wedges.",
+          "s": null
+        },
+        {
+          "t": "Add ⅓ cup stock or water and 1 tbsp vinegar (or light beer); cover tightly and cook over medium heat without stirring.",
           "s": 480
         },
         {
-          "t": "Finish with cilantro and lime; serve with boiled cassava.",
+          "t": "Uncover, add fresh cilantro and a few drops of lime; serve with the cassava and the broth.",
           "s": null
         }
       ]
@@ -9972,55 +12336,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Mezcla 2 cdas de vinagre tinto/manzana, 3 dientes de ajo machacados, 1 cdta de comino, 1 cda de páprica, orégano, aceite y sal.",
+          "t": "Mezcla 2 cdas de vinagre tinto o de manzana, 3 dientes de ajo machacados, 1 cdta de comino, 1 cda de páprica, orégano, el aceite y sal.",
           "s": null
         },
         {
-          "t": "Corta la carne en cubos de 3 cm y déjala marinando 20 min en esa mezcla.",
+          "t": "Corta la carne en cubos de 3 cm y báñalos con la marinada.",
+          "s": null
+        },
+        {
+          "t": "Deja marinar (si usas brochetas de madera, remójalas en agua mientras tanto).",
           "s": 1200
         },
         {
-          "t": "Ensarta los cubos en brochetas y asa en sartén grill muy caliente 3 min por lado pincelando con la marinada.",
+          "t": "Cuece las papas en rodajas gruesas en agua con sal y luego dóralas en sartén.",
+          "s": 900
+        },
+        {
+          "t": "Ensarta 3–4 cubos de carne en cada brocheta.",
+          "s": null
+        },
+        {
+          "t": "Asa en sartén grill muy caliente, pincelando con la marinada, por todos los lados.",
           "s": 360
         },
         {
-          "t": "Sirve con rodajas de papa dorada y salsa picante o chimichurri.",
+          "t": "Sirve con las papas doradas, limón y salsa picante o chimichurri.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Misture vinagre, alho amassado, cominho, páprica, orégano, azeite e sal.",
+          "t": "Misture 2 colheres de vinagre de vinho ou maçã, 3 dentes de alho amassados, 1 colher (chá) de cominho, 1 colher de páprica, orégano, o azeite e sal.",
           "s": null
         },
         {
-          "t": "Marine os cubos de carne por 20 min nessa mistura.",
+          "t": "Corte a carne em cubos de 3 cm e banhe com a marinada.",
+          "s": null
+        },
+        {
+          "t": "Deixe marinar (se usar espetos de madeira, deixe-os de molho na água enquanto isso).",
           "s": 1200
         },
         {
-          "t": "Monte os espetos e grelhe em chapa quente por 3 min de cada lado.",
+          "t": "Cozinhe as batatas em rodelas grossas em água com sal e depois doure na frigideira.",
+          "s": 900
+        },
+        {
+          "t": "Espete 3–4 cubos de carne em cada espeto.",
+          "s": null
+        },
+        {
+          "t": "Grelhe em frigideira grill bem quente, pincelando com a marinada, por todos os lados.",
           "s": 360
         },
         {
-          "t": "Sirva com rodelas de batata dourada.",
+          "t": "Sirva com as batatas douradas, limão e molho de pimenta ou chimichurri.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Whisk vinegar, crushed garlic, cumin, paprika, oregano, oil, and salt.",
+          "t": "Mix 2 tbsp red-wine or cider vinegar, 3 crushed garlic cloves, 1 tsp cumin, 1 tbsp paprika, oregano, the oil and salt.",
           "s": null
         },
         {
-          "t": "Marinate beef cubes for 20 min.",
+          "t": "Cut the beef into 3 cm cubes and coat with the marinade.",
+          "s": null
+        },
+        {
+          "t": "Marinate (if using wooden skewers, soak them in water meanwhile).",
           "s": 1200
         },
         {
-          "t": "Thread onto skewers and grill 3 min per side, basting with marinade.",
+          "t": "Boil the potatoes in thick slices in salted water, then brown them in a pan.",
+          "s": 900
+        },
+        {
+          "t": "Thread 3–4 beef cubes onto each skewer.",
+          "s": null
+        },
+        {
+          "t": "Grill in a very hot grill pan, brushing with marinade, on all sides.",
           "s": 360
         },
         {
-          "t": "Serve with pan-seared potato rounds.",
+          "t": "Serve with the golden potatoes, lime and hot sauce or chimichurri.",
           "s": null
         }
       ]
@@ -10102,56 +12502,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Licúa 1 manojo de cilantro con 1/2 taza de agua hasta quedar verde.",
+          "t": "Licúa un manojo de cilantro con ½ taza de agua hasta quedar bien verde. Pica cebolla y ajo, corta el pollo y la zanahoria en cubos y lava el arroz.",
           "s": null
         },
         {
-          "t": "Sofríe cebolla, ajo y cubos de pollo 4 min en olla; añade el cilantro licuado y fríe 2 min.",
-          "s": 360
+          "t": "Sofríe la cebolla, el ajo y el pollo en olla con unas gotas de aceite.",
+          "s": 240
         },
         {
-          "t": "Agrega 900 ml de agua/caldo, arroz lavado, zanahoria en cubos y maíz verde.",
+          "t": "Añade el cilantro licuado (y pimentón o ají amarillo si tienes) y fríe.",
+          "s": 120
+        },
+        {
+          "t": "Agrega 900 ml de agua o caldo, el arroz, la zanahoria y el choclo; sala.",
           "s": null
         },
         {
-          "t": "Cocina a fuego medio 18 min hasta que el arroz esté suave y espese ligeramente el caldo; sirve con limón.",
+          "t": "Cocina a fuego medio hasta que el arroz esté suave y el caldo espese ligeramente.",
           "s": 1080
+        },
+        {
+          "t": "Ajusta la sal; si espesó demasiado, añade un poco de agua caliente.",
+          "s": null
+        },
+        {
+          "t": "Sirve bien caliente con limón exprimido al momento.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Bata 1 maço de coentro com 1/2 xícara de água.",
+          "t": "Bata um maço de coentro com ½ xícara de água até ficar bem verde. Pique cebola e alho, corte o frango e a cenoura em cubos e lave o arroz.",
           "s": null
         },
         {
-          "t": "Refogue cebola, alho e cubos de frango 4 min; junte o coentro batido por 2 min.",
-          "s": 360
+          "t": "Refogue a cebola, o alho e o frango na panela com gotas de óleo.",
+          "s": 240
         },
         {
-          "t": "Adicione 900 ml de água, arroz lavado, cenoura e milho.",
+          "t": "Junte o coentro batido (e pimentão ou pimenta amarela se tiver) e frite.",
+          "s": 120
+        },
+        {
+          "t": "Acrescente 900 ml de água ou caldo, o arroz, a cenoura e o milho; salgue.",
           "s": null
         },
         {
-          "t": "Cozinhe 18 min até o arroz amaciar e engrossar o caldo; sirva com limão.",
+          "t": "Cozinhe em fogo médio até o arroz ficar macio e o caldo engrossar levemente.",
           "s": 1080
+        },
+        {
+          "t": "Acerte o sal; se engrossou demais, junte um pouco de água quente.",
+          "s": null
+        },
+        {
+          "t": "Sirva bem quente com limão espremido na hora.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Blend 1 bunch cilantro with 1/2 cup water.",
+          "t": "Blend a bunch of cilantro with ½ cup water until bright green. Chop onion and garlic, cube the chicken and carrot and rinse the rice.",
           "s": null
         },
         {
-          "t": "Sauté onion, garlic, and diced chicken 4 min; stir in blended cilantro 2 min.",
-          "s": 360
+          "t": "Sauté the onion, garlic and chicken in a pot with a few drops of oil.",
+          "s": 240
         },
         {
-          "t": "Add 900ml water, rice, diced carrot, and corn.",
+          "t": "Add the blended cilantro (and yellow pepper or chili if you have it) and fry.",
+          "s": 120
+        },
+        {
+          "t": "Add 900 ml water or stock, the rice, carrot and corn; salt it.",
           "s": null
         },
         {
-          "t": "Simmer 18 min until rice is tender and broth thickens slightly; serve with lime.",
+          "t": "Cook over medium heat until the rice is soft and the broth slightly thickened.",
           "s": 1080
+        },
+        {
+          "t": "Adjust the salt; add a little hot water if it got too thick.",
+          "s": null
+        },
+        {
+          "t": "Serve piping hot with freshly squeezed lime.",
+          "s": null
         }
       ]
     },
@@ -10232,56 +12668,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Lava muy bien la quinua bajo el grifo en colador fino (quita el sabor amargo de la saponina).",
+          "t": "Lava muy bien la quinua (o usa avena como alternativa) bajo el grifo en colador fino para quitarle el amargor de la saponina.",
           "s": null
         },
         {
-          "t": "Sofríe cebolla y ajo 3 min; agrega la quinua y cubre poco a poco con caldo caliente como un risotto durante 15 min hasta que abra el grano.",
+          "t": "Calienta caldo en una ollita y mantenlo caliente. Pica cebolla, ajo y tomate.",
+          "s": null
+        },
+        {
+          "t": "Sofríe la cebolla y el ajo con unas gotas de aceite y agrega la quinua escurrida.",
+          "s": 180
+        },
+        {
+          "t": "Añade el caldo caliente poco a poco, como un risotto, removiendo hasta que el grano se abra y muestre su “colita”.",
           "s": 900
         },
         {
-          "t": "Baja el fuego, añade queso rallado y chorrito de leche hasta lograr textura cremosa.",
-          "s": null
+          "t": "Baja el fuego e incorpora el queso rallado y un chorrito de leche hasta lograr textura cremosa; sala.",
+          "s": 120
         },
         {
-          "t": "Aparte sella pechuga de pollo en tiras y sírvela encima con tomate picado.",
-          "s": 240
+          "t": "Aparte sella el pollo en tiras sazonado con sal y pimienta hasta dorar.",
+          "s": 360
+        },
+        {
+          "t": "Sirve el quinotto con el pollo encima y el tomate picado.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Lave muito bem a quinoa em peneira fina sob água corrente.",
+          "t": "Lave muito bem a quinoa (ou use aveia como alternativa) em peneira fina sob a torneira para tirar o amargor da saponina.",
           "s": null
         },
         {
-          "t": "Refogue cebola e alho 3 min; cozinhe a quinoa com caldo aos poucos por 15 min até abrir.",
+          "t": "Aqueça caldo numa panelinha e mantenha quente. Pique cebola, alho e tomate.",
+          "s": null
+        },
+        {
+          "t": "Refogue a cebola e o alho com gotas de óleo e junte a quinoa escorrida.",
+          "s": 180
+        },
+        {
+          "t": "Acrescente o caldo quente aos poucos, como risoto, mexendo até o grão abrir e mostrar o “rabinho”.",
           "s": 900
         },
         {
-          "t": "Misture queijo ralado e um fio de leite até ficar cremoso.",
-          "s": null
+          "t": "Abaixe o fogo e incorpore o queijo ralado e um fio de leite até ficar cremoso; salgue.",
+          "s": 120
         },
         {
-          "t": "Sirva com tiras de frango grelhado por cima.",
-          "s": 240
+          "t": "À parte sele o frango em tiras temperado com sal e pimenta até dourar.",
+          "s": 360
+        },
+        {
+          "t": "Sirva o quinotto com o frango por cima e o tomate picado.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Rinse quinoa thoroughly in a fine sieve to remove bitterness.",
+          "t": "Rinse the quinoa (or use oats as an alternative) very well under the tap in a fine sieve to remove the bitter saponin.",
           "s": null
         },
         {
-          "t": "Sauté onion and garlic 3 min; simmer quinoa with hot broth 15 min until tender.",
+          "t": "Heat stock in a small pot and keep it hot. Chop onion, garlic and tomato.",
+          "s": null
+        },
+        {
+          "t": "Sauté the onion and garlic with a few drops of oil and add the drained quinoa.",
+          "s": 180
+        },
+        {
+          "t": "Add the hot stock little by little, risotto-style, stirring until the grain opens and shows its little “tail”.",
           "s": 900
         },
         {
-          "t": "Fold in grated cheese and splash of milk until creamy.",
-          "s": null
+          "t": "Lower the heat and stir in the grated cheese and a splash of milk until creamy; salt it.",
+          "s": 120
         },
         {
-          "t": "Top with seared chicken strips.",
-          "s": 240
+          "t": "Separately sear the chicken strips seasoned with salt and pepper until golden.",
+          "s": 360
+        },
+        {
+          "t": "Serve the quinotto with the chicken on top and the chopped tomato.",
+          "s": null
         }
       ]
     },
@@ -10355,55 +12827,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Corta las papas en bastones y cocínalas en airfryer 16 min a 200°C (o fríe en sartén) hasta que estén bien doradas y crocantes.",
-          "s": 960
-        },
-        {
-          "t": "Corta la lingüiça (o pechuga de pollo en modo fit) en rodajas diagonales y dóralas en sartén 5 min hasta caramelizar.",
-          "s": 300
-        },
-        {
-          "t": "Mezcla las papas calientes con la carne en plato amplio y añade ensaladita de repollo/tomate al lado.",
+          "t": "Pela (o lava bien) las papas y córtalas en bastones parejos; sécalas con un paño.",
           "s": null
         },
         {
-          "t": "Sirve con mostaza, salsa roja y crema de ají/requeijão.",
+          "t": "Cocínalas en airfryer a 200 °C (o fríelas) agitando la canasta a mitad de tiempo, hasta que estén bien doradas y crocantes.",
+          "s": 960
+        },
+        {
+          "t": "Corta la salchicha/lingüiça (o la pechuga en modo fit) en rodajas diagonales.",
+          "s": null
+        },
+        {
+          "t": "Dórala en sartén con unas gotas de aceite hasta caramelizar los bordes.",
+          "s": 300
+        },
+        {
+          "t": "Prepara una ensaladita de repollo y tomate con limón y sal.",
+          "s": null
+        },
+        {
+          "t": "Sala las papas calientes y mézclalas con la carne en un plato amplio.",
+          "s": null
+        },
+        {
+          "t": "Sirve con mostaza, salsa roja y crema de ají o requeijão, y la ensalada al lado.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Corte as batatas em palitos e asse na airfryer a 200°C por 16 min até ficarem crocantes.",
-          "s": 960
-        },
-        {
-          "t": "Fatie a linguiça (ou frango no modo fit) na diagonal e doure por 5 min.",
-          "s": 300
-        },
-        {
-          "t": "Misture tudo quente no prato com tomate/salada ao lado.",
+          "t": "Descasque (ou lave bem) as batatas e corte em palitos iguais; seque com um pano.",
           "s": null
         },
         {
-          "t": "Sirva com mostarda, ketchup e molho cremoso.",
+          "t": "Cozinhe na airfryer a 200 °C (ou frite) sacudindo o cesto na metade do tempo, até ficarem bem douradas e crocantes.",
+          "s": 960
+        },
+        {
+          "t": "Corte a linguiça (ou o peito de frango no modo fit) em rodelas na diagonal.",
+          "s": null
+        },
+        {
+          "t": "Doure na frigideira com gotas de óleo até caramelizar as bordas.",
+          "s": 300
+        },
+        {
+          "t": "Prepare uma saladinha de repolho e tomate com limão e sal.",
+          "s": null
+        },
+        {
+          "t": "Salgue as batatas quentes e misture com a carne num prato grande.",
+          "s": null
+        },
+        {
+          "t": "Sirva com mostarda, molho vermelho e creme de pimenta ou requeijão, e a salada ao lado.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Cut potatoes into fries and air-fry at 200°C for 16 min until crisp.",
-          "s": 960
-        },
-        {
-          "t": "Slice sausage (or chicken in fit mode) diagonally and sear 5 min.",
-          "s": 300
-        },
-        {
-          "t": "Toss hot fries and meat together on a plate with fresh tomato.",
+          "t": "Peel (or scrub) the potatoes and cut into even sticks; pat dry with a towel.",
           "s": null
         },
         {
-          "t": "Serve with mustard and creamy sauce.",
+          "t": "Air-fry at 200 °C (or deep-fry), shaking the basket halfway, until deep golden and crisp.",
+          "s": 960
+        },
+        {
+          "t": "Slice the sausage (or chicken breast for the fit version) on the diagonal.",
+          "s": null
+        },
+        {
+          "t": "Brown it in a pan with a few drops of oil until the edges caramelize.",
+          "s": 300
+        },
+        {
+          "t": "Make a little cabbage and tomato salad with lime and salt.",
+          "s": null
+        },
+        {
+          "t": "Salt the hot fries and toss with the meat on a large plate.",
+          "s": null
+        },
+        {
+          "t": "Serve with mustard, ketchup and chili cream or requeijão, with the salad on the side.",
           "s": null
         }
       ]
@@ -10485,55 +12993,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Sazona los filetes de pescado con sal, pimienta y ajo; dóralos 3 min por lado en sartén y colócalos en una fuente.",
+          "t": "Cuece el camote en rodajas y el huevo (10 min) en agua con sal.",
+          "s": 900
+        },
+        {
+          "t": "Sazona los filetes de pescado con sal, pimienta y ajo.",
+          "s": null
+        },
+        {
+          "t": "Dóralos en sartén con parte del aceite por ambos lados y colócalos en una fuente.",
           "s": 360
         },
         {
-          "t": "En la misma sartén, saltea cebolla morada en gajos gruesos 3 min (debe quedar algo crocante).",
+          "t": "En la misma sartén saltea la cebolla morada en gajos gruesos; debe quedar algo crocante.",
           "s": 180
         },
         {
-          "t": "Añade 1 cdta de páprica, 1 cdta de comino, 3 cdas de vinagre tinto/manzana y 2 cdas de agua; hierve 2 min.",
+          "t": "Añade 1 cdta de páprica, 1 cdta de comino, 3 cdas de vinagre tinto o de manzana y 2 cdas de agua; hierve.",
           "s": 120
         },
         {
-          "t": "Cubre el pescado con esta cebolla tibia, deja reposar 5 min y sirve con batata-doce cocida, huevo duro y aceituna.",
+          "t": "Cubre el pescado con esta cebolla tibia y deja reposar para que se impregne.",
+          "s": 300
+        },
+        {
+          "t": "Sirve con el camote, el huevo duro en cuartos y las aceitunas.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Tempere os filés de peixe e grelhe por 3 min de cada lado; transfira para uma travessa.",
+          "t": "Cozinhe a batata-doce em rodelas e o ovo (10 min) em água com sal.",
+          "s": 900
+        },
+        {
+          "t": "Tempere os filés de peixe com sal, pimenta e alho.",
+          "s": null
+        },
+        {
+          "t": "Doure na frigideira com parte do azeite dos dois lados e coloque numa travessa.",
           "s": 360
         },
         {
-          "t": "Na mesma frigideira, salteie cebola roxa em gomos grossos por 3 min mantendo firme.",
+          "t": "Na mesma frigideira salteie a cebola roxa em gomos grossos; deve ficar um pouco crocante.",
           "s": 180
         },
         {
-          "t": "Junte páprica, cominho, 3 col. de vinagre e 2 col. de água; ferva 2 min.",
+          "t": "Junte 1 colher (chá) de páprica, 1 de cominho, 3 colheres de vinagre de vinho ou maçã e 2 de água; ferva.",
           "s": 120
         },
         {
-          "t": "Cubra o peixe com a cebola morna e sirva com batata-doce, ovo cozido e azeitona.",
+          "t": "Cubra o peixe com essa cebola morna e deixe descansar para pegar sabor.",
+          "s": 300
+        },
+        {
+          "t": "Sirva com a batata-doce, o ovo cozido em quartos e as azeitonas.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Season and sear fish fillets 3 min per side; transfer to platter.",
+          "t": "Boil the sweet potato slices and the egg (10 min) in salted water.",
+          "s": 900
+        },
+        {
+          "t": "Season the fish fillets with salt, pepper and garlic.",
+          "s": null
+        },
+        {
+          "t": "Brown them in a pan with some of the oil on both sides and place in a dish.",
           "s": 360
         },
         {
-          "t": "In the same skillet, toss thick red onion wedges 3 min keeping some crunch.",
+          "t": "In the same pan sauté the red onion in thick wedges; it should stay a bit crunchy.",
           "s": 180
         },
         {
-          "t": "Add paprika, cumin, 3 tbsp vinegar, and 2 tbsp water; simmer 2 min.",
+          "t": "Add 1 tsp paprika, 1 tsp cumin, 3 tbsp red-wine or cider vinegar and 2 tbsp water; bring to a boil.",
           "s": 120
         },
         {
-          "t": "Spoon warm onions over fish and serve with sweet potato, boiled egg, and olives.",
+          "t": "Cover the fish with the warm onion and let it rest to soak up the flavor.",
+          "s": 300
+        },
+        {
+          "t": "Serve with the sweet potato, quartered boiled egg and olives.",
           "s": null
         }
       ]
@@ -10615,55 +13159,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Sofríe cebolla morada, ajo, tomate picado y páprica en olla 5 min hasta formar una pasta espesa.",
+          "t": "Pela la yuca, córtala en trozos y cuécela en agua con sal.",
+          "s": 1200
+        },
+        {
+          "t": "Corta el pescado en trozos grandes y firmes; pica la cebolla morada, el ajo y el tomate.",
+          "s": null
+        },
+        {
+          "t": "Sofríe la cebolla, el ajo, el tomate y la páprica en olla con unas gotas de aceite hasta formar una pasta espesa.",
           "s": 300
         },
         {
-          "t": "Agrega 700 ml de caldo de pescado o agua caliente y hierve 8 min para concentrar sabores.",
+          "t": "Agrega 700 ml de caldo de pescado o agua caliente y hierve para concentrar sabores; sala.",
           "s": 480
         },
         {
-          "t": "Incorpora los trozos de pescado firme y cocina 4 min; luego agrega los camarones limpios solo los últimos 2 min.",
-          "s": 360
+          "t": "Incorpora el pescado y cocina sin remover mucho para que no se deshaga.",
+          "s": 240
         },
         {
-          "t": "Sirve bien caliente con cilantro fresco, limón y mandioca cocida.",
+          "t": "Añade los camarones solo al final, hasta que se pongan rosados.",
+          "s": 120
+        },
+        {
+          "t": "Sirve bien caliente con cilantro fresco, limón y la yuca.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Refogue cebola roxa, alho, tomate e páprica por 5 min.",
+          "t": "Descasque a mandioca, corte em pedaços e cozinhe em água com sal.",
+          "s": 1200
+        },
+        {
+          "t": "Corte o peixe em pedaços grandes e firmes; pique a cebola roxa, o alho e o tomate.",
+          "s": null
+        },
+        {
+          "t": "Refogue a cebola, o alho, o tomate e a páprica na panela com gotas de óleo até virar uma pasta grossa.",
           "s": 300
         },
         {
-          "t": "Junte 700 ml de caldo ou água quente e ferva por 8 min.",
+          "t": "Junte 700 ml de caldo de peixe ou água quente e ferva para concentrar os sabores; salgue.",
           "s": 480
         },
         {
-          "t": "Adicione o peixe em pedaços por 4 min e os camarões apenas nos últimos 2 min.",
-          "s": 360
+          "t": "Acrescente o peixe e cozinhe sem mexer muito para não desmanchar.",
+          "s": 240
         },
         {
-          "t": "Sirva bem quente com coentro, limão e mandioca.",
+          "t": "Junte os camarões só no final, até ficarem rosados.",
+          "s": 120
+        },
+        {
+          "t": "Sirva bem quente com coentro fresco, limão e a mandioca.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Sauté red onion, garlic, tomato, and paprika 5 min.",
+          "t": "Peel the cassava, cut into chunks and boil in salted water.",
+          "s": 1200
+        },
+        {
+          "t": "Cut the fish into large firm pieces; chop the red onion, garlic and tomato.",
+          "s": null
+        },
+        {
+          "t": "Sauté the onion, garlic, tomato and paprika in a pot with a few drops of oil into a thick paste.",
           "s": 300
         },
         {
-          "t": "Pour in 700ml broth/water and simmer 8 min.",
+          "t": "Add 700 ml fish stock or hot water and simmer to concentrate the flavors; salt it.",
           "s": 480
         },
         {
-          "t": "Add fish chunks for 4 min, then shrimp for the last 2 min.",
-          "s": 360
+          "t": "Add the fish and cook without stirring much so it does not break apart.",
+          "s": 240
         },
         {
-          "t": "Serve piping hot with cilantro, lime, and cassava.",
+          "t": "Add the shrimp only at the end, until pink.",
+          "s": 120
+        },
+        {
+          "t": "Serve piping hot with fresh cilantro, lime and the cassava.",
           "s": null
         }
       ]
@@ -10752,56 +13332,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Sofríe cebolla, ajo, tomate picado y páprica en olla 4 min.",
+          "t": "Pela y corta las papas en cubos; pica la cebolla, el ajo y el tomate; corta el queso en cubitos.",
+          "s": null
+        },
+        {
+          "t": "Sofríe la cebolla, el ajo, el tomate y la páprica en olla con unas gotas de aceite.",
           "s": 240
         },
         {
-          "t": "Agrega 700 ml de caldo/agua, papas en cubos, 2 cdas de arroz crudo y maíz; cocina 14 min hasta ablandar la papa.",
+          "t": "Agrega 700 ml de caldo o agua, las papas, 2 cdas de arroz crudo y el choclo; sala.",
+          "s": null
+        },
+        {
+          "t": "Cocina hasta que la papa esté suave.",
           "s": 840
         },
         {
-          "t": "Añade los camarones/pescado, la leche y el queso en cubos; cocina 3 min sin dejar hervir fuerte.",
+          "t": "Baja el fuego y añade los camarones (o pescado), la leche y el queso; cocina sin dejar que hierva fuerte para que la leche no se corte.",
           "s": 180
         },
         {
-          "t": "Rompe 1 huevo dentro del caldo caliente (o sirve huevo pochado encima) y cocina 2 min; termina con orégano.",
+          "t": "Rompe el huevo dentro del caldo caliente sin revolver (o sirve un huevo pochado encima) y deja cuajar.",
           "s": 120
+        },
+        {
+          "t": "Termina con orégano seco frotado entre las manos y sirve bien caliente.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Refogue cebola, alho, tomate e páprica por 4 min.",
+          "t": "Descasque e corte as batatas em cubos; pique a cebola, o alho e o tomate; corte o queijo em cubinhos.",
+          "s": null
+        },
+        {
+          "t": "Refogue a cebola, o alho, o tomate e a páprica na panela com gotas de óleo.",
           "s": 240
         },
         {
-          "t": "Junte 700 ml de água, batata em cubos, 2 col. de arroz e milho; cozinhe 14 min.",
+          "t": "Junte 700 ml de caldo ou água, as batatas, 2 colheres de arroz cru e o milho; salgue.",
+          "s": null
+        },
+        {
+          "t": "Cozinhe até a batata ficar macia.",
           "s": 840
         },
         {
-          "t": "Adicione camarão/peixe, leite e queijo minas em cubos por 3 min sem ferver forte.",
+          "t": "Abaixe o fogo e acrescente os camarões (ou peixe), o leite e o queijo; cozinhe sem ferver forte para o leite não talhar.",
           "s": 180
         },
         {
-          "t": "Quebre 1 ovo direto no caldo quente, cozinhe 2 min e finalize com orégano.",
+          "t": "Quebre o ovo dentro do caldo quente sem mexer (ou sirva um ovo pochê por cima) e deixe firmar.",
           "s": 120
+        },
+        {
+          "t": "Finalize com orégano seco esfregado entre as mãos e sirva bem quente.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Sauté onion, garlic, tomato, and paprika 4 min.",
+          "t": "Peel and cube the potatoes; chop the onion, garlic and tomato; dice the cheese.",
+          "s": null
+        },
+        {
+          "t": "Sauté the onion, garlic, tomato and paprika in a pot with a few drops of oil.",
           "s": 240
         },
         {
-          "t": "Add 700ml water, diced potato, 2 tbsp rice, and corn; boil 14 min.",
+          "t": "Add 700 ml stock or water, the potatoes, 2 tbsp raw rice and the corn; salt it.",
+          "s": null
+        },
+        {
+          "t": "Cook until the potato is tender.",
           "s": 840
         },
         {
-          "t": "Stir in shrimp/fish, milk, and cubed Minas cheese for 3 min without hard boiling.",
+          "t": "Lower the heat and add the shrimp (or fish), milk and cheese; cook without a hard boil so the milk does not curdle.",
           "s": 180
         },
         {
-          "t": "Poach 1 egg right in the hot broth for 2 min and garnish with oregano.",
+          "t": "Crack the egg into the hot broth without stirring (or top with a poached egg) and let it set.",
           "s": 120
+        },
+        {
+          "t": "Finish with dried oregano rubbed between your palms and serve piping hot.",
+          "s": null
         }
       ]
     },
@@ -10896,67 +13512,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Cuece los frijoles con zanahoria rallada y cebolla hasta que el caldo quede espeso (si son ya cocidos, hiérvelos 10 min con hogao para espesar).",
+          "t": "Cuece los frijoles con zanahoria rallada y cebolla hasta que el caldo quede espeso (si ya están cocidos, hiérvelos con hogao para espesar).",
           "s": 600
         },
         {
-          "t": "Prepara la arepa pequeña: hidrata flocão de milho (o harina PAN) con agua tibia y sal 5 min, forma un disco y asa 4 min por lado en sartén.",
+          "t": "Cocina el arroz si no lo tienes listo.",
+          "s": 1080
+        },
+        {
+          "t": "Arepa: hidrata la harina de maíz (o flocão) con agua tibia y sal, forma un disco y ásalo en sartén por ambos lados.",
           "s": 480
         },
         {
-          "t": "Asa la carne de cerdo (en airfryer 12 min para que quede crocante) y saltea aparte carne molida con cebolla, ajo y comino.",
+          "t": "Corta el cerdo en tiras, sálalo y cocínalo en airfryer a 200 °C hasta que quede crocante (estilo chicharrón).",
           "s": 720
         },
         {
-          "t": "Dora rodajas de banana-da-terra madura en sartén 2 min por lado y fríe 1 huevo con yema blanda.",
-          "s": 240
+          "t": "Saltea la carne molida con cebolla, ajo, comino y sal hasta que quede suelta y dorada.",
+          "s": 300
         },
         {
-          "t": "Sirve todo en plato amplio: arroz, frijoles, carne molida, cerdo crocante, huevo encima, arepa, plátano y gajos de aguacate.",
+          "t": "Dora las rodajas de plátano maduro por ambos lados y fríe el huevo con la yema blanda.",
+          "s": 300
+        },
+        {
+          "t": "Sirve todo en un plato amplio: arroz, frijoles, carne molida, cerdo crocante, huevo encima, arepa, plátano y gajos de aguacate.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Cozinhe o feijão com cenoura ralada e cebola até formar caldo grosso (ou apure o feijão pronto por 10 min).",
+          "t": "Cozinhe o feijão com cenoura ralada e cebola até o caldo engrossar (se já estiver cozido, ferva com hogao para engrossar).",
           "s": 600
         },
         {
-          "t": "Faça a arepa: hidrate o flocão de milho com água morna e sal, molde um disco fino e doure 4 min de cada lado.",
+          "t": "Cozinhe o arroz se não tiver pronto.",
+          "s": 1080
+        },
+        {
+          "t": "Arepa: hidrate a farinha de milho (ou flocão) com água morna e sal, forme um disco e asse na frigideira dos dois lados.",
           "s": 480
         },
         {
-          "t": "Asse o lombo/panceta na airfryer por 12 min até ficar crocante e refogue a carne moída com cominho.",
+          "t": "Corte o porco em tiras, salgue e leve à airfryer a 200 °C até ficar crocante (tipo torresmo).",
           "s": 720
         },
         {
-          "t": "Doure rodelas de banana-da-terra por 2 min de cada lado e frite 1 ovo.",
-          "s": 240
+          "t": "Salteie a carne moída com cebola, alho, cominho e sal até ficar soltinha e dourada.",
+          "s": 300
         },
         {
-          "t": "Monte tudo no prato grande com arroz, feijão, carnes, ovo, arepa, banana e abacate.",
+          "t": "Doure as rodelas de banana-da-terra madura dos dois lados e frite o ovo com a gema mole.",
+          "s": 300
+        },
+        {
+          "t": "Sirva tudo num prato grande: arroz, feijão, carne moída, porco crocante, ovo por cima, arepa, banana e gomos de abacate.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Simmer beans with grated carrot and onion 10 min until thick.",
+          "t": "Simmer the beans with grated carrot and onion until the broth thickens (if precooked, boil them with hogao to thicken).",
           "s": 600
         },
         {
-          "t": "Make arepa: hydrate cornmeal with warm salted water, shape a flat disc, and griddle 4 min per side.",
+          "t": "Cook the rice if not ready.",
+          "s": 1080
+        },
+        {
+          "t": "Arepa: hydrate the corn flour (or flocão) with warm water and salt, shape a disc and cook in a pan on both sides.",
           "s": 480
         },
         {
-          "t": "Air-fry pork 12 min until crisp and brown ground beef with cumin.",
+          "t": "Cut the pork into strips, salt it and air-fry at 200 °C until crisp (chicharrón style).",
           "s": 720
         },
         {
-          "t": "Pan-sear plantain slices 2 min per side and fry 1 egg.",
-          "s": 240
+          "t": "Sauté the ground beef with onion, garlic, cumin and salt until crumbly and browned.",
+          "s": 300
         },
         {
-          "t": "Plate everything together with rice, beans, beef, crisp pork, egg, arepa, plantain, and avocado.",
+          "t": "Brown the ripe plantain slices on both sides and fry the egg with a runny yolk.",
+          "s": 300
+        },
+        {
+          "t": "Serve everything on a large plate: rice, beans, ground beef, crispy pork, egg on top, arepa, plantain and avocado wedges.",
           "s": null
         }
       ]
@@ -11045,55 +13685,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Pon en olla grande la pechuga de pollo entera con 1 litro de agua, cebolla larga/cebollín, ajo y sal; hierve 18 min y retira el pollo para desmenuzarlo.",
-          "s": 1080
-        },
-        {
-          "t": "Al caldo hirviendo agrega las papas peladas en rodajas finas (al deshacerse espesarán la sopa) y trozos de mazorca o maíz verde.",
+          "t": "Pela y corta las papas en rodajas finas (al deshacerse espesarán la sopa). Corta el choclo en trozos.",
           "s": null
         },
         {
-          "t": "Cocina a fuego medio 20 min removiendo de vez en cuando hasta que parte de la papa se deshaga y el caldo quede cremoso y espeso (si tienes orégano o cilantro, agrégalo).",
+          "t": "Pon en una olla grande la pechuga entera con 1 litro de agua, cebollín o cebolla larga, ajo y sal; hierve.",
+          "s": 1080
+        },
+        {
+          "t": "Retira el pollo y desmenúzalo; mantén el caldo hirviendo.",
+          "s": null
+        },
+        {
+          "t": "Agrega al caldo las papas y el choclo y cocina a fuego medio, removiendo de vez en cuando.",
           "s": 1200
         },
         {
-          "t": "Sirve en tazón con el pollo desmenuzado encima, una cucharada de crema de leche/requeijão, alcaparras opcionales y aguacate al lado.",
+          "t": "Cuando parte de la papa se haya deshecho y el caldo esté cremoso, añade guascas si consigues (o orégano/cilantro) y ajusta la sal.",
+          "s": null
+        },
+        {
+          "t": "Corta el aguacate en láminas.",
+          "s": null
+        },
+        {
+          "t": "Sirve en tazón con el pollo desmenuzado encima, una cucharada de crema o requeijão, alcaparras opcionales y el aguacate al lado.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Cozinhe o peito de frango inteiro em 1 litro de água com cebolinha, alho e sal por 18 min; retire e desfie.",
-          "s": 1080
-        },
-        {
-          "t": "No mesmo caldo, coloque batatas em rodelas finas (elas vão desmanchar e engrossar) e milho verde.",
+          "t": "Descasque e corte as batatas em rodelas finas (ao desmanchar vão engrossar a sopa). Corte o milho em pedaços.",
           "s": null
         },
         {
-          "t": "Cozinhe por 20 min mexendo às vezes até ficar um caldo cremoso e encorpado.",
+          "t": "Coloque numa panela grande o peito inteiro com 1 litro de água, cebolinha, alho e sal; ferva.",
+          "s": 1080
+        },
+        {
+          "t": "Retire o frango e desfie; mantenha o caldo fervendo.",
+          "s": null
+        },
+        {
+          "t": "Junte ao caldo as batatas e o milho e cozinhe em fogo médio, mexendo às vezes.",
           "s": 1200
         },
         {
-          "t": "Sirva com frango desfiado por cima, creme de leite ou requeijão e abacate ao lado.",
+          "t": "Quando parte da batata desmanchar e o caldo ficar cremoso, junte guascas se encontrar (ou orégano/coentro) e acerte o sal.",
+          "s": null
+        },
+        {
+          "t": "Corte o abacate em lâminas.",
+          "s": null
+        },
+        {
+          "t": "Sirva em tigela com o frango desfiado por cima, uma colher de creme de leite ou requeijão, alcaparras opcionais e o abacate ao lado.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Simmer whole chicken breast in 1L water with scallions, garlic, and salt 18 min; shred.",
-          "s": 1080
-        },
-        {
-          "t": "Add thinly sliced potatoes and corn to the boiling broth.",
+          "t": "Peel and slice the potatoes thinly (as they break down they will thicken the soup). Cut the corn into chunks.",
           "s": null
         },
         {
-          "t": "Simmer 20 min stirring occasionally as potatoes break down and thicken the soup.",
+          "t": "Put the whole chicken breast in a large pot with 1 liter of water, scallion, garlic and salt; simmer.",
+          "s": 1080
+        },
+        {
+          "t": "Remove the chicken and shred it; keep the broth boiling.",
+          "s": null
+        },
+        {
+          "t": "Add the potatoes and corn to the broth and cook over medium heat, stirring now and then.",
           "s": 1200
         },
         {
-          "t": "Top bowls with shredded chicken, cream/requeijão, and sliced avocado.",
+          "t": "When some potato has dissolved and the broth is creamy, add guascas if you find it (or oregano/cilantro) and adjust the salt.",
+          "s": null
+        },
+        {
+          "t": "Slice the avocado.",
+          "s": null
+        },
+        {
+          "t": "Serve in bowls with the shredded chicken on top, a spoonful of cream or requeijão, optional capers and the avocado on the side.",
           "s": null
         }
       ]
@@ -11182,55 +13858,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Hierve los trozos de carne en 1.2 litros de agua con cebolla, ajo, tomate picado, comino y sal durante 25 min (o 15 min en olla a presión) hasta ablandar.",
+          "t": "Corta la carne en trozos grandes; pela la yuca y las papas y córtalas en trozos grandes; corta el plátano y el choclo en rodajas gruesas.",
+          "s": null
+        },
+        {
+          "t": "Hierve la carne en 1,2 litros de agua con cebolla, ajo, tomate picado, comino y sal hasta ablandar (o 15 min en olla a presión).",
           "s": 1500
         },
         {
-          "t": "Agrega los trozos de mazorca y banana-da-terra en rodajas gruesas; cocina 8 min.",
+          "t": "Agrega el choclo y el plátano.",
           "s": 480
         },
         {
-          "t": "Añade la mandioca pelada y las papas en trozos grandes; hierve 15 min más hasta que la mandioca y papa estén suaves al pinchar.",
+          "t": "Añade la yuca y las papas y hierve hasta que estén suaves al pincharlas.",
           "s": 900
         },
         {
-          "t": "Apaga el fuego, agrega abundante cilantro picado y sirve caliente acompañado de arroz blanco y aguacate.",
+          "t": "Ajusta la sal; si el caldo se redujo mucho, agrega agua caliente.",
+          "s": null
+        },
+        {
+          "t": "Apaga el fuego y añade abundante cilantro picado.",
+          "s": null
+        },
+        {
+          "t": "Sirve caliente con arroz blanco y aguacate al lado.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Cozinhe a carne em 1.2L de água com cebola, alho, tomate e cominho por 25 min até amaciar.",
+          "t": "Corte a carne em pedaços grandes; descasque a mandioca e as batatas e corte em pedaços grandes; corte a banana-da-terra e o milho em rodelas grossas.",
+          "s": null
+        },
+        {
+          "t": "Ferva a carne em 1,2 litro de água com cebola, alho, tomate picado, cominho e sal até amaciar (ou 15 min na pressão).",
           "s": 1500
         },
         {
-          "t": "Junte o milho e rodelas grossas de banana-da-terra; cozinhe 8 min.",
+          "t": "Junte o milho e a banana-da-terra.",
           "s": 480
         },
         {
-          "t": "Adicione mandioca e batata em pedaços grandes e ferva mais 15 min até ficarem macios.",
+          "t": "Acrescente a mandioca e as batatas e ferva até ficarem macias ao espetar.",
           "s": 900
         },
         {
-          "t": "Finalize com bastante coentro picado e sirva com arroz e abacate.",
+          "t": "Acerte o sal; se o caldo reduziu muito, junte água quente.",
+          "s": null
+        },
+        {
+          "t": "Desligue o fogo e acrescente bastante coentro picado.",
+          "s": null
+        },
+        {
+          "t": "Sirva quente com arroz branco e abacate ao lado.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Simmer beef chunks in 1.2L water with onion, garlic, tomato, and cumin 25 min until tender.",
+          "t": "Cut the beef into large chunks; peel the cassava and potatoes and cut into large pieces; slice the plantain and corn thickly.",
+          "s": null
+        },
+        {
+          "t": "Simmer the beef in 1.2 liters of water with onion, garlic, chopped tomato, cumin and salt until tender (or 15 min in a pressure cooker).",
           "s": 1500
         },
         {
-          "t": "Add corn and thick plantain slices; cook 8 min.",
+          "t": "Add the corn and plantain.",
           "s": 480
         },
         {
-          "t": "Add peeled cassava and potato chunks; boil 15 min until fork-tender.",
+          "t": "Add the cassava and potatoes and boil until tender when pierced.",
           "s": 900
         },
         {
-          "t": "Stir in plenty of fresh cilantro and serve with rice and avocado.",
+          "t": "Adjust the salt; add hot water if the broth reduced too much.",
+          "s": null
+        },
+        {
+          "t": "Turn off the heat and add plenty of chopped cilantro.",
+          "s": null
+        },
+        {
+          "t": "Serve hot with white rice and avocado on the side.",
           "s": null
         }
       ]
@@ -11312,55 +14024,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Mezcla 1 taza de harina de maíz precocida (o flocão hidratado molido) con 1 taza de agua tibia, sal y 1 cdta de aceite; amasa 3 min hasta que no se agriete y reposa 5 min.",
+          "t": "Mezcla 1 taza de harina de maíz precocida (o flocão hidratado) con 1 taza de agua tibia, sal y 1 cdta de aceite.",
+          "s": null
+        },
+        {
+          "t": "Amasa hasta que no se agriete y deja reposar.",
           "s": 300
         },
         {
-          "t": "Forma bolitas y aplástalas en discos de 1 cm de grosor. Asa en sartén antiadherente a fuego medio-bajo 5 min por lado hasta que suenen huecas al golpearlas.",
+          "t": "Forma bolitas y aplástalas en discos de 1 cm de grosor, alisando los bordes con los dedos húmedos.",
+          "s": null
+        },
+        {
+          "t": "Ásalas en sartén antiadherente a fuego medio-bajo por ambos lados, hasta que suenen huecas al golpearlas.",
           "s": 600
         },
         {
-          "t": "Sofríe cebolla, tomate picado y ajo (hogao) 4 min, mezcla la carne desmenuzada/molida y cocina 4 min hasta quedar jugosa.",
+          "t": "Hogao: sofríe cebolla, tomate picado y ajo con el resto del aceite hasta formar salsa.",
           "s": 240
         },
         {
-          "t": "Abre las arepas calientes por el borde formando un bolsillo, rellena con queso y la carne caliente.",
+          "t": "Agrega la carne desmechada o molida y cocina hasta que quede jugosa; sala.",
+          "s": 240
+        },
+        {
+          "t": "Abre las arepas calientes por el borde formando un bolsillo y rellénalas con queso y la carne caliente.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Misture farinha de milho pré-cozida (ou milharina) com água morna, sal e fio de óleo; sove 3 min e descanse 5 min.",
+          "t": "Misture 1 xícara de farinha de milho pré-cozida (ou flocão hidratado) com 1 xícara de água morna, sal e 1 colher (chá) de óleo.",
+          "s": null
+        },
+        {
+          "t": "Sove até não rachar e deixe descansar.",
           "s": 300
         },
         {
-          "t": "Modele discos de 1 cm e asse na frigideira em fogo médio-baixo por 5 min de cada lado até criar casquinha.",
+          "t": "Faça bolinhas e achate em discos de 1 cm de espessura, alisando as bordas com os dedos úmidos.",
+          "s": null
+        },
+        {
+          "t": "Asse em frigideira antiaderente em fogo médio-baixo dos dois lados, até soarem ocas ao bater.",
           "s": 600
         },
         {
-          "t": "Refogue cebola, tomate e alho (hogao) por 4 min e junte a carne desfiada.",
+          "t": "Hogao: refogue cebola, tomate picado e alho com o resto do óleo até virar molho.",
           "s": 240
         },
         {
-          "t": "Abra a arepa quente pela lateral e recheie com queijo e a carne.",
+          "t": "Junte a carne desfiada ou moída e cozinhe até ficar suculenta; salgue.",
+          "s": 240
+        },
+        {
+          "t": "Abra as arepas quentes pela borda formando um bolso e recheie com queijo e a carne quente.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Mix precooked cornmeal with warm salted water and a drop of oil; knead 3 min and rest 5 min.",
+          "t": "Mix 1 cup precooked corn flour (or hydrated flocão) with 1 cup warm water, salt and 1 tsp oil.",
+          "s": null
+        },
+        {
+          "t": "Knead until it no longer cracks and let it rest.",
           "s": 300
         },
         {
-          "t": "Pat into 1cm discs and griddle over medium-low heat 5 min per side until crisp.",
+          "t": "Shape balls and flatten into 1 cm discs, smoothing the edges with wet fingers.",
+          "s": null
+        },
+        {
+          "t": "Cook in a nonstick pan over medium-low on both sides until they sound hollow when tapped.",
           "s": 600
         },
         {
-          "t": "Sauté onion, tomato, and garlic 4 min; stir in shredded beef.",
+          "t": "Hogao: sauté onion, chopped tomato and garlic with the rest of the oil into a sauce.",
           "s": 240
         },
         {
-          "t": "Split warm arepas along the edge and stuff with cheese and beef.",
+          "t": "Add the shredded or ground beef and cook until juicy; salt it.",
+          "s": 240
+        },
+        {
+          "t": "Slit the hot arepas along the edge to form a pocket and fill with cheese and the hot meat.",
           "s": null
         }
       ]
@@ -11435,55 +14183,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Prepara la masa hidratando la harina de maíz con agua tibia y sal hasta que esté suave.",
+          "t": "Mezcla la harina de maíz con agua tibia y sal y amasa hasta que esté suave y no se agriete.",
           "s": null
         },
         {
-          "t": "Arma una arepa delgada y ásala en sartén 4 min por lado hasta que infle ligeramente y se forme piel.",
+          "t": "Deja reposar la masa tapada.",
+          "s": 300
+        },
+        {
+          "t": "Forma discos delgados (unos 5 mm), parejos y sin grietas.",
+          "s": null
+        },
+        {
+          "t": "Ásalos en sartén con un poco de aceite por ambos lados hasta que inflen ligeramente y se forme piel.",
           "s": 480
         },
         {
-          "t": "Con un cuchillo, haz una abertura lateral en la arepa tibia, vierte con cuidado 1 huevo crudo con pizca de sal (y queso si gustas) dentro del bolsillo.",
+          "t": "Con un cuchillo abre una abertura lateral en cada arepa tibia, cuidando de no romperla.",
           "s": null
         },
         {
-          "t": "Sella el borde apretando con masa húmeda y cocina en sartén tapada a fuego bajo 3 min por lado hasta que el huevo quede cocido.",
+          "t": "Bate ligeramente el huevo con sal (y queso o cebolla picada si quieres) y viértelo con cuidado dentro del bolsillo; sella el borde con un poco de masa húmeda.",
+          "s": null
+        },
+        {
+          "t": "Cocina en sartén tapada a fuego bajo, volteando una vez, hasta que el huevo esté cocido por dentro.",
           "s": 360
         }
       ],
       "pt": [
         {
-          "t": "Hidrate a farinha de milho com água morna e sal até ficar macia.",
+          "t": "Misture a farinha de milho com água morna e sal e sove até ficar macia e sem rachar.",
           "s": null
         },
         {
-          "t": "Modele uma arepa fina e doure na frigideira 4 min de cada lado.",
+          "t": "Deixe a massa descansar coberta.",
+          "s": 300
+        },
+        {
+          "t": "Faça discos finos (uns 5 mm), regulares e sem rachaduras.",
+          "s": null
+        },
+        {
+          "t": "Asse na frigideira com um pouco de óleo dos dois lados até inflarem levemente e formar uma película.",
           "s": 480
         },
         {
-          "t": "Abra uma fenda lateral, coloque 1 ovo cru com pitada de sal dentro.",
+          "t": "Com uma faca abra uma fenda lateral em cada arepa morna, cuidando para não rasgar.",
           "s": null
         },
         {
-          "t": "Feche a borda e cozinhe na frigideira tampada em fogo baixo 3 min de cada lado até o ovo firmar.",
+          "t": "Bata levemente o ovo com sal (e queijo ou cebola picada se quiser) e despeje com cuidado dentro do bolso; feche a borda com um pouco de massa úmida.",
+          "s": null
+        },
+        {
+          "t": "Cozinhe em frigideira tampada em fogo baixo, virando uma vez, até o ovo cozinhar por dentro.",
           "s": 360
         }
       ],
       "en": [
         {
-          "t": "Hydrate cornmeal with warm salted water into soft dough.",
+          "t": "Mix the corn flour with warm water and salt and knead until smooth and crack-free.",
           "s": null
         },
         {
-          "t": "Shape thin arepa and griddle 4 min per side.",
+          "t": "Let the dough rest, covered.",
+          "s": 300
+        },
+        {
+          "t": "Shape thin discs (about 5 mm), even and without cracks.",
+          "s": null
+        },
+        {
+          "t": "Cook in a pan with a little oil on both sides until they puff slightly and form a skin.",
           "s": 480
         },
         {
-          "t": "Slit side pocket open and slip 1 raw egg with salt inside.",
+          "t": "With a knife cut a side opening in each warm arepa, taking care not to tear it.",
           "s": null
         },
         {
-          "t": "Pinch edge shut and cook covered over low heat 3 min per side until egg sets.",
+          "t": "Lightly beat the egg with salt (and cheese or chopped onion if you like) and carefully pour it into the pocket; seal the edge with a bit of wet dough.",
+          "s": null
+        },
+        {
+          "t": "Cook in a covered pan over low heat, turning once, until the egg is set inside.",
           "s": 360
         }
       ]
@@ -11565,56 +14349,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Cuece la papa 15 min y aplástala de forma rústica; mézclala con carne molida dorada y hogao (sofrito de tomate, cebollín, ajo y comino) hasta formar un relleno compacto.",
+          "t": "Cuece la papa pelada en cubos en agua con sal y aplástala de forma rústica.",
           "s": 900
         },
         {
-          "t": "Prepara la masa mezclando harina de maíz amarilla con agua tibia, sal y 1 cdta de aceite.",
+          "t": "Hogao: sofríe tomate, cebolla, ajo y comino; agrega la carne molida y dórala.",
+          "s": 360
+        },
+        {
+          "t": "Mezcla la carne con la papa hasta formar un relleno compacto; ajusta la sal y deja entibiar.",
           "s": null
         },
         {
-          "t": "Estira bolitas de masa entre dos plásticos hasta dejarlas finas, pon 1 cda de relleno, dobla en media luna y sella los bordes presionando con una taza.",
+          "t": "Masa: mezcla la harina de maíz amarilla con agua tibia, sal y 1 cdta de aceite hasta que esté suave.",
           "s": null
         },
         {
-          "t": "Pincela con aceite y cocina en airfryer a 200°C por 14 min hasta quedar doradas y crocantes; sirve con ají o limón.",
+          "t": "Estira bolitas de masa entre dos plásticos hasta dejarlas finas, pon 1 cda de relleno, dobla en media luna y sella presionando el borde con una taza.",
+          "s": null
+        },
+        {
+          "t": "Pincélalas con aceite y cocínalas en airfryer a 200 °C (o fríelas) hasta que estén doradas y crocantes.",
           "s": 840
+        },
+        {
+          "t": "Sirve con ají casero o gotas de limón.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Cozinhe a batata 15 min, amasse e misture com carne moída refogada e hogao (tomate e cebolinha).",
+          "t": "Cozinhe a batata descascada em cubos em água com sal e amasse de forma rústica.",
           "s": 900
         },
         {
-          "t": "Faça a massa misturando farinha de milho amarela, água morna e sal.",
+          "t": "Hogao: refogue tomate, cebola, alho e cominho; junte a carne moída e doure.",
+          "s": 360
+        },
+        {
+          "t": "Misture a carne com a batata até formar um recheio firme; acerte o sal e deixe amornar.",
           "s": null
         },
         {
-          "t": "Abra discos finos entre plásticos, recheie e feche em meia-lua apertando as bordas.",
+          "t": "Massa: misture a farinha de milho amarela com água morna, sal e 1 colher (chá) de óleo até ficar macia.",
           "s": null
         },
         {
-          "t": "Pincele azeite e leve à airfryer a 200°C por 14 min até dourar; sirva com limão.",
+          "t": "Abra bolinhas de massa entre dois plásticos até ficarem finas, coloque 1 colher de recheio, dobre em meia-lua e feche apertando a borda com uma xícara.",
+          "s": null
+        },
+        {
+          "t": "Pincele com óleo e leve à airfryer a 200 °C (ou frite) até ficarem douradas e crocantes.",
           "s": 840
+        },
+        {
+          "t": "Sirva com molho de pimenta caseiro ou gotas de limão.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Boil potato 15 min, mash roughly, and mix with browned beef and hogao sauce.",
+          "t": "Boil the peeled, cubed potato in salted water and mash it roughly.",
           "s": 900
         },
         {
-          "t": "Mix yellow cornmeal with warm salted water into pliable dough.",
+          "t": "Hogao: sauté tomato, onion, garlic and cumin; add the ground beef and brown it.",
+          "s": 360
+        },
+        {
+          "t": "Mix the beef with the potato into a firm filling; adjust the salt and let it cool slightly.",
           "s": null
         },
         {
-          "t": "Press into thin rounds between plastic wrap, fill, fold, and crimp edges.",
+          "t": "Dough: mix the yellow corn flour with warm water, salt and 1 tsp oil until smooth.",
           "s": null
         },
         {
-          "t": "Brush with oil and air-fry at 200°C for 14 min until crisp; serve with lime.",
+          "t": "Roll balls of dough thin between two sheets of plastic, add 1 tbsp filling, fold into a half-moon and seal by pressing the edge with a cup.",
+          "s": null
+        },
+        {
+          "t": "Brush with oil and air-fry at 200 °C (or deep-fry) until golden and crisp.",
           "s": 840
+        },
+        {
+          "t": "Serve with homemade ají or a squeeze of lime.",
+          "s": null
         }
       ]
     },
@@ -11695,56 +14515,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Cuece la pechuga de pollo en agua con ajo, cebolla y sal 15 min; desmenúzala en tiras y guarda el caldo.",
+          "t": "Cuece la pechuga en agua con ajo, cebolla y sal; desmenúzala en tiras y guarda el caldo.",
           "s": 900
         },
         {
-          "t": "En olla grande, sofríe cebolla, pimentón en cubitos y tomate 4 min con comino y colorau.",
+          "t": "Pica la cebolla, el pimentón y el tomate en cubitos; corta la zanahoria en cubos pequeños.",
+          "s": null
+        },
+        {
+          "t": "En una olla grande sofríe la cebolla, el pimentón y el tomate con unas gotas de aceite, comino y achiote/colorau.",
           "s": 240
         },
         {
-          "t": "Agrega el arroz crudo, zanahoria en cubitos y maíz/arvejas; mezcla 2 min.",
+          "t": "Agrega el arroz crudo lavado, la zanahoria y el maíz (o arvejas) y mezcla para nacarar el grano.",
           "s": 120
         },
         {
-          "t": "Vierte el caldo de pollo caliente (doble volumen del arroz), tapa y cocina a fuego bajo 16 min. Mezcla el pollo desmenuzado los últimos 3 min.",
+          "t": "Vierte el caldo caliente (el doble del volumen del arroz) y ajusta la sal.",
+          "s": null
+        },
+        {
+          "t": "Tapa y cocina a fuego bajo; incorpora el pollo desmenuzado los últimos 3 minutos.",
           "s": 960
+        },
+        {
+          "t": "Deja reposar tapado antes de servir con aguacate o ensalada.",
+          "s": 300
         }
       ],
       "pt": [
         {
-          "t": "Cozinhe o frango com alho e sal por 15 min; desfie e guarde o caldo.",
+          "t": "Cozinhe o peito em água com alho, cebola e sal; desfie em tiras e guarde o caldo.",
           "s": 900
         },
         {
-          "t": "Refogue cebola, pimentão e tomate por 4 min com cominho e colorau.",
+          "t": "Pique a cebola, o pimentão e o tomate em cubinhos; corte a cenoura em cubos pequenos.",
+          "s": null
+        },
+        {
+          "t": "Numa panela grande refogue a cebola, o pimentão e o tomate com gotas de óleo, cominho e colorau.",
           "s": 240
         },
         {
-          "t": "Adicione arroz cru, cenoura em cubinhos e milho; mexa 2 min.",
+          "t": "Junte o arroz cru lavado, a cenoura e o milho (ou ervilha) e misture para envolver o grão.",
           "s": 120
         },
         {
-          "t": "Cubra com o caldo quente, tampe e cozinhe 16 min; misture o frango desfiado no final.",
+          "t": "Despeje o caldo quente (o dobro do volume do arroz) e acerte o sal.",
+          "s": null
+        },
+        {
+          "t": "Tampe e cozinhe em fogo baixo; incorpore o frango desfiado nos últimos 3 minutos.",
           "s": 960
+        },
+        {
+          "t": "Deixe descansar tampado antes de servir com abacate ou salada.",
+          "s": 300
         }
       ],
       "en": [
         {
-          "t": "Poach chicken breast 15 min, shred, and reserve broth.",
+          "t": "Poach the chicken breast in water with garlic, onion and salt; shred into strips and keep the broth.",
           "s": 900
         },
         {
-          "t": "Sauté onion, diced bell pepper, and tomato 4 min with cumin and paprika.",
+          "t": "Dice the onion, bell pepper and tomato; cut the carrot into small cubes.",
+          "s": null
+        },
+        {
+          "t": "In a large pot sauté the onion, pepper and tomato with a few drops of oil, cumin and annatto.",
           "s": 240
         },
         {
-          "t": "Stir in raw rice, diced carrot, and corn 2 min.",
+          "t": "Add the washed raw rice, carrot and corn (or peas) and stir to coat the grains.",
           "s": 120
         },
         {
-          "t": "Pour hot broth, simmer covered 16 min, and fold in shredded chicken for the final 3 min.",
+          "t": "Pour in the hot broth (twice the volume of rice) and adjust the salt.",
+          "s": null
+        },
+        {
+          "t": "Cover and cook on low; fold in the shredded chicken in the last 3 minutes.",
           "s": 960
+        },
+        {
+          "t": "Let it rest covered before serving with avocado or salad.",
+          "s": 300
         }
       ]
     },
@@ -11825,56 +14681,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Hierve la carne en olla a presión con cebolla, ajo, laurel y sal 25 min hasta que esté muy blanda (puedes usar fraldinha o patinho).",
+          "t": "Cocina la carne entera en olla a presión con agua, cebolla, ajo, laurel y sal hasta que esté muy blanda.",
           "s": 1500
         },
         {
-          "t": "Mientras tanto, prepara la salsa criolla (hogao): sofríe abundante tomate picado, cebollín, ajo y comino a fuego bajo 10 min hasta formar salsa espesa.",
-          "s": 600
+          "t": "Mientras, cuece las papas en agua con sal.",
+          "s": 1080
         },
         {
-          "t": "Corta la carne tierna en porciones y pásala a una sartén con la salsa criolla.",
+          "t": "Pica abundante tomate, cebollín y ajo para la salsa criolla.",
           "s": null
         },
         {
-          "t": "Cocina todo junto 5 min para que absorba la salsa y sirve con papas cocidas o doradas y arroz.",
+          "t": "Sofríe el tomate, el cebollín, el ajo y el comino con unas gotas de aceite a fuego bajo hasta formar una salsa espesa (hogao).",
+          "s": 600
+        },
+        {
+          "t": "Corta la carne tierna en porciones y añade a la salsa unas cucharadas del caldo de cocción.",
+          "s": null
+        },
+        {
+          "t": "Pasa la carne a la sartén con la salsa y cocina junta para que la absorba.",
           "s": 300
+        },
+        {
+          "t": "Sirve con las papas (cocidas o doradas), arroz y cilantro picado.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Cozinhe a fraldinha/patinho na pressão com cebola, alho e louro por 25 min até ficar bem macia.",
+          "t": "Cozinhe a carne inteira na pressão com água, cebola, alho, louro e sal até ficar bem macia.",
           "s": 1500
         },
         {
-          "t": "Enquanto isso, faça o molho hogao refogando tomate bem picado, cebolinha, alho e cominho por 10 min.",
-          "s": 600
+          "t": "Enquanto isso, cozinhe as batatas em água com sal.",
+          "s": 1080
         },
         {
-          "t": "Fatie a carne macia e transfira para a frigideira com o molho.",
+          "t": "Pique bastante tomate, cebolinha e alho para o molho crioulo.",
           "s": null
         },
         {
-          "t": "Apure por 5 min e sirva com batatas cozidas e arroz.",
+          "t": "Refogue o tomate, a cebolinha, o alho e o cominho com gotas de óleo em fogo baixo até virar um molho grosso (hogao).",
+          "s": 600
+        },
+        {
+          "t": "Corte a carne macia em porções e junte ao molho algumas colheres do caldo do cozimento.",
+          "s": null
+        },
+        {
+          "t": "Passe a carne para a frigideira com o molho e cozinhe junto para absorver.",
           "s": 300
+        },
+        {
+          "t": "Sirva com as batatas (cozidas ou douradas), arroz e coentro picado.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Pressure-cook flank steak with onion, garlic, and bay leaf 25 min until tender.",
+          "t": "Cook the whole piece of beef in a pressure cooker with water, onion, garlic, bay leaf and salt until very tender.",
           "s": 1500
         },
         {
-          "t": "Meanwhile simmer hogao sauce: diced tomato, scallions, garlic, and cumin for 10 min.",
-          "s": 600
+          "t": "Meanwhile, boil the potatoes in salted water.",
+          "s": 1080
         },
         {
-          "t": "Slice tender beef and nestle into sauce.",
+          "t": "Chop plenty of tomato, scallion and garlic for the creole sauce.",
           "s": null
         },
         {
-          "t": "Simmer 5 min to coat and serve with boiled potatoes and rice.",
+          "t": "Sauté the tomato, scallion, garlic and cumin with a few drops of oil over low heat into a thick sauce (hogao).",
+          "s": 600
+        },
+        {
+          "t": "Cut the tender beef into portions and add a few spoonfuls of cooking broth to the sauce.",
+          "s": null
+        },
+        {
+          "t": "Move the beef into the pan with the sauce and cook together so it soaks it up.",
           "s": 300
+        },
+        {
+          "t": "Serve with the potatoes (boiled or browned), rice and chopped cilantro.",
+          "s": null
         }
       ]
     },
@@ -11955,56 +14847,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Sazona el pollo con ajo, comino, colorau/páprica y sal.",
+          "t": "Sazona el pollo con ajo, comino, achiote/colorau o páprica y sal.",
           "s": null
         },
         {
-          "t": "Sofríe cebolla, tomate picado y cebollín en olla 4 min; acomoda el pollo encima y sella 3 min por lado.",
-          "s": 420
-        },
-        {
-          "t": "Agrega papas y mandioca en trozos medianos con 1 taza de agua/caldo.",
+          "t": "Pela la yuca y las papas y córtalas en trozos medianos; pica la cebolla, el tomate y el cebollín.",
           "s": null
         },
         {
-          "t": "Tapa y cocina a fuego medio 20 min hasta que la mandioca y papa estén tiernas y el caldo se reduzca a salsa ligera.",
+          "t": "Sofríe la cebolla, el tomate y el cebollín en olla con unas gotas de aceite.",
+          "s": 240
+        },
+        {
+          "t": "Acomoda el pollo encima y séllalo por ambos lados.",
+          "s": 360
+        },
+        {
+          "t": "Agrega las papas, la yuca y 1 taza de agua o caldo; sala.",
+          "s": null
+        },
+        {
+          "t": "Tapa y cocina a fuego medio hasta que la yuca y la papa estén tiernas y el caldo se reduzca a una salsa ligera.",
           "s": 1200
+        },
+        {
+          "t": "Termina con cilantro picado y sirve con arroz.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Tempere o frango com alho, cominho, colorau e sal.",
+          "t": "Tempere o frango com alho, cominho, colorau ou páprica e sal.",
           "s": null
         },
         {
-          "t": "Refogue cebola, tomate e cebolinha por 4 min; sele o frango por 3 min de cada lado.",
-          "s": 420
-        },
-        {
-          "t": "Junte batata e mandioca em pedaços com 1 xícara de água.",
+          "t": "Descasque a mandioca e as batatas e corte em pedaços médios; pique a cebola, o tomate e a cebolinha.",
           "s": null
         },
         {
-          "t": "Tampe e cozinhe por 20 min até amaciar tudo e encorpar o molho.",
+          "t": "Refogue a cebola, o tomate e a cebolinha na panela com gotas de óleo.",
+          "s": 240
+        },
+        {
+          "t": "Coloque o frango por cima e sele dos dois lados.",
+          "s": 360
+        },
+        {
+          "t": "Junte as batatas, a mandioca e 1 xícara de água ou caldo; salgue.",
+          "s": null
+        },
+        {
+          "t": "Tampe e cozinhe em fogo médio até a mandioca e a batata ficarem macias e o caldo reduzir a um molho leve.",
           "s": 1200
+        },
+        {
+          "t": "Finalize com coentro picado e sirva com arroz.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Season chicken with garlic, cumin, paprika, and salt.",
+          "t": "Season the chicken with garlic, cumin, annatto or paprika and salt.",
           "s": null
         },
         {
-          "t": "Sauté onion, tomato, and scallions 4 min; sear chicken 3 min per side.",
-          "s": 420
-        },
-        {
-          "t": "Add potato and cassava chunks with 1 cup water.",
+          "t": "Peel the cassava and potatoes and cut into medium chunks; chop the onion, tomato and scallion.",
           "s": null
         },
         {
-          "t": "Simmer covered 20 min until roots are tender and broth reduces.",
+          "t": "Sauté the onion, tomato and scallion in a pot with a few drops of oil.",
+          "s": 240
+        },
+        {
+          "t": "Lay the chicken on top and sear both sides.",
+          "s": 360
+        },
+        {
+          "t": "Add the potatoes, cassava and 1 cup water or stock; salt it.",
+          "s": null
+        },
+        {
+          "t": "Cover and cook over medium heat until the cassava and potato are tender and the broth reduces to a light sauce.",
           "s": 1200
+        },
+        {
+          "t": "Finish with chopped cilantro and serve with rice.",
+          "s": null
         }
       ]
     },
@@ -12085,56 +15013,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Cuece la carne en olla a presión con agua, cebolla, ajo y laurel 25 min hasta poder deshebrar fácil.",
+          "t": "Cocina la carne en olla a presión con agua, cebolla, ajo y laurel hasta que se deshebre fácil; guarda el caldo.",
           "s": 1500
         },
         {
-          "t": "Deja entibiar y desmecha en hebras finas con dos tenedores.",
+          "t": "Cocina el arroz si no lo tienes listo.",
+          "s": 1080
+        },
+        {
+          "t": "Deja entibiar la carne y desméchala en hebras finas con dos tenedores.",
           "s": null
         },
         {
-          "t": "Prepara el hogao sofriendo tomate picado, cebollín, pimentón, ajo y comino 6 min hasta hacer salsa.",
+          "t": "Hogao: sofríe tomate picado, cebollín, pimentón, ajo y comino con unas gotas de aceite hasta formar salsa.",
           "s": 360
         },
         {
-          "t": "Agrega la carne desmechada y 3 cdas del caldo de cocción; saltea 4 min y sirve con arroz y plátano maduro.",
+          "t": "Agrega la carne desmechada y 3 cdas del caldo; saltea hasta que quede jugosa y sala.",
           "s": 240
+        },
+        {
+          "t": "Dora las tajadas de plátano maduro en sartén por ambos lados.",
+          "s": 300
+        },
+        {
+          "t": "Sirve la carne con el arroz y el plátano.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Cozinhe a carne na pressão com cebola, alho e louro por 25 min.",
+          "t": "Cozinhe a carne na pressão com água, cebola, alho e louro até desfiar fácil; guarde o caldo.",
           "s": 1500
         },
         {
-          "t": "Deixe amornar e desfie em tiras finas.",
+          "t": "Cozinhe o arroz se não tiver pronto.",
+          "s": 1080
+        },
+        {
+          "t": "Deixe a carne amornar e desfie em fios finos com dois garfos.",
           "s": null
         },
         {
-          "t": "Faça o hogao refogando tomate, cebolinha, pimentão, alho e cominho por 6 min.",
+          "t": "Hogao: refogue tomate picado, cebolinha, pimentão, alho e cominho com gotas de óleo até virar molho.",
           "s": 360
         },
         {
-          "t": "Misture a carne desfiada com um pouco do caldo por 4 min; sirva com arroz e banana.",
+          "t": "Junte a carne desfiada e 3 colheres do caldo; salteie até ficar suculenta e salgue.",
           "s": 240
+        },
+        {
+          "t": "Doure as fatias de banana-da-terra madura na frigideira dos dois lados.",
+          "s": 300
+        },
+        {
+          "t": "Sirva a carne com o arroz e a banana.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Pressure-cook beef 25 min until easily shreddable.",
+          "t": "Cook the beef in a pressure cooker with water, onion, garlic and bay leaf until it shreds easily; keep the broth.",
           "s": 1500
         },
         {
-          "t": "Cool slightly and shred finely with two forks.",
+          "t": "Cook the rice if not ready.",
+          "s": 1080
+        },
+        {
+          "t": "Let the beef cool slightly and shred it finely with two forks.",
           "s": null
         },
         {
-          "t": "Sauté tomato, scallions, bell pepper, garlic, and cumin 6 min into hogao sauce.",
+          "t": "Hogao: sauté chopped tomato, scallion, bell pepper, garlic and cumin with a few drops of oil into a sauce.",
           "s": 360
         },
         {
-          "t": "Toss shredded beef with sauce and splash of broth 4 min; serve with rice and plantain.",
+          "t": "Add the shredded beef and 3 tbsp broth; sauté until juicy and salt it.",
           "s": 240
+        },
+        {
+          "t": "Brown the ripe plantain slices in a pan on both sides.",
+          "s": 300
+        },
+        {
+          "t": "Serve the beef with the rice and plantain.",
+          "s": null
         }
       ]
     },
@@ -12215,56 +15179,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Sazona el pescado y camarones con limón, ajo y sal.",
+          "t": "Corta el pescado en trozos grandes y sazónalo junto con los camarones con limón, ajo y sal.",
           "s": null
         },
         {
-          "t": "Sofríe cebolla, pimentón, zanahoria rallada y tomate 5 min con páprica y comino.",
+          "t": "Cocina el arroz si no lo tienes listo.",
+          "s": 1080
+        },
+        {
+          "t": "Sofríe la cebolla, el pimentón, la zanahoria rallada y el tomate con unas gotas de aceite, páprica y comino.",
           "s": 300
         },
         {
-          "t": "Vierte el leite de coco y 1/2 taza de caldo de pescado; cocina 5 min hasta espesar ligeramente.",
+          "t": "Vierte la leche de coco y ½ taza de caldo de pescado y cocina hasta espesar ligeramente.",
           "s": 300
         },
         {
-          "t": "Añade los trozos de pescado 4 min y los camarones los últimos 2 min. Sirve con arroz y patacones/mandioca.",
-          "s": 360
+          "t": "Añade el pescado sin remover demasiado.",
+          "s": 240
+        },
+        {
+          "t": "Agrega los camarones solo al final, hasta que se pongan rosados; ajusta la sal.",
+          "s": 120
+        },
+        {
+          "t": "Sirve con el arroz, cilantro picado y patacones o yuca.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Tempere o peixe e o camarão com limão, alho e sal.",
+          "t": "Corte o peixe em pedaços grandes e tempere junto com os camarões com limão, alho e sal.",
           "s": null
         },
         {
-          "t": "Refogue cebola, pimentão, cenoura ralada e tomate por 5 min com páprica.",
+          "t": "Cozinhe o arroz se não tiver pronto.",
+          "s": 1080
+        },
+        {
+          "t": "Refogue a cebola, o pimentão, a cenoura ralada e o tomate com gotas de óleo, páprica e cominho.",
           "s": 300
         },
         {
-          "t": "Junte o leite de coco e caldo; ferva 5 min até encorpar.",
+          "t": "Despeje o leite de coco e ½ xícara de caldo de peixe e cozinhe até engrossar levemente.",
           "s": 300
         },
         {
-          "t": "Cozinhe o peixe 4 min e o camarão nos últimos 2 min; sirva com arroz.",
-          "s": 360
+          "t": "Junte o peixe sem mexer demais.",
+          "s": 240
+        },
+        {
+          "t": "Acrescente os camarões só no final, até ficarem rosados; acerte o sal.",
+          "s": 120
+        },
+        {
+          "t": "Sirva com o arroz, coentro picado e patacones ou mandioca.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Season fish and shrimp with lime, garlic, and salt.",
+          "t": "Cut the fish into large pieces and season it with the shrimp using lime, garlic and salt.",
           "s": null
         },
         {
-          "t": "Sauté onion, bell pepper, grated carrot, and tomato 5 min with paprika.",
+          "t": "Cook the rice if not ready.",
+          "s": 1080
+        },
+        {
+          "t": "Sauté the onion, bell pepper, grated carrot and tomato with a few drops of oil, paprika and cumin.",
           "s": 300
         },
         {
-          "t": "Add coconut milk and broth; simmer 5 min.",
+          "t": "Pour in the coconut milk and ½ cup fish stock and cook until slightly thickened.",
           "s": 300
         },
         {
-          "t": "Poach fish 4 min and shrimp for the final 2 min; serve with rice.",
-          "s": 360
+          "t": "Add the fish without stirring too much.",
+          "s": 240
+        },
+        {
+          "t": "Add the shrimp only at the end, until pink; adjust the salt.",
+          "s": 120
+        },
+        {
+          "t": "Serve with the rice, chopped cilantro and patacones or cassava.",
+          "s": null
         }
       ]
     },
@@ -12338,55 +15338,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "En olla mediana, hierve la mitad del leite de coco a fuego medio-alto hasta que reduzca y quede aceitoso y doradito (titoté) — unos 6 min.",
+          "t": "Lava el arroz hasta que el agua salga clara y escúrrelo.",
+          "s": null
+        },
+        {
+          "t": "En una olla hierve la mitad de la leche de coco a fuego medio-alto hasta que se reduzca, suelte su aceite y quede doradito (titoté), sin dejar que se queme.",
           "s": 360
         },
         {
-          "t": "Agrega el arroz lavado, el resto del leite de coco, 1 taza de agua y pizca de sal (y 1 cdta de azúcar/edulcorante opcional); cocina tapado 16 min.",
+          "t": "Agrega el arroz, el resto de la leche de coco, 1 taza de agua y sal (y 1 cdta de azúcar o endulzante opcional).",
+          "s": null
+        },
+        {
+          "t": "Tapa y cocina a fuego bajo hasta que se seque.",
           "s": 960
         },
         {
-          "t": "Mientras tanto, sazona los filetes de pescado con limón, ajo y sal; dóralos en sartén 3 min por lado.",
+          "t": "Sazona los filetes de pescado con limón, ajo y sal.",
+          "s": null
+        },
+        {
+          "t": "Dóralos en sartén con unas gotas de aceite por ambos lados.",
           "s": 360
         },
         {
-          "t": "Sirve el arroz de coco aromático junto al pescado y ensalada fresca.",
+          "t": "Sirve el arroz de coco con el pescado, gajos de limón y ensalada de tomate.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Ferva metade do leite de coco até reduzir e dourar os pedacinhos (titoté) — cerca de 6 min.",
+          "t": "Lave o arroz até a água sair clara e escorra.",
+          "s": null
+        },
+        {
+          "t": "Numa panela ferva metade do leite de coco em fogo médio-alto até reduzir, soltar o óleo e ficar douradinho (titoté), sem queimar.",
           "s": 360
         },
         {
-          "t": "Junte o arroz, o restante do leite de coco, água e sal; cozinhe tampado por 16 min.",
+          "t": "Junte o arroz, o resto do leite de coco, 1 xícara de água e sal (e 1 colher (chá) de açúcar ou adoçante opcional).",
+          "s": null
+        },
+        {
+          "t": "Tampe e cozinhe em fogo baixo até secar.",
           "s": 960
         },
         {
-          "t": "Tempere os filés de peixe com limão e alho e grelhe 3 min de cada lado.",
+          "t": "Tempere os filés de peixe com limão, alho e sal.",
+          "s": null
+        },
+        {
+          "t": "Doure na frigideira com gotas de óleo dos dois lados.",
           "s": 360
         },
         {
-          "t": "Sirva o arroz de coco aromático com o peixe e salada.",
+          "t": "Sirva o arroz de coco com o peixe, gomos de limão e salada de tomate.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Boil half the coconut milk 6 min until reduced and golden brown.",
+          "t": "Rinse the rice until the water runs clear and drain.",
+          "s": null
+        },
+        {
+          "t": "In a pot boil half the coconut milk over medium-high until it reduces, releases its oil and turns golden (titoté), without burning.",
           "s": 360
         },
         {
-          "t": "Stir in rice, remaining coconut milk, water, and salt; simmer covered 16 min.",
+          "t": "Add the rice, the rest of the coconut milk, 1 cup water and salt (and 1 tsp sugar or sweetener, optional).",
+          "s": null
+        },
+        {
+          "t": "Cover and cook on low until dry.",
           "s": 960
         },
         {
-          "t": "Season fish fillets with lime and garlic; sear 3 min per side.",
+          "t": "Season the fish fillets with lime, garlic and salt.",
+          "s": null
+        },
+        {
+          "t": "Brown them in a pan with a few drops of oil on both sides.",
           "s": 360
         },
         {
-          "t": "Serve fragrant coconut rice alongside fish and salad.",
+          "t": "Serve the coconut rice with the fish, lime wedges and tomato salad.",
           "s": null
         }
       ]
@@ -12468,55 +15504,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "En una olla pequeña, calienta partes iguales de leche y agua con sal, pimienta y tallos de cebollín picados.",
+          "t": "Pica el cebollín (separa los tallos de las hojas) y el cilantro; corta el queso en cubitos y el pan en trozos.",
           "s": null
         },
         {
-          "t": "Cuando empiece a hervir suave (sin rebalsar), baja el fuego al mínimo.",
+          "t": "En una olla pequeña calienta partes iguales de leche y agua con sal, pimienta y los tallos de cebollín.",
+          "s": 240
+        },
+        {
+          "t": "Cuando empiece a hervir suave, sin que se rebalse, baja el fuego al mínimo.",
           "s": null
         },
         {
-          "t": "Rompe los huevos con cuidado directo en el caldo y deja pochar 3–4 min hasta que la clara cuaje y la yema siga cremosa.",
+          "t": "Rompe los huevos con cuidado directamente en el caldo y deja que se pochen sin mover hasta que la clara cuaje y la yema siga cremosa.",
           "s": 210
         },
         {
-          "t": "Sirve en tazón hondo sobre trozos de pan (calado) y cubos de queijo minas con abundante cilantro fresco encima.",
+          "t": "Coloca el pan (calado) y los cubos de queso en el fondo de un tazón hondo.",
+          "s": null
+        },
+        {
+          "t": "Sirve el caldo con los huevos encima con un cucharón, sin romperlos.",
+          "s": null
+        },
+        {
+          "t": "Termina con abundante cilantro y las hojas de cebollín picadas.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Aqueça partes iguais de leite e água com sal, pimenta e cebolinha picada.",
+          "t": "Pique a cebolinha (separe os talos das folhas) e o coentro; corte o queijo em cubinhos e o pão em pedaços.",
           "s": null
         },
         {
-          "t": "Assim que iniciar fervura leve, abaixe o fogo ao mínimo.",
+          "t": "Numa panela pequena aqueça partes iguais de leite e água com sal, pimenta e os talos de cebolinha.",
+          "s": 240
+        },
+        {
+          "t": "Quando começar a ferver suave, sem derramar, abaixe o fogo ao mínimo.",
           "s": null
         },
         {
-          "t": "Quebre os ovos com cuidado direto no caldo e cozinhe por 3–4 min até a clara firmar.",
+          "t": "Quebre os ovos com cuidado direto no caldo e deixe pochear sem mexer até a clara firmar e a gema continuar cremosa.",
           "s": 210
         },
         {
-          "t": "Sirva no prato fundo sobre pedaços de pão e cubos de queijo minas com coentro fresco.",
+          "t": "Coloque o pão (calado) e os cubos de queijo no fundo de uma tigela funda.",
+          "s": null
+        },
+        {
+          "t": "Sirva o caldo com os ovos por cima usando uma concha, sem quebrá-los.",
+          "s": null
+        },
+        {
+          "t": "Finalize com bastante coentro e as folhas de cebolinha picadas.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Heat equal parts milk and water with salt, pepper, and chopped scallions.",
+          "t": "Chop the scallion (keep stems and greens apart) and the cilantro; cube the cheese and tear the bread.",
           "s": null
         },
         {
-          "t": "At a gentle simmer, lower heat to minimum.",
+          "t": "In a small pot heat equal parts milk and water with salt, pepper and the scallion stems.",
+          "s": 240
+        },
+        {
+          "t": "When it begins to simmer gently, without boiling over, lower the heat to minimum.",
           "s": null
         },
         {
-          "t": "Carefully crack eggs directly into broth and poach 3–4 min until whites set.",
+          "t": "Crack the eggs carefully straight into the broth and poach without stirring until the whites set and the yolks stay creamy.",
           "s": 210
         },
         {
-          "t": "Ladle into bowls over torn bread and Minas cheese cubes with fresh cilantro.",
+          "t": "Put the bread (calado) and cheese cubes in the bottom of a deep bowl.",
+          "s": null
+        },
+        {
+          "t": "Ladle the broth and eggs over them without breaking the eggs.",
+          "s": null
+        },
+        {
+          "t": "Finish with plenty of cilantro and the chopped scallion greens.",
           "s": null
         }
       ]
@@ -12591,56 +15663,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Asa la arepa en sartén 4 min por lado hasta quedar dorada.",
-          "s": 480
-        },
-        {
-          "t": "Mientras tanto, sofríe cebollín picado fino 1 min y añade tomate pelado y picado en cubitos sin semillas; cocina 3 min hasta ablandar.",
-          "s": 240
-        },
-        {
-          "t": "Bate los huevos con sal y viértelos sobre el tomate a fuego bajo.",
+          "t": "Prepara la arepa: hidrata la harina de maíz con agua tibia y sal, forma un disco y déjalo listo.",
           "s": null
         },
         {
-          "t": "Mueve suavemente con espátula 2 min hasta que queden jugosos y cremosos; sirve junto a la arepa con queso encima.",
+          "t": "Ásala en sartén por ambos lados hasta que esté dorada.",
+          "s": 480
+        },
+        {
+          "t": "Pela el tomate, quítale las semillas y córtalo en cubitos; pica fino el cebollín.",
+          "s": null
+        },
+        {
+          "t": "Sofríe el cebollín con unas gotas de aceite y añade el tomate; cocina hasta ablandar.",
+          "s": 240
+        },
+        {
+          "t": "Bate los huevos con sal.",
+          "s": null
+        },
+        {
+          "t": "Viértelos sobre el tomate a fuego bajo y muévelos suavemente con espátula hasta que queden jugosos y cremosos.",
           "s": 120
+        },
+        {
+          "t": "Sirve los pericos junto a la arepa con el queso encima.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Doure a arepa na frigideira por 4 min de cada lado.",
-          "s": 480
-        },
-        {
-          "t": "Refogue cebolinha e tomate picadinho sem sementes por 3 min até murchar.",
-          "s": 240
-        },
-        {
-          "t": "Junte os ovos batidos com sal em fogo baixo.",
+          "t": "Prepare a arepa: hidrate a farinha de milho com água morna e sal, forme um disco e deixe pronto.",
           "s": null
         },
         {
-          "t": "Mexa devagar por 2 min mantendo bem cremoso e sirva com a arepa e queijo.",
+          "t": "Asse na frigideira dos dois lados até dourar.",
+          "s": 480
+        },
+        {
+          "t": "Descasque o tomate, tire as sementes e corte em cubinhos; pique fino a cebolinha.",
+          "s": null
+        },
+        {
+          "t": "Refogue a cebolinha com gotas de óleo e junte o tomate; cozinhe até amolecer.",
+          "s": 240
+        },
+        {
+          "t": "Bata os ovos com sal.",
+          "s": null
+        },
+        {
+          "t": "Despeje sobre o tomate em fogo baixo e mexa delicadamente com espátula até ficarem suculentos e cremosos.",
           "s": 120
+        },
+        {
+          "t": "Sirva os pericos com a arepa e o queijo por cima.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Griddle arepa 4 min per side until golden.",
-          "s": 480
-        },
-        {
-          "t": "Sauté finely chopped scallions and diced seeded tomato 3 min.",
-          "s": 240
-        },
-        {
-          "t": "Pour in beaten salted eggs over low heat.",
+          "t": "Make the arepa: hydrate the corn flour with warm water and salt and shape a disc.",
           "s": null
         },
         {
-          "t": "Stir gently 2 min until soft and curdy; serve with warm arepa and cheese.",
+          "t": "Cook it in a pan on both sides until golden.",
+          "s": 480
+        },
+        {
+          "t": "Peel and seed the tomato and dice it; finely chop the scallion.",
+          "s": null
+        },
+        {
+          "t": "Sauté the scallion with a few drops of oil and add the tomato; cook until soft.",
+          "s": 240
+        },
+        {
+          "t": "Beat the eggs with salt.",
+          "s": null
+        },
+        {
+          "t": "Pour them over the tomato on low heat and stir gently with a spatula until soft and creamy.",
           "s": 120
+        },
+        {
+          "t": "Serve the pericos with the arepa and the cheese on top.",
+          "s": null
         }
       ]
     },
@@ -12721,55 +15829,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Cocina los frijoles junto con zanahoria rallada y cubitos pequeños de plátano/banana-da-terra durante 15 min (eso espesa el caldo naturalmente).",
+          "t": "Si usas frijol seco, remójalo desde la noche anterior y cuécelo en olla a presión hasta que esté blando.",
+          "s": null
+        },
+        {
+          "t": "Cocina los frijoles con la zanahoria rallada y cubitos pequeños de plátano: así el caldo espesa naturalmente.",
           "s": 900
         },
         {
-          "t": "Prepara hogao sofriendo tomate picado, cebollín, ajo y comino 5 min y mézclalo a los frijoles.",
+          "t": "Hogao: sofríe tomate picado, cebollín, ajo y comino con unas gotas de aceite.",
           "s": 300
         },
         {
-          "t": "Aparte dora cubos de lomo de cerdo (o carne magra) 5 min hasta quedar crocantes.",
-          "s": 300
+          "t": "Mezcla el hogao con los frijoles y ajusta la sal.",
+          "s": null
         },
         {
-          "t": "Sirve los frijoles espesos con la carne encima y arroz blanco.",
+          "t": "Corta el cerdo en cubos y dóralos en sartén hasta que queden crocantes.",
+          "s": 360
+        },
+        {
+          "t": "Cocina el arroz si no lo tienes listo.",
+          "s": 1080
+        },
+        {
+          "t": "Sirve los frijoles espesos con el cerdo encima, arroz blanco y aguacate si tienes.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Cozinhe o feijão com cenoura ralada e cubinhos de banana-da-terra por 15 min para engrossar.",
+          "t": "Se usar feijão seco, deixe de molho desde a noite anterior e cozinhe na pressão até ficar macio.",
+          "s": null
+        },
+        {
+          "t": "Cozinhe o feijão com a cenoura ralada e cubinhos de banana-da-terra: assim o caldo engrossa naturalmente.",
           "s": 900
         },
         {
-          "t": "Faça um hogao de tomate, cebolinha e alho por 5 min e misture ao feijão.",
+          "t": "Hogao: refogue tomate picado, cebolinha, alho e cominho com gotas de óleo.",
           "s": 300
         },
         {
-          "t": "Doure cubos de lombo suíno à parte por 5 min.",
-          "s": 300
+          "t": "Misture o hogao ao feijão e acerte o sal.",
+          "s": null
         },
         {
-          "t": "Sirva o feijão bem cremoso com o lombo por cima e arroz.",
+          "t": "Corte o porco em cubos e doure na frigideira até ficar crocante.",
+          "s": 360
+        },
+        {
+          "t": "Cozinhe o arroz se não tiver pronto.",
+          "s": 1080
+        },
+        {
+          "t": "Sirva o feijão grosso com o porco por cima, arroz branco e abacate se tiver.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Simmer beans with grated carrot and diced plantain 15 min to thicken broth naturally.",
+          "t": "If using dried beans, soak them overnight and cook in a pressure cooker until soft.",
+          "s": null
+        },
+        {
+          "t": "Cook the beans with the grated carrot and small plantain cubes: this thickens the broth naturally.",
           "s": 900
         },
         {
-          "t": "Sauté tomato, scallions, and garlic 5 min; stir into beans.",
+          "t": "Hogao: sauté chopped tomato, scallion, garlic and cumin with a few drops of oil.",
           "s": 300
         },
         {
-          "t": "Brown pork cubes separately for 5 min.",
-          "s": 300
+          "t": "Stir the hogao into the beans and adjust the salt.",
+          "s": null
         },
         {
-          "t": "Serve thick beans topped with seared pork and rice.",
+          "t": "Cube the pork and brown it in a pan until crisp.",
+          "s": 360
+        },
+        {
+          "t": "Cook the rice if not ready.",
+          "s": 1080
+        },
+        {
+          "t": "Serve the thick beans with the pork on top, white rice and avocado if you have it.",
           "s": null
         }
       ]
@@ -12844,20 +15988,32 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Corta el lomo de cerdo en medallones de 2 cm y sazona con ajo, sal y pimienta.",
+          "t": "Corta el lomo en medallones de 2 cm y sazónalos con ajo, sal y pimienta.",
           "s": null
         },
         {
-          "t": "Dora los medallones en sartén caliente 4 min por lado hasta sellar; retira un momento.",
+          "t": "Cocina el arroz y cuece el brócoli al vapor.",
+          "s": 1080
+        },
+        {
+          "t": "Dora los medallones en sartén caliente con unas gotas de aceite por ambos lados; retíralos.",
           "s": 480
         },
         {
-          "t": "Licúa 1 taza de piña (abacaxi) fresca con 1/3 taza de agua; vierte en la sartén con cebolla rallada y hierve 4 min hasta caramelizar.",
+          "t": "Licúa 1 taza de piña fresca con ⅓ de taza de agua.",
+          "s": null
+        },
+        {
+          "t": "Vierte la piña en la sartén con la cebolla rallada y hierve hasta que caramelice y espese.",
           "s": 240
         },
         {
-          "t": "Devuelve el cerdo 3 min más para que absorba el glaseado brillante y sirve con arroz y brócoli.",
+          "t": "Devuelve el cerdo y cocina para que absorba el glaseado brillante; añade gotas de limón y sal.",
           "s": 180
+        },
+        {
+          "t": "Sirve con el arroz y el brócoli, bañando con la salsa.",
+          "s": null
         }
       ],
       "pt": [
@@ -12866,34 +16022,58 @@ const CATALOG_DISHES = [
           "s": null
         },
         {
-          "t": "Doure na frigideira quente por 4 min de cada lado e reserve.",
+          "t": "Cozinhe o arroz e o brócolis no vapor.",
+          "s": 1080
+        },
+        {
+          "t": "Doure os medalhões em frigideira quente com gotas de óleo dos dois lados; retire.",
           "s": 480
         },
         {
-          "t": "Bata 1 xícara de abacaxi fresco com pouca água; despeje na frigideira com cebola e reduza por 4 min.",
+          "t": "Bata 1 xícara de abacaxi fresco com ⅓ de xícara de água.",
+          "s": null
+        },
+        {
+          "t": "Despeje o abacaxi na frigideira com a cebola ralada e ferva até caramelizar e engrossar.",
           "s": 240
         },
         {
-          "t": "Volte o lombo por 3 min para glacear e sirva com arroz e brócolis.",
+          "t": "Volte o porco e cozinhe para absorver o glaçado brilhante; junte gotas de limão e sal.",
           "s": 180
+        },
+        {
+          "t": "Sirva com o arroz e o brócolis, regando com o molho.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Slice pork loin into 2cm medallions and season with garlic, salt, and pepper.",
+          "t": "Cut the loin into 2 cm medallions and season with garlic, salt and pepper.",
           "s": null
         },
         {
-          "t": "Sear 4 min per side until golden; remove briefly.",
+          "t": "Cook the rice and steam the broccoli.",
+          "s": 1080
+        },
+        {
+          "t": "Brown the medallions in a hot pan with a few drops of oil on both sides; remove.",
           "s": 480
         },
         {
-          "t": "Blend fresh pineapple with a splash of water; simmer in pan with grated onion 4 min.",
+          "t": "Blend 1 cup fresh pineapple with ⅓ cup water.",
+          "s": null
+        },
+        {
+          "t": "Pour the pineapple into the pan with the grated onion and boil until it caramelizes and thickens.",
           "s": 240
         },
         {
-          "t": "Return pork 3 min to glaze and serve with rice and broccoli.",
+          "t": "Return the pork and cook so it soaks up the glossy glaze; add a few drops of lime and salt.",
           "s": 180
+        },
+        {
+          "t": "Serve with the rice and broccoli, spooning over the sauce.",
+          "s": null
         }
       ]
     },
@@ -12974,55 +16154,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Cuece las papas enteras o en mitades con cáscara en agua con sal 18 min hasta que estén suaves.",
+          "t": "Cuece las papas enteras o en mitades, con cáscara, en agua con sal hasta que estén suaves.",
           "s": 1080
         },
         {
-          "t": "Sofríe cebollín picado y tomate en cubitos 5 min con comino y sal; baja el fuego y agrega crema/requeijão y queso rallado hasta fundir.",
-          "s": 300
+          "t": "Pica el cebollín y el tomate en cubitos; ralla el queso.",
+          "s": null
         },
         {
-          "t": "Aparte sella filetes de pechuga de pollo a la plancha 4 min por lado.",
+          "t": "Sazona la pechuga con sal y pimienta y séllala a la plancha con unas gotas de aceite por ambos lados.",
           "s": 480
         },
         {
-          "t": "Coloca las papas calientes en el plato, báñalas con la salsa cremosa de queso y acompaña con el pollo.",
+          "t": "Hogao: sofríe el cebollín y el tomate con comino y sal hasta ablandar.",
+          "s": 300
+        },
+        {
+          "t": "Baja el fuego, agrega el requeijão o crema y el queso, y remueve hasta que funda en una salsa cremosa.",
+          "s": 120
+        },
+        {
+          "t": "Coloca las papas calientes en el plato (puedes abrirlas un poco).",
+          "s": null
+        },
+        {
+          "t": "Báñalas con la salsa de queso y acompaña con el pollo en tiras.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Cozinhe as batatas com casca em água e sal por 18 min até amaciarem.",
+          "t": "Cozinhe as batatas inteiras ou em metades, com casca, em água com sal até ficarem macias.",
           "s": 1080
         },
         {
-          "t": "Refogue cebolinha e tomate por 5 min; abaixe o fogo e misture requeijão e queijo até derreter.",
-          "s": 300
+          "t": "Pique a cebolinha e o tomate em cubinhos; rale o queijo.",
+          "s": null
         },
         {
-          "t": "Grelhe o frango à parte por 4 min de cada lado.",
+          "t": "Tempere o peito com sal e pimenta e sele na chapa com gotas de óleo dos dois lados.",
           "s": 480
         },
         {
-          "t": "Cubra as batatas quentes com o molho cremoso de queijo e sirva com o frango.",
+          "t": "Hogao: refogue a cebolinha e o tomate com cominho e sal até amolecer.",
+          "s": 300
+        },
+        {
+          "t": "Abaixe o fogo, junte o requeijão ou creme e o queijo e mexa até derreter num molho cremoso.",
+          "s": 120
+        },
+        {
+          "t": "Coloque as batatas quentes no prato (pode abri-las um pouco).",
+          "s": null
+        },
+        {
+          "t": "Cubra com o molho de queijo e acompanhe com o frango em tiras.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Boil potatoes in salted water 18 min until fork-tender.",
+          "t": "Boil the potatoes whole or halved, skin on, in salted water until soft.",
           "s": 1080
         },
         {
-          "t": "Sauté scallions and tomato 5 min; lower heat and melt in requeijão and cheese.",
-          "s": 300
+          "t": "Dice the scallion and tomato; grate the cheese.",
+          "s": null
         },
         {
-          "t": "Sear chicken breast separately 4 min per side.",
+          "t": "Season the chicken breast with salt and pepper and sear on a griddle with a few drops of oil on both sides.",
           "s": 480
         },
         {
-          "t": "Spoon warm cheese-hogao sauce over potatoes and serve with chicken.",
+          "t": "Hogao: sauté the scallion and tomato with cumin and salt until soft.",
+          "s": 300
+        },
+        {
+          "t": "Lower the heat, add the requeijão or cream and the cheese, and stir until melted into a creamy sauce.",
+          "s": 120
+        },
+        {
+          "t": "Place the hot potatoes on the plate (you can split them slightly).",
+          "s": null
+        },
+        {
+          "t": "Pour the cheese sauce over and serve with the chicken in strips.",
           "s": null
         }
       ]
@@ -13097,16 +16313,28 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Sazona los filetes (o pescado entero con cortes) con ajo machacado, limón y sal durante 15 min.",
+          "t": "Sazona los filetes (o el pescado entero con cortes) con ajo machacado, limón y sal.",
+          "s": null
+        },
+        {
+          "t": "Deja marinar mientras preparas lo demás.",
           "s": 900
         },
         {
-          "t": "Pasa ligeramente por harina/maicena (opcional) y cocina en sartén caliente o airfryer 12 min hasta quedar bien crocante.",
+          "t": "Cocina el arroz si no lo tienes listo.",
+          "s": 1080
+        },
+        {
+          "t": "Pasa el pescado ligeramente por harina o maicena (opcional) y cocínalo en sartén caliente con un poco de aceite o en airfryer hasta que esté bien crocante.",
           "s": 720
         },
         {
-          "t": "Corta banana-da-terra verde en trozos gruesos, dora 3 min, aplasta con un vaso y vuelve a dorar 2 min por lado (patacón).",
-          "s": 300
+          "t": "Patacón: corta el plátano verde en trozos gruesos y dóralos.",
+          "s": 180
+        },
+        {
+          "t": "Aplástalos con un vaso y vuelve a dorarlos por ambos lados; sálalos.",
+          "s": 240
         },
         {
           "t": "Sirve el pescado crocante con limón, patacones, arroz y ensalada de tomate y cebolla.",
@@ -13115,37 +16343,61 @@ const CATALOG_DISHES = [
       ],
       "pt": [
         {
-          "t": "Tempere a tilápia com alho, limão e sal por 15 min.",
+          "t": "Tempere os filés (ou o peixe inteiro com cortes) com alho amassado, limão e sal.",
+          "s": null
+        },
+        {
+          "t": "Deixe marinar enquanto prepara o resto.",
           "s": 900
         },
         {
-          "t": "Grelhe ou leve à airfryer por 12 min até ficar bem dourada e crocante.",
+          "t": "Cozinhe o arroz se não tiver pronto.",
+          "s": 1080
+        },
+        {
+          "t": "Passe o peixe levemente em farinha ou amido de milho (opcional) e frite em frigideira quente com um pouco de óleo ou na airfryer até ficar bem crocante.",
           "s": 720
         },
         {
-          "t": "Corte banana-da-terra em rodelas grossas, doure 3 min, amasse e doure mais 2 min.",
-          "s": 300
+          "t": "Patacón: corte a banana-da-terra verde em pedaços grossos e doure.",
+          "s": 180
         },
         {
-          "t": "Sirva com arroz, salada fresca e limão.",
+          "t": "Amasse com um copo e doure de novo dos dois lados; salgue.",
+          "s": 240
+        },
+        {
+          "t": "Sirva o peixe crocante com limão, patacones, arroz e salada de tomate e cebola.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Marinate tilapia with garlic, lime, and salt 15 min.",
+          "t": "Season the fillets (or the scored whole fish) with crushed garlic, lime and salt.",
+          "s": null
+        },
+        {
+          "t": "Let it marinate while you prepare the rest.",
           "s": 900
         },
         {
-          "t": "Pan-sear or air-fry 12 min until crisp and golden.",
+          "t": "Cook the rice if not ready.",
+          "s": 1080
+        },
+        {
+          "t": "Dust the fish lightly with flour or cornstarch (optional) and cook in a hot pan with a little oil or in the air fryer until very crisp.",
           "s": 720
         },
         {
-          "t": "Cook thick plantain rounds 3 min, smash flat, and crisp 2 min per side.",
-          "s": 300
+          "t": "Patacón: cut the green plantain into thick pieces and brown them.",
+          "s": 180
         },
         {
-          "t": "Serve fish with crisp plantains, rice, and tomato salad.",
+          "t": "Flatten them with a glass and brown again on both sides; salt them.",
+          "s": 240
+        },
+        {
+          "t": "Serve the crispy fish with lime, patacones, rice and tomato-onion salad.",
           "s": null
         }
       ]
@@ -13227,56 +16479,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Corta el cerdo (y pollo si mezclas carnes) en cubos y dóralos en olla 5 min con ajo y comino.",
-          "s": 300
-        },
-        {
-          "t": "Agrega cebolla, tomate y pimentón picados; sofríe 4 min.",
-          "s": 240
-        },
-        {
-          "t": "Añade el arroz crudo y papas en cubitos; vierte 3 partes de caldo por cada 1 de arroz (lleva más agua que el arroz normal).",
+          "t": "Corta el cerdo en cubos; pica la cebolla, el tomate y el pimentón; pela y corta las papas en cubitos.",
           "s": null
         },
         {
-          "t": "Cocina destapado a fuego medio-bajo 18 min removiendo ocasionalmente hasta que quede húmedo y cremoso ('atollado'); termina con cilantro.",
+          "t": "Dora el cerdo en olla con unas gotas de aceite, ajo y comino.",
+          "s": 300
+        },
+        {
+          "t": "Agrega la cebolla, el tomate y el pimentón y sofríe.",
+          "s": 240
+        },
+        {
+          "t": "Añade el arroz crudo y las papas y vierte 3 partes de caldo por cada parte de arroz (lleva más líquido que un arroz normal); sala.",
+          "s": null
+        },
+        {
+          "t": "Cocina destapado a fuego medio-bajo, removiendo de vez en cuando, hasta que quede húmedo y cremoso, “atollado”.",
           "s": 1080
+        },
+        {
+          "t": "Si se seca antes de tiempo, agrega un chorrito de caldo caliente: debe quedar meloso, no seco.",
+          "s": null
+        },
+        {
+          "t": "Termina con cilantro picado y sirve con aguacate o patacón.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Doure cubos de lombo suíno na panela por 5 min com alho e cominho.",
-          "s": 300
-        },
-        {
-          "t": "Junte cebola, tomate e pimentão e refogue por 4 min.",
-          "s": 240
-        },
-        {
-          "t": "Adicione arroz cru, batata em cubinhos e o triplo de caldo (fica bem úmido).",
+          "t": "Corte o porco em cubos; pique a cebola, o tomate e o pimentão; descasque e corte as batatas em cubinhos.",
           "s": null
         },
         {
-          "t": "Cozinhe em fogo médio-baixo por 18 min mexendo às vezes até ficar cremoso; finalize com coentro.",
+          "t": "Doure o porco na panela com gotas de óleo, alho e cominho.",
+          "s": 300
+        },
+        {
+          "t": "Junte a cebola, o tomate e o pimentão e refogue.",
+          "s": 240
+        },
+        {
+          "t": "Acrescente o arroz cru e as batatas e despeje 3 partes de caldo para cada parte de arroz (leva mais líquido que um arroz normal); salgue.",
+          "s": null
+        },
+        {
+          "t": "Cozinhe destampado em fogo médio-baixo, mexendo às vezes, até ficar úmido e cremoso, “atollado”.",
           "s": 1080
+        },
+        {
+          "t": "Se secar antes da hora, junte um pouco de caldo quente: deve ficar meloso, não seco.",
+          "s": null
+        },
+        {
+          "t": "Finalize com coentro picado e sirva com abacate ou patacón.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Brown pork cubes in a pot 5 min with garlic and cumin.",
-          "s": 300
-        },
-        {
-          "t": "Add onion, tomato, and pepper; sauté 4 min.",
-          "s": 240
-        },
-        {
-          "t": "Stir in raw rice, diced potato, and 3x volume of broth.",
+          "t": "Cube the pork; chop the onion, tomato and bell pepper; peel and dice the potatoes.",
           "s": null
         },
         {
-          "t": "Simmer 18 min stirring occasionally until creamy and brothy; garnish with cilantro.",
+          "t": "Brown the pork in a pot with a few drops of oil, garlic and cumin.",
+          "s": 300
+        },
+        {
+          "t": "Add the onion, tomato and pepper and sauté.",
+          "s": 240
+        },
+        {
+          "t": "Add the raw rice and potatoes and pour in 3 parts stock for each part rice (more liquid than regular rice); salt it.",
+          "s": null
+        },
+        {
+          "t": "Cook uncovered over medium-low, stirring occasionally, until moist and creamy, “atollado”.",
           "s": 1080
+        },
+        {
+          "t": "If it dries out too soon, add a splash of hot stock: it should be soupy-soft, not dry.",
+          "s": null
+        },
+        {
+          "t": "Finish with chopped cilantro and serve with avocado or patacón.",
+          "s": null
         }
       ]
     },
@@ -13350,55 +16638,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Licúa los granos de maíz verde escurridos con 1 huevo, leche, avena/harina de maíz y pizca de sal (y 1 cdta de azúcar/edulcorante) hasta obtener una mezcla espesa.",
+          "t": "Escurre muy bien los granos de choclo/maíz verde.",
           "s": null
         },
         {
-          "t": "Calienta sartén antiadherente a fuego bajo y vierte un cucharón formando una tortita redonda.",
+          "t": "Licúalos con el huevo, la leche, la avena o harina de maíz, una pizca de sal (y 1 cdta de azúcar o endulzante) hasta obtener una mezcla espesa pero vertible.",
           "s": null
         },
         {
-          "t": "Cocina tapada 3 min hasta que aparezcan burbujitas y el borde dore; voltea con cuidado y dora 2 min más.",
+          "t": "Deja reposar para que la avena hidrate y espese.",
           "s": 300
         },
         {
-          "t": "Coloca rebanadas generosas de queijo minas frescal encima, dobla por la mitad y deja fundir 1 min.",
+          "t": "Calienta una sartén antiadherente a fuego bajo con unas gotas de aceite y vierte un cucharón formando una tortita redonda.",
+          "s": null
+        },
+        {
+          "t": "Cocina tapada hasta que aparezcan burbujitas y el borde dore; voltea con cuidado.",
+          "s": 180
+        },
+        {
+          "t": "Dora el otro lado.",
+          "s": 120
+        },
+        {
+          "t": "Coloca rebanadas de queso encima, dobla por la mitad y deja que se funda antes de servir.",
           "s": 60
         }
       ],
       "pt": [
         {
-          "t": "Bata no liquidificador milho verde escorrido, ovo, leite, aveia/flocão e pitada de sal até ficar cremoso.",
+          "t": "Escorra muito bem os grãos de milho verde.",
           "s": null
         },
         {
-          "t": "Despeje uma concha em frigideira antiaderente em fogo baixo.",
+          "t": "Bata com o ovo, o leite, a aveia ou farinha de milho, uma pitada de sal (e 1 colher (chá) de açúcar ou adoçante) até virar uma mistura grossa mas que escorra.",
           "s": null
         },
         {
-          "t": "Cozinhe tampado por 3 min até formar furinhos; vire e doure mais 2 min.",
+          "t": "Deixe descansar para a aveia hidratar e engrossar.",
           "s": 300
         },
         {
-          "t": "Coloque fatias de queijo minas por cima, dobre ao meio e derreta por 1 min.",
+          "t": "Aqueça uma frigideira antiaderente em fogo baixo com gotas de óleo e despeje uma concha formando uma panqueca redonda.",
+          "s": null
+        },
+        {
+          "t": "Cozinhe tampada até aparecerem bolhinhas e a borda dourar; vire com cuidado.",
+          "s": 180
+        },
+        {
+          "t": "Doure o outro lado.",
+          "s": 120
+        },
+        {
+          "t": "Coloque fatias de queijo por cima, dobre ao meio e deixe derreter antes de servir.",
           "s": 60
         }
       ],
       "en": [
         {
-          "t": "Blend drained sweet corn, egg, milk, oats/cornmeal, and salt into a thick batter.",
+          "t": "Drain the sweet-corn kernels very well.",
           "s": null
         },
         {
-          "t": "Ladle onto a low-heat non-stick skillet.",
+          "t": "Blend them with the egg, milk, oats or corn flour, a pinch of salt (and 1 tsp sugar or sweetener) into a thick but pourable batter.",
           "s": null
         },
         {
-          "t": "Cook covered 3 min until bubbles appear; flip and cook 2 more min.",
+          "t": "Let it rest so the oats hydrate and thicken.",
           "s": 300
         },
         {
-          "t": "Top with thick Minas cheese slices, fold over, and melt 1 min.",
+          "t": "Heat a nonstick pan over low with a few drops of oil and pour in a ladleful to form a round cake.",
+          "s": null
+        },
+        {
+          "t": "Cook covered until bubbles appear and the edge browns; flip carefully.",
+          "s": 180
+        },
+        {
+          "t": "Brown the other side.",
+          "s": 120
+        },
+        {
+          "t": "Lay cheese slices on top, fold in half and let it melt before serving.",
           "s": 60
         }
       ]
@@ -13487,67 +16811,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "En sartén bien ancha y baja (paellera), calienta aceite de oliva y dora los trozos de pollo sazonados 6 min; aparta hacia los bordes.",
+          "t": "Calienta el caldo de pollo o pescado (2,5 partes por 1 de arroz) con una pizca de azafrán o cúrcuma y mantenlo caliente. Corta el pollo en trozos y sazónalo con sal.",
+          "s": null
+        },
+        {
+          "t": "En una sartén ancha y baja (paellera) calienta el aceite de oliva y dora el pollo por todos lados; apártalo hacia los bordes.",
           "s": 360
         },
         {
-          "t": "En el centro, sofríe ajo picado, pimentón en tiras y tomate rallado 4 min con 1 cdta de páprica dulce y cúrcuma.",
+          "t": "En el centro sofríe ajo picado, el pimentón en tiras y el tomate rallado con 1 cdta de páprica dulce.",
           "s": 240
         },
         {
-          "t": "Agrega el arroz crudo y remueve 2 min para nacarar; luego vierte caldo caliente (2.5 partes por 1 de arroz) y reparte parejo.",
+          "t": "Agrega el arroz crudo y remueve para nacararlo; luego vierte el caldo caliente y reparte el arroz parejo. Ajusta la sal.",
           "s": 120
         },
         {
-          "t": "Cocina sin revolver el arroz: 8 min a fuego medio-alto y luego 10 min a fuego bajo. Los últimos 4 min acomoda los camarones encima hasta que se pongan rosados.",
-          "s": 1080
+          "t": "A partir de aquí no se revuelve: cocina a fuego medio-alto.",
+          "s": 480
         },
         {
-          "t": "Apaga, cubre con un paño limpio 5 min para que repose y sirve con gajos de limón.",
+          "t": "Baja a fuego suave y, en los últimos minutos, acomoda los camarones encima hasta que se pongan rosados. Si quieres socarrat, sube el fuego 1 min al final.",
+          "s": 600
+        },
+        {
+          "t": "Apaga, cubre con un paño limpio y deja reposar; sirve con gajos de limón.",
           "s": 300
         }
       ],
       "pt": [
         {
-          "t": "Em frigideira bem larga, doure o frango temperado no azeite por 6 min.",
+          "t": "Aqueça o caldo de frango ou peixe (2,5 partes para 1 de arroz) com uma pitada de açafrão ou cúrcuma e mantenha quente. Corte o frango em pedaços e tempere com sal.",
+          "s": null
+        },
+        {
+          "t": "Numa frigideira larga e baixa (paellera) aqueça o azeite e doure o frango por todos os lados; afaste para as bordas.",
           "s": 360
         },
         {
-          "t": "No centro, refogue alho, pimentão e tomate ralado por 4 min com páprica e cúrcuma.",
+          "t": "No centro refogue alho picado, o pimentão em tiras e o tomate ralado com 1 colher (chá) de páprica doce.",
           "s": 240
         },
         {
-          "t": "Junte o arroz cru, mexa 2 min e adicione caldo quente (2.5 partes para 1 de arroz).",
+          "t": "Junte o arroz cru e mexa para envolver; depois despeje o caldo quente e espalhe o arroz por igual. Acerte o sal.",
           "s": 120
         },
         {
-          "t": "Cozinhe sem mexer o arroz por 18 min (os últimos 4 min com o camarão por cima).",
-          "s": 1080
+          "t": "A partir daqui não se mexe: cozinhe em fogo médio-alto.",
+          "s": 480
         },
         {
-          "t": "Desligue, cubra com pano limpo por 5 min para assentar e sirva com limão.",
+          "t": "Abaixe o fogo e, nos últimos minutos, arrume os camarões por cima até ficarem rosados. Para ter socarrat, aumente o fogo 1 min no final.",
+          "s": 600
+        },
+        {
+          "t": "Desligue, cubra com um pano limpo e deixe descansar; sirva com gomos de limão.",
           "s": 300
         }
       ],
       "en": [
         {
-          "t": "Brown seasoned chicken pieces in olive oil in a wide shallow pan 6 min.",
+          "t": "Heat the chicken or fish stock (2.5 parts to 1 of rice) with a pinch of saffron or turmeric and keep it hot. Cut the chicken into pieces and salt it.",
+          "s": null
+        },
+        {
+          "t": "In a wide, shallow pan (paella pan) heat the olive oil and brown the chicken on all sides; push it to the edges.",
           "s": 360
         },
         {
-          "t": "Sauté garlic, bell pepper, and grated tomato 4 min with paprika and turmeric.",
+          "t": "In the center sauté chopped garlic, the pepper strips and grated tomato with 1 tsp sweet paprika.",
           "s": 240
         },
         {
-          "t": "Stir in raw rice 2 min, then pour in hot broth (2.5x rice volume).",
+          "t": "Add the raw rice and stir to coat; then pour in the hot stock and spread the rice evenly. Adjust the salt.",
           "s": 120
         },
         {
-          "t": "Simmer without stirring 18 min, placing shrimp on top for the last 4 min.",
-          "s": 1080
+          "t": "From now on do not stir: cook over medium-high heat.",
+          "s": 480
         },
         {
-          "t": "Rest covered with a clean cloth 5 min and serve with lemon wedges.",
+          "t": "Lower the heat and, in the last minutes, arrange the shrimp on top until pink. For socarrat, turn up the heat for 1 min at the end.",
+          "s": 600
+        },
+        {
+          "t": "Turn off, cover with a clean towel and let it rest; serve with lemon wedges.",
           "s": 300
         }
       ]
@@ -13615,56 +16963,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Pela las papas y córtalas en láminas finas e irregulares (3 mm); corta la cebolla en julianas finas.",
+          "t": "Pela las papas y córtalas en láminas finas e irregulares (3 mm); corta la cebolla en juliana fina.",
           "s": null
         },
         {
-          "t": "Cocina las papas y cebolla en sartén tapada con aceite de oliva a fuego medio-bajo 15 min moviendo suave hasta que estén muy tiernas sin dorarse crujientes (en modo fit: 12 min en airfryer).",
+          "t": "Cocina las papas y la cebolla con sal en sartén tapada con el aceite de oliva a fuego medio-bajo, moviendo suave, hasta que estén muy tiernas pero sin dorarse (en modo fit, en airfryer).",
           "s": 900
         },
         {
-          "t": "Bate 3 huevos en un bol grande con sal; agrega las papas tibias escurridas aplastando un poco con el tenedor y deja reposar 5 min para que se empapen.",
+          "t": "Escúrrelas bien del aceite (guarda 1 cdta para cuajar).",
+          "s": null
+        },
+        {
+          "t": "Bate 3 huevos con sal en un bol grande, agrega las papas tibias, aplasta un poco con el tenedor y deja reposar para que se empapen.",
           "s": 300
         },
         {
-          "t": "En sartén pequeña antiadherente caliente, vierte la mezcla, cocina 3 min a fuego medio-bajo moviendo los bordes; voltea con ayuda de un plato y cuaja 2 min más dejando el centro jugoso.",
-          "s": 300
+          "t": "Calienta una sartén pequeña antiadherente con la cucharadita de aceite, vierte la mezcla y cuaja a fuego medio-bajo despegando los bordes.",
+          "s": 180
+        },
+        {
+          "t": "Cubre la sartén con un plato y voltea la tortilla de un golpe firme; deslízala de nuevo a la sartén.",
+          "s": null
+        },
+        {
+          "t": "Cuaja el otro lado dejando el centro jugoso y deja reposar un par de minutos antes de cortar.",
+          "s": 120
         }
       ],
       "pt": [
         {
-          "t": "Descasque as batatas e corte em lâminas bem finas (3 mm); fatie a cebola.",
+          "t": "Descasque as batatas e corte em lâminas finas e irregulares (3 mm); corte a cebola em tiras finas.",
           "s": null
         },
         {
-          "t": "Cozinhe batata e cebola em fogo baixo no azeite com tampa por 15 min até amaciar (ou 12 min na airfryer).",
+          "t": "Cozinhe as batatas e a cebola com sal em frigideira tampada com o azeite em fogo médio-baixo, mexendo de leve, até ficarem bem macias mas sem dourar (no modo fit, na airfryer).",
           "s": 900
         },
         {
-          "t": "Bata 3 ovos com sal, misture as batatas mornas e deixe descansar 5 min.",
+          "t": "Escorra bem do azeite (guarde 1 colher de chá para cozinhar).",
+          "s": null
+        },
+        {
+          "t": "Bata 3 ovos com sal numa tigela grande, junte as batatas mornas, amasse um pouco com o garfo e deixe descansar para absorverem.",
           "s": 300
         },
         {
-          "t": "Despeje em frigideira pequena quente por 3 min, vire usando um prato e doure mais 2 min mantendo o centro cremoso.",
-          "s": 300
+          "t": "Aqueça uma frigideira pequena antiaderente com a colher de azeite, despeje a mistura e cozinhe em fogo médio-baixo soltando as bordas.",
+          "s": 180
+        },
+        {
+          "t": "Cubra a frigideira com um prato e vire a tortilla com um movimento firme; deslize de volta para a frigideira.",
+          "s": null
+        },
+        {
+          "t": "Cozinhe o outro lado deixando o centro suculento e descanse uns minutos antes de cortar.",
+          "s": 120
         }
       ],
       "en": [
         {
-          "t": "Peel and thinly slice potatoes (3mm) and onion.",
+          "t": "Peel the potatoes and slice them thin and irregular (3 mm); slice the onion thinly.",
           "s": null
         },
         {
-          "t": "Slow-cook potato and onion in olive oil covered 15 min until tender (or air-fry 12 min).",
+          "t": "Cook the potatoes and onion with salt in a covered pan with the olive oil over medium-low, stirring gently, until very tender but not browned (fit version: air fryer).",
           "s": 900
         },
         {
-          "t": "Beat 3 eggs with salt, fold in warm potatoes, and soak 5 min.",
+          "t": "Drain them well from the oil (keep 1 tsp for cooking).",
+          "s": null
+        },
+        {
+          "t": "Beat 3 eggs with salt in a large bowl, add the warm potatoes, mash slightly with a fork and let them soak.",
           "s": 300
         },
         {
-          "t": "Pour into small hot skillet 3 min, flip using a plate, and cook 2 more min keeping center tender.",
-          "s": 300
+          "t": "Heat a small nonstick pan with the teaspoon of oil, pour in the mixture and set over medium-low, loosening the edges.",
+          "s": 180
+        },
+        {
+          "t": "Cover the pan with a plate and flip the tortilla in one firm move; slide it back into the pan.",
+          "s": null
+        },
+        {
+          "t": "Set the other side, keeping the center juicy, and let it rest a couple of minutes before cutting.",
+          "s": 120
         }
       ]
     },
@@ -13752,55 +17136,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Lava y trocea tomates bien maduros, pepino pelado (sin semillas si son grandes), pimentón verde/rojo y medio diente de ajo (sin el germen central para que no repita).",
+          "t": "Cuece el huevo 10 min, pásalo a agua fría, pélalo y pícalo.",
+          "s": 600
+        },
+        {
+          "t": "Lava y trocea tomates bien maduros, el pepino pelado (sin semillas si son grandes), el pimentón y medio diente de ajo sin el germen central.",
           "s": null
         },
         {
-          "t": "Remoja 1 trozo de pan sin corteza en agua fría y vinagre de manzana/vino (omite el pan en versión low-carb).",
+          "t": "Remoja un trozo de pan sin corteza en agua fría con 1 cda de vinagre (omite el pan en la versión low-carb).",
           "s": null
         },
         {
-          "t": "Licúa todo a máxima potencia 2 minutos hasta quedar totalmente liso; luego agrega el aceite de oliva en hilo y sal para emulsionar.",
+          "t": "Licúa todo a máxima potencia hasta que quede totalmente liso.",
           "s": 120
         },
         {
-          "t": "Pasa por colador fino, refrigera mínimo 30 min (se toma bien frío!) y sirve con huevo duro picado y cubitos de pepino encima.",
+          "t": "Con la licuadora en marcha agrega el aceite de oliva en hilo y sal para emulsionar; prueba y ajusta vinagre y sal.",
+          "s": null
+        },
+        {
+          "t": "Pasa por un colador fino y refrigera: se toma bien frío.",
+          "s": 1800
+        },
+        {
+          "t": "Sirve en vaso o tazón con el huevo picado y cubitos de pepino y pimentón por encima.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Lave e pique tomates bem maduros, pepino descascado, pimentão e meio dente de alho (sem o miolo).",
+          "t": "Cozinhe o ovo 10 min, passe para água fria, descasque e pique.",
+          "s": 600
+        },
+        {
+          "t": "Lave e corte tomates bem maduros, o pepino descascado (sem sementes se forem grandes), o pimentão e meio dente de alho sem o miolo.",
           "s": null
         },
         {
-          "t": "Umedeça um pedaço de pão sem casca com água fria e vinagre (omita no modo fit).",
+          "t": "Deixe um pedaço de pão sem casca de molho em água fria com 1 colher de vinagre (dispense o pão na versão low-carb).",
           "s": null
         },
         {
-          "t": "Bata tudo no liquidificador por 2 min em potência máxima; junte o azeite aos poucos com sal.",
+          "t": "Bata tudo na potência máxima até ficar totalmente liso.",
           "s": 120
         },
         {
-          "t": "Coe, leve à geladeira para servir bem gelado com ovo cozido picado e pepino por cima.",
+          "t": "Com o liquidificador ligado, adicione o azeite em fio e sal para emulsionar; prove e ajuste vinagre e sal.",
+          "s": null
+        },
+        {
+          "t": "Passe por peneira fina e leve à geladeira: toma-se bem gelado.",
+          "s": 1800
+        },
+        {
+          "t": "Sirva em copo ou tigela com o ovo picado e cubinhos de pepino e pimentão por cima.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Chop ripe tomatoes, peeled cucumber, bell pepper, and half a garlic clove.",
+          "t": "Boil the egg 10 min, cool in cold water, peel and chop it.",
+          "s": 600
+        },
+        {
+          "t": "Wash and chop very ripe tomatoes, the peeled cucumber (seeded if large), the bell pepper and half a garlic clove with the germ removed.",
           "s": null
         },
         {
-          "t": "Soak crustless bread in cold water and vinegar (omit in fit mode).",
+          "t": "Soak a piece of crustless bread in cold water with 1 tbsp vinegar (skip the bread for low-carb).",
           "s": null
         },
         {
-          "t": "Blend at high speed 2 min until smooth, streaming in olive oil and salt.",
+          "t": "Blend everything at full power until completely smooth.",
           "s": 120
         },
         {
-          "t": "Strain, chill thoroughly, and serve cold topped with chopped boiled egg and cucumber.",
+          "t": "With the blender running, drizzle in the olive oil and salt to emulsify; taste and adjust vinegar and salt.",
+          "s": null
+        },
+        {
+          "t": "Strain through a fine sieve and chill: it is served very cold.",
+          "s": 1800
+        },
+        {
+          "t": "Serve in a glass or bowl topped with the chopped egg and diced cucumber and pepper.",
           "s": null
         }
       ]
@@ -13882,56 +17302,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Seca muy bien los camarones pelados (o cubos de tilapia) con papel toalla y sazónalos con sal.",
+          "t": "Seca muy bien los camarones pelados (o los cubos de tilapia) con papel toalla y sazónalos con sal.",
           "s": null
         },
         {
-          "t": "Lamina los dientes de ajo en rodajas finas y colócalos en sartén fría con el aceite de oliva y guindilla/pimenta calabresa.",
+          "t": "Lamina los dientes de ajo en rodajas finas y pica el perejil.",
           "s": null
         },
         {
-          "t": "Enciende el fuego medio-bajo y deja que el ajo perfume el aceite 2 min apenas empiece a dorar por los bordes (¡nunca lo quemes o amarga!).",
+          "t": "Coloca el ajo en una cazuela o sartén fría con el aceite de oliva y una guindilla o pizca de ají en hojuelas.",
+          "s": null
+        },
+        {
+          "t": "Enciende a fuego medio-bajo y deja que el ajo perfume el aceite hasta que empiece a dorar por los bordes (¡si se quema, amarga!).",
           "s": 120
         },
         {
-          "t": "Sube el fuego a alto, echa los camarones y saltea rápido 2–3 min hasta que cambien a color rosado. Espolvorea perejil y sirve caliente.",
+          "t": "Sube el fuego a alto, echa los camarones y saltea rápido hasta que se pongan rosados.",
           "s": 150
+        },
+        {
+          "t": "Apaga, añade unas gotas de limón y espolvorea el perejil.",
+          "s": null
+        },
+        {
+          "t": "Sirve hirviendo con pan para mojar el aceite (o con papa cocida en el modo fit).",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Seque bem os camarões limpos (ou cubos de tilápia) e tempere com sal.",
+          "t": "Seque muito bem os camarões descascados (ou cubos de tilápia) com papel-toalha e tempere com sal.",
           "s": null
         },
         {
-          "t": "Fatie o alho em lâminas finas e coloque na frigideira ainda fria com azeite e pimenta calabresa.",
+          "t": "Fatie os dentes de alho em lâminas finas e pique a salsinha.",
           "s": null
         },
         {
-          "t": "Ligue em fogo médio-baixo por 2 min até o alho perfumar e começar a dourar levemente (sem queimar!).",
+          "t": "Coloque o alho numa caçarola ou frigideira fria com o azeite e uma pimenta seca ou pitada de pimenta calabresa.",
+          "s": null
+        },
+        {
+          "t": "Ligue em fogo médio-baixo e deixe o alho perfumar o azeite até começar a dourar nas bordas (se queimar, amarga!).",
           "s": 120
         },
         {
-          "t": "Aumente o fogo, junte os camarões e salteie por 2–3 min até ficarem rosados; finalize com salsinha.",
+          "t": "Aumente para fogo alto, junte os camarões e salteie rápido até ficarem rosados.",
           "s": 150
+        },
+        {
+          "t": "Desligue, acrescente gotas de limão e polvilhe a salsinha.",
+          "s": null
+        },
+        {
+          "t": "Sirva fervendo com pão para molhar no azeite (ou com batata cozida no modo fit).",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Pat peeled shrimp (or tilapia cubes) very dry and season with salt.",
+          "t": "Pat the peeled shrimp (or tilapia cubes) very dry with paper towels and salt them.",
           "s": null
         },
         {
-          "t": "Thinly slice garlic and place in a cold skillet with olive oil and chili flakes.",
+          "t": "Slice the garlic cloves thinly and chop the parsley.",
           "s": null
         },
         {
-          "t": "Heat over medium-low 2 min until garlic just begins to turn golden at edges.",
+          "t": "Put the garlic in a cold clay dish or pan with the olive oil and a dried chili or pinch of chili flakes.",
+          "s": null
+        },
+        {
+          "t": "Turn on medium-low heat and let the garlic perfume the oil until it starts to color at the edges (burnt garlic turns bitter!).",
           "s": 120
         },
         {
-          "t": "Turn heat to high, toss in shrimp 2–3 min until pink; finish with parsley.",
+          "t": "Turn the heat to high, add the shrimp and sauté quickly until pink.",
           "s": 150
+        },
+        {
+          "t": "Turn off, add a few drops of lemon and sprinkle the parsley.",
+          "s": null
+        },
+        {
+          "t": "Serve sizzling with bread to mop up the oil (or with boiled potato for the fit version).",
+          "s": null
         }
       ]
     },
@@ -14005,56 +17461,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Sazona los trozos de pollo con sal y pimienta negra.",
+          "t": "Sazona los trozos de pollo con sal y pimienta negra. Pela y corta las papas en gajos.",
           "s": null
         },
         {
-          "t": "En sartén amplia con aceite de oliva, dora 6 dientes de ajo enteros sin pelar (aplastados con el cuchillo) 3 min hasta perfumar; retira los ajos un momento.",
+          "t": "Cocina las papas en airfryer u horno a 200 °C con una pizca de sal hasta dorar.",
+          "s": 1080
+        },
+        {
+          "t": "En una sartén amplia con el aceite de oliva dora 6 dientes de ajo enteros aplastados con el cuchillo hasta perfumar; retíralos.",
           "s": 180
         },
         {
-          "t": "Sella el pollo a fuego medio-alto 7 min hasta que quede bien dorado por fuera.",
+          "t": "Sella el pollo a fuego medio-alto hasta que esté bien dorado por todos lados.",
           "s": 420
         },
         {
-          "t": "Devuelve los ajos, agrega 1 hoja de laurel, tomillo y 1/2 taza de vino blanco (o caldo con 1 cdta de vinagre); tapa y cocina 12 min. Sirve con papas doradas.",
+          "t": "Devuelve los ajos y agrega 1 hoja de laurel, tomillo y ½ taza de vino blanco (o caldo con 1 cdta de vinagre).",
+          "s": null
+        },
+        {
+          "t": "Tapa y cocina a fuego medio-bajo hasta que el pollo esté hecho y la salsa reducida.",
           "s": 720
+        },
+        {
+          "t": "Termina con gotas de limón y sirve con las papas doradas.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Tempere o frango com sal e pimenta-do-reino.",
+          "t": "Tempere os pedaços de frango com sal e pimenta-do-reino. Descasque e corte as batatas em gomos.",
           "s": null
         },
         {
-          "t": "Doure 6 dentes de alho inteiros com casca (amassados) no azeite por 3 min e reserve.",
+          "t": "Leve as batatas à airfryer ou forno a 200 °C com uma pitada de sal até dourar.",
+          "s": 1080
+        },
+        {
+          "t": "Numa frigideira grande com o azeite doure 6 dentes de alho inteiros amassados com a faca até perfumar; retire.",
           "s": 180
         },
         {
-          "t": "Sele o frango na mesma frigideira em fogo médio-alto por 7 min até dourar bem.",
+          "t": "Sele o frango em fogo médio-alto até ficar bem dourado por todos os lados.",
           "s": 420
         },
         {
-          "t": "Volte os alhos, junte louro, tomilho e 1/2 xícara de vinho ou caldo; tampe e cozinhe 12 min.",
+          "t": "Volte os alhos e junte 1 folha de louro, tomilho e ½ xícara de vinho branco (ou caldo com 1 colher (chá) de vinagre).",
+          "s": null
+        },
+        {
+          "t": "Tampe e cozinhe em fogo médio-baixo até o frango cozinhar e o molho reduzir.",
           "s": 720
+        },
+        {
+          "t": "Finalize com gotas de limão e sirva com as batatas douradas.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Season chicken pieces with salt and black pepper.",
+          "t": "Season the chicken pieces with salt and black pepper. Peel and cut the potatoes into wedges.",
           "s": null
         },
         {
-          "t": "Gently brown 6 smashed unpeeled garlic cloves in olive oil 3 min; set aside.",
+          "t": "Roast the potatoes in the air fryer or oven at 200 °C with a pinch of salt until golden.",
+          "s": 1080
+        },
+        {
+          "t": "In a wide pan with the olive oil brown 6 whole garlic cloves crushed with the knife until fragrant; remove them.",
           "s": 180
         },
         {
-          "t": "Sear chicken over medium-high heat 7 min until golden.",
+          "t": "Sear the chicken over medium-high until well browned on all sides.",
           "s": 420
         },
         {
-          "t": "Return garlic with bay leaf, thyme, and 1/2 cup white wine/broth; simmer covered 12 min.",
+          "t": "Return the garlic and add 1 bay leaf, thyme and ½ cup white wine (or stock with 1 tsp vinegar).",
+          "s": null
+        },
+        {
+          "t": "Cover and cook over medium-low until the chicken is done and the sauce reduced.",
           "s": 720
+        },
+        {
+          "t": "Finish with a few drops of lemon and serve with the golden potatoes.",
+          "s": null
         }
       ]
     },
@@ -14135,56 +17627,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Corta las papas en dados irregulares de 2.5 cm, rocía con aceite y sal; cocina en airfryer 18 min a 200°C (sacudiendo a mitad) hasta quedar bien crocantes.",
+          "t": "Corta las papas en dados irregulares de 2,5 cm, sécalas y mézclalas con unas gotas de aceite y sal.",
+          "s": null
+        },
+        {
+          "t": "Cocínalas en airfryer a 200 °C, sacudiendo a mitad de tiempo, hasta que estén bien crocantes.",
           "s": 1080
         },
         {
-          "t": "Para la salsa brava: sofríe cebolla y ajo 3 min; añade 1 cdta de páprica dulce, 1/2 cdta de pimenta calabresa/picante, 1 cdta de harina/maicena y tomate triturado.",
+          "t": "Salsa brava: sofríe la cebolla y el ajo picados con el resto del aceite.",
           "s": 180
         },
         {
-          "t": "Cocina la salsa 8 min y licúala para que quede lisa y brillante.",
+          "t": "Añade 1 cdta de páprica dulce, ½ cdta de páprica picante o ají en hojuelas y 1 cdta de harina o maicena; remueve sin que se queme.",
+          "s": null
+        },
+        {
+          "t": "Agrega el tomate triturado y cocina; luego licúa la salsa hasta que quede lisa y brillante. Sala.",
           "s": 480
         },
         {
-          "t": "Sella filetes de pollo a la plancha 4 min por lado y sirve junto a las papas calientes bañadas con salsa brava.",
+          "t": "Sazona el pollo y séllalo a la plancha por ambos lados hasta que esté dorado y jugoso.",
           "s": 480
+        },
+        {
+          "t": "Sirve las papas calientes bañadas con la salsa brava, junto al pollo.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Corte as batatas em cubos de 2.5 cm, misture azeite e sal e leve à airfryer a 200°C por 18 min até ficarem crocantes.",
+          "t": "Corte as batatas em cubos irregulares de 2,5 cm, seque e misture com gotas de azeite e sal.",
+          "s": null
+        },
+        {
+          "t": "Leve à airfryer a 200 °C, sacudindo na metade do tempo, até ficarem bem crocantes.",
           "s": 1080
         },
         {
-          "t": "Para o molho bravo: refogue cebola e alho, junte páprica defumada, pimenta calabresa e tomate batido.",
+          "t": "Molho bravo: refogue a cebola e o alho picados com o resto do azeite.",
           "s": 180
         },
         {
-          "t": "Cozinhe o molho por 8 min e bata no liquidificador para ficar bem liso.",
+          "t": "Junte 1 colher (chá) de páprica doce, ½ de páprica picante ou pimenta calabresa e 1 de farinha ou amido; mexa sem queimar.",
+          "s": null
+        },
+        {
+          "t": "Acrescente o tomate triturado e cozinhe; depois bata o molho até ficar liso e brilhante. Salgue.",
           "s": 480
         },
         {
-          "t": "Grelhe o frango à parte e sirva com as batatas cobertas pelo molho picante.",
+          "t": "Tempere o frango e sele na chapa dos dois lados até ficar dourado e suculento.",
           "s": 480
+        },
+        {
+          "t": "Sirva as batatas quentes cobertas com o molho bravo, junto com o frango.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Cube potatoes into 2.5cm chunks, toss with oil and salt, and air-fry at 200°C 18 min until crisp.",
+          "t": "Cut the potatoes into irregular 2.5 cm chunks, dry them and toss with a few drops of oil and salt.",
+          "s": null
+        },
+        {
+          "t": "Air-fry at 200 °C, shaking halfway, until very crisp.",
           "s": 1080
         },
         {
-          "t": "Sauté onion and garlic, add smoked paprika, chili flakes, and crushed tomato.",
+          "t": "Brava sauce: sauté the chopped onion and garlic with the rest of the oil.",
           "s": 180
         },
         {
-          "t": "Simmer sauce 8 min and blend smooth.",
+          "t": "Add 1 tsp sweet paprika, ½ tsp hot paprika or chili flakes and 1 tsp flour or cornstarch; stir without burning.",
+          "s": null
+        },
+        {
+          "t": "Add the crushed tomato and cook; then blend the sauce until smooth and glossy. Salt it.",
           "s": 480
         },
         {
-          "t": "Sear chicken breast alongside and spoon spicy brava sauce over hot potatoes.",
+          "t": "Season the chicken and sear on the griddle on both sides until golden and juicy.",
           "s": 480
+        },
+        {
+          "t": "Serve the hot potatoes topped with brava sauce, alongside the chicken.",
+          "s": null
         }
       ]
     },
@@ -14258,55 +17786,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Corta las papas en bastones gruesos o láminas; hornea o cocina en airfryer 16 min a 200°C hasta que estén tiernas por dentro y doradas por fuera.",
+          "t": "Corta las papas en bastones gruesos o láminas y mézclalas con unas gotas de aceite y sal.",
+          "s": null
+        },
+        {
+          "t": "Hornéalas o cocínalas en airfryer a 200 °C hasta que estén tiernas por dentro y doradas por fuera.",
           "s": 960
         },
         {
-          "t": "Saltea cebolla en tiras y tiras finas de lomo/jamón en sartén 3 min.",
+          "t": "Corta la cebolla en tiras y el lomo o jamón en tiras finas.",
+          "s": null
+        },
+        {
+          "t": "Saltea la cebolla y la carne en sartén hasta que doren.",
           "s": 180
         },
         {
-          "t": "En sartén aparte, fríe 2 huevos en aceite de oliva manteniendo la yema completamente líquida.",
-          "s": 150
+          "t": "En otra sartén fríe los huevos en el aceite de oliva, bañando la clara con el aceite y dejando la yema completamente líquida.",
+          "s": 120
         },
         {
-          "t": "Pon las papas calientes en plato, acomoda las tiras de carne y los huevos encima; al servir, rompe las yemas con tenedor y cuchillo para que bañen todas las papas.",
+          "t": "Pon las papas calientes en el plato, sálalas y acomoda la carne y los huevos encima.",
+          "s": null
+        },
+        {
+          "t": "Al servir, rompe las yemas con tenedor y cuchillo para que bañen todas las papas.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Corte batatas em palitos e asse ou leve à airfryer a 200°C por 16 min até dourar.",
+          "t": "Corte as batatas em palitos grossos ou lâminas e misture com gotas de azeite e sal.",
+          "s": null
+        },
+        {
+          "t": "Asse ou leve à airfryer a 200 °C até ficarem macias por dentro e douradas por fora.",
           "s": 960
         },
         {
-          "t": "Salteie cebola e tiras de lombo ou presunto por 3 min.",
+          "t": "Corte a cebola em tiras e o lombo ou presunto em tiras finas.",
+          "s": null
+        },
+        {
+          "t": "Salteie a cebola e a carne na frigideira até dourar.",
           "s": 180
         },
         {
-          "t": "Frite 2 ovos deixando as gemas bem moles.",
-          "s": 150
+          "t": "Em outra frigideira frite os ovos no azeite, regando a clara com o azeite e deixando a gema totalmente mole.",
+          "s": 120
         },
         {
-          "t": "Coloque sobre as batatas quentes e rompa as gemas na hora de servir para envolver tudo.",
+          "t": "Coloque as batatas quentes no prato, salgue e arrume a carne e os ovos por cima.",
+          "s": null
+        },
+        {
+          "t": "Na hora de servir, rompa as gemas com garfo e faca para que banhem todas as batatas.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Cut potatoes and air-fry at 200°C for 16 min until golden outside and fluffy inside.",
+          "t": "Cut the potatoes into thick sticks or slices and toss with a few drops of oil and salt.",
+          "s": null
+        },
+        {
+          "t": "Bake or air-fry at 200 °C until tender inside and golden outside.",
           "s": 960
         },
         {
-          "t": "Sauté sliced onion and pork/ham strips 3 min.",
+          "t": "Slice the onion and cut the pork loin or ham into thin strips.",
+          "s": null
+        },
+        {
+          "t": "Sauté the onion and meat in a pan until browned.",
           "s": 180
         },
         {
-          "t": "Fry 2 eggs keeping yolks completely runny.",
-          "s": 150
+          "t": "In another pan fry the eggs in the olive oil, basting the whites and keeping the yolks fully runny.",
+          "s": 120
         },
         {
-          "t": "Layer meat and eggs over hot potatoes and break yolks right at the table.",
+          "t": "Place the hot potatoes on the plate, salt them and arrange the meat and eggs on top.",
+          "s": null
+        },
+        {
+          "t": "At the table, break the yolks with knife and fork so they coat all the potatoes.",
           "s": null
         }
       ]
@@ -14388,56 +17952,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Remoja el frijol blanco toda la noche y cuécelo a fuego suave (o 20 min en olla a presión) con agua fría, 1 cebolla entera, zanahoria y laurel.",
+          "t": "Remoja el frijol blanco toda la noche en agua fría; escúrrelo.",
+          "s": null
+        },
+        {
+          "t": "Cuécelo a fuego suave con agua fría, 1 cebolla entera, la zanahoria, el ajo y laurel (o en olla a presión 20 min).",
           "s": 1200
         },
         {
-          "t": "Agrega los trozos de lomo y lingüiça (sin picar mucho la piel para que no se deshagan) y 1 cdta de páprica defumada.",
+          "t": "Corta el lomo en trozos y la lingüiça/chorizo en rodajas gruesas.",
           "s": null
         },
         {
-          "t": "Cocina a fuego bajo 15 min moviendo la olla en círculos por las asas (sin meter cuchara para no romper los granos).",
+          "t": "Agrégalos a la olla con 1 cdta de páprica ahumada y cocina a fuego bajo.",
           "s": 900
         },
         {
-          "t": "Saca la cebolla y zanahoria cocida, licúalas con un cucharón de caldo y devuélvelas a la olla para dar cremosidad; reposa 5 min antes de servir.",
+          "t": "No metas la cuchara: mueve la olla en círculos por las asas para no romper los granos. Si se seca, añade agua fría (“asustar” el frijol).",
           "s": null
+        },
+        {
+          "t": "Saca la cebolla y la zanahoria cocidas, lícualas con un cucharón de caldo y devuélvelas para dar cremosidad; ajusta la sal.",
+          "s": null
+        },
+        {
+          "t": "Deja reposar antes de servir para que espese.",
+          "s": 300
         }
       ],
       "pt": [
         {
-          "t": "Deixe o feijão branco de molho e cozinhe na pressão por 20 min com cebola inteira, cenoura e louro.",
+          "t": "Deixe o feijão branco de molho a noite toda em água fria; escorra.",
+          "s": null
+        },
+        {
+          "t": "Cozinhe em fogo baixo com água fria, 1 cebola inteira, a cenoura, o alho e louro (ou 20 min na pressão).",
           "s": 1200
         },
         {
-          "t": "Junte lombo, linguiça paio e 1 colher de páprica defumada.",
+          "t": "Corte o lombo em pedaços e a linguiça em rodelas grossas.",
           "s": null
         },
         {
-          "t": "Cozinhe em fogo baixo por 15 min balançando a panela sem mexer com colher para não quebrar os grãos.",
+          "t": "Junte à panela com 1 colher (chá) de páprica defumada e cozinhe em fogo baixo.",
           "s": 900
         },
         {
-          "t": "Bata a cebola e cenoura cozidas com um pouco do caldo e devolva para engrossar.",
+          "t": "Não use colher: balance a panela em círculos pelas alças para não quebrar os grãos. Se secar, junte água fria (“assustar” o feijão).",
           "s": null
+        },
+        {
+          "t": "Retire a cebola e a cenoura cozidas, bata com uma concha de caldo e devolva para dar cremosidade; acerte o sal.",
+          "s": null
+        },
+        {
+          "t": "Deixe descansar antes de servir para engrossar.",
+          "s": 300
         }
       ],
       "en": [
         {
-          "t": "Soak white beans overnight and pressure-cook 20 min with whole onion, carrot, and bay leaf.",
+          "t": "Soak the white beans overnight in cold water; drain.",
+          "s": null
+        },
+        {
+          "t": "Simmer gently in cold water with 1 whole onion, the carrot, garlic and bay leaf (or 20 min in a pressure cooker).",
           "s": 1200
         },
         {
-          "t": "Add pork, smoked sausage, and smoked paprika.",
+          "t": "Cut the pork loin into chunks and the sausage into thick slices.",
           "s": null
         },
         {
-          "t": "Simmer gently 15 min swirling the pot without stirring to keep beans intact.",
+          "t": "Add them to the pot with 1 tsp smoked paprika and cook on low.",
           "s": 900
         },
         {
-          "t": "Blend cooked onion and carrot with broth and stir back in to thicken.",
+          "t": "Do not stir with a spoon: swirl the pot by its handles so the beans stay whole. If it dries, add cold water (to “shock” the beans).",
           "s": null
+        },
+        {
+          "t": "Remove the cooked onion and carrot, blend with a ladle of broth and return for creaminess; adjust the salt.",
+          "s": null
+        },
+        {
+          "t": "Let it rest before serving so it thickens.",
+          "s": 300
         }
       ]
     },
@@ -14518,56 +18118,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Corta cebolla, pimentón y calabacín en dados del mismo tamaño (1 cm).",
+          "t": "Corta la cebolla, el pimentón y el calabacín en dados del mismo tamaño (1 cm). Ralla o pica el tomate.",
           "s": null
         },
         {
-          "t": "En sartén amplia con aceite de oliva, sofríe primero cebolla y pimentón 6 min a fuego medio hasta que ablanden.",
+          "t": "En una sartén amplia con el aceite de oliva sofríe primero la cebolla y el pimentón a fuego medio hasta que ablanden.",
           "s": 360
         },
         {
-          "t": "Agrega el calabacín y cocina 5 min más; luego añade tomate rallado/picado con pizca de sal y azúcar/edulcorante para quitar acidez.",
+          "t": "Agrega el calabacín y cocina.",
           "s": 300
         },
         {
-          "t": "Cocina a fuego bajo 10 min hasta evaporar el exceso de agua. Haz 2 huecos, rompe los huevos encima y tapa 4 min hasta cuajar.",
+          "t": "Añade el tomate con sal y una pizca de azúcar o endulzante para quitar la acidez.",
+          "s": null
+        },
+        {
+          "t": "Cocina a fuego bajo hasta evaporar el exceso de agua y lograr una textura de guiso espeso.",
           "s": 600
+        },
+        {
+          "t": "Haz 2 huecos en el pisto y rompe un huevo en cada uno; sálalos.",
+          "s": null
+        },
+        {
+          "t": "Tapa y cocina hasta que la clara cuaje y la yema siga blanda; sirve en la misma sartén con pan.",
+          "s": 240
         }
       ],
       "pt": [
         {
-          "t": "Corte cebola, pimentão e abobrinha em cubos de 1 cm.",
+          "t": "Corte a cebola, o pimentão e a abobrinha em cubos do mesmo tamanho (1 cm). Rale ou pique o tomate.",
           "s": null
         },
         {
-          "t": "Refogue primeiro cebola e pimentão no azeite por 6 min em fogo médio.",
+          "t": "Numa frigideira grande com o azeite refogue primeiro a cebola e o pimentão em fogo médio até amolecer.",
           "s": 360
         },
         {
-          "t": "Junte a abobrinha por 5 min e depois o tomate ralado com sal.",
+          "t": "Junte a abobrinha e cozinhe.",
           "s": 300
         },
         {
-          "t": "Apure por 10 min até secar o excesso de água; quebre 2 ovos por cima e tampe por 4 min.",
+          "t": "Acrescente o tomate com sal e uma pitada de açúcar ou adoçante para tirar a acidez.",
+          "s": null
+        },
+        {
+          "t": "Cozinhe em fogo baixo até evaporar o excesso de água e virar um refogado grosso.",
           "s": 600
+        },
+        {
+          "t": "Faça 2 buracos no pisto e quebre um ovo em cada um; salgue.",
+          "s": null
+        },
+        {
+          "t": "Tampe e cozinhe até a clara firmar e a gema continuar mole; sirva na própria frigideira com pão.",
+          "s": 240
         }
       ],
       "en": [
         {
-          "t": "Dice onion, bell pepper, and zucchini into uniform 1cm cubes.",
+          "t": "Cut the onion, bell pepper and zucchini into same-size dice (1 cm). Grate or chop the tomato.",
           "s": null
         },
         {
-          "t": "Sauté onion and pepper in olive oil 6 min until softened.",
+          "t": "In a wide pan with the olive oil sauté the onion and pepper first over medium heat until soft.",
           "s": 360
         },
         {
-          "t": "Add zucchini 5 min, then grated tomato and salt.",
+          "t": "Add the zucchini and cook.",
           "s": 300
         },
         {
-          "t": "Simmer 10 min until thick; crack 2 eggs into wells and cover 4 min until set.",
+          "t": "Add the tomato with salt and a pinch of sugar or sweetener to cut the acidity.",
+          "s": null
+        },
+        {
+          "t": "Cook on low until the excess water evaporates and it becomes a thick stew.",
           "s": 600
+        },
+        {
+          "t": "Make 2 wells in the pisto and crack an egg into each; salt them.",
+          "s": null
+        },
+        {
+          "t": "Cover and cook until the whites set and the yolks stay soft; serve in the pan with bread.",
+          "s": 240
         }
       ]
     },
@@ -14648,56 +18284,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Mezcla la carne molida con ajo picado, perejil, huevo batido, 2 cdas de avena/pan rallado, sal y pimienta; forma bolitas.",
+          "t": "Mezcla la carne molida con ajo picado, perejil, el huevo batido, 2 cdas de avena o pan rallado, sal y pimienta.",
           "s": null
         },
         {
-          "t": "Dora las albóndigas en sartén (o en airfryer 8 min a 190°C) y reserva.",
+          "t": "Forma bolitas del tamaño de una nuez con las manos húmedas.",
+          "s": null
+        },
+        {
+          "t": "Dóralas en sartén con unas gotas de aceite (o en airfryer a 190 °C) y reserva.",
           "s": 480
         },
         {
-          "t": "En olla, sofríe cebolla, zanahoria y ajo 5 min; añade tomate triturado, páprica y 1/2 taza de caldo; cocina 8 min y licúa para hacer salsa suave.",
+          "t": "En una olla sofríe la cebolla, la zanahoria y el ajo picados.",
+          "s": 300
+        },
+        {
+          "t": "Añade el tomate triturado, la páprica y ½ taza de caldo; cocina y licúa para obtener una salsa suave.",
           "s": 480
         },
         {
-          "t": "Devuelve las albóndigas a la salsa y cocina a fuego bajo 10 min para que queden súper tiernas.",
+          "t": "Devuelve las albóndigas a la salsa y cocina a fuego bajo hasta que estén tiernas.",
           "s": 600
+        },
+        {
+          "t": "Sirve con el arroz cocido y perejil picado.",
+          "s": 1080
         }
       ],
       "pt": [
         {
-          "t": "Misture patinho moído com alho, salsinha, ovo, aveia/farinha de rosca e sal; modele bolinhas.",
+          "t": "Misture a carne moída com alho picado, salsinha, o ovo batido, 2 colheres de aveia ou farinha de rosca, sal e pimenta.",
           "s": null
         },
         {
-          "t": "Doure as almôndegas na frigideira ou airfryer por 8 min.",
+          "t": "Faça bolinhas do tamanho de uma noz com as mãos úmidas.",
+          "s": null
+        },
+        {
+          "t": "Doure na frigideira com gotas de óleo (ou na airfryer a 190 °C) e reserve.",
           "s": 480
         },
         {
-          "t": "Refogue cebola, cenoura e alho; junte tomate e caldo, ferva 8 min e bata para fazer molho liso.",
+          "t": "Numa panela refogue a cebola, a cenoura e o alho picados.",
+          "s": 300
+        },
+        {
+          "t": "Junte o tomate triturado, a páprica e ½ xícara de caldo; cozinhe e bata para obter um molho liso.",
           "s": 480
         },
         {
-          "t": "Cozinhe as almôndegas dentro do molho em fogo baixo por 10 min.",
+          "t": "Volte as almôndegas ao molho e cozinhe em fogo baixo até ficarem macias.",
           "s": 600
+        },
+        {
+          "t": "Sirva com o arroz cozido e salsinha picada.",
+          "s": 1080
         }
       ],
       "en": [
         {
-          "t": "Mix ground beef, garlic, parsley, egg, oats/breadcrumbs, and salt; roll into balls.",
+          "t": "Mix the ground beef with chopped garlic, parsley, the beaten egg, 2 tbsp oats or breadcrumbs, salt and pepper.",
           "s": null
         },
         {
-          "t": "Brown meatballs in skillet or airfryer 8 min.",
+          "t": "Shape walnut-sized balls with wet hands.",
+          "s": null
+        },
+        {
+          "t": "Brown them in a pan with a few drops of oil (or air-fry at 190 °C) and set aside.",
           "s": 480
         },
         {
-          "t": "Sauté onion, carrot, and garlic; simmer with tomato and broth 8 min and blend smooth.",
+          "t": "In a pot sauté the chopped onion, carrot and garlic.",
+          "s": 300
+        },
+        {
+          "t": "Add the crushed tomato, paprika and ½ cup stock; cook and blend into a smooth sauce.",
           "s": 480
         },
         {
-          "t": "Simmer meatballs in sauce over low heat for 10 min.",
+          "t": "Return the meatballs to the sauce and simmer on low until tender.",
           "s": 600
+        },
+        {
+          "t": "Serve with cooked rice and chopped parsley.",
+          "s": 1080
         }
       ]
     },
@@ -14771,55 +18443,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Corta las papas en rodajas de 1 cm y cuécelas en agua con sal 10 min; reserva 1/2 taza del caldo.",
+          "t": "Corta las papas en rodajas de 1 cm y cuécelas en agua con sal; reserva ½ taza del caldo.",
           "s": 600
         },
         {
-          "t": "En sartén amplia con aceite de oliva, dora suavemente ajo picado 1 min sin dejar que tome color café.",
-          "s": 60
-        },
-        {
-          "t": "Agrega 1 cdta de harina/maicena, mezcla 30 seg y vierte el caldo caliente de golpe moviendo la sartén en círculos para ligar la salsa.",
+          "t": "Sazona los filetes de pescado con sal y pica finamente el ajo y abundante perejil.",
           "s": null
         },
         {
-          "t": "Añade abundante perejil picado y coloca los filetes de pescado sazonados junto a las papas; cocina tapado 6 min moviendo la sartén suavemente sin usar cuchara.",
+          "t": "En una sartén amplia con el aceite de oliva dora suavemente el ajo, sin que tome color café.",
+          "s": 60
+        },
+        {
+          "t": "Agrega 1 cdta de harina o maicena y remueve.",
+          "s": 30
+        },
+        {
+          "t": "Vierte el caldo caliente de golpe moviendo la sartén en círculos para ligar la salsa.",
+          "s": null
+        },
+        {
+          "t": "Añade el perejil y coloca el pescado y las papas en la sartén.",
+          "s": null
+        },
+        {
+          "t": "Cocina tapado moviendo la sartén suavemente en vaivén, sin cuchara, hasta que el pescado esté hecho y la salsa verde quede ligada.",
           "s": 360
         }
       ],
       "pt": [
         {
-          "t": "Cozinhe batatas em rodelas por 10 min e guarde 1/2 xícara da água.",
+          "t": "Corte as batatas em rodelas de 1 cm e cozinhe em água com sal; reserve ½ xícara do caldo.",
           "s": 600
         },
         {
-          "t": "Doure alho picado suavemente no azeite por 1 min sem escurecer.",
-          "s": 60
-        },
-        {
-          "t": "Misture 1 col. de chá de amido/farinha e despeje o caldo quente mexendo a panela até engrossar.",
+          "t": "Tempere os filés de peixe com sal e pique bem o alho e bastante salsinha.",
           "s": null
         },
         {
-          "t": "Junte muita salsinha, os filés de peixe e as batatas; cozinhe tampado por 6 min.",
+          "t": "Numa frigideira larga com o azeite doure levemente o alho, sem deixar ficar marrom.",
+          "s": 60
+        },
+        {
+          "t": "Junte 1 colher (chá) de farinha ou amido e mexa.",
+          "s": 30
+        },
+        {
+          "t": "Despeje o caldo quente de uma vez balançando a frigideira em círculos para ligar o molho.",
+          "s": null
+        },
+        {
+          "t": "Acrescente a salsinha e coloque o peixe e as batatas na frigideira.",
+          "s": null
+        },
+        {
+          "t": "Cozinhe tampado balançando a frigideira suavemente, sem colher, até o peixe cozinhar e o molho verde ficar ligado.",
           "s": 360
         }
       ],
       "en": [
         {
-          "t": "Boil sliced potatoes 10 min; reserve 1/2 cup cooking water.",
+          "t": "Slice the potatoes 1 cm thick and boil in salted water; save ½ cup of the water.",
           "s": 600
         },
         {
-          "t": "Gently warm minced garlic in olive oil 1 min without browning.",
-          "s": 60
-        },
-        {
-          "t": "Stir in 1 tsp flour/cornstarch, then whisk in hot water until lightly thickened.",
+          "t": "Salt the fish fillets and finely chop the garlic and plenty of parsley.",
           "s": null
         },
         {
-          "t": "Add generous chopped parsley, fish fillets, and potatoes; simmer covered 6 min.",
+          "t": "In a wide pan with the olive oil gently cook the garlic without letting it brown.",
+          "s": 60
+        },
+        {
+          "t": "Add 1 tsp flour or cornstarch and stir.",
+          "s": 30
+        },
+        {
+          "t": "Pour in the hot cooking water all at once, swirling the pan to bind the sauce.",
+          "s": null
+        },
+        {
+          "t": "Add the parsley and place the fish and potatoes in the pan.",
+          "s": null
+        },
+        {
+          "t": "Cover and cook, gently rocking the pan back and forth without a spoon, until the fish is done and the green sauce is bound.",
           "s": 360
         }
       ]
@@ -14901,55 +18609,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Sofríe cebolla, ajo y pimentón picados en aceite de oliva 4 min; agrega tomate rallado y páprica y cocina 3 min.",
-          "s": 420
-        },
-        {
-          "t": "Agrega el arroz crudo y remueve 1 min; vierte 4 partes de caldo de pescado caliente por 1 de arroz (lleva bastante caldo).",
+          "t": "Calienta el caldo de pescado (4 partes por 1 de arroz). Corta el pescado en trozos y pica cebolla, ajo, pimentón y tomate.",
           "s": null
         },
         {
-          "t": "Hierve a fuego medio 14 min removiendo solo al principio.",
-          "s": 840
+          "t": "Sofríe la cebolla, el ajo y el pimentón en el aceite de oliva.",
+          "s": 240
         },
         {
-          "t": "Los últimos 3 min agrega trozos de pescado y camarones para que se cuezan justo al punto; sirve de inmediato en plato hondo.",
+          "t": "Agrega el tomate rallado y la páprica y cocina hasta concentrar.",
+          "s": 180
+        },
+        {
+          "t": "Incorpora el arroz crudo y remueve para nacararlo.",
+          "s": 60
+        },
+        {
+          "t": "Vierte el caldo caliente; ajusta la sal.",
+          "s": null
+        },
+        {
+          "t": "Hierve a fuego medio removiendo solo al principio; debe quedar caldoso.",
+          "s": 660
+        },
+        {
+          "t": "Agrega el pescado y los camarones los últimos minutos para que queden justo al punto; sirve de inmediato en plato hondo.",
           "s": 180
         }
       ],
       "pt": [
         {
-          "t": "Refogue cebola, alho e pimentão por 4 min; junte tomate ralado e páprica por 3 min.",
-          "s": 420
-        },
-        {
-          "t": "Adicione arroz cru e 4 medidas de caldo quente para cada 1 de arroz.",
+          "t": "Aqueça o caldo de peixe (4 partes para 1 de arroz). Corte o peixe em pedaços e pique cebola, alho, pimentão e tomate.",
           "s": null
         },
         {
-          "t": "Cozinhe em fogo médio por 14 min.",
-          "s": 840
+          "t": "Refogue a cebola, o alho e o pimentão no azeite.",
+          "s": 240
         },
         {
-          "t": "Nos últimos 3 min junte peixe e camarão; sirva imediatamente bem caldoso.",
+          "t": "Junte o tomate ralado e a páprica e cozinhe até apurar.",
+          "s": 180
+        },
+        {
+          "t": "Acrescente o arroz cru e mexa para envolver.",
+          "s": 60
+        },
+        {
+          "t": "Despeje o caldo quente; acerte o sal.",
+          "s": null
+        },
+        {
+          "t": "Ferva em fogo médio mexendo só no começo; deve ficar caldoso.",
+          "s": 660
+        },
+        {
+          "t": "Junte o peixe e os camarões nos últimos minutos para ficarem no ponto; sirva na hora em prato fundo.",
           "s": 180
         }
       ],
       "en": [
         {
-          "t": "Sauté onion, garlic, and pepper 4 min; add grated tomato and paprika 3 min.",
-          "s": 420
-        },
-        {
-          "t": "Stir in rice and 4x volume of hot broth.",
+          "t": "Heat the fish stock (4 parts to 1 of rice). Cut the fish into pieces and chop onion, garlic, bell pepper and tomato.",
           "s": null
         },
         {
-          "t": "Simmer over medium heat 14 min.",
-          "s": 840
+          "t": "Sauté the onion, garlic and pepper in the olive oil.",
+          "s": 240
         },
         {
-          "t": "Fold in fish and shrimp for the final 3 min; serve immediately in deep bowls.",
+          "t": "Add the grated tomato and paprika and cook until concentrated.",
+          "s": 180
+        },
+        {
+          "t": "Add the raw rice and stir to coat.",
+          "s": 60
+        },
+        {
+          "t": "Pour in the hot stock; adjust the salt.",
+          "s": null
+        },
+        {
+          "t": "Boil over medium heat, stirring only at the start; it should stay brothy.",
+          "s": 660
+        },
+        {
+          "t": "Add the fish and shrimp in the last minutes so they are just cooked; serve at once in deep plates.",
           "s": 180
         }
       ]
@@ -15031,55 +18775,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Sofríe cebolla, ajo y pimentón verde 4 min en olla; agrega lomo en cubos y lingüiça/chorizo en rodajas y dora 4 min.",
-          "s": 480
-        },
-        {
-          "t": "Añade 1 cdta generosa de páprica defumada fuera del fuego (para que no se queme) y mezcla.",
+          "t": "Pela las papas y córtalas “cascando”: mete el cuchillo y quiebra el último tramo para que suelten almidón y espesen el caldo.",
           "s": null
         },
         {
-          "t": "Incorpora las papas cortadas quebrando el último tramo con el cuchillo, cubre apenas con agua y agrega laurel.",
+          "t": "Pica la cebolla, el ajo y el pimentón; corta el lomo en cubos y el chorizo en rodajas.",
           "s": null
         },
         {
-          "t": "Cocina a fuego medio 18 min sin revolver con cuchara (mueve solo la olla) hasta que la papa esté tierna y el caldo espeso.",
+          "t": "Sofríe la cebolla, el ajo y el pimentón con unas gotas de aceite en una olla.",
+          "s": 240
+        },
+        {
+          "t": "Agrega el lomo y el chorizo y dóralos.",
+          "s": 240
+        },
+        {
+          "t": "Retira la olla del fuego y añade 1 cdta generosa de páprica ahumada (así no se quema); mezcla.",
+          "s": null
+        },
+        {
+          "t": "Incorpora las papas, cubre apenas con agua, agrega laurel y sal.",
+          "s": null
+        },
+        {
+          "t": "Cocina a fuego medio moviendo solo la olla, sin cuchara, hasta que la papa esté tierna y el caldo espeso.",
           "s": 1080
         }
       ],
       "pt": [
         {
-          "t": "Refogue cebola, alho e pimentão por 4 min; doure lombo e linguiça por 4 min.",
-          "s": 480
-        },
-        {
-          "t": "Tire do fogo um segundo para misturar páprica defumada sem queimar.",
+          "t": "Descasque as batatas e corte “quebrando”: enfie a faca e quebre o último pedaço para soltarem amido e engrossarem o caldo.",
           "s": null
         },
         {
-          "t": "Junte batatas cortadas quebrando a ponta, louro e água até cobrir.",
+          "t": "Pique a cebola, o alho e o pimentão; corte o lombo em cubos e a linguiça em rodelas.",
           "s": null
         },
         {
-          "t": "Cozinhe 18 min até a batata amaciar e o caldo engrossar naturalmente.",
+          "t": "Refogue a cebola, o alho e o pimentão com gotas de óleo numa panela.",
+          "s": 240
+        },
+        {
+          "t": "Junte o lombo e a linguiça e doure.",
+          "s": 240
+        },
+        {
+          "t": "Tire a panela do fogo e acrescente 1 colher (chá) cheia de páprica defumada (assim não queima); misture.",
+          "s": null
+        },
+        {
+          "t": "Acrescente as batatas, cubra apenas com água, junte louro e sal.",
+          "s": null
+        },
+        {
+          "t": "Cozinhe em fogo médio balançando só a panela, sem colher, até a batata ficar macia e o caldo grosso.",
           "s": 1080
         }
       ],
       "en": [
         {
-          "t": "Sauté onion, garlic, and pepper 4 min; brown pork and sausage 4 min.",
-          "s": 480
-        },
-        {
-          "t": "Off heat briefly, stir in smoked paprika so it doesn't scorch.",
+          "t": "Peel the potatoes and “crack” them: insert the knife and snap off the last bit so they release starch and thicken the broth.",
           "s": null
         },
         {
-          "t": "Add potatoes broken into chunks, bay leaf, and water just to cover.",
+          "t": "Chop the onion, garlic and bell pepper; cube the pork loin and slice the chorizo.",
           "s": null
         },
         {
-          "t": "Simmer 18 min until potatoes are tender and broth is thick.",
+          "t": "Sauté the onion, garlic and pepper with a few drops of oil in a pot.",
+          "s": 240
+        },
+        {
+          "t": "Add the pork and chorizo and brown them.",
+          "s": 240
+        },
+        {
+          "t": "Take the pot off the heat and add 1 heaped tsp smoked paprika (so it does not burn); stir.",
+          "s": null
+        },
+        {
+          "t": "Add the potatoes, barely cover with water, add bay leaf and salt.",
+          "s": null
+        },
+        {
+          "t": "Cook over medium heat, swirling the pot instead of stirring, until the potato is tender and the broth thick.",
           "s": 1080
         }
       ]
@@ -15161,56 +18941,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Lava las lentejas bajo el grifo.",
+          "t": "Lava las lentejas bajo el grifo y retira cualquier piedrita.",
           "s": null
         },
         {
-          "t": "Sofríe cebolla, ajo, zanahoria en rodajas y tomate picado 5 min en olla con 1 cdta de páprica defumada.",
+          "t": "Pica la cebolla y el ajo, corta la zanahoria en rodajas, el tomate en cubos, la papa en dados y el lomo en trozos.",
+          "s": null
+        },
+        {
+          "t": "Sofríe la cebolla, el ajo, la zanahoria y el tomate en una olla con unas gotas de aceite.",
           "s": 300
         },
         {
-          "t": "Agrega las lentejas lavadas, la papa en cubos, laurel, el lomo/chorizo y 700 ml de agua fría.",
+          "t": "Retira del fuego un momento y añade 1 cdta de páprica ahumada.",
           "s": null
         },
         {
-          "t": "Cuando hierva, baja a fuego medio-bajo y cocina tapado 22 min hasta que las lentejas estén tiernas y el caldo espeso.",
+          "t": "Agrega las lentejas, la papa, el lomo, laurel y 700 ml de agua fría; sala.",
+          "s": null
+        },
+        {
+          "t": "Cuando hierva, baja a fuego medio-bajo y cocina tapado hasta que las lentejas estén tiernas y el caldo espeso.",
           "s": 1320
+        },
+        {
+          "t": "Ajusta la sal y deja reposar unos minutos antes de servir (si quieres, añade un chorrito de vinagre al final).",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Lave a lentilha em água corrente.",
+          "t": "Lave as lentilhas na torneira e retire alguma pedrinha.",
           "s": null
         },
         {
-          "t": "Refogue cebola, alho, cenoura e tomate por 5 min com páprica defumada.",
+          "t": "Pique a cebola e o alho, corte a cenoura em rodelas, o tomate em cubos, a batata em dados e o lombo em pedaços.",
+          "s": null
+        },
+        {
+          "t": "Refogue a cebola, o alho, a cenoura e o tomate numa panela com gotas de óleo.",
           "s": 300
         },
         {
-          "t": "Junte a lentilha, batata em cubos, louro, carne e 700 ml de água fria.",
+          "t": "Tire do fogo um instante e junte 1 colher (chá) de páprica defumada.",
           "s": null
         },
         {
-          "t": "Cozinhe em fogo médio-baixo tampado por 22 min até engrossar.",
+          "t": "Acrescente as lentilhas, a batata, o lombo, louro e 700 ml de água fria; salgue.",
+          "s": null
+        },
+        {
+          "t": "Quando ferver, abaixe para fogo médio-baixo e cozinhe tampado até as lentilhas ficarem macias e o caldo grosso.",
           "s": 1320
+        },
+        {
+          "t": "Acerte o sal e deixe descansar uns minutos antes de servir (se quiser, um fio de vinagre no final).",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Rinse lentils under cold water.",
+          "t": "Rinse the lentils under the tap and pick out any small stones.",
           "s": null
         },
         {
-          "t": "Sauté onion, garlic, sliced carrot, and tomato 5 min with smoked paprika.",
+          "t": "Chop the onion and garlic, slice the carrot, dice the tomato and potato and cut the pork into chunks.",
+          "s": null
+        },
+        {
+          "t": "Sauté the onion, garlic, carrot and tomato in a pot with a few drops of oil.",
           "s": 300
         },
         {
-          "t": "Add lentils, diced potato, bay leaf, pork, and 700ml cold water.",
+          "t": "Take it off the heat for a moment and add 1 tsp smoked paprika.",
           "s": null
         },
         {
-          "t": "Simmer covered 22 min until lentils are tender and stew is rich.",
+          "t": "Add the lentils, potato, pork, bay leaf and 700 ml cold water; salt it.",
+          "s": null
+        },
+        {
+          "t": "When it boils, lower to medium-low and cook covered until the lentils are tender and the broth thick.",
           "s": 1320
+        },
+        {
+          "t": "Adjust the salt and let it rest a few minutes before serving (a splash of vinegar at the end is optional).",
+          "s": null
         }
       ]
     },
@@ -15291,56 +19107,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Dora los trozos de pollo salpimentados en aceite de oliva 6 min por todos lados; retira.",
+          "t": "Salpimienta los trozos de pollo. Corta el pimentón (rojo y verde) en tiras gruesas, pica la cebolla y el ajo y ralla el tomate.",
+          "s": null
+        },
+        {
+          "t": "Dora el pollo en una cazuela con un chorrito de aceite de oliva por todos lados; retíralo.",
           "s": 360
         },
         {
-          "t": "En la misma sartén, sofríe cebolla, ajo y tiras gruesas de pimentón rojo y verde 6 min hasta que ablanden.",
+          "t": "En la misma cazuela sofríe la cebolla, el ajo y el pimentón hasta que ablanden.",
           "s": 360
         },
         {
-          "t": "Agrega tomate rallado/picado y cocina 5 min hasta concentrar.",
+          "t": "Agrega el tomate y 1 cdta de páprica y cocina hasta concentrar.",
           "s": 300
         },
         {
-          "t": "Devuelve el pollo, añade 1/3 taza de caldo/agua, tapa y cocina a fuego bajo 14 min; sirve con arroz o papas.",
+          "t": "Devuelve el pollo y añade ⅓ de taza de caldo o agua (o vino blanco); ajusta la sal.",
+          "s": null
+        },
+        {
+          "t": "Tapa y cocina a fuego bajo hasta que el pollo esté tierno y la salsa espesa.",
           "s": 840
+        },
+        {
+          "t": "Sirve con arroz.",
+          "s": 1080
         }
       ],
       "pt": [
         {
-          "t": "Doure o frango temperado no azeite por 6 min e reserve.",
+          "t": "Tempere os pedaços de frango com sal e pimenta. Corte o pimentão (vermelho e verde) em tiras grossas, pique a cebola e o alho e rale o tomate.",
+          "s": null
+        },
+        {
+          "t": "Doure o frango numa caçarola com um fio de azeite por todos os lados; retire.",
           "s": 360
         },
         {
-          "t": "Refogue cebola, alho e tiras de pimentão por 6 min até murcharem.",
+          "t": "Na mesma caçarola refogue a cebola, o alho e o pimentão até amolecer.",
           "s": 360
         },
         {
-          "t": "Junte tomate picado e apure por 5 min.",
+          "t": "Junte o tomate e 1 colher (chá) de páprica e cozinhe até apurar.",
           "s": 300
         },
         {
-          "t": "Volte o frango, adicione um pouco de caldo, tampe e cozinhe 14 min.",
+          "t": "Volte o frango e acrescente ⅓ de xícara de caldo ou água (ou vinho branco); acerte o sal.",
+          "s": null
+        },
+        {
+          "t": "Tampe e cozinhe em fogo baixo até o frango ficar macio e o molho grosso.",
           "s": 840
+        },
+        {
+          "t": "Sirva com arroz.",
+          "s": 1080
         }
       ],
       "en": [
         {
-          "t": "Brown seasoned chicken in olive oil 6 min; set aside.",
+          "t": "Season the chicken pieces with salt and pepper. Cut the red and green peppers into thick strips, chop the onion and garlic and grate the tomato.",
+          "s": null
+        },
+        {
+          "t": "Brown the chicken in a casserole with a drizzle of olive oil on all sides; remove.",
           "s": 360
         },
         {
-          "t": "Sauté onion, garlic, and bell pepper strips 6 min until soft.",
+          "t": "In the same casserole sauté the onion, garlic and peppers until soft.",
           "s": 360
         },
         {
-          "t": "Add crushed tomato and simmer 5 min.",
+          "t": "Add the tomato and 1 tsp paprika and cook until concentrated.",
           "s": 300
         },
         {
-          "t": "Return chicken with splash of broth, cover, and braise 14 min.",
+          "t": "Return the chicken and add ⅓ cup stock or water (or white wine); adjust the salt.",
+          "s": null
+        },
+        {
+          "t": "Cover and cook on low until the chicken is tender and the sauce thick.",
           "s": 840
+        },
+        {
+          "t": "Serve with rice.",
+          "s": 1080
         }
       ]
     },
@@ -15428,56 +19280,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Cuece las papas con piel 16 min hasta que queden firmes (que no se deshagan), pela y corta en cubos cuando entibien; cuece el huevo duro 10 min.",
+          "t": "Cuece las papas con piel en agua con sal hasta que estén firmes pero tiernas, sin deshacerse.",
           "s": 960
         },
         {
-          "t": "Pica tomate, cebolla morada y pimentón verde en cubitos.",
+          "t": "Cuece el huevo, pásalo a agua fría y pélalo.",
+          "s": 600
+        },
+        {
+          "t": "Pela las papas cuando entibien y córtalas en cubos.",
           "s": null
         },
         {
-          "t": "Mezcla en ensaladera la papa tibia/fría con tomate, pimentón, aceitunas y atún escurrido.",
+          "t": "Pica el tomate, la cebolla morada y el pimentón verde en cubitos; escurre el atún.",
           "s": null
         },
         {
-          "t": "Aliña con aceite de oliva, vinagre y sal; decora con huevo duro en cuartos y refrigera antes de servir.",
+          "t": "Mezcla en una ensaladera la papa con el tomate, la cebolla, el pimentón, las aceitunas y el atún.",
           "s": null
+        },
+        {
+          "t": "Aliña con el aceite de oliva, 1 cda de vinagre y sal; mezcla con suavidad.",
+          "s": null
+        },
+        {
+          "t": "Decora con el huevo en cuartos y refrigera antes de servir.",
+          "s": 900
         }
       ],
       "pt": [
         {
-          "t": "Cozinhe as batatas firmes por 16 min e corte em cubos; cozinhe o ovo por 10 min.",
+          "t": "Cozinhe as batatas com casca em água com sal até ficarem firmes mas macias, sem desmanchar.",
           "s": 960
         },
         {
-          "t": "Pique tomate, cebola roxa e pimentão em cubinhos.",
+          "t": "Cozinhe o ovo, passe para água fria e descasque.",
+          "s": 600
+        },
+        {
+          "t": "Descasque as batatas quando amornarem e corte em cubos.",
           "s": null
         },
         {
-          "t": "Misture a batata fria com tomate, pimentão, azeitonas e atum escorrido.",
+          "t": "Pique o tomate, a cebola roxa e o pimentão verde em cubinhos; escorra o atum.",
           "s": null
         },
         {
-          "t": "Tempere com azeite, vinagre e sal; decore com ovo cozido e sirva gelado.",
+          "t": "Misture numa saladeira a batata com o tomate, a cebola, o pimentão, as azeitonas e o atum.",
           "s": null
+        },
+        {
+          "t": "Tempere com o azeite, 1 colher de vinagre e sal; misture delicadamente.",
+          "s": null
+        },
+        {
+          "t": "Decore com o ovo em quartos e leve à geladeira antes de servir.",
+          "s": 900
         }
       ],
       "en": [
         {
-          "t": "Boil potatoes 16 min until tender yet firm, peel and cube; boil egg 10 min.",
+          "t": "Boil the potatoes in their skins in salted water until firm but tender, without falling apart.",
           "s": 960
         },
         {
-          "t": "Dice tomato, red onion, and bell pepper.",
+          "t": "Boil the egg, cool it in cold water and peel it.",
+          "s": 600
+        },
+        {
+          "t": "Peel the potatoes once warm and cut into cubes.",
           "s": null
         },
         {
-          "t": "Toss cooled potatoes with tomato, pepper, olives, and drained tuna.",
+          "t": "Dice the tomato, red onion and green pepper; drain the tuna.",
           "s": null
         },
         {
-          "t": "Dress with olive oil, vinegar, and salt; top with quartered egg and chill.",
+          "t": "In a salad bowl combine the potato with the tomato, onion, pepper, olives and tuna.",
           "s": null
+        },
+        {
+          "t": "Dress with the olive oil, 1 tbsp vinegar and salt; toss gently.",
+          "s": null
+        },
+        {
+          "t": "Garnish with the quartered egg and chill before serving.",
+          "s": 900
         }
       ]
     },
@@ -15558,55 +19446,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Sofríe cebolla en julianas a fuego lento en aceite de oliva 10 min hasta que esté muy blanda y dulce.",
-          "s": 600
-        },
-        {
-          "t": "Agrega pimentón rojo picado y tomate, cocina 6 min y licúa todo hasta formar una salsa roja espesa y aterciopelada.",
-          "s": 360
-        },
-        {
-          "t": "Vierte la salsa de nuevo a la sartén y acomoda los lomos de bacalao desalado (o tilapia) encima.",
+          "t": "Si usas bacalao salado, desálalo de antemano (24–36 h en agua fría cambiándola cada 8 h). Si usas tilapia, solo sálala.",
           "s": null
         },
         {
-          "t": "Cocina a fuego bajo 6–8 min moviendo la sartén suavemente hasta que el pescado quede en lascas jugosas; sirve con papas cocidas.",
+          "t": "Cuece las papas en rodajas en agua con sal.",
+          "s": 900
+        },
+        {
+          "t": "Corta la cebolla en juliana y póchala a fuego lento en el aceite de oliva hasta que esté muy blanda y dulce.",
+          "s": 600
+        },
+        {
+          "t": "Agrega el pimentón rojo picado y el tomate y cocina.",
+          "s": 360
+        },
+        {
+          "t": "Licúa todo hasta obtener una salsa roja espesa y aterciopelada; ajusta la sal.",
+          "s": null
+        },
+        {
+          "t": "Vierte la salsa en la sartén y acomoda los lomos de pescado encima.",
+          "s": null
+        },
+        {
+          "t": "Cocina a fuego bajo moviendo la sartén suavemente hasta que el pescado se separe en lascas jugosas; sirve con las papas.",
           "s": 420
         }
       ],
       "pt": [
         {
-          "t": "Refogue cebola fatiada em fogo bem baixo no azeite por 10 min até caramelizar.",
-          "s": 600
-        },
-        {
-          "t": "Junte pimentão vermelho e tomate por 6 min e bata no liquidificador até ficar aveludado.",
-          "s": 360
-        },
-        {
-          "t": "Volte o molho à frigideira e acomode os filés de bacalhau ou tilápia.",
+          "t": "Se usar bacalhau salgado, dessalgue antes (24–36 h em água fria trocando a cada 8 h). Se usar tilápia, apenas salgue.",
           "s": null
         },
         {
-          "t": "Cozinhe em fogo baixo por 6–8 min até lascar fácil; sirva com batatas.",
+          "t": "Cozinhe as batatas em rodelas em água com sal.",
+          "s": 900
+        },
+        {
+          "t": "Corte a cebola em tiras e cozinhe em fogo baixo no azeite até ficar bem macia e adocicada.",
+          "s": 600
+        },
+        {
+          "t": "Junte o pimentão vermelho picado e o tomate e cozinhe.",
+          "s": 360
+        },
+        {
+          "t": "Bata tudo até virar um molho vermelho grosso e aveludado; acerte o sal.",
+          "s": null
+        },
+        {
+          "t": "Despeje o molho na frigideira e arrume as postas de peixe por cima.",
+          "s": null
+        },
+        {
+          "t": "Cozinhe em fogo baixo balançando a frigideira até o peixe soltar em lascas suculentas; sirva com as batatas.",
           "s": 420
         }
       ],
       "en": [
         {
-          "t": "Slow-cook sliced onion in olive oil 10 min until sweet and soft.",
-          "s": 600
-        },
-        {
-          "t": "Add red bell pepper and tomato 6 min; blend into a velvety red sauce.",
-          "s": 360
-        },
-        {
-          "t": "Return sauce to skillet and nestle cod or tilapia fillets inside.",
+          "t": "If using salt cod, desalt it beforehand (24–36 h in cold water, changing it every 8 h). If using tilapia, just salt it.",
           "s": null
         },
         {
-          "t": "Simmer gently 6–8 min until fish flakes easily; serve with boiled potatoes.",
+          "t": "Boil the sliced potatoes in salted water.",
+          "s": 900
+        },
+        {
+          "t": "Slice the onion thinly and cook it slowly in the olive oil until very soft and sweet.",
+          "s": 600
+        },
+        {
+          "t": "Add the chopped red pepper and tomato and cook.",
+          "s": 360
+        },
+        {
+          "t": "Blend everything into a thick, velvety red sauce; adjust the salt.",
+          "s": null
+        },
+        {
+          "t": "Pour the sauce into the pan and lay the fish loins on top.",
+          "s": null
+        },
+        {
+          "t": "Cook on low, gently rocking the pan, until the fish flakes into juicy pieces; serve with the potatoes.",
           "s": 420
         }
       ]
@@ -15688,56 +19612,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Corta la carne en dados de 3 cm, salpimienta y séllala en olla caliente 5 min hasta dorar; retira.",
+          "t": "Corta la carne en dados de 3 cm y salpimiéntala. Pica la cebolla, el ajo y el tomate; corta la zanahoria en rodajas y las papas en trozos.",
+          "s": null
+        },
+        {
+          "t": "Sella la carne en olla caliente con unas gotas de aceite hasta dorar; retírala.",
           "s": 300
         },
         {
-          "t": "Sofríe cebolla, ajo y zanahoria en rodajas 4 min; añade tomate picado y 1 cdta de páprica dulce.",
+          "t": "Sofríe la cebolla, el ajo y la zanahoria en la misma olla.",
           "s": 240
         },
         {
-          "t": "Devuelve la carne, cubre con caldo/agua y laurel; cocina 20 min en olla a presión (o 40 min tapada) hasta ablandar.",
+          "t": "Añade el tomate y 1 cdta de páprica dulce y remueve.",
+          "s": null
+        },
+        {
+          "t": "Devuelve la carne, cubre con caldo o agua, agrega laurel y sal y cocina hasta ablandar (20 min en olla a presión o unos 40 min tapada).",
           "s": 1200
         },
         {
-          "t": "Agrega las papas en trozos los últimos 12 min hasta que estén suaves y el caldo reduzca a salsa espesa.",
+          "t": "Agrega las papas y cocina destapado hasta que estén suaves y el caldo se reduzca a una salsa espesa.",
           "s": 720
+        },
+        {
+          "t": "Ajusta la sal y sirve caliente con perejil picado.",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Sele cubos de patinho ou acém na panela quente por 5 min; reserve.",
+          "t": "Corte a carne em cubos de 3 cm e tempere com sal e pimenta. Pique a cebola, o alho e o tomate; corte a cenoura em rodelas e as batatas em pedaços.",
+          "s": null
+        },
+        {
+          "t": "Sele a carne em panela quente com gotas de óleo até dourar; retire.",
           "s": 300
         },
         {
-          "t": "Refogue cebola, alho e cenoura por 4 min; junte tomate e páprica.",
+          "t": "Refogue a cebola, o alho e a cenoura na mesma panela.",
           "s": 240
         },
         {
-          "t": "Volte a carne com louro e caldo; cozinhe 20 min na pressão até amaciar.",
+          "t": "Junte o tomate e 1 colher (chá) de páprica doce e mexa.",
+          "s": null
+        },
+        {
+          "t": "Volte a carne, cubra com caldo ou água, junte louro e sal e cozinhe até amaciar (20 min na pressão ou uns 40 min tampada).",
           "s": 1200
         },
         {
-          "t": "Adicione batatas em cubos nos últimos 12 min até ficarem macias.",
+          "t": "Acrescente as batatas e cozinhe destampado até ficarem macias e o caldo reduzir a um molho grosso.",
           "s": 720
+        },
+        {
+          "t": "Acerte o sal e sirva quente com salsinha picada.",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Sear 3cm beef cubes 5 min until browned; set aside.",
+          "t": "Cut the beef into 3 cm cubes and season with salt and pepper. Chop the onion, garlic and tomato; slice the carrot and cut the potatoes into chunks.",
+          "s": null
+        },
+        {
+          "t": "Sear the beef in a hot pot with a few drops of oil until browned; remove.",
           "s": 300
         },
         {
-          "t": "Sauté onion, garlic, and sliced carrot 4 min; add tomato and paprika.",
+          "t": "Sauté the onion, garlic and carrot in the same pot.",
           "s": 240
         },
         {
-          "t": "Return beef with bay leaf and broth; pressure-cook 20 min until tender.",
+          "t": "Add the tomato and 1 tsp sweet paprika and stir.",
+          "s": null
+        },
+        {
+          "t": "Return the beef, cover with stock or water, add bay leaf and salt and cook until tender (20 min in a pressure cooker or about 40 min covered).",
           "s": 1200
         },
         {
-          "t": "Simmer with potato chunks for the last 12 min until thickened.",
+          "t": "Add the potatoes and cook uncovered until soft and the broth reduces to a thick sauce.",
           "s": 720
+        },
+        {
+          "t": "Adjust the salt and serve hot with chopped parsley.",
+          "s": null
         }
       ]
     },
@@ -15818,55 +19778,91 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Corta rebanadas de pan rústico (o pão francês abierto) y tuéstalas hasta quedar crocantes.",
+          "t": "Sazona la pechuga con sal y pimienta (o usa jamón o pechuga de pavo en lonchas).",
+          "s": null
+        },
+        {
+          "t": "Sella el pollo a la plancha con unas gotas de aceite por ambos lados y córtalo en lonchas finas.",
+          "s": 480
+        },
+        {
+          "t": "Corta rebanadas de pan rústico (o tapioca en modo fit) y tuéstalas hasta que estén crocantes.",
           "s": 180
         },
         {
-          "t": "Pela medio diente de ajo y frótalo suave por la superficie áspera del pan tostado (solo para perfumar).",
+          "t": "Pela medio diente de ajo y frótalo suavemente sobre la superficie áspera del pan, solo para perfumar.",
           "s": null
         },
         {
-          "t": "Ralla un tomate maduro por la parte gruesa del rallador (descartando la piel) y espárcelo sobre el pan.",
+          "t": "Corta el tomate maduro por la mitad y rállalo por la parte gruesa del rallador, descartando la piel.",
           "s": null
         },
         {
-          "t": "Rocía buen aceite de oliva, pizca de sal y acompaña con filetes de pollo a la plancha o jamón/peito de peru.",
+          "t": "Esparce el tomate sobre el pan, rocía buen aceite de oliva y una pizca de sal.",
+          "s": null
+        },
+        {
+          "t": "Coloca el pollo o jamón encima y sirve al momento, antes de que el pan se ablande.",
           "s": null
         }
       ],
       "pt": [
         {
-          "t": "Toste fatias de pão rústico ou pão francês até ficarem crocantes.",
+          "t": "Tempere o peito com sal e pimenta (ou use presunto ou peito de peru fatiado).",
+          "s": null
+        },
+        {
+          "t": "Sele o frango na chapa com gotas de óleo dos dois lados e corte em fatias finas.",
+          "s": 480
+        },
+        {
+          "t": "Corte fatias de pão rústico (ou tapioca no modo fit) e toste até ficarem crocantes.",
           "s": 180
         },
         {
-          "t": "Esfregue meio dente de alho cru levemente sobre o pão quente.",
+          "t": "Descasque meio dente de alho e esfregue de leve na superfície áspera do pão, só para perfumar.",
           "s": null
         },
         {
-          "t": "Rale tomate maduro no ralo grosso (descartando a pele) e espalhe sobre o pão.",
+          "t": "Corte o tomate maduro ao meio e rale na parte grossa do ralador, descartando a pele.",
           "s": null
         },
         {
-          "t": "Regue com azeite e sal e sirva com frango grelhado ou presunto.",
+          "t": "Espalhe o tomate sobre o pão, regue com bom azeite e uma pitada de sal.",
+          "s": null
+        },
+        {
+          "t": "Coloque o frango ou presunto por cima e sirva na hora, antes de o pão amolecer.",
           "s": null
         }
       ],
       "en": [
         {
-          "t": "Toast crusty bread slices until crisp.",
+          "t": "Season the chicken breast with salt and pepper (or use sliced ham or turkey breast).",
+          "s": null
+        },
+        {
+          "t": "Sear the chicken on a griddle with a few drops of oil on both sides and slice thinly.",
+          "s": 480
+        },
+        {
+          "t": "Cut slices of rustic bread (or tapioca for the fit version) and toast until crisp.",
           "s": 180
         },
         {
-          "t": "Gently rub warm toast surface with half a raw garlic clove.",
+          "t": "Peel half a garlic clove and rub it lightly over the rough surface of the bread, just to perfume it.",
           "s": null
         },
         {
-          "t": "Coarsely grate ripe tomato (discarding skin) and spoon onto bread.",
+          "t": "Halve the ripe tomato and grate it on the coarse side of the grater, discarding the skin.",
           "s": null
         },
         {
-          "t": "Drizzle with olive oil and flaky salt; pair with seared chicken or cured ham.",
+          "t": "Spread the tomato over the bread, drizzle with good olive oil and a pinch of salt.",
+          "s": null
+        },
+        {
+          "t": "Top with the chicken or ham and serve right away, before the bread softens.",
           "s": null
         }
       ]
@@ -15948,56 +19944,92 @@ const CATALOG_DISHES = [
     "steps": {
       "es": [
         {
-          "t": "Parte espagueti fino o cabelo de anjo en trocitos de 3 cm y tuéstalos en sartén ancha con 1 cdta de aceite 3 min hasta que doren ligeramente; retira.",
+          "t": "Calienta el caldo de pescado (2 partes por 1 de fideos) y mantenlo caliente. Corta el pescado en trozos y sálalo junto con los camarones.",
+          "s": null
+        },
+        {
+          "t": "Parte el espagueti fino o cabello de ángel en trocitos de 3 cm.",
+          "s": null
+        },
+        {
+          "t": "Tuesta los fideos en una sartén ancha con 1 cdta de aceite hasta que doren ligeramente; retíralos.",
           "s": 180
         },
         {
-          "t": "En la misma sartén, sofríe ajo, pimentón y tomate rallado 4 min con páprica.",
+          "t": "En la misma sartén sofríe el ajo, el pimentón y el tomate rallado con páprica y el resto del aceite.",
           "s": 240
         },
         {
-          "t": "Agrega los fideos tostados, vierte 2 partes de caldo de pescado caliente y cocina 7 min sin revolver.",
+          "t": "Agrega los fideos tostados y vierte el caldo caliente; cocina sin revolver.",
           "s": 420
         },
         {
-          "t": "Los últimos 3 min coloca los trozos de pescado y camarones encima hasta que absorban todo el caldo.",
+          "t": "Coloca el pescado y los camarones encima los últimos minutos, hasta que el caldo se absorba y las puntas de los fideos se levanten.",
           "s": 180
+        },
+        {
+          "t": "Deja reposar un par de minutos y sirve con gajos de limón (y alioli si te gusta).",
+          "s": null
         }
       ],
       "pt": [
         {
-          "t": "Quebre macarrão fino em pedaços de 3 cm e torre na frigideira com azeite por 3 min; reserve.",
+          "t": "Aqueça o caldo de peixe (2 partes para 1 de macarrão) e mantenha quente. Corte o peixe em pedaços e salgue junto com os camarões.",
+          "s": null
+        },
+        {
+          "t": "Quebre o espaguete fino ou cabelo de anjo em pedacinhos de 3 cm.",
+          "s": null
+        },
+        {
+          "t": "Toste o macarrão numa frigideira larga com 1 colher (chá) de azeite até dourar levemente; retire.",
           "s": 180
         },
         {
-          "t": "Refogue alho, pimentão e tomate ralado por 4 min com páprica.",
+          "t": "Na mesma frigideira refogue o alho, o pimentão e o tomate ralado com páprica e o resto do azeite.",
           "s": 240
         },
         {
-          "t": "Volte o macarrão tostado, junte o dobro de caldo quente e cozinhe 7 min sem mexer.",
+          "t": "Junte o macarrão tostado e despeje o caldo quente; cozinhe sem mexer.",
           "s": 420
         },
         {
-          "t": "Nos últimos 3 min coloque peixe e camarão por cima até secar o caldo.",
+          "t": "Arrume o peixe e os camarões por cima nos últimos minutos, até o caldo ser absorvido e as pontas do macarrão levantarem.",
           "s": 180
+        },
+        {
+          "t": "Deixe descansar uns minutos e sirva com gomos de limão (e alioli se gostar).",
+          "s": null
         }
       ],
       "en": [
         {
-          "t": "Break thin pasta into 3cm pieces and toast in olive oil 3 min until golden; set aside.",
+          "t": "Heat the fish stock (2 parts to 1 of noodles) and keep it hot. Cut the fish into pieces and salt it along with the shrimp.",
+          "s": null
+        },
+        {
+          "t": "Break thin spaghetti or angel hair into 3 cm pieces.",
+          "s": null
+        },
+        {
+          "t": "Toast the noodles in a wide pan with 1 tsp oil until lightly golden; remove.",
           "s": 180
         },
         {
-          "t": "Sauté garlic, bell pepper, and grated tomato 4 min with paprika.",
+          "t": "In the same pan sauté the garlic, bell pepper and grated tomato with paprika and the rest of the oil.",
           "s": 240
         },
         {
-          "t": "Return toasted noodles with double volume hot fish broth; simmer 7 min.",
+          "t": "Add the toasted noodles and pour in the hot stock; cook without stirring.",
           "s": 420
         },
         {
-          "t": "Arrange fish and shrimp on top for final 3 min until broth is absorbed.",
+          "t": "Lay the fish and shrimp on top in the last minutes, until the stock is absorbed and the noodle tips curl up.",
           "s": 180
+        },
+        {
+          "t": "Let it rest a couple of minutes and serve with lemon wedges (and aioli if you like).",
+          "s": null
         }
       ]
     },

@@ -1,9 +1,11 @@
-const CACHE_NAME = 'saborfit-br-v2';
+const CACHE_NAME = 'saborfit-br-v11';
 const CORE_ASSETS = [
   './',
   './index.html',
   './brain.js',
   './dishes_catalog.js',
+  './sweets_catalog.js',
+  './extras_catalog.js', './features.js', './features.css',
   './manifest.json'
 ];
 
@@ -28,8 +30,11 @@ self.addEventListener('fetch', (e) => {
     e.respondWith(
       caches.match(req).then((cached) =>
         cached || fetch(req).then((res) => {
-          const copy = res.clone();
-          caches.open(CACHE_NAME).then((c) => c.put(req, copy));
+          // Solo guarda fotos que cargaron bien (nunca errores 404)
+          if (res.ok) {
+            const copy = res.clone();
+            caches.open(CACHE_NAME).then((c) => c.put(req, copy));
+          }
           return res;
         })
       )
@@ -38,8 +43,10 @@ self.addEventListener('fetch', (e) => {
     // Network-first para HTML/JS: actualiza automático cuando hay internet
     e.respondWith(
       fetch(req).then((res) => {
-        const copy = res.clone();
-        caches.open(CACHE_NAME).then((c) => c.put(req, copy));
+        if (res.ok) {
+          const copy = res.clone();
+          caches.open(CACHE_NAME).then((c) => c.put(req, copy));
+        }
         return res;
       }).catch(() => caches.match(req))
     );
