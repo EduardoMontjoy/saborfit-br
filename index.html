@@ -523,6 +523,10 @@
     // Versión de las fotos: súbela al cambiar imágenes para que los celulares no usen las viejas en caché
     const IMG_V = 3;
     const imgSrc = (u) => (u && u.startsWith('images/')) ? `${u}?v=${IMG_V}` : u;
+    // Miniatura liviana (360 px) para tarjetas y listas; la foto completa solo en la receta abierta
+    const thumbSrc = (u) => (u && u.startsWith('images/') && !u.startsWith('images/t/')) ? `images/t/${u.slice(7)}?v=${IMG_V}` : imgSrc(u);
+    const seenImg = new Set();
+    function imgLoaded(el) { el.classList.add('loaded'); seenImg.add(el.getAttribute('src')); }
     // Quita emojis de los textos para un look más limpio (las banderas se mantienen)
     const clean = (s) => String(s ?? '').replace(/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}\u{2B50}\u{2705}\u{FE0F}\u{200D}]/gu, '').replace(/\s{2,}/g, ' ').trim();
     function greetingIdx() { const h = new Date().getHours(); return h < 12 ? 0 : h < 19 ? 1 : 2; }
@@ -672,9 +676,9 @@
       const m = getMacros(r);
       const match = calcMatch(r);
       return `
-        <div class="recipe-card ${wide ? 'wide' : ''} ${r.fav ? 'is-fav' : ''} anim-in" style="animation-delay:${Math.min(delayIdx, 8) * 0.04}s" data-id="${r.id}" onclick="openRecipe('${r.id}', this)">
+        <div class="recipe-card ${wide ? 'wide' : ''} ${r.fav ? 'is-fav' : ''} ${delayIdx < 8 ? 'anim-in' : ''}" style="${delayIdx < 8 ? `animation-delay:${delayIdx * 0.035}s` : ''}" data-id="${r.id}" onclick="openRecipe('${r.id}', this)">
           <div class="recipe-img-wrap">
-            <img src="${imgSrc(r.img)}" alt="${r.title[lang]}" loading="lazy" onload="this.classList.add('loaded')" onerror="this.parentElement.classList.add('no-img');this.remove()" />
+            <img src="${thumbSrc(r.img)}" alt="${r.title[lang]}" loading="lazy" decoding="async" ${seenImg.has(thumbSrc(r.img)) ? 'class="loaded"' : ''} onload="imgLoaded(this)" onerror="this.parentElement.classList.add('no-img');this.remove()" />
             <div class="recipe-img-overlay">
               <span class="pill-tag"><i class="c-dot" style="background:${SF.accent(r.country)}"></i>${flag} ${r.time} min</span>
               ${r.fav ? `<span class="fav-check">${ico('check')}</span>` : ''}
@@ -871,7 +875,7 @@
       sheet.innerHTML = `
         <div class="sheet-grip"></div>
         <div class="modal-hero">
-          <img src="${imgSrc(activeRecipe.img)}" alt="" onload="this.classList.add('loaded')" onerror="this.style.display='none'" />
+          <img src="${imgSrc(activeRecipe.img)}" alt="" decoding="async" ${seenImg.has(imgSrc(activeRecipe.img)) ? 'class="loaded"' : ''} onload="imgLoaded(this)" onerror="this.style.display='none'" />
           <div class="modal-hero-grad"></div>
           <button class="modal-close" onclick="closeModal()" aria-label="Cerrar">✕</button>
           <button class="modal-expand" onclick="openImageViewer()" aria-label="Ver foto en grande">${ico('expand')}</button>
@@ -961,6 +965,7 @@
       SF.tick();
     }
 
+    let lastRenderTab = null;
     function render() {
       const tr = t();
       const x = tx();
@@ -973,6 +978,8 @@
       updateShopBadge();
 
       const el = document.getElementById('appContent');
+      // Animación de entrada solo al cambiar de pestaña; filtros y toques se actualizan al instante
+      el.classList.toggle('calm', lastRenderTab === currentTab); lastRenderTab = currentTab;
       const tgt = goalTargets[goal];
       const sorted = [...recipes].sort((a,b) => calcMatch(b) - calcMatch(a));
       const bestDish = sorted.find(r => typeOf(r) === 'dish');
@@ -1106,8 +1113,9 @@
             ${dishType === 'dish' ? `<button class="btn-cta" onclick="runOfflineBrain()">${ico('spark')} ${clean(tr.inventBtn)}</button>` : ''}
             <div class="section-label"><span>${q || quickFilter !== 'NONE' || selectedCountry !== 'ALL' ? x.types[dishType] : x.forYou}</span><small>${filtered.length} ${noun}</small></div>
             <div class="recipe-grid">
-              ${filtered.map((r, i) => recipeCardHtml(r, i)).join('')}
+              ${SF.pageCards(filtered, recipeCardHtml)}
             </div>
+            ${SF.moreSentinel(filtered.length)}
           </div>
         `;
       } else if (currentTab === 'plan') {
@@ -1125,8 +1133,14 @@
         `;
       }
       bindHorizontalScroll();
-      saveState();
+      SF.watchMore();
+      saveStateSoon();
     }
+    // Guardar en localStorage sin bloquear cada toque
+    let saveTimer = 0;
+    function saveStateSoon() { clearTimeout(saveTimer); saveTimer = setTimeout(saveState, 400); }
+    window.addEventListener('pagehide', () => saveState());
+    document.addEventListener('visibilitychange', () => { if (document.hidden) saveState(); });
 
     // Mantiene el foco y el cursor en el buscador al re-renderizar
     function refocusSearch() {

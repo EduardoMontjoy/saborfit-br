@@ -182,3 +182,40 @@ body.light .sf-cook-timer { background: #2A1D13; color: #FBF5EC; }
 @media (prefers-reduced-motion: reduce) {
   .recipe-img-wrap, .modal-hero, .sf-slot img, .sf-ring .ring-fg, .sf-timer.done, .sf-cook-text { animation: none !important; }
 }
+
+/* ===== Rendimiento (fluidez en celulares) =====
+   El desenfoque en vivo (backdrop-filter) es lo más caro en Android al hacer scroll.
+   Se deja solo en la barra superior, la barra inferior y las hojas; el resto usa un
+   vidrio "pintado" con el mismo tono, que se ve casi igual y no recalcula nada. */
+html .glass-card, html .recipe-card, html .pantry-row, html .mode-switch, html .search-box, html .sf-match,
+html .qf-pill, html .goal-chip, html .chip, html .pill-tag, html .sf-timer {
+  -webkit-backdrop-filter: none !important; backdrop-filter: none !important;
+}
+html .glass-card, html .recipe-card, html .pantry-row, html .mode-switch, html .search-box, html .sf-match { background: rgba(58,41,29,0.80); }
+html body.light .glass-card, html body.light .recipe-card, html body.light .pantry-row, html body.light .mode-switch,
+html body.light .search-box, html body.light .sf-match { background: rgba(255,250,243,0.86); }
+html .pill-tag { background: rgba(20,13,8,0.72); }
+html body.light .pill-tag { background: rgba(255,250,243,0.85); }
+html .bottom-nav, html .top-pill, html .modal-sheet { -webkit-backdrop-filter: blur(16px); backdrop-filter: blur(16px); }
+html .modal-backdrop { -webkit-backdrop-filter: none; backdrop-filter: none; background: rgba(10,6,3,0.62); }
+/* Sombras grandes en cada tarjeta = mucho repintado; se dejan suaves */
+html .recipe-card, html .pantry-row, html .sf-match { box-shadow: var(--hi), 0 6px 14px rgba(8,4,2,0.28); }
+html body.light .recipe-card, html body.light .pantry-row, html body.light .sf-match { box-shadow: var(--hi), 0 4px 12px rgba(90,60,30,0.12); }
+/* El navegador no dibuja lo que está fuera de pantalla */
+html .pantry-row { content-visibility: auto; contain-intrinsic-size: auto 64px; }
+html .recipe-card { contain: layout paint; }
+/* Brillo de carga estático (la animación infinita repintaba cada tarjeta) */
+html .recipe-img-wrap, html .modal-hero, html .sf-slot img { animation: none !important; background-image: none; background-color: rgba(255,240,220,0.06); }
+html .recipe-img-wrap img, html .modal-hero img { transition: opacity 0.25s ease; }
+html .recipe-img-wrap img.loaded { transition: none; }
+html .recipe-card:hover .recipe-img-wrap img { transform: none; }
+/* Toques con respuesta inmediata */
+html .recipe-card, html .pantry-row, html .sf-match, html .nav-btn, html .qf-pill, html .chip, html .goal-chip, html button { touch-action: manipulation; }
+html .recipe-card { transition: transform 0.12s ease, border-color 0.2s; }
+html .recipe-card:active, html .pantry-row:active { transform: scale(0.985); }
+html .qf-pill, html .goal-chip, html .chip { transition: background-color 0.15s, color 0.15s, border-color 0.15s; }
+html .switch, html .switch::after { transition-duration: 0.15s !important; }
+/* Sin animación de entrada al filtrar/tocar dentro de la misma pestaña */
+html #appContent.calm .anim-in { animation: none; }
+html #appContent { overscroll-behavior: contain; -webkit-overflow-scrolling: touch; }
+html .sf-more { height: 1px; }

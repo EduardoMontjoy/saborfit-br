@@ -541,7 +541,7 @@ const SF = (() => {
     if (!r) return `<button class="sf-slot empty" onclick="SF.reroll(${day},'${s}')"><small>${slotName(s)}</small><b>+ ${x.add}</b></button>`;
     const m = getMacros(r);
     return `<div class="sf-slot">
-      <img src="${imgSrc(r.img)}" alt="" loading="lazy" onclick="openRecipe('${r.id}')" onerror="this.style.visibility='hidden'"/>
+      <img src="${thumbSrc(r.img)}" decoding="async" alt="" loading="lazy" onclick="openRecipe('${r.id}')" onerror="this.style.visibility='hidden'"/>
       <div class="sf-slot-main" onclick="openRecipe('${r.id}')"><small>${slotName(s)} · <i class="c-dot" style="background:${ACCENT[r.country] || 'var(--gold)'}"></i></small><b>${esc(r.title[lang])}</b><span>${m.kcal} kcal · P ${m.p} g</span></div>
       <div class="sf-slot-btns"><button onclick="SF.reroll(${day},'${s}')" title="↻">↻</button><button onclick="SF.clearSlot(${day},'${s}')">✕</button></div>
     </div>`;
@@ -720,14 +720,14 @@ const SF = (() => {
     return `<div class="section-label" style="margin-top:22px;"><span>${x.myDishes}</span><small>${st.cooked.length}</small></div>
       ${st.cooked.length ? `<div class="sf-gallery">${st.cooked.map((c) => {
         const r = recipes.find((rr) => rr.id === c.rid);
-        const img = c.img || (r && imgSrc(r.img));
+        const img = c.img || (r && thumbSrc(r.img));
         return `<button class="sf-shot" onclick="SF.viewCooked(${c.id})">${img ? `<img src="${img}" alt="" loading="lazy"/>` : ''}<span>${esc((c.title || {})[lang] || '')}</span><small>${c.date}${c.stars ? ' · ' + '★'.repeat(c.stars) : ''}</small></button>`;
       }).join('')}</div>` : `<div class="glass-card" style="font-size:13px;color:var(--muted);line-height:1.5;">${x.myDishesEmpty}</div>`}`;
   }
   function viewCooked(id) {
     const c = st.cooked.find((k) => k.id === id); if (!c) return;
     const x = f(), r = recipes.find((rr) => rr.id === c.rid);
-    const img = c.img || (r && imgSrc(r.img));
+    const img = c.img || (r && thumbSrc(r.img));
     sheet(`
       <div class="sf-sheet-head"><div><div class="eyebrow" style="margin:0 0 6px;">${c.date}${c.stars ? ' · ' + '★'.repeat(c.stars) : ''}</div><div class="modal-title" style="margin:0;font-size:22px;">${esc((c.title || {})[lang] || '')}</div></div><button class="log-del" onclick="SF.closeSheet()">✕</button></div>
       ${img ? `<img class="sf-shot-big" src="${img}" alt=""/>` : ''}
@@ -889,7 +889,7 @@ const SF = (() => {
       ...(m.opt.length && m.swaps.length + m.miss.length < 2 ? [`${x.opt} ${m.opt.slice(0, 2).map(pName).join(', ').toLowerCase()}`] : [])
     ].join(' · ');
     return `<button class="sf-match" onclick="SF.openMatch('${r.id}')">
-      <img src="${imgSrc(r.img)}" alt="" loading="lazy" onerror="this.style.visibility='hidden'"/>
+      <img src="${thumbSrc(r.img)}" decoding="async" alt="" loading="lazy" onerror="this.style.visibility='hidden'"/>
       <span class="sf-match-main"><b>${esc(r.title[lang])}</b><small>${mm.kcal} kcal · P ${mm.p} g · ${r.time} min</small>${detail ? `<em>${esc(detail)}</em>` : ''}</span>
       <span class="sf-match-end"><i>${Math.round(m.score * 100)}%</i>${label}</span>
     </button>`;
@@ -921,6 +921,34 @@ const SF = (() => {
     if (m.swaps.length) showToast(px().openedApprox(m.swaps.length));
   }
 
+  // ---------- Lista de recetas por tandas (menos trabajo por toque en el celular) ----------
+  const PAGE = 18;
+  const pg = { list: null, make: null, shown: 0, key: '' };
+  function pageCards(list, make) {
+    const key = currentTab + '|' + list.length + '|' + list.slice(0, 4).map((r) => r.id).join(',');
+    if (key !== pg.key) { pg.key = key; pg.shown = PAGE; }
+    pg.list = list; pg.make = make; pg.shown = Math.min(Math.max(pg.shown, PAGE), list.length);
+    return list.slice(0, pg.shown).map((r, i) => make(r, i)).join('');
+  }
+  function moreSentinel(total) { return total > pg.shown ? '<div id="sfMore" class="sf-more"></div>' : ''; }
+  let moreObs = null;
+  function loadMore() {
+    const grid = document.querySelector('#appContent .recipe-grid'), sent = document.getElementById('sfMore');
+    if (!grid || !pg.list) return;
+    const next = pg.list.slice(pg.shown, pg.shown + PAGE);
+    grid.insertAdjacentHTML('beforeend', next.map((r, i) => pg.make(r, pg.shown + i)).join(''));
+    pg.shown += next.length;
+    if (pg.shown >= pg.list.length && sent) sent.remove();
+  }
+  function watchMore() {
+    if (moreObs) moreObs.disconnect();
+    const sent = document.getElementById('sfMore'); if (!sent) return;
+    if (!('IntersectionObserver' in window)) { while (document.getElementById('sfMore')) loadMore(); return; }
+    moreObs = new IntersectionObserver((es) => { if (es.some((e) => e.isIntersecting)) loadMore(); },
+      { root: document.getElementById('appContent'), rootMargin: '700px 0px' });
+    moreObs.observe(sent);
+  }
+
   // ---------- Botón atrás (Android) ----------
   window.sfBack = function () {
     const open = (id) => document.getElementById(id)?.classList.contains('open');
@@ -945,6 +973,7 @@ const SF = (() => {
     renderPlan, autoPlan, reroll, clearSlot, clearWeek, setPlanPeople, pickDay, setSlot, weekShop,
     shopHtml, toggleBought, clearBought, copyShop, shareShop,
     cookedStart, setStars, photoPicked, saveCooked, myDishesHtml, viewCooked, delCooked,
+    pageCards, moreSentinel, watchMore,
     pantryFilter, setPantryQ, toggleOnly, clearPantry, undoPantry, pantryToolsHtml, pantryEmptyHtml,
     pantryMatches, pantryCookHtml, brainSheet, openMatch
   };

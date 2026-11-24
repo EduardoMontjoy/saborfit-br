@@ -1,4 +1,4 @@
-const CACHE_NAME = 'saborfit-br-v11';
+const CACHE_NAME = 'saborfit-br-v12';
 const CORE_ASSETS = [
   './',
   './index.html',
@@ -10,7 +10,7 @@ const CORE_ASSETS = [
 ];
 
 self.addEventListener('install', (e) => {
-  e.waitUntil(caches.open(CACHE_NAME).then((c) => c.addAll(CORE_ASSETS)));
+  e.waitUntil(caches.open(CACHE_NAME).then((c) => c.addAll(CORE_ASSETS.map((u) => new Request(u, { cache: 'reload' })))));
   self.skipWaiting();
 });
 
@@ -26,7 +26,7 @@ self.addEventListener('activate', (e) => {
 self.addEventListener('fetch', (e) => {
   const req = e.request;
   if (req.url.includes('/images/')) {
-    // Cache-first para las 120 fotos
+    // Cache-first para las fotos
     e.respondWith(
       caches.match(req).then((cached) =>
         cached || fetch(req).then((res) => {
@@ -41,8 +41,9 @@ self.addEventListener('fetch', (e) => {
     );
   } else {
     // Network-first para HTML/JS: actualiza automático cuando hay internet
+    // (no-cache = revalida con el servidor, así nunca se queda una versión vieja)
     e.respondWith(
-      fetch(req).then((res) => {
+      fetch(req.mode === 'navigate' ? req.url : req, { cache: 'no-cache' }).then((res) => {
         if (res.ok) {
           const copy = res.clone();
           caches.open(CACHE_NAME).then((c) => c.put(req, copy));
